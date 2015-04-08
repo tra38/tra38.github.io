@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <head>
-  <title>Your page title here</title>
+  <title>Technical - Version Control</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
 </head>
 
 <main>
-  <h1>Post Title</h1>
-  <h2>The subtitle, if you want it</h2>
-  <h4>Today's Date</h4>
+  <h1>Version Control</h1>
+  <h2>Why It Is Necessary</h2>
+  <h4>04/07/2015</h4>
 
   <section>
     <p>
-      Your first paragraph goes here. I'm using Web 2.0 Ipsum to add content. Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Nuvvo koofers oooooc voxy klout jaiku palantir flickr insala zinch napster oooj, airbnb mzinga vimeo yuntaa balihoo plickers whrrl edmodo appjet kippt. Yoono imvu hulu eduvant blekko imvu ebay voki napster skype, hipmunk zinch wesabe bubbli ning meebo bitly zlio. Fleck elgg ideeli disqus rovio zillow sifteo blyve jabber, bitly geni zoho foodzie qeyno twones klout jiglu, hipmunk jaiku balihoo plickers heekya eskobo yuntaa. Sococo whrrl plickers movity whrrl zinch voki nuvvo meebo, quora heroku unigo kno wufoo jibjab woopra, groupon yuntaa spock mzinga jumo meebo movity.
-    </p>
-    <p>
-        Lijit groupon ning stypi eskobo blyve ning shopify oooooc, meebo groupon prezi ebay voxy bitly diigo. Spock ifttt skype hipmunk movity whrrl bebo oooj empressr, disqus insala palantir bitly dropio zimbra zinch oooooc etsy, klout spock insala quora omgpop trulia jibjab. Sifteo dogster ebay grockit geni scribd bitly ning unigo, plickers voki mzinga tumblr kaboodle mozy whrrl woopra udemy, foodzie joukuu elgg twitter shopify akismet rovio. Kosmix eduvant woopra dopplr balihoo ning bebo akismet, boxbe vimeo kosmix shopify zappos bitly geni loopt, qeyno disqus sococo squidoo wikia octopart.
-    </p>
-    <p>
-        Kazaa meevee eduvant gsnap movity kosmix kazaa klout jumo, trulia unigo groupon wakoopa spock knewton glogster heroku oooj, ning imvu appjet eskobo zillow twitter rovio. Glogster chegg voxy greplin dopplr voki foodzie xobni weebly odeo, sococo zynga knewton loopt palantir lala blyve tumblr blekko, twones akismet plaxo kippt meebo zillow zooomr insala. Oovoo imeem napster divvyshot zinch imeem voxy shopify, fleck kazaa zinch lanyrd boxbe joost wakoopa nuvvo, orkut elgg heekya sifteo scribd napster. Yammer yoono groupon dopplr cloudera nuvvo eduvant klout, voxy groupon disqus eduvant oooj greplin.
-    </p>
+      <strong>Version Control</strong> -  continuously backing up your code because you are afraid that you or someone else is going to mess that code up</p>
 
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+      <p><strong>Without VC:</strong></p> 
+      <p>I type a blog post (C1), and then later on modify the blog post (call this modified post C2). I then save this blog post. I lose the original C1, and instead replace it with C2.</p>
+<p>
+      I'm so excited with my new blog post that I modify the blog post again (C3) with a button to allow people to tweet my post, and then again (C4) with a twitter feed. After that, the excitment wears off and I leave the blog to rot.
+</p>
+      <p>Two months later, I realize that nobody is reading my blog. I travel to the website myself to find that even I can't read my own blog either. Somehow, I have introduced a fairly minor "bug" while introducing all these awesome features that prevents people from reading text.</p>
+
+    <p>No, I don't know where this bug is. And I won't be able to know exactly when I introduced that bug. So I'm stuck. And I won't be able to restore C1, the original that I know would work, because I had already deleted it. My blog is ruined, and I have to start all over again.<p>
+
+     <p><strong>With VC:</strong></p>
+     <p>I type up a blog post (C1), and then upload over to a Virtual Control System for safe-keeping. The Virtual Control System is essentially a service that stores all different versions of the same file in one easy-to-access location. So I never have to worry about losing C1, because the Virtual Control System will keep it for me.</p>
+     <p>I then continued modifying my blog post, and each time I do so, I upload my changes to the Virtual Control System. The VCS soon has a copy of C1, C2, C3, and C4 (the final update of my blog post).</p>
+     <p>Two months later, I found out nobody can read the text of my blog due to a "bug", and this time, I now have options. First, I can look at C1, C2, C3, and C4  individually and search for clues for where the bug is. Second, I could restore from an earlier version of the blog (C3 instead of C4) and see if that would resolve the issue. If it does resolve the issue, then I know C3 is the problem, and I can start searching for problems there.
+      <p>Finally, I can always do a hard-reset of the blog back to the original C1, which I know works, and then slowly add in new features until I see the "bug" again, and then start to fix it.</p>
+      <p>Without Version Control, you are doomed whenever you make a single mistake. With Version Control, you still have the copies of all your previous work, and you may still be able to fix your mistakes.</p>
+      <p><strong>Using Git</strong></p>
+      <p>Git is a popular Version Control System used by many developers. This program keep tracks of all changes you made to the file and saves it over to a git file. Then anyone can look at the "history" of my git file to find all my past versions of my project. So, in my blog example, I can easily see C1, C2, C3, and C4 by accessing the git file.</p>
+<p>However, using a Version Control System only on my own computer is not enough. What happens if my own computer dies? Then I lose everything I saved on there. Luckily, there are multiple web sites that can host your git file and store every change you made. The most popular of these sites is "GitHub". So, in case a computer dies, I can get a new computer, go online and then redownload my file from "GitHub".</p> 
+<p>Of course, I could just save my git file onto a USB, and then keep that USB safe. Doing that however makes it hard for other people to help me improve my blog post, because they would need the USB to modify my file. Uploading my file to "GitHub" would allow other people to easily access my file and then suggest changes to me. These suggestions are known as "pull requests". If I like the "pull requests", I'll acccept them and adapt them into my blog post.
+<p><strong>The Merits of Command Prompts</strong></p>
+<p>While it is easy to download programs to help you manage Git, programmers prefer using Git by typing in commands into a command prompt. The command prompt is essentially a black screen where you type in a command (such as "cd C:\Programs" to access the Programs folder on your computer) to do stuff. Programmers like using command prompts because it is quicker to type in a command than it is to click on a button in a program. However, in order to use the command prompt, you have to actually know what commands to type. Programs tend to have images and text to help you know what each button would do, but the only help command prompts can give out is excerpts from a very long and technical manual...and the only way to get that manual is to type in a command in the command prompt.
+<p>Programmers want to complete jobs as quickly as possible, so they are willing to accept the inconvenience of memorizing commands to get the advantage of speed.
+<p>An example where typing saves more time than clicking is when you want to delete a file. I do not like my blog post and I want to remove it. Normally, I would have to right click on the program, and then click on "delete". If I wanted to use the command prompt instead, I just type "rm blog_post.html", and the file is removed from my computer. I just saved a couple of seconds, and if I wanted to delete multiple files, the savings will add up.
   </section>
 </main>
