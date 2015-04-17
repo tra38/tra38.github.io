@@ -6,6 +6,14 @@ h2
 {
 	text-align: center;
 }
+
+.BlogCategory
+{
+	display: inline-block;
+	width: 25%;
+	margin: 1em;
+}
+
 /*html
 {
 	background-color: #90B0B2;
