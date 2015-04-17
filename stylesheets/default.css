@@ -29,7 +29,12 @@ html
 {
 	float: left;
 	margin: 10px;
+}
 
+.picture-left.thumbnail
+{
+	width: 200px;
+	height: 200px;
 }
 
 .website-image
