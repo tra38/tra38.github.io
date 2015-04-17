@@ -1,0 +1,38 @@
+html
+{
+	font-family: 'Slabo 27px', serif;
+	background-color: #E7FEFF;
+}
+
+.socialmedia
+{
+	float: left;
+}
+
+.links
+{
+	float: right;
+}
+
+#aboutme
+{
+	display: inline-block;
+}
+
+.picture-right
+{
+	float: right;
+	margin: 10px;
+}
+
+.picture-left
+{
+	float: left;
+	margin: 10px;
+
+}
+
+.website-image
+{
+	display: inline-block;
+}
