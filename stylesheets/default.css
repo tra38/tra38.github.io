@@ -27,8 +27,8 @@ html
 
 .picture-left
 {
-	float: left;
-	margin: 10px;
+	/*float: left;*/
+	margin: 10%;
 }
 
 .picture-left.thumbnail
@@ -45,8 +45,8 @@ html
 
 .thumbnail
 {
-	width: 200px;
-	height: 200px;
+	width: 20%;
+	height: 20%;
 }
 
 .horizon
@@ -58,5 +58,8 @@ html
 
 .website-image
 {
-	display: inline-block;
+	display: inline-block; /*Eliminate width, height, and margin-left for mobile devices*/
+	width: 20%;
+	height: 20%;
+	margin-left: 10%;
 }
