@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Cheat Sheet</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/cheat_style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Ruby Enumerables Cheat Sheet</h1>
+    <p>An enumerable is a type of Ruby object that has included the enumberable module. They must have a method call each defined for it, and the enumberable module uses that method to complete the methods described below. Not all enumberable classes have the same functions, so check RubyDocs for specific examples.<p>
+  </header>
+  <nav>
+    <a href="#all?">All?</a>
+    <a href="#any?">Any?</a>
+    <a href="#collect">Collect/Map</a>
+    <a href="#count">Count</a>
+    <a href="#detect">Detect</a>
+    <a href="#each_slice">Each_Slice</a>
+    <a href="#each_with_index">Each_With_Index</a>
+    <a href="#inject">Inject/Reduce</a>
+    <a href="#select">Select</a>
+  </nav>
+
+<article>
+  <section><h2><a name = "all?">All?</a></h2>
+    <p>Returns true if everything in the block returns true.</p>
+    <pre>
+    <code>
+      ["cat","bat","mat"].all?{|word| word.length == 3} #returns true
+      ["cat","bat","hats"].all?{|word| word.length == 3} #returns false
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "any?">Any?</a></h2>
+    <p>Returns true if anything in the block returns true.</p>
+    <pre>
+    <code>
+      ["cat","bat","mat","zipper"].any?{|word| word.length == 6} #returns true
+      ["cat","bat","hats"].any?{|word| word.length == 6} #returns false
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "collect">Collect / Map</a></h2>
+    <p>Returns a new array with the result of the running block, once for every element.(See also .map)(Both map and collect have destructive versions !)</p>
+    <pre>
+    <code>
+      ["cat","bat","mat"].collect{|word| word * 2}
+        #returns ["catcat", "batbat", "matmat"]
+      [1,2,3,4,5].map!{|integer| integer * 5}
+        #returns [5,10,15,20,25]
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "count">Count</a></h2>
+    <p>Count counts how many times an object is in the enumberable, or give it a block and it will tell you how many times the block returns true.</p>
+    <pre>
+    <code>
+      ["cat","bat","mat"].count{|word| word.length == 3} #returns 3
+      ["cat","bat","hats"].count{|word| word.length == 3} #returns 2
+      ["cat","bat","hats"].count{|word| word == "bat"} #returns 1
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "detect">Detect</a></h2>
+    <p>Detect returns the first object that is found to be true and if it is not found it returns nil.</p>
+    <pre>
+    <code>
+      ["cats","bat","mat"].detect{|word| word.length == 3} #returns bat
+      ["cat","bat","hats"].detect{|word| word.length == 5} #returns nil
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "each_cons">Each_Slice</a></h2>
+    <p>Iteriate through the given block, by slicing up the enumerable and passes the slices into the block. It passes an array of values with a length = to the arguement.</p>
+    <pre>
+    <code>
+      return_array = []
+      ["cat","bat","mat","jack","rat","hummus"].each_slice(2){|words| return_array << (words[0] + words[1])}
+       #returns nil, but adds values to return_array["catbat","matjack","rathummus"]
+    </code>
+    </pre>
+  </section>
+  <section><h2><a name = "each_with_index">Each_With_Index</a></h2>
+    <p>Iteriate through the given block with two arguments (the item and its index).</p>
+    <pre>
+    <code>
+      ["cat","bat","mat"].each_with_index{|word, index| puts word*(index+1) }
+      #"cat", "batbat", "matmatmat"
+      </code>
+    </pre>
+  </section>
+    <section><h2><a name = "inject">Inject and Reduce</a></h2>
+    <p>Iteriate through the given block with two arguments (an "accumulator value (memo)", and the actual item). The result of each item 'injected' into the block is saved into the accumulator value. After iteration, returns the accumulator value (memo).</p>
+    <pre>
+    <code>
+    [5, 4, 3, 2, 1].inject { |sum, n| sum + n } #returns 15
+    [5, 4, 3, 2, 1].reduce { |sum, n| sum + n } #returns 15
+    </code>
+    </pre>
+  </section>
+  </section>
+    <section><h2><a name = "select">Select</a></h2>
+    <p>Returns an array of all elements that returns true when passed through the block.</p>
+    <pre>
+    <code>
+      ["cat","bat","mat","zipper"].any?{|word| word.length == 6} #returns "zipper"</code>
+    </pre>
+  </section>
+
+
+</article>
+  <footer>
+    <a href="blog-index.html">Back to Blog</a>
+    <a href="../index.html">Home</a>
+    <p>Website design and developement by &copy;Adam Fluke. <a href="../LICENSE">License and Terms of Use</a></p>
+  </footer>
+</main>
+</body>
+</html>

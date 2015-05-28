@@ -1,0 +1,25 @@
+main {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6,h7,p {
+  font-size: 120%;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 135%;
+}
+
+nav {
+  float:right;
+}
+
+nav a {
+  display: block;
+}
