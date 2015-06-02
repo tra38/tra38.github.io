@@ -1,8 +1,0 @@
-name: "Tariq Ali's Blog"
-description: "A blog dedicated to showcasing my talents"
-
-paginate: 5
-
-markdown: rdiscount
-permalink: /:title.html
-highlighter: true
