@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title> Technical - Testing </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<section class="socialmedia">
+    <a href="http://www.linkedin.com/in/tali1"><img src="../img/linkedin.png" /></a>
+    <a href="http://twitter.com/Tariq_Ali38"><img src="../img/twitter.png" /></a>
+    <a href="https://github.com/tra38"><img src="../img/github_32.png" /></a>
+    </section>
+    <section class="links">
+      <a href="../index.html">Home/Portfolio</a>
+      <a href="index.html">Blog</a>
+    </section>
+  <h1>The Magic World of Testing</h1>
+  <h2>It's boring, but somebody has to wage the war on bugs...</h2>
+  <h4>28 May 2015</h4>
+
+  <section>
+  <p>Bugs exist. They are real. We deal with them every day. Some bugs are ignorable, while other bugs ruin the software. Either way, few people like bugs so you have remove them. What's worse, you know they are lurking in your code somewhere, but you cannot fix them until <em>after</em> you officially discovered them. The most-effective way to detect bugs is through testing the software. If you do not test your software, then you are willing to admit that you are releasing buggy software to the general public.</p>
+
+<p>There are two types of tests: automated testing and manual testing.</p>
+
+<ul>
+<li><strong>Manual testing</strong> is the type of testing that we are most familiar with: running the program and seeing if there is anything wrong. Manual testing can be incredibly effective at finding bugs, as there is a human reviewing the end product. However, manual testing is a slow process, and has to be repeated after every significant change. Manual testing can be very tiresome and boring, and many humans do not like doing them. To save time and to encourage more testing in case the human subjects are uncooperative and lazy, automated testing was invented.</li>
+<li><strong>Automated testing</strong> is using computer programs to do the testing instead of humans. These computer programs are called 'test suites', and to use them, you simply write out code telling the test suite how they should "test" the software. The computer program then carries out the test, repeatedly and without complaint. Automated testing is much faster than manual testing, and a computer will not complain about the boring nature of the testing job. So automated testing is very efficient and is generally preferable. It does require an up-front cost though: you have to write out the "code" first (and make sure there are no bugs in this "code"). This can take away valuable time, and if a certain thing you want to test (e.g., the "user experience" of a program) is incredibly expensive to write test code for, it's usually better to resort to manual testing.</p> 
+<p>Another problem with automated testing is that your 'test suites' will only test for what you tell them to test. Your 'test suites' will not easily discover new problems. (Manual testing, on the other hand, can find those new problems pretty easily.)</p></li>
+</ul>
+
+
+<p>While automated testing is generally preferable to manual testing, there are usually situations where manual testing is better. If you are testing something that requires a lot of human thought involved when judging the outcome (such as the "user experience" of a website), then it is cheaper to test out the website yourself instead of spending months writing out "code" to teach a 'test suite' how to measure "user experience". You can do it. But there wouldn't be much point. Automated testing also saves you time in the long term, but if you are just shipping out a product immediately, and are not expected to update it at all, then doing manual testing may be enough.</p>
+
+
+<p>
+Many advocates of automated testing support the idea of "test-driven design" (TDD). This approach claims to reduce the number of bugs in software by writing out the automated tests before you write your program. Writing out these automated tests allows you to think about the design of the program beforehand. This approach is dependent on two things: 1) having more time to complete the project overall (since it takes time to write the code necessary to tell the test suites how to perform the tests), and 2) making sure your tests actually work as intended.
+</p>
+
+
+<p><p>Some advocates of automated testing, however, have began moving towards "behavior-driven design" (BDD). The main feature of BDD is the syntax of their test code. Their automated tests are generally human-readable, meaning that people can understand what the automated tests are doing and perform their own manual testing (to double-check the results of the automated tests). BDD also supports writing out automated tests before writing the program.</p>
+
+  </section>
+  <a href="index.html">Return back to Blog Index</a>
+</main>
+

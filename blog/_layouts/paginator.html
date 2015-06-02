@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <title> {{ site.name }} </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+{% include social_media.html %}
+    <section class="links">
+      <a href="../index.html">Home/Portfolio</a>
+      <a href="index.html">Blog</a>
+    </section>
+  <section>
+  {{ content }}
+  </section>
+</main>

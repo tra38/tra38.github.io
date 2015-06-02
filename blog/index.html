@@ -1,56 +1,37 @@
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
-  <title>Tariq's Blog Index</title>
-</head>
-<body>
-<section class="socialmedia">
-  	<a href="http://www.linkedin.com/in/tali1"><img src="../img/linkedin.png" /></a>
-  	<a href="http://twitter.com/Tariq_Ali38"><img src="../img/twitter.png" /></a>
-  	<a href="https://github.com/tra38"><img src="../img/github_32.png" /></a>
-</section>
-<section class="links">
-  	<a href="../index.html">Home/Portfolio</a>
-  	<a href="index.html">Blog</a>
-</section>
-<body>
-<section class="BlogCategory">
-<h3>Technical Posts</h3>
-<h4>Computer skills</h4>
-<ul>
-  <li><a href="t8-tech.html">Technical 8 - Testing</a></li>
-  <li><a href="t7-Javascript.html">Technical 7 - Objects in JavaScript and Ruby</a></li>
-  <li><a href="t6-oop-concepts.html">Technical 6 - Functional, Procedural, and Object-Oriented Programming</a></li>
-  <li><a href="t5-ruby-classes.html">Technical 5 - An Example Ruby Class</a></li>
-  <li><a href="t4-enumerable-methods.html">Technical 4 - the "Cycle" Method in Ruby</a></li>
-  <li><a href="t3-arrays-hashes.html">Technical 3 - Arrays and Hashes</a></li>
-	<li><a href="t2-css-design.html">Technical 2- Inline, Block, and Inline-Block</a></li>
-	<li><a href="t1-git-blog.html">Technical 1 - Version Control</a></li>
-  </ul>
-</section>
-<section class="BlogCategory">
-<h3>Culture Posts</h3>
-<h4>Society and people</h4>
-<ul>
-<li><a href="c8-conflict.html">Culture 8 - When the Client Is Wrong</a></li>
-<li><a href="c7-values.html">Culture 7 - Effectiveness</a></li>
-<li><a href="c6-stereotype-threat.html">Culture 6 - Stereotype Threat</a></li>
-<li><a href="c5-feedback.html">Culture 5 - Pair Programming</a></li>
-<li><a href="c4-tech-issues.html">Culture 4 - Bootcamp Regulations</a></li>
-<li><a href="c3-thinking-style.html">Culture 3 - Thinking Style</a></li>
-<li><a href="c1-chefs-kitchen.html">Culture 1 - Educational Philosophy</a></li>
+---
+layout: paginator
+---
+
+{% for post in paginator.posts %}
+<h4>{{ post.post_title }}: {{ post.post_subtitle }}</h4>
+<h4>{{ post.date | date_to_long_string }}</h4>
+<p>{{ post.excerpt | strip_html }}</p>
+<a href="{{ post.url }}">Read More</a>
+</p>
+{% endfor %}
+
+{% if paginator.previous_page %}
+{% if paginator.previous_page == 1 %}
+<a href="/">Prev</a> |
+{% else %}
+<a href="/page{{ paginator.previous_page }}">Prev</a> |
+{% endif %}
+{% else %}
+<span class="disabled">Prev |</span>
+{% endif %}
+{% if paginator.page == 1 %}
+<span class="active">1</span> |
+{% else %}
+<a href="/">1</a> |
+{% endif %}
+{% for count in (2..paginator.total_pages) %}
+{% if count == paginator.page %}
+{{ count }} |
+{% endif %}
+{% endfor %}
+{% if paginator.next_page %}
+<a href="/page{{ paginator.next_page }}">Next</a>
+{% else %}
+<span class="disabled">Next</span>
+{% endif %}
 </ul>
-</section>
-<section class="BlogCategory">
-<h3>Education Posts</h3>
-<h4>Learning and sharing information</h4>
-<ul>
-  <li><a href="e4-recursion.html">Education 4 - Recurison</a>
-	<li><a href="e3-rubypercentage.html">Education 3 - Percentage Constructors in Ruby</a>
-  <li><a href="e2-fads.html">Education 2 - Intellectual Fads</a></li>
-	<li><a href="e1-research.html">Education 1 - Research</a></li>
-	</section>
-</body>
-</html>
