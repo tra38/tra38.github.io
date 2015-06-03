@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tariq Ali&#39;s Blog</title>
+    <description>A blog dedicated to showcasing my talents</description>
+    <link>tra38.github.io/blog/</link>
+    <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 03 Jun 2015 11:41:38 -0500</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 11:41:38 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C9 Questions</title>
+        <description>![CDATA[At the start of DevBootCamp, I wrote a blog post on research. But every good research starts with the design of a good question. If your question is too vague, it's likely that you will fail miserably when doing research on that question.
+]</description>
+        <content>&lt;p&gt;At the start of DevBootCamp, I wrote &lt;a href=&quot;/e1-research.html&quot;&gt;a blog post&lt;/a&gt; on research. But every good research starts with the design of a good question. If your question is too vague, it&#39;s likely that you will fail miserably when doing research on that question.&lt;/p&gt;
+
+&lt;p&gt;Generally speaking, it&#39;s always better to divide a broad question into narrow ones. Trying to ask people how to create a Space Invaders game will lead to failure, but asking people how to program a movable ship, how to program barriers, how to program enemies, etc. can lead to real progress. You are more likely to find sources that can easily answer those narrow questions, than you are in finding one source that can answer the much broader question.&lt;/p&gt;
+
+&lt;p&gt;You are also more likely to realize what you already know. It&#39;s possible that you already know how to program movable ships and barriers, so you don&#39;t even need to conduct research on stuff you already know. Instead, you can just focus your efforts on researching how to program enemies instead.&lt;/p&gt;
+
+&lt;p&gt;But what if you can&#39;t divide a question down any further? Then you have to add some way to quantify and measure your success. How close are you to finding the right answer to your question? Now, your quantifiying and measuring does not have to be &quot;quantitative&quot; (using numbers). Your measurements can be just your gut feelings if you are more comfortable with that. But you do have to measure your success somehow.&lt;/p&gt;
+
+&lt;p&gt;Measuring success is important, because it allows you to know whether you are making progress. If you have started browsing for the answer and there is no progress being made, then you have to decide whether it makes sense to continue onward with that specific question. If it does not make sense, then you need to come up with a new question that captures the &quot;essence&quot; of your previous question and then start doing research on that. The answer to your new question will, more than likely, provide you with enough information to answer your original question.&lt;/p&gt;
+
+&lt;p&gt;You may have to create and throw away multiple questions several times to get onto the right track.&lt;/p&gt;
+
+&lt;h4&gt;An Anecdote To Demonstrate Throwing Away A Question&lt;/h4&gt;
+
+
+&lt;p&gt;Recently, I wondered whether I would have an &quot;RSS feed&quot; for this blog. An &quot;RSS feed&quot; is a simple way to check what updates were made on a blog...without actually going to the blog itself. Numerous websites have it, and even the default Jekyll-generated website post has its own RSS feed. This made me wonder whether I should also have an RSS feed too.&lt;/p&gt;
+
+&lt;p&gt;My first research question was: &lt;strong&gt;&quot;Should I have an RSS feed?&quot;&lt;/strong&gt;, but then quickly realized that question is way too opinion-based. I realized this when I clicked on the first blog post and read &lt;a href=&quot;dannybrown.me/2015/03/12/does-your-blog-really-need-to-provide-an-rss-feed-anymore/&quot;&gt;Danny Brown (a blogger) criticizing RSS feeds&lt;/a&gt;. After all, the blogger claimed, most people uses email subscriptions to keep track of blogs instead of using clunky RSS feed interfaces. This may have sastified me if it was not for the commenters on that blog, many of whom use RSS feeds and disliked Danny Brown&#39;s criticism. These users said that they find RSS feeds to be very helpful in reading multiple blogs at once, and dislike the idea of receiving hundreds of emails. Skimming the comments also reveal that there were several commenters who agreed with Danny Brown and preferred email over RSS.&lt;/p&gt;
+
+&lt;p&gt;I did not really want to spend time wading through the pro/con arguments though, and did not really care about the relative merits of RSS feeds versus email subscriptions. I just wanted to know whether I should have a RSS feed. But the question &lt;strong&gt;&quot;Should I have an RSS feed?&quot;&lt;/strong&gt; suggest that I &lt;em&gt;have&lt;/em&gt; to weigh the pros/cons and figure out what is the best argument for having/not-having an RSS feed. Success with this line of questioning would not be worth the costs.&lt;/p&gt;
+
+&lt;p&gt;So I instead changed my research question to &lt;strong&gt;&quot;Are there any uses for RSS feeds that would justify me creating them?&lt;/strong&gt;. Presumbly, if there are any uses that would justify me creating then, then I would create them.&lt;/p&gt;
+
+&lt;p&gt;Already, I can see some use for RSS feeds: attracing those people who find RSS feeds helpful. Those people may make up a  minority of your readers, but they do exist, and it may be good to help them, in the same way that you would want your website to work on older web browsers. But it still takes some time to maintain the RSS feeds to ensure they work properly, and that is time that could be spent elsewhere. So I continued searching.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blog.kissmetrics.com/blogs-rss-feed/&quot;&gt;This blog post&lt;/a&gt; showed me multiple uses of RSS feeds, including auto-tweeting your blog posts and managing email subscription services. It seems that while humans may not like RSS feeds, robots can more easily extract data about a blog post from them and use that data in convincing ways. So, if I want to use these robots, I should create an RSS feed first.&lt;/p&gt;
+
+&lt;p&gt;In only two clicks, I have finished my research and determined that I &lt;em&gt;do&lt;/em&gt; need an RSS feed. This is, of course, a lucky example, and one not likely to be replicated. During this blog post, I did four to five clicks (and trial and error) trying to learn how to link to my own blog posts in Jekyll.&lt;/p&gt;
+
+&lt;p&gt;As a useful teaching tool to explain how to properly throw away research questions, I think this anecdote works.&lt;/p&gt;
+</content>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c9-questions.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c9-questions.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>T9 Professional Website</title>
+        <description>![CDATA[Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, and recommend Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which 'framework' is superior.
+]</description>
+        <content>&lt;p&gt;Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, and recommend Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which &#39;framework&#39; is superior.&lt;/p&gt;
+
+&lt;p&gt;Wordpress is a Content Management System: you just upload content, and Wordpress will manage the content for you (by storing and retriving it through databases). By contrast, Jekyll is a &quot;HTML code generator&quot;. All it does is take your content and generate web pages out of it, which you can then manually upload directly onto a web server.&lt;/p&gt;
+
+&lt;p&gt;Jekyll is rather primitive, but for many people, that&#39;s actually a benefit! Wordpress, because of its complexity, is slower than &quot;static HTML pages&quot;. Wordpress&#39; databases can also be hacked unless you continually  install all required updates, a rather time-consuming task. When people recommend Jekyll, they do so for these reasons.&lt;/p&gt;
+
+&lt;p&gt;Yet, I do not like Jekyll. Wordpress is much more user-friendly, not just in terms of installation (upload it to server, and click a few buttons to allow Wordpress to generate the databases needed to store the data), but also in terms of setting up a website. There is a central repository for website templates and &quot;plugins&quot; built into the software, allowing you to browse through and see what you may want to use. You can preview any changes you make to the website, and push updates immediately. The User-Interface is also very easy to grasp, and no tutorial was necessary.&lt;/p&gt;
+
+&lt;p&gt;By contrast, I spent hours reading and re-reading &lt;a href=&quot;https://www.andrewmunsell.com/blog/ultimate-jekyll-tutorial&quot;&gt;a simple Jekyll tutorial&lt;/a&gt; before starting the painful migration process of moving my blog posts into Jekyll. I only was able to succeed through trial and error, and had to continually preview my website by &quot;building&quot; the website again and again so that I can see if there were any changes made.&lt;/p&gt;
+
+&lt;p&gt;Jekyll does have helpful commands to help alleviate the pain. I used &#39;jekyll serve --watch&#39; often so that I can quickly view the results of minor changes and then modify the website. But it did take me a while to find those commands. Documentation was semi-helpful, but I had to also use Google to supplement my knowledge.&lt;/p&gt;
+
+&lt;p&gt;Though Wordpress may be much easier to use &quot;out of the box&quot;, Jekyll may be much easier to customize. To do any significant changes to Wordpress requires knowledge of both HTML and PHP, while Jekyll only require knowledge of just HTML and &quot;Markdown&quot; (an improved version of plain text). There is some potential for Jekyll, and now that I have gotten the basics of it, I may choose to explore it further. However, if a client wants to set up a website quickly to represent an organization &lt;em&gt;and plans on running the website himself&lt;/em&gt;, then Wordpress is much more suitable to his goals. If we want people to build well-designed, functioning websites in a reasonable amount of time, then it&#39;s clear Wordpress wins, hands-down.&lt;/p&gt;
+
+&lt;p&gt;The only praise that I will give to Jekyll is its licensing. Wordpress is licensed under the GPL license, which mandates that any contributions you make to Wordpress (such as producing &#39;plugins&#39; and themes) must be open-source. This, of course, is no barrier to making money, as people can sell premium plugins/themes and &quot;technical support&quot;. But I do have some philosophical objections to the idea of forcing people&#39;s contributions to be open-source. Jekyll is licensed under the MIT license, meaning that you can choose to have your contributions to Jekyll be &#39;closed-source&#39;. I doubt that I would ever make any plugins for Jekyll, but it&#39;s nice to know that if I ever do, Jekyll would give me more freedom than Wordpress would.&lt;/p&gt;
+</content>
+        <pubDate>Tue, 02 Jun 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t9-professional-website.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t9-professional-website.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>E4 Recursion</title>
+        <description>![CDATA[Tim Cannaday, a fellow student at DevBootCamp, wrote a blog post about various technical issues, including recurison. He showed an example of recurison in action by using it to calcuate Fibonnaci Numbers...except that, er, Tim Cannady didn't understand it.
+]</description>
+        <content>&lt;p&gt;Tim Cannaday, a fellow student at DevBootCamp, &lt;a href=&quot;https://timcannady.github.io/blog/blog_posts/t8-tech.html&quot;&gt;wrote a blog post about various technical issues&lt;/a&gt;, including recurison. He showed an example of recurison in action by using it to calcuate Fibonnaci Numbers...except that, er, Tim Cannady didn&#39;t understand it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[I] don&#39;t really understand what fibonacci() is doing.&lt;/em&gt;---Tim Cannady&lt;/p&gt;
+
+&lt;p&gt;As a way of thanking Tim for his example, I&#39;ll...uh...explain his example? Please forgive me if this explaination isn&#39;t exactly elegant: the goal is to explain, not to do so prettily.&lt;/p&gt;
+
+&lt;p&gt;This was the code that Tim used:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;
+def fibonacci(n)
+n &lt;= 1 ? n : fibonacci(n-1) + fibonacci(n-2)
+end
+
+p fibonacci(12)
+#=&gt;144
+&lt;/code&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;And here is what the code is actually doing in IRB:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;code&gt;
+*&lt;strong&gt;Stack 1: fibonacci(12)&lt;/strong&gt;: Okay, first thing I should do, check to see if 12 is less than or equal to 1. If 12 is less than or equal to 1, I just output 12, and I&#39;m good to go.&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Wait. 12 &lt;em&gt;isn&#39;t&lt;/em&gt; less than or equal to 1? Okay, then, new plan. I&#39;ll just return fibonacci(12-1) + fibonnacci(12-2)...which is, fibonnaci(11)+fibonnaci(10).&lt;/p&gt;
+
+
+&lt;p&gt;All I have to is to create two new stacks: fibonnaci(11) and fibonnaci(10). I&#39;ll just ask them to return their values over to my stack, and I can then plug them into the equation and return the answer. Simple.
+&lt;p&gt;I&#39;ll just wait until those two functions are done...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 2: fibonacci(11)&lt;/strong&gt;: Awesome! Thanks Stack 1. Okay, I should first check to see if 11 is less than or equal to 1. If 11 is less than or equal to 1, I just return 11 to Stack 1, and I&#39;m good to go.&lt;/p&gt;
+&lt;p&gt;Wait. 11 &lt;em&gt;isn&#39;t&lt;/em&gt; less than or equal to 1? Okay, then, new plan. I&#39;ll just return fibonacci(11-1) + fibonnacci(11-2)...which is, fibonnaci(10)+fibonnaci(9).&lt;/p&gt;
+&lt;p&gt;All I have to is to create two new stacks: fibonnaci(10) and fibonnaci(9). I&#39;ll just ask them to return their values over to my stack, and I can then plug them into the equation and return my answer over to Stack 1. Simple.&lt;/p&gt;
+&lt;p&gt;I&#39;ll just wait until those two functions are done...&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 3: fibonacci(10)&lt;/strong&gt;: What do you mean that 10 is not less than or equal to 1? That means I have to now create two new stacks (fibonnaci(9) and fibonacci(8) ) and wait for them to be done.&lt;/p&gt;
+&lt;/code&gt;
+&lt;p&gt;Several stacks later...&lt;/p&gt;
+&lt;code&gt;
+&lt;p&gt;&lt;strong&gt;Stack 11: fibonacci(3)&lt;/strong&gt;: Yay! Stack 10 (currently handling a difficult puzzle of fibonacci(4) ) have just created me to help him with his very important Fibonacci. And, lo and behold, 3 is not less than or equal to 1. I&#39;ll have to return fibonnaci(2)+fibonnaci(1). Time to create some new stacks...and then wait excitedly for the results!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 12: fibonacci(2)&lt;/strong&gt;: Well, 2 is not less than or equal to 1. So I&#39;m going to have to create two new stacks: fibonnaci(1), and fibonnaci(0), and then wait for their results. Once I get their results, I&#39;ll add them up and return the answer to you, Stack 11.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 13: fibonacci(1)&lt;/strong&gt;:  Okay, first thing I should do, check to see if 1 is less than or equal to 1. If 1 is less than or equal to 1, I just return 1. &lt;strong&gt;Oh cool!&lt;/strong&gt; 1 is less than or equal to 1! I&#39;ll just return 1 over to Stack 13!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 14: fibonacci(0)&lt;/strong&gt;: &lt;strong&gt;Oh cool!&lt;/strong&gt; 0 is less than or equal to 1! I&#39;ll just return 0 over to Stack 13!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stack 12:&lt;/strong&gt; Alright, so Stack 13 returned 1 and Stack 14 returned 0. 1+0 is equal to 1. Stack 11, here&#39;s your answer: 1!&lt;/p&gt;
+&lt;strong&gt;Stack 11: fibonacci(3)&lt;/strong&gt;: Good, Stack 12 is done. So, now that I know that fibonacci(2) is equal to 1. So whatever fibonnaci(1) is equal to, I just add 1 to it and then return it over to Stack 10. Let&#39;s see how Stack 15 is doing...&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Stack 15: fibonacci(1)&lt;/strong&gt;: &lt;strong&gt;Oh cool!&lt;/strong&gt; 1 is indeed less than or equal to 1! I&#39;m done. I return 1 over to Stack 11!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Stack 11&lt;/strong&gt;: Excellent. 1+1 is equal to 2! I can return this value over to Stack 10, who will then use this value to help him calcuate fibonnaci(4). I love my job.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving back up the stacks...&lt;/p&gt;
+
+
+&lt;p&gt;&lt;code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 3: fibonacci(10)&lt;/strong&gt;: According to the stacks that I have created (and the stacks they have created, and the stacks &lt;em&gt;they&lt;/em&gt; have created, etc.), fibonnaci(9) is equal to 34 and fibonacci(8) is equal to 21. 34+21=55. I&#39;ll return the value of 55 over to Stack 2.&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 2: fibonacci(11)&lt;/strong&gt;: According to the stacks, fibonnaci(10) is equal to 55 and fibonacci(9) is equal to 34. 55+34=89. I&#39;ll return the value of 89 over to Stack 1.&lt;/p&gt;
+&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 1: fibonacci(12)&lt;/strong&gt;: According to the stacks, fibonnaci(11) is equal to 89 and fibonacci(10) is equal to 55. 89+55=144. I&#39;ll return 144 as the final answer.&lt;/p&gt;
+&lt;p&gt;...that was slow.&lt;/p&gt;
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And Stack 1 is right. Recurison is much slower than other approaches, such as simple looping, because you are creating all these stacks. However, recurison is sometimes easier to code and understand! Some problems are very easy to solve using recursion (such as the &quot;Tower of Hanoi&quot; problem), but are incredibly complex when you are trying to do a simple loop. And since computers continue to increase in processing power and speed, the &quot;slowness&quot; of recurison is usually a cost many programmers are willing to pay. Nobody is really going to care about losing a few milliseconds.&lt;/p&gt;
+</content>
+        <pubDate>Sat, 30 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/e4-recursion.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/e4-recursion.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>T8 Tech</title>
+        <description>![CDATA[Bugs exist. They are real. We deal with them every day. Some bugs are ignorable, while other bugs ruin the software. Either way, few people like bugs so you have remove them. What's worse, you know they are lurking in your code somewhere, but you cannot fix them until after you officially discovered them. The most-effective way to detect bugs is through testing the software. If you do not test your software, then you are willing to admit that you are releasing buggy software to the general public.
+]</description>
+        <content>&lt;p&gt;Bugs exist. They are real. We deal with them every day. Some bugs are ignorable, while other bugs ruin the software. Either way, few people like bugs so you have remove them. What&#39;s worse, you know they are lurking in your code somewhere, but you cannot fix them until &lt;em&gt;after&lt;/em&gt; you officially discovered them. The most-effective way to detect bugs is through testing the software. If you do not test your software, then you are willing to admit that you are releasing buggy software to the general public.&lt;/p&gt;
+
+&lt;p&gt;There are two types of tests: automated testing and manual testing.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Manual testing&lt;/strong&gt; is the type of testing that we are most familiar with: running the program and seeing if there is anything wrong. Manual testing can be incredibly effective at finding bugs, as there is a human reviewing the end product. However, manual testing is a slow process, and has to be repeated after every significant change. Manual testing can be very tiresome and boring, and many humans do not like doing them. To save time and to encourage more testing in case the human subjects are uncooperative and lazy, automated testing was invented.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automated testing&lt;/strong&gt; is using computer programs to do the testing instead of humans. These computer programs are called &#39;test suites&#39;, and to use them, you simply write out code telling the test suite how they should &quot;test&quot; the software. The computer program then carries out the test, repeatedly and without complaint. Automated testing is much faster than manual testing, and a computer will not complain about the boring nature of the testing job. So automated testing is very efficient and is generally preferable. It does require an up-front cost though: you have to write out the &quot;code&quot; first (and make sure there are no bugs in this &quot;code&quot;). This can take away valuable time, and if a certain thing you want to test (e.g., the &quot;user experience&quot; of a program) is incredibly expensive to write test code for, it&#39;s usually better to resort to manual testing.&lt;/p&gt; 
+&lt;p&gt;Another problem with automated testing is that your &#39;test suites&#39; will only test for what you tell them to test. Your &#39;test suites&#39; will not easily discover new problems. (Manual testing, on the other hand, can find those new problems pretty easily.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;While automated testing is generally preferable to manual testing, there are usually situations where manual testing is better. If you are testing something that requires a lot of human thought involved when judging the outcome (such as the &quot;user experience&quot; of a website), then it is cheaper to test out the website yourself instead of spending months writing out &quot;code&quot; to teach a &#39;test suite&#39; how to measure &quot;user experience&quot;. You can do it. But there wouldn&#39;t be much point. Automated testing also saves you time in the long term, but if you are just shipping out a product immediately, and are not expected to update it at all, then doing manual testing may be enough.&lt;/p&gt;
+
+
+&lt;p&gt;
+Many advocates of automated testing support the idea of &quot;test-driven design&quot; (TDD). This approach claims to reduce the number of bugs in software by writing out the automated tests before you write your program. Writing out these automated tests allows you to think about the design of the program beforehand. This approach is dependent on two things: 1) having more time to complete the project overall (since it takes time to write the code necessary to tell the test suites how to perform the tests), and 2) making sure your tests actually work as intended.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;p&gt;Some advocates of automated testing, however, have began moving towards &quot;behavior-driven design&quot; (BDD). The main feature of BDD is the syntax of their test code. Their automated tests are generally human-readable, meaning that people can understand what the automated tests are doing and perform their own manual testing (to double-check the results of the automated tests). BDD also supports writing out automated tests before writing the program.&lt;/p&gt;
+</content>
+        <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t8-tech.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t8-tech.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>C8 Conflict</title>
+        <description>![CDATA[During the 2006-2008 real estate bubble, I became a real estate agent[1]. I helped my clients purchased houses during the great boom. I only got a few clients though, as housing way usually expensive and out of the reach of most of my potential customers. When the bubble exploded though, lots of investors saw houses as a great opportunity. Business was booming, as I acquired more and more clients!
+]</description>
+        <content>&lt;p&gt;During the 2006-2008 real estate bubble, I became a real estate agent[1]. I helped my clients purchased houses during the great boom. I only got a few clients though, as housing way usually expensive and out of the reach of most of my potential customers. When the bubble exploded though, lots of investors saw houses as a great opportunity. Business was booming, as I acquired more and more clients!&lt;/p&gt;
+
+&lt;p&gt;One of my clients was Adams[2]. Adams thought that the real estate market has crashed so much that he can underbid the listing price for a house that he wanted to buy. I disagreed. The real estate market has crashed, but not to the extent that the buyer can set any price he choose.&lt;/p&gt;
+
+&lt;p&gt;I showed Adams the market value of houses next to the one that he want to buy, and compared them to the  listing price of the house that he wanted to buy. I provided Adams evidence that the listing price for the house was fair and reasonable, but Adams refused to listen anyway. I was upset. I only get paid if Adams successfully bought a house, but if Adams underbid for the property, then the bid will be rejected outright. I have worked hard for Adams, and it would be for nothing...&lt;em&gt;all because of Adams&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;But...I wasn&#39;t working for me. I was working for Adams. My real estate broker told me that my goal is to represent the best interests of the client, by giving the client good advice. But if the client refused to listen to the advice, then we still have an obligation to fufill the client&#39;s wishes. So I issued the bid anyway, knowing full well that it was going to be rejected and that my time would be wasted. That was my job.&lt;/p&gt;
+
+&lt;p&gt;The source of the conflict between me and Adams was money. Adams was a fairly wealthy person, but he wanted to maximize his wealth by buying houses cheaply and then renting them out. I wanted to get paid for my work by ensuring that Adams bought a house, regardless of the cost that he had to pay out of his pocket. Adam and I were only thinking about our own self-interest, and tried to force the other person in the business relationship to submit to their whims. This was not healthy at all.&lt;/p&gt;
+
+&lt;p&gt;In this conflict, I felt that I was not having my my time respected by the client, and that I was forced to do rather meaningless and pointless actions for the client, even if said actions were not in the client&#39;s best interests. However, I did maintain a professional demeanor throughout the conflict. I did what I could to convince the client, and then implemented the wishes of the client anyway, even though I disagreed with them.&lt;/p&gt;
+
+&lt;p&gt;Thinking about this scenario, I think that while I handled the conflict well, I should be more accepting of the client&#39;s stated desires, rather than question him. There may have been reasons for why the client was underbidding for the house that I did not appreciate at the time. For example, maybe the house would have been unprofitable for Adams had he purchased it at the fair market value. By respecting my clients&#39; opinions, my clients would have been more likely to respect my opinions as well.&lt;/p&gt;
+
+&lt;p&gt;After this conflict, I have came to accept the fact that I may do stuff for my clients that I personally would disagree with. I would explain why I disagree with the client&#39;s proposal, but I would also listen to my client and acknowledge that what he is doing does have some logical reasoning behind it.&lt;/p&gt;
+
+&lt;p&gt;I also learned to walk away from any business relationship where neither side respected each other. After Adams&#39; bid for the house was rejected, I suggested to Adams that he should find and purchase a new house by himself that would be within his price range. Adams ended up doing just that. Both Adams and I retained our dignity throughout the process, and the conflict soon became a thing of the past.&lt;/p&gt;
+
+&lt;p&gt;[1]I left real estate in 2010 to focus on my graduate studies in Political Science. By that time, the real estate market in Arizona was recovering, so I was losing clients.&lt;/p&gt;
+
+&lt;p&gt;[2]Adams is not the real name of the client that I worked with.&lt;/p&gt;
+
+&lt;p&gt;(THIS IS THE CHANGED POST ALPHA MAN)&lt;/p&gt;
+</content>
+        <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c8-conflict.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c8-conflict.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>T7 Javascript</title>
+        <description>![CDATA[Object - "code that can contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to "do" certain stuff." (Source: OOP Concepts blog post)
+]</description>
+        <content>&lt;p&gt;&lt;em&gt;Object - &quot;code that can contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to &quot;do&quot; certain stuff.&quot; (Source: &lt;a href=&quot;t6-oop-concepts.html&quot;&gt;OOP Concepts blog post&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Ruby and JavaScript are very similar to each other. Both are Object-Oriented Programming (OOP) Langauges, and both were built in the 1990s. There were, of course, several differences as well. JavaScript is a scripting language that was developed by Netscape to compete with C++ and ride on Java&#39;s popularity, while Ruby is  built by a computer scientist who wanted a &quot;true&quot; Object-Oriented experience. But the most surprising difference of all is the number of &quot;objects&quot;.&lt;/p&gt;
+
+&lt;p&gt;In Ruby, everything is an Object. Strings are objects, arrays are objects, booleans are objects, classes are objects...if it exists, it&#39;s an object. If it doesn&#39;t exist, it&#39;s also an object: the object nil, part of the NilClass! The fact that everything is an object means that you can treat everything as an object, telling it to hold data and calling on its behavior/methods. You can define its methods simply by accessing the class the Object belongs to.&lt;/p&gt;
+
+&lt;p&gt;JavaScript behaves like most OOP languages though by not having everything be an object. Instead, JavaScript&#39;s objects behave very similar to Ruby&#39;s Hashes. While Ruby&#39;s Hashes refer to having &#39;values&#39; stored in &#39;keys&#39;, JavaScript talks about &#39;values&#39; being stored in &#39;properties&#39; instead. To create a method, you simply store a function in a property. There are many, many other examples of non-Objects that exist in JavaScript, and they behave in other ways.&lt;/p&gt;
+
+&lt;p&gt;Rubyists would prefer having everything be an Object because they can then add,remove and change methods, at will, for anything! This allows them to really customize the programming language to match their needs. JavaScript does not have the flexiblity that Ruby have, since not everything is an Object. This is not a bad thing though, as a programmer may not need to customize the JavaScript language and may be fine with its current system. It&#39;s also dangerous to be modifying the langauge if you do not know what you are doing, so, in a sense, JavaScript can be safer than Ruby.&lt;/p&gt;
+</content>
+        <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t7-Javascript.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t7-Javascript.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>C7 Values</title>
+        <description>![CDATA[The world is broken, completely and utterly. We are faced with many terrifying problems, big and small. Every single one of them causes real harm to human beings. Yet incompetence is rampant. Few people have the willpower to bring real change...and even fewer have thought about whether their "real change" would actually solve these problems! Many problems are left unsolved, and they are intentionally left unsolved because the solutions are too complex/too unpopular/too [insert-excuse-here]...so why bother solving? Much better to fritter away your life in complete bliss/ignorance, while your fellow Human suffer.
+]</description>
+        <content>&lt;p&gt;The world is broken, completely and utterly. We are faced with many terrifying problems, big and small. Every single one of them causes real harm to human beings. Yet incompetence is rampant. Few people have the willpower to bring real change...and even fewer have thought about whether their &quot;real change&quot; would actually solve these problems! Many problems are left unsolved, and they are intentionally left unsolved because the solutions are too complex/too unpopular/too [insert-excuse-here]...so why bother solving? Much better to fritter away your life in complete bliss/ignorance, while your fellow Human suffer.&lt;/p&gt;
+
+&lt;p&gt;I do not like problems. I do not like watching humanity suffer as a result of these problems. And I do not like waiting for solutions to appear out of nowhere. The time when I was most happy and most sastified with myself is when I am able to actually do something to make life better and to resolve a specific problem. I either am able to involve myself directly in the task, or offer advice that would help someone in their task. So I suppose the value that I represent is that of &quot;Effectiveness&quot;. I see a problem, and I will attempt to resolve that problem, by any (ethical) means necessary.&lt;/p&gt;
+
+&lt;p&gt;But I do not actually live up to the value of &quot;Effectiveness&quot; as I would want to. The main reason I do not is because many problems out there are too complex, and that cannot be resolved only by myself. So I am forced to ignore them, no matter how much it pains me, simply because I cannot do anything about them. I also have to intentionally limit myself, becuase I do not want to sacrifice my own well-being for the Greater Good. I don&#39;t think I can handle it.&lt;/p&gt;
+
+&lt;p&gt;I think that this value gives me something to be proud of, which may help alleviate any effect of the Sterotype Threat, if I do encounter it. I do have something to strive towards. But I view this trait as also causing me problems as well. What I have to internalize is this: while it is desirable to want to solve problems, sometimes it is okay if you fail anyway. Sometimes, people make mistakes and misjudge the situation. And other times, the perfect solution to one problem will just cause a brand new problem elsewhere. Utopia isn&#39;t going to happen. But if humans&#39; lifes can be bettered, I think I will be content.&lt;/p&gt;
+</content>
+        <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c7-values.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c7-values.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>T6 Oop Concepts</title>
+        <description>![CDATA[According to C2.com, there are over 200 ways to write a simple computer program that outputs "Hello World". Programming languages are constantly being invented to deal with new problems. Even if you are a master at one programming language, it only means that you are equipped to solve one set of problems efficently. That's not enough in the competitive marketplace.
+]</description>
+        <content>&lt;p&gt;According to C2.com, &lt;a href=&quot;http://c2.com/cgi/wiki?HelloWorldInManyProgrammingLanguages&quot;&gt;there are over 200 ways to write a simple computer program that outputs &quot;Hello World&quot;&lt;/a&gt;. Programming languages are constantly being invented to deal with new problems. Even if you are a master at one programming language, it only means that you are equipped to solve one set of problems efficently. That&#39;s not enough in the competitive marketplace.&lt;/p&gt;
+
+&lt;p&gt;There are three major types of programming languages, and it is important to familiarize youreslf with them so that when it comes time for you to master a brand new language, you are ready for the task.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Functional langauges are based on carrying out the results of &lt;strong&gt;mathematical functions&lt;/strong&gt;. These languages are easy to grasp: input goes in, and output comes out. The math, on the other hand, is less easier to understand. Functional languages were the first programming languages to be invented, but have fallen into disuse as programmers tended to prefer the other two types of languages.  However, some programmers have started &quot;rediscovering&quot; functional languages, and like the fact that they run can multiple functions at one time (&quot;parallelism&quot;). This means that programs can complete tasks much faster than in the other types of programming languages. An example of a functional language today is Haskell.&lt;/li&gt;
+&lt;li&gt;
+  Procedural langauges based themselves on &lt;strong&gt;procedures&lt;/strong&gt;. A procedure tells a program exactly what it has to do, and the program happily follow those step-by-step directions. Those directions include certain &quot;behavior&quot; that a program is expected to perform. You are limited to the behavior that the procedural language has given you; you cannot create brand new behavior. As a result, it is easier to understand what a program is doing by looking at its source code. The most popular procedural language today is COBOL (though it does have a reputation for being &quot;old-fashioned&quot; compared to the newer object-oriented languages, and the &quot;legacy programs&quot; based on COBOL are slowly being replaced). Other procedural languages include BASIC, Pascal, Fortran, and C.
+&lt;/li&gt;
+&lt;li&gt;Object-oriented languages care about &lt;strong&gt;objects&lt;/strong&gt;. An object contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to &quot;do&quot; certain stuff. This radical approach means that it is theoretically possible to reuse the same object in different circumstances, saving people time and resources. However, someone examining the code must be able to decipher what behavior each object is doing. As the programmer can change the behavior of objects or add new behavior, &lt;emphasis&gt;Practical Object-Oriented Design In Ruby&lt;/emphasis&gt; claimed that an application may end up developing its own &quot;unique programming language specifically tailored to [its] domain&quot;. Unless the application is properly designed, understanding this &#39;unique programming language&#39; will become a chore. Most popular languages today are object-oriented, including Ruby, Javascript, and C++.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+        <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t6-oop-concepts.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t6-oop-concepts.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>C6 Stereotype Threat</title>
+        <description>![CDATA[According to Wikipedia, the Stereotype Threat refers to the possibility that people exposed to negative stereotypes may perform worse on tests because they are worried about confirming those negative stereotype. The research itself is controversial, with some studies arguing that the effects of the "stereotype threat" are either nonexistent or minimal. But this blog post is not about whether this Threat exists, but about my response to it.
+]</description>
+        <content>&lt;p&gt;According to &lt;a href=&quot;http://en.wikipedia.org/wiki/Stereotype_threat&quot;&gt;Wikipedia&lt;/a&gt;, the Stereotype Threat refers to the possibility that people exposed to negative stereotypes may perform worse on tests because they are worried about confirming those negative stereotype. The research itself is controversial, with some studies arguing that the effects of the &quot;stereotype threat&quot; are either nonexistent or minimal. But this blog post is not about whether this Threat exists, but about my response to it.&lt;/p&gt;
+
+&lt;p&gt;While I have never encountered the sterotype threat myself, I can understand how stress associated with a negative sterotype can lead to text anxiety, and how text anxiety can help reduce a person&#39;s performance on a test. I can also understand how this can lead to a vicious cycle, where a person&#39;s self-worth becomes lowered as a result of lowered performance, further increasing text anxiety.&lt;/p&gt;
+
+&lt;p&gt;There are ways to deal with steretoype threat through &quot;interventions&quot; designed to reduce the influence of those negative steretoypes. Those interventions are on Wikipedia, and sounds like they would help students in a variety of ways, not just in dealing with the immedidate issuer of stereotype threat, but also in increasing a student&#39;s self-worth so that they will not have to worry about the negative sterotypes at all.&lt;/p&gt;
+
+&lt;p&gt;But the most direct way to fix the stereotype threat may be to simply reduce test anxiety. Students need to be taught that tests are not there to &lt;em&gt;judge&lt;/em&gt; their performance but to &lt;em&gt;help&lt;/em&gt; them learn the material by forcing them to recall information and identify their weaknesses. Having tests be open-notes also allow reduce test anxiety as well, as students can use their notes as a crutch to help them recall information. Finally, gamification of tests also reduces tension while still gaining accurate data and feedback. My favorite form of gamification is &lt;a href=&quot;http://getkahoot.com&quot;&gt;Kahoot!&lt;/a&gt;, a quiz-show-style application which allows students to answer questions in a fun and competitive environment, without having fear of those results being used to confirm or deny any steroetypes.&lt;/p&gt;
+
+&lt;p&gt;Addressing test anxiety directly also can help those people who do not have to worry about &quot;steroetype threat&quot;, but are still stressed about tests for other reasons. These people would still suffer the same vicious cycle, if left unchecked. Killing multiple birds with one stone is indeed a very good policy.&lt;/p&gt;
+</content>
+        <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c6-stereotype-threat.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c6-stereotype-threat.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>T5 Ruby Classes</title>
+        <description>![CDATA[
+   #We create the Class "Car" and tell it to 'inherit' a lot of traits from the Vehicle 'class'
+
+  Class Car &lt; Vehicle
+]</description>
+        <content>&lt;p&gt;&lt;code&gt;
+   #We create the Class &quot;Car&quot; and tell it to &#39;inherit&#39; a lot of traits from the Vehicle &#39;class&#39;&lt;/p&gt;
+
+&lt;p&gt;  Class Car &amp;lt; Vehicle&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  #We can read two variables directly (the model and year of the Car), but not write (change) it directly
+
+  attr_reader :model :year
+
+  #We can write one variable (speed) directly, but we cannot read it directly
+
+  attr_writer :speed
+
+  #We can read and write to one variable (owner) directly
+
+  attr_accessor :owner
+
+  #We are including this &quot;module&quot;, meaning we can use the methods in this module for our class.
+
+  include Self-Propelling
+
+  #We create a new method here to allow people to create cars. Information about the car
+  #are stored in variables.
+
+  def initialize(model, year, price)
+    @model = model
+    @year = year
+    @price = price
+    @owner = &quot;Used Car Store&quot;
+    @speed = 0
+  end
+
+
+  #This method will print out an ad to get people interested in buying the car we just made.
+
+  def show_off_car 
+    puts &quot;Our car is a #{@year} #{@model}, and it&#39;s only #{@price}, a bargain!&quot;
+  end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;  end #&quot;Close&quot; the class.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Wait. We have to actually sell this piece of junk!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+      #We can reopen classes again and either add new methods or modify existing methods.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  Class Car
+      def sell_car(newowner)
+        puts &quot;We just sold our #{@year} #{@model} to #{newowner}, at #{@price}. Success!&quot;
+        @owner = newowner
+      end
+
+  end #&quot;Close&quot; the class
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
+</content>
+        <pubDate>Thu, 07 May 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t5-ruby-classes.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t5-ruby-classes.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
