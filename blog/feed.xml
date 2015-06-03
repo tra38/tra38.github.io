@@ -5,8 +5,8 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 03 Jun 2015 11:41:38 -0500</pubDate>
-    <lastBuildDate>Wed, 03 Jun 2015 11:41:38 -0500</lastBuildDate>
+    <pubDate>Wed, 03 Jun 2015 15:45:24 -0500</pubDate>
+    <lastBuildDate>Wed, 03 Jun 2015 15:45:24 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -43,7 +43,7 @@
 &lt;p&gt;In only two clicks, I have finished my research and determined that I &lt;em&gt;do&lt;/em&gt; need an RSS feed. This is, of course, a lucky example, and one not likely to be replicated. During this blog post, I did four to five clicks (and trial and error) trying to learn how to link to my own blog posts in Jekyll.&lt;/p&gt;
 
 &lt;p&gt;As a useful teaching tool to explain how to properly throw away research questions, I think this anecdote works.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c9-questions.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c9-questions.html</guid>
@@ -53,9 +53,9 @@
     
       <item>
         <title>T9 Professional Website</title>
-        <description>![CDATA[Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, and recommend Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which 'framework' is superior.
+        <description>![CDATA[Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, using a framework such as Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which 'framework' is superior.
 ]</description>
-        <content>&lt;p&gt;Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, and recommend Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which &#39;framework&#39; is superior.&lt;/p&gt;
+        <content>&lt;p&gt;Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, using a framework such as Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which &#39;framework&#39; is superior.&lt;/p&gt;
 
 &lt;p&gt;Wordpress is a Content Management System: you just upload content, and Wordpress will manage the content for you (by storing and retriving it through databases). By contrast, Jekyll is a &quot;HTML code generator&quot;. All it does is take your content and generate web pages out of it, which you can then manually upload directly onto a web server.&lt;/p&gt;
 
@@ -70,7 +70,7 @@
 &lt;p&gt;Though Wordpress may be much easier to use &quot;out of the box&quot;, Jekyll may be much easier to customize. To do any significant changes to Wordpress requires knowledge of both HTML and PHP, while Jekyll only require knowledge of just HTML and &quot;Markdown&quot; (an improved version of plain text). There is some potential for Jekyll, and now that I have gotten the basics of it, I may choose to explore it further. However, if a client wants to set up a website quickly to represent an organization &lt;em&gt;and plans on running the website himself&lt;/em&gt;, then Wordpress is much more suitable to his goals. If we want people to build well-designed, functioning websites in a reasonable amount of time, then it&#39;s clear Wordpress wins, hands-down.&lt;/p&gt;
 
 &lt;p&gt;The only praise that I will give to Jekyll is its licensing. Wordpress is licensed under the GPL license, which mandates that any contributions you make to Wordpress (such as producing &#39;plugins&#39; and themes) must be open-source. This, of course, is no barrier to making money, as people can sell premium plugins/themes and &quot;technical support&quot;. But I do have some philosophical objections to the idea of forcing people&#39;s contributions to be open-source. Jekyll is licensed under the MIT license, meaning that you can choose to have your contributions to Jekyll be &#39;closed-source&#39;. I doubt that I would ever make any plugins for Jekyll, but it&#39;s nice to know that if I ever do, Jekyll would give me more freedom than Wordpress would.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Tue, 02 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t9-professional-website.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t9-professional-website.html</guid>
@@ -149,7 +149,7 @@ p fibonacci(12)
 &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;And Stack 1 is right. Recurison is much slower than other approaches, such as simple looping, because you are creating all these stacks. However, recurison is sometimes easier to code and understand! Some problems are very easy to solve using recursion (such as the &quot;Tower of Hanoi&quot; problem), but are incredibly complex when you are trying to do a simple loop. And since computers continue to increase in processing power and speed, the &quot;slowness&quot; of recurison is usually a cost many programmers are willing to pay. Nobody is really going to care about losing a few milliseconds.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Sat, 30 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/e4-recursion.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/e4-recursion.html</guid>
@@ -181,7 +181,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 
 
 &lt;p&gt;&lt;p&gt;Some advocates of automated testing, however, have began moving towards &quot;behavior-driven design&quot; (BDD). The main feature of BDD is the syntax of their test code. Their automated tests are generally human-readable, meaning that people can understand what the automated tests are doing and perform their own manual testing (to double-check the results of the automated tests). BDD also supports writing out automated tests before writing the program.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t8-tech.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t8-tech.html</guid>
@@ -216,7 +216,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;p&gt;[2]Adams is not the real name of the client that I worked with.&lt;/p&gt;
 
 &lt;p&gt;(THIS IS THE CHANGED POST ALPHA MAN)&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c8-conflict.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c8-conflict.html</guid>
@@ -237,7 +237,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;p&gt;JavaScript behaves like most OOP languages though by not having everything be an object. Instead, JavaScript&#39;s objects behave very similar to Ruby&#39;s Hashes. While Ruby&#39;s Hashes refer to having &#39;values&#39; stored in &#39;keys&#39;, JavaScript talks about &#39;values&#39; being stored in &#39;properties&#39; instead. To create a method, you simply store a function in a property. There are many, many other examples of non-Objects that exist in JavaScript, and they behave in other ways.&lt;/p&gt;
 
 &lt;p&gt;Rubyists would prefer having everything be an Object because they can then add,remove and change methods, at will, for anything! This allows them to really customize the programming language to match their needs. JavaScript does not have the flexiblity that Ruby have, since not everything is an Object. This is not a bad thing though, as a programmer may not need to customize the JavaScript language and may be fine with its current system. It&#39;s also dangerous to be modifying the langauge if you do not know what you are doing, so, in a sense, JavaScript can be safer than Ruby.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t7-Javascript.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t7-Javascript.html</guid>
@@ -256,7 +256,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;p&gt;But I do not actually live up to the value of &quot;Effectiveness&quot; as I would want to. The main reason I do not is because many problems out there are too complex, and that cannot be resolved only by myself. So I am forced to ignore them, no matter how much it pains me, simply because I cannot do anything about them. I also have to intentionally limit myself, becuase I do not want to sacrifice my own well-being for the Greater Good. I don&#39;t think I can handle it.&lt;/p&gt;
 
 &lt;p&gt;I think that this value gives me something to be proud of, which may help alleviate any effect of the Sterotype Threat, if I do encounter it. I do have something to strive towards. But I view this trait as also causing me problems as well. What I have to internalize is this: while it is desirable to want to solve problems, sometimes it is okay if you fail anyway. Sometimes, people make mistakes and misjudge the situation. And other times, the perfect solution to one problem will just cause a brand new problem elsewhere. Utopia isn&#39;t going to happen. But if humans&#39; lifes can be bettered, I think I will be content.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c7-values.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c7-values.html</guid>
@@ -280,7 +280,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;li&gt;Object-oriented languages care about &lt;strong&gt;objects&lt;/strong&gt;. An object contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to &quot;do&quot; certain stuff. This radical approach means that it is theoretically possible to reuse the same object in different circumstances, saving people time and resources. However, someone examining the code must be able to decipher what behavior each object is doing. As the programmer can change the behavior of objects or add new behavior, &lt;emphasis&gt;Practical Object-Oriented Design In Ruby&lt;/emphasis&gt; claimed that an application may end up developing its own &quot;unique programming language specifically tailored to [its] domain&quot;. Unless the application is properly designed, understanding this &#39;unique programming language&#39; will become a chore. Most popular languages today are object-oriented, including Ruby, Javascript, and C++.&lt;/li&gt;
 &lt;/ul&gt;
 
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t6-oop-concepts.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t6-oop-concepts.html</guid>
@@ -301,7 +301,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;p&gt;But the most direct way to fix the stereotype threat may be to simply reduce test anxiety. Students need to be taught that tests are not there to &lt;em&gt;judge&lt;/em&gt; their performance but to &lt;em&gt;help&lt;/em&gt; them learn the material by forcing them to recall information and identify their weaknesses. Having tests be open-notes also allow reduce test anxiety as well, as students can use their notes as a crutch to help them recall information. Finally, gamification of tests also reduces tension while still gaining accurate data and feedback. My favorite form of gamification is &lt;a href=&quot;http://getkahoot.com&quot;&gt;Kahoot!&lt;/a&gt;, a quiz-show-style application which allows students to answer questions in a fun and competitive environment, without having fear of those results being used to confirm or deny any steroetypes.&lt;/p&gt;
 
 &lt;p&gt;Addressing test anxiety directly also can help those people who do not have to worry about &quot;steroetype threat&quot;, but are still stressed about tests for other reasons. These people would still suffer the same vicious cycle, if left unchecked. Killing multiple birds with one stone is indeed a very good policy.&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c6-stereotype-threat.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c6-stereotype-threat.html</guid>
@@ -374,7 +374,7 @@ Many advocates of automated testing support the idea of &quot;test-driven design
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;/code&gt;&lt;/p&gt;
-</content>
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Thu, 07 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t5-ruby-classes.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t5-ruby-classes.html</guid>
