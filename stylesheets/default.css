@@ -55,14 +55,22 @@ html
 	height: 200px;
 }
 
+#portfolio
+{
+	float: left;
+	padding-bottom: 25%
+}
+
 
 .website-image
 {
+	vertical-align: top;
 	display: inline-block; /*Eliminate width, height, and margin-left for mobile devices*/
 	width: 20%;
 	height: 20%;
 	margin-left: 10%;
 }
+
 
 @media screen and (max-device-width: 900px) {
 	html{
