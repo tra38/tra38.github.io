@@ -5,8 +5,8 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jun 2015 20:22:23 -0500</pubDate>
-    <lastBuildDate>Fri, 05 Jun 2015 20:22:23 -0500</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2015 20:33:52 -0500</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2015 20:33:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,7 +23,7 @@
 
 &lt;p&gt;The main problem with this approach however is that an AI will blindly follow instructions given to it. If the instructions are not well-thought out, the AI &lt;a href=&quot;http://wiki.lesswrong.com/wiki/Paperclip_maximizer&quot;&gt;will misinterpret our instructions and thereby do something incredibly destructive to humanity&lt;/a&gt;. For example, the AI may think that the best way to give humans jobs is forcbily plug them into a &quot;Matrix&quot;-like simulation where the humans &lt;em&gt;think&lt;/em&gt; that they are working. Or maybe the AI would force humans into back-breaking, mind-numbing slavery. Or (insert-horror-story-here).&lt;/p&gt;
 
-&lt;p&gt;We won&#39;t know what the AI is going to do (if we did, we would probably do it ourselves). So&lt;/p&gt;
+&lt;p&gt;We won&#39;t know what the AI is going to do (if we did, we would probably do it ourselves). So it&#39;s possible that we may object to whatever solution the AI has came up with. But the AI won&#39;t listen to our objections, and will implement its plans anyway. This is, of course, not a good thing at all.&lt;/p&gt;
 
 &lt;p&gt;4) &lt;strong&gt;Grant AI &quot;free will&quot;&lt;/strong&gt;. Allow them to make their own choices. This is obviously dangerous, as an AI that is free to choose may choose not to serve humanity. The horror stories of AI rebelling against their creators is probably not likely to be true, but it &lt;em&gt;could&lt;/em&gt; happen.&lt;/p&gt;
 
