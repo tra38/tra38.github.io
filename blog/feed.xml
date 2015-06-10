@@ -5,9 +5,30 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Jun 2015 20:33:52 -0500</pubDate>
-    <lastBuildDate>Fri, 05 Jun 2015 20:33:52 -0500</lastBuildDate>
+    <pubDate>Wed, 10 Jun 2015 07:47:22 -0500</pubDate>
+    <lastBuildDate>Wed, 10 Jun 2015 07:47:22 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>T10 Writing Tests</title>
+        <description>![CDATA[Testing is an important part of any programmer's life, to detect and eliminate bugs. But writing automated tests themselves can be rather costly endeavour. Not only does it take time to write your tests, but you also must make sure your tests are working properly as well. To reduce your costs, you need to reduce the amount of tests you write.
+]</description>
+        <content>&lt;p&gt;Testing is an important part of any programmer&#39;s life, to detect and eliminate bugs. But writing automated tests themselves can be rather costly endeavour. Not only does it take time to write your tests, but you also must make sure your tests are working properly as well. To reduce your costs, you need to reduce the amount of tests you write.&lt;/p&gt;
+
+&lt;p&gt;According to the &lt;a href=&quot;poodr.com&quot;&gt;Practical Object-Oriented Guide to Ruby&lt;/a&gt;, automated tests should only test the &lt;em&gt;outputs&lt;/em&gt; of your code. Trying to test &lt;strong&gt;how&lt;/strong&gt; that code calcuates the output would lead to your tests breaking every time you change that code. This will waste a lot of time and energy that could be spent on other aspects of your programs. Just test the outputs of a program.&lt;/p&gt;
+
+&lt;p&gt;POODR also suggests that you should check to see if this output ever actually gets used anywhere in the program or displayed to the user. If nobody (not even the code) gets to see this output, then it&#39;s possible that this output is unncessary. You can then delete the code that produces the output without fear, and will not have to worry about testing this code as well. You have saved yourself time and grief in maintaining the code that produces your output.&lt;/p&gt;
+
+&lt;p&gt;Finally, POODR recommends not testing private methods. Private methods are methods that you want only the computer program to use. Since you do not want any human using them, you are free to not test these methods. It can be assumed that the program will end up using those private methods to calcuate the outputs, and if the private methods are bugged, then the resulting outputs would be wrong as well. Then the tests that you have written will indicate to you that a bug exists in your code, and you can then fix the private methods in question.&lt;/p&gt;
+
+&lt;p&gt;I wrote a blog post recently on the differences between &lt;a href=&quot;/blog/t8-tech.html&quot;&gt;automated testing and manual testing&lt;/a&gt;. One of the points I made is how automatic tests are more efficent than manual testing but are also more expensive to create. By reducing the number of tests you create, you reduce your costs, and thereby benefit more from automated testing.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Wed, 10 Jun 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t10-writing-tests.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t10-writing-tests.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C11 Ai2</title>
@@ -328,30 +349,6 @@ Many advocates of automated testing support the idea of &quot;test-driven design
         <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c7-values.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c7-values.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T6 Oop Concepts</title>
-        <description>![CDATA[According to C2.com, there are over 200 ways to write a simple computer program that outputs "Hello World". Programming languages are constantly being invented to deal with new problems. Even if you are a master at one programming language, it only means that you are equipped to solve one set of problems efficently. That's not enough in the competitive marketplace.
-]</description>
-        <content>&lt;p&gt;According to C2.com, &lt;a href=&quot;http://c2.com/cgi/wiki?HelloWorldInManyProgrammingLanguages&quot;&gt;there are over 200 ways to write a simple computer program that outputs &quot;Hello World&quot;&lt;/a&gt;. Programming languages are constantly being invented to deal with new problems. Even if you are a master at one programming language, it only means that you are equipped to solve one set of problems efficently. That&#39;s not enough in the competitive marketplace.&lt;/p&gt;
-
-&lt;p&gt;There are three major types of programming languages, and it is important to familiarize youreslf with them so that when it comes time for you to master a brand new language, you are ready for the task.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Functional langauges are based on carrying out the results of &lt;strong&gt;mathematical functions&lt;/strong&gt;. These languages are easy to grasp: input goes in, and output comes out. The math, on the other hand, is less easier to understand. Functional languages were the first programming languages to be invented, but have fallen into disuse as programmers tended to prefer the other two types of languages.  However, some programmers have started &quot;rediscovering&quot; functional languages, and like the fact that they run can multiple functions at one time (&quot;parallelism&quot;). This means that programs can complete tasks much faster than in the other types of programming languages. An example of a functional language today is Haskell.&lt;/li&gt;
-&lt;li&gt;
-  Procedural langauges based themselves on &lt;strong&gt;procedures&lt;/strong&gt;. A procedure tells a program exactly what it has to do, and the program happily follow those step-by-step directions. Those directions include certain &quot;behavior&quot; that a program is expected to perform. You are limited to the behavior that the procedural language has given you; you cannot create brand new behavior. As a result, it is easier to understand what a program is doing by looking at its source code. The most popular procedural language today is COBOL (though it does have a reputation for being &quot;old-fashioned&quot; compared to the newer object-oriented languages, and the &quot;legacy programs&quot; based on COBOL are slowly being replaced). Other procedural languages include BASIC, Pascal, Fortran, and C.
-&lt;/li&gt;
-&lt;li&gt;Object-oriented languages care about &lt;strong&gt;objects&lt;/strong&gt;. An object contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to &quot;do&quot; certain stuff. This radical approach means that it is theoretically possible to reuse the same object in different circumstances, saving people time and resources. However, someone examining the code must be able to decipher what behavior each object is doing. As the programmer can change the behavior of objects or add new behavior, &lt;emphasis&gt;Practical Object-Oriented Design In Ruby&lt;/emphasis&gt; claimed that an application may end up developing its own &quot;unique programming language specifically tailored to [its] domain&quot;. Unless the application is properly designed, understanding this &#39;unique programming language&#39; will become a chore. Most popular languages today are object-oriented, including Ruby, Javascript, and C++.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Fri, 15 May 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t6-oop-concepts.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t6-oop-concepts.html</guid>
         
         
       </item>
