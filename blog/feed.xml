@@ -5,9 +5,32 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Jun 2015 07:45:29 -0500</pubDate>
-    <lastBuildDate>Thu, 18 Jun 2015 07:45:29 -0500</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2015 07:54:00 -0500</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2015 07:54:00 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C12 Fake Papers</title>
+        <description>![CDATA[The most popular way of measuring the effectiveness of a scientist is by knowing how many other people 'cite' their work. If lots of people are referring to your research, then your research must therefore be good. This metric is codified as the H-Index.
+]</description>
+        <content>&lt;p&gt;The most popular way of measuring the effectiveness of a scientist is by knowing how many other people &#39;cite&#39; their work. If lots of people are referring to your research, then your research must therefore be good. This metric is codified as the &lt;a href=&quot;https://en.wikipedia.org/wiki/H-index&quot;&gt;H-Index&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But every metric has its own flaws. In 2010, Cyril Labbé (a computer scientist) &lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-00713564/document&quot;&gt;was able to manipulate the H-Index by publishing 102 computer-generated research articles&lt;/a&gt;, many of whom cited each other. Since the papers all cited each other, the &quot;author&quot; of all these fake papers (Ike Antkare) had his H-index score boosted. The fake research papers also cited legitimate research papers to disguise the ruse.&lt;/p&gt;
+
+&lt;p&gt;Ike Antkare soon became the 21st highest-cited scientist in the world, even outclassing Albert Einstein.&lt;/p&gt;
+
+&lt;p&gt;The computer-generated research articles were created using &lt;a href=&quot;https://en.wikipedia.org/wiki/SCIgen&quot;&gt;SCIgen&lt;/a&gt;, a program designed to produce &quot;context-free&quot; research papers that &lt;em&gt;seems&lt;/em&gt; to be like real scientific papers, but are actually meaningless. If anybody bothered to read them, then the articles would be known to be false. The inventors of SCIgen intended to use this software to expose academic conferences and journals that accepts research papers without bothering to read them.&lt;/p&gt;
+
+&lt;p&gt;Once Cyril Labbé exposed the ruse he made, people started reading the papers that Ike Antkare wrote. Ike Antkare lost his prestigious H-index score, as search engines began removing Ike&#39;s papers from their databases.&lt;/p&gt;
+
+&lt;p&gt;This incident exposes a very important part about metrics...you cannot rely on only one. If you had just relied on the H-index to tell you how effective a scientist is at research, then Ike Antkare would have been a star. Only by reading Ike&#39;s papers will you be able to know the truth about Ike and avoid being fooled.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Fri, 26 Jun 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c12-fake-papers.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c12-fake-papers.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>E5 Writing</title>
@@ -350,27 +373,6 @@ Many advocates of automated testing support the idea of &quot;test-driven design
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c8-conflict.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c8-conflict.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T7 Javascript</title>
-        <description>![CDATA[Object - "code that can contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to "do" certain stuff." (Source: OOP Concepts blog post)
-]</description>
-        <content>&lt;p&gt;&lt;em&gt;Object - &quot;code that can contains both data (information/attributes) and behavior (methods). You can give objects information to hold, while also telling objects to &quot;do&quot; certain stuff.&quot; (Source: &lt;a href=&quot;t6-oop-concepts.html&quot;&gt;OOP Concepts blog post&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Ruby and JavaScript are very similar to each other. Both are Object-Oriented Programming (OOP) Langauges, and both were built in the 1990s. There were, of course, several differences as well. JavaScript is a scripting language that was developed by Netscape to compete with C++ and ride on Java&#39;s popularity, while Ruby is  built by a computer scientist who wanted a &quot;true&quot; Object-Oriented experience. But the most surprising difference of all is the number of &quot;objects&quot;.&lt;/p&gt;
-
-&lt;p&gt;In Ruby, everything is an Object. Strings are objects, arrays are objects, booleans are objects, classes are objects...if it exists, it&#39;s an object. If it doesn&#39;t exist, it&#39;s also an object: the object nil, part of the NilClass! The fact that everything is an object means that you can treat everything as an object, telling it to hold data and calling on its behavior/methods. You can define its methods simply by accessing the class the Object belongs to.&lt;/p&gt;
-
-&lt;p&gt;JavaScript behaves like most OOP languages though by not having everything be an object. Instead, JavaScript&#39;s objects behave very similar to Ruby&#39;s Hashes. While Ruby&#39;s Hashes refer to having &#39;values&#39; stored in &#39;keys&#39;, JavaScript talks about &#39;values&#39; being stored in &#39;properties&#39; instead. To create a method, you simply store a function in a property. There are many, many other examples of non-Objects that exist in JavaScript, and they behave in other ways.&lt;/p&gt;
-
-&lt;p&gt;Rubyists would prefer having everything be an Object because they can then add,remove and change methods, at will, for anything! This allows them to really customize the programming language to match their needs. JavaScript does not have the flexiblity that Ruby have, since not everything is an Object. This is not a bad thing though, as a programmer may not need to customize the JavaScript language and may be fine with its current system. It&#39;s also dangerous to be modifying the langauge if you do not know what you are doing, so, in a sense, JavaScript can be safer than Ruby.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sat, 23 May 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t7-Javascript.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t7-Javascript.html</guid>
         
         
       </item>
