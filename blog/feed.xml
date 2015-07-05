@@ -5,9 +5,44 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Jun 2015 07:54:00 -0500</pubDate>
-    <lastBuildDate>Fri, 26 Jun 2015 07:54:00 -0500</lastBuildDate>
+    <pubDate>Sat, 04 Jul 2015 20:13:53 -0500</pubDate>
+    <lastBuildDate>Sat, 04 Jul 2015 20:13:53 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>T11 Documentation</title>
+        <description>![CDATA[If you are given a powerful program, but are not given the instructions on how to use it, then the program is worthless to you. Documentation is essential to understanding code.
+]</description>
+        <content>&lt;p&gt;If you are given a powerful program, but are not given the instructions on how to use it, then the program is worthless to you. Documentation is essential to understanding code.&lt;/p&gt;
+
+&lt;p&gt;Yet, documentation is neglected in the programming community. Many people tend to prioritize producing quality code over writing out how the code is supposed to work. While this may seem sensible in the short-term, in the long-term, it leads to code that is difficult for people to use. Many prospective programmers will be scared off by the complexitiy of the code, and the few that remain will spend valuable time understand what the program does instead of actually improving it.&lt;/p&gt;
+
+&lt;p&gt;The most common form of documentation is &#39;human-readable paperwork&#39;. Examples of such paperwork includes READMEs, flowcharts, diagrams, technical manuals, and code comments. This sort of documentation is useful for people to understand the code quickly (provided the paperwork itself is well-written). However, the documentation can quickly become obsolete whenever a new update to the program is released. As a result, such documentation must be updated constantly for it to be useful. The constant strain of updating &quot;human-readable paperwork&quot; is a major reason why people tend to fear documentation altogether.&lt;/p&gt;
+
+&lt;p&gt;But documentation is still necessary. So programmers have been exploring &lt;em&gt;alternatives&lt;/em&gt; to human-readable paperwork. These alternatives are tied directly to the source code, so whenever the code is updated, the documentation is too. These alternatives include tests, names, and self-documenting code.&lt;/p&gt;
+
+&lt;p&gt;1) Automated tests can inform programmers about about how the code is supposed to behave. By running the tests, you can learn whether the program actually does end up behaving as it is supposed to. Since automated tests are more effective at debugging than manual testing, programmers are encouraged to have these tests anyway. So the &quot;documentation&quot; is seen as a &#39;bonus&#39;. Automated tests however only tell you what code is supposed to do, and not &lt;em&gt;why&lt;/em&gt;. You also have to still write the tests in question, and write enough tests to convey all that is essential to know about the program.&lt;/p&gt;
+
+&lt;p&gt;2) Names convey information about a particular section of code. Whether you are naming a variable (list_of_dogs), a method (add_dog_to_list), or even a class (List), you are sending a message about what that code does (and usually more quickly than you would with a comment). Knowing what the code is supposed to do helps someone also understand how the code is supposed to work as well. However, it is extremely difficult to name variables properly and what seems like a clear variable name to the original programmer may not be to future programmers.&lt;/p&gt;
+
+&lt;p&gt;3) Self-documenting code refers to having a consistent &quot;style guide&quot; within the code proper and ahdering to it. If a programmer is familiar with the &#39;coding conventions&#39; that the &quot;style guide&quot; promotes, then the programmer is better able to understand the program. There are innumerable style guides for every language though, so someone who is not familiar with the conventions of your guide may struggle with understanding the code. It may be difficult to convince all programmers on the team to follow the chosen &quot;style guide&quot; properly.&lt;/p&gt;
+
+&lt;p&gt;Of course, ideally, a programmer would want all types of documentation: human-readable paperwork, automated tests, names and self-documenting code. The problem is that documentation takes time to produce, and skill to produce &lt;strong&gt;well&lt;/strong&gt;. It is essential to have good documentation, but there are many ways to do it, and some programmers will naturally graviate towards some forms of documentation while shying away from others.&lt;/p&gt;
+
+&lt;!-- It is tempting to also have tests also play a secondary role of informing people about the code tends to be 
+
+ &quot;self-documenting code&quot;: code that is easy for programmers to understand. The two parts of self-documenting code are variable names and automated testing.
+
+Variable names can also serve as documentation. Variable names help to explain what is the purpose of the &#39;variable&#39; in the program. However, it is extremely difficult to name variables properly and 
+ --&gt;
+
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sat, 04 Jul 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t11-documentation.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t11-documentation.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C12 Fake Papers</title>
@@ -338,41 +373,6 @@ Many advocates of automated testing support the idea of &quot;test-driven design
         <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t8-tech.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t8-tech.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C8 Conflict</title>
-        <description>![CDATA[During the 2006-2008 real estate bubble, I became a real estate agent[1]. I helped my clients purchased houses during the great boom. I only got a few clients though, as housing way usually expensive and out of the reach of most of my potential customers. When the bubble exploded though, lots of investors saw houses as a great opportunity. Business was booming, as I acquired more and more clients!
-]</description>
-        <content>&lt;p&gt;During the 2006-2008 real estate bubble, I became a real estate agent[1]. I helped my clients purchased houses during the great boom. I only got a few clients though, as housing way usually expensive and out of the reach of most of my potential customers. When the bubble exploded though, lots of investors saw houses as a great opportunity. Business was booming, as I acquired more and more clients!&lt;/p&gt;
-
-&lt;p&gt;One of my clients was Adams[2]. Adams thought that the real estate market has crashed so much that he can underbid the listing price for a house that he wanted to buy. I disagreed. The real estate market has crashed, but not to the extent that the buyer can set any price he choose.&lt;/p&gt;
-
-&lt;p&gt;I showed Adams the market value of houses next to the one that he want to buy, and compared them to the  listing price of the house that he wanted to buy. I provided Adams evidence that the listing price for the house was fair and reasonable, but Adams refused to listen anyway. I was upset. I only get paid if Adams successfully bought a house, but if Adams underbid for the property, then the bid will be rejected outright. I have worked hard for Adams, and it would be for nothing...&lt;em&gt;all because of Adams&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;But...I wasn&#39;t working for me. I was working for Adams. My real estate broker told me that my goal is to represent the best interests of the client, by giving the client good advice. But if the client refused to listen to the advice, then we still have an obligation to fufill the client&#39;s wishes. So I issued the bid anyway, knowing full well that it was going to be rejected and that my time would be wasted. That was my job.&lt;/p&gt;
-
-&lt;p&gt;The source of the conflict between me and Adams was money. Adams was a fairly wealthy person, but he wanted to maximize his wealth by buying houses cheaply and then renting them out. I wanted to get paid for my work by ensuring that Adams bought a house, regardless of the cost that he had to pay out of his pocket. Adam and I were only thinking about our own self-interest, and tried to force the other person in the business relationship to submit to their whims. This was not healthy at all.&lt;/p&gt;
-
-&lt;p&gt;In this conflict, I felt that I was not having my my time respected by the client, and that I was forced to do rather meaningless and pointless actions for the client, even if said actions were not in the client&#39;s best interests. However, I did maintain a professional demeanor throughout the conflict. I did what I could to convince the client, and then implemented the wishes of the client anyway, even though I disagreed with them.&lt;/p&gt;
-
-&lt;p&gt;Thinking about this scenario, I think that while I handled the conflict well, I should be more accepting of the client&#39;s stated desires, rather than question him. There may have been reasons for why the client was underbidding for the house that I did not appreciate at the time. For example, maybe the house would have been unprofitable for Adams had he purchased it at the fair market value. By respecting my clients&#39; opinions, my clients would have been more likely to respect my opinions as well.&lt;/p&gt;
-
-&lt;p&gt;After this conflict, I have came to accept the fact that I may do stuff for my clients that I personally would disagree with. I would explain why I disagree with the client&#39;s proposal, but I would also listen to my client and acknowledge that what he is doing does have some logical reasoning behind it.&lt;/p&gt;
-
-&lt;p&gt;I also learned to walk away from any business relationship where neither side respected each other. After Adams&#39; bid for the house was rejected, I suggested to Adams that he should find and purchase a new house by himself that would be within his price range. Adams ended up doing just that. Both Adams and I retained our dignity throughout the process, and the conflict soon became a thing of the past.&lt;/p&gt;
-
-&lt;p&gt;[1]I left real estate in 2010 to focus on my graduate studies in Political Science. By that time, the real estate market in Arizona was recovering, so I was losing clients.&lt;/p&gt;
-
-&lt;p&gt;[2]Adams is not the real name of the client that I worked with.&lt;/p&gt;
-
-&lt;p&gt;(THIS IS THE CHANGED POST ALPHA MAN)&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c8-conflict.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c8-conflict.html</guid>
         
         
       </item>
