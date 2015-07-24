@@ -5,9 +5,30 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Jul 2015 20:13:53 -0500</pubDate>
-    <lastBuildDate>Sat, 04 Jul 2015 20:13:53 -0500</lastBuildDate>
+    <pubDate>Thu, 23 Jul 2015 20:15:08 -0500</pubDate>
+    <lastBuildDate>Thu, 23 Jul 2015 20:15:08 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C14 Surviving Dbc</title>
+        <description>![CDATA[DevBootCamp has been a rough journey, but I know that it will give me the skill and confidence necessary for me to survive in the tech world.
+]</description>
+        <content>&lt;p&gt;DevBootCamp has been a rough journey, but I know that it will give me the skill and confidence necessary for me to survive in the tech world.&lt;/p&gt;
+
+&lt;p&gt;Today, I passed a major assessment in DevBootCamp, thereby ensuring that I will move forward in the program. The feedback I got from my assessor was excellent, telling me my weaknesses (failing to use prototypes in Javascript, accidentally destroying the DOM element instead of simply hiding it, having complicated code when simple code would do). But now that I know these weaknesses, I can now move to correct them. Progress is being made.&lt;/p&gt;
+
+&lt;p&gt;I would not be where I was today without asking for help. Indeed, I asked for help a lot during the assessment, perhaps more so than necessary. There has been instances where I asked for help only to be able to solve the problem by myself, with the guide just sitting there watching me explain the problem and figure out what&#39;s wrong. The lesson I learnt from today is that I need to be more self-confident of my own abilities. At the same time, I still need to know when to ask for help...but only when I know when I need that help.&lt;/p&gt;
+
+&lt;p&gt;After the assessment, DevBootCamp gives us 1.5 days to work on any project we want, so long as we use an API (Application Programming Interface). I decided to work on Friend-Computer, a program that will automatically generate blog posts. I had thought that the program would take me 2 hours to complete, but instead it took me all day. However, I did manage to &lt;a href=&quot;http://friend-computer.herokuapp.com/&quot;&gt;successfully create it&lt;/a&gt;, and most people are sastified with the results, though there is some critique about the &quot;grammar&quot; of the posts. The lesson I learnt here is that I need to prepare for the fact that I &lt;strong&gt;don&#39;t&lt;/strong&gt; know how long a project would take, and prepare myself accordingly. I must avoid overconfidence, lest I get burned.&lt;/p&gt;
+
+&lt;p&gt;Indeed, when I entered into DevBootCamp, I had the intention of updating my blog every week. This, of course, did not happen, as I was more focused on preparing for the assessment than producing content. But if DevBootCamp helps me be a better programmer, nay, a better person, then the experience will all be worth it.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 23 Jul 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c14-surviving-dbc.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c14-surviving-dbc.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T11 Documentation</title>
@@ -341,38 +362,6 @@ p fibonacci(12)
         <pubDate>Sat, 30 May 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/e4-recursion.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/e4-recursion.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T8 Tech</title>
-        <description>![CDATA[Bugs exist. They are real. We deal with them every day. Some bugs are ignorable, while other bugs ruin the software. Either way, few people like bugs so you have remove them. What's worse, you know they are lurking in your code somewhere, but you cannot fix them until after you officially discovered them. The most-effective way to detect bugs is through testing the software. If you do not test your software, then you are willing to admit that you are releasing buggy software to the general public.
-]</description>
-        <content>&lt;p&gt;Bugs exist. They are real. We deal with them every day. Some bugs are ignorable, while other bugs ruin the software. Either way, few people like bugs so you have remove them. What&#39;s worse, you know they are lurking in your code somewhere, but you cannot fix them until &lt;em&gt;after&lt;/em&gt; you officially discovered them. The most-effective way to detect bugs is through testing the software. If you do not test your software, then you are willing to admit that you are releasing buggy software to the general public.&lt;/p&gt;
-
-&lt;p&gt;There are two types of tests: automated testing and manual testing.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Manual testing&lt;/strong&gt; is the type of testing that we are most familiar with: running the program and seeing if there is anything wrong. Manual testing can be incredibly effective at finding bugs, as there is a human reviewing the end product. However, manual testing is a slow process, and has to be repeated after every significant change. Manual testing can be very tiresome and boring, and many humans do not like doing them. To save time and to encourage more testing in case the human subjects are uncooperative and lazy, automated testing was invented.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Automated testing&lt;/strong&gt; is using computer programs to do the testing instead of humans. These computer programs are called &#39;test suites&#39;, and to use them, you simply write out code telling the test suite how they should &quot;test&quot; the software. The computer program then carries out the test, repeatedly and without complaint. Automated testing is much faster than manual testing, and a computer will not complain about the boring nature of the testing job. So automated testing is very efficient and is generally preferable. It does require an up-front cost though: you have to write out the &quot;code&quot; first (and make sure there are no bugs in this &quot;code&quot;). This can take away valuable time, and if a certain thing you want to test (e.g., the &quot;user experience&quot; of a program) is incredibly expensive to write test code for, it&#39;s usually better to resort to manual testing.&lt;/p&gt; 
-&lt;p&gt;Another problem with automated testing is that your &#39;test suites&#39; will only test for what you tell them to test. Your &#39;test suites&#39; will not easily discover new problems. (Manual testing, on the other hand, can find those new problems pretty easily.)&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;While automated testing is generally preferable to manual testing, there are usually situations where manual testing is better. If you are testing something that requires a lot of human thought involved when judging the outcome (such as the &quot;user experience&quot; of a website), then it is cheaper to test out the website yourself instead of spending months writing out &quot;code&quot; to teach a &#39;test suite&#39; how to measure &quot;user experience&quot;. You can do it. But there wouldn&#39;t be much point. Automated testing also saves you time in the long term, but if you are just shipping out a product immediately, and are not expected to update it at all, then doing manual testing may be enough.&lt;/p&gt;
-
-
-&lt;p&gt;
-Many advocates of automated testing support the idea of &quot;test-driven design&quot; (TDD). This approach claims to reduce the number of bugs in software by writing out the automated tests before you write your program. Writing out these automated tests allows you to think about the design of the program beforehand. This approach is dependent on two things: 1) having more time to complete the project overall (since it takes time to write the code necessary to tell the test suites how to perform the tests), and 2) making sure your tests actually work as intended.
-&lt;/p&gt;
-
-
-&lt;p&gt;&lt;p&gt;Some advocates of automated testing, however, have began moving towards &quot;behavior-driven design&quot; (BDD). The main feature of BDD is the syntax of their test code. Their automated tests are generally human-readable, meaning that people can understand what the automated tests are doing and perform their own manual testing (to double-check the results of the automated tests). BDD also supports writing out automated tests before writing the program.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Thu, 28 May 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t8-tech.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t8-tech.html</guid>
         
         
       </item>
