@@ -5,9 +5,46 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jul 2015 20:15:08 -0500</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2015 20:15:08 -0500</lastBuildDate>
+    <pubDate>Sun, 02 Aug 2015 09:54:30 -0500</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2015 09:54:30 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C15 Lovelace Test</title>
+        <description>![CDATA[Today, we are making great strides in producing bots that can automate tasks efficently. This can be a major problem for us, as AI automation may endanger jobs. But are these bots that are replacing humans actually 'intelligent'? Two tests exist to determine whether an AI is intelligent. In my opinion, both tests are flawed.
+]</description>
+        <content>&lt;p&gt;Today, we are making great strides in producing bots that can automate tasks efficently. This can be a major problem for us, as &lt;a href=&quot;http://tra38.github.io/blog/c10-ai.html&quot;&gt;AI automation may endanger jobs&lt;/a&gt;. But are these bots that are replacing humans actually &#39;intelligent&#39;? Two tests exist to determine whether an AI is intelligent. In my opinion, both tests are flawed.&lt;/p&gt;
+
+&lt;p&gt;The Turing Test has traditionally been used as a way to determine whether an AI is intelligent. If a machine is able to convince a human through conversation that the machine is human, then the machine can be said to have intelligence. The test sounded like a good idea at the time...but it turns out that it&#39;s too easy to pass. You just have to figure out how to string sentences together well-enough to fool humans. In 2011, an AI named &lt;a href=&quot;https://en.wikipedia.org/wiki/Cleverbot&quot;&gt;Cleverbot&lt;/a&gt; was able to convince 59.3% of humans at a festival that it was a human, while in 2014, &lt;a href=&quot;motherboard.vice.com/read/how-a-computer-beat-the-turing-test-by-pretending-to-be-a-13-year-old-boy&quot;&gt;&quot;Eugene Goodman&quot;&lt;/a&gt; pretended to be a 13-year-old Ukrainian and convinced over 30% of judges. In 2015, &lt;a href=&quot;motherboard.vice.com/read/the-poem-that-passed-the-turing-test&quot;&gt;a PhD student&lt;/a&gt; submitted several computer-generated poems to literary maganizes and succesfully got one of them published.&lt;/p&gt;
+
+&lt;p&gt;Deceit is a poor subsitute for intelligence.&lt;/p&gt;
+
+&lt;p&gt;Some computer scientists have designed an alternative to the Turing Test, called the &lt;a href=&quot;http://motherboard.vice.com/read/forget-turing-the-lovelace-test-has-a-better-shot-at-spotting-ai&quot;&gt;&quot;Lovelace Test&quot;&lt;/a&gt;, named after Ada Lovelace, the first computer programmer. Ada Lovelace argued that computers could never be intelligent, simply because computers will always do what programmers tell it to do.&lt;/p&gt;
+
+&lt;p&gt;To pass the Lovelace Test:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).
+&lt;/em&gt;The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)
+*The programmer must not know how the program actually works.&lt;/p&gt;
+
+&lt;p&gt;This test also seemed like a good idea, except when it isn&#39;t. This test is very easy to pass, even easier than the Turing Test. If a programmer writes up a program that is overly complex, then the programmer would not know how the program works. Therefore, the program would pass the Lovelace Test easily. (Any output by this complex program would could then be defined as being &#39;original&#39; and &#39;creative&#39; by at least one other person.)&lt;/p&gt;
+
+&lt;p&gt;What would be more interesting is thinking about would this hapless programmer do next. If the programmer then studied the code carefully, made educated guesses, and slowly refactored the code, then did the program loses the intelligence it previously gained from its complexity? If that is true, then we should look at scientists who are trying to understand the human mind. If we start getting a good sense about how our brain works, do we lose our own &#39;intelligence&#39; in the process?&lt;/p&gt;
+
+&lt;p&gt;The main problem I have with both the Lovelace Test and the Turing Test is that it assumes that intelligence is a binary trait. Either you have it or you do not. But it seems intelligence would be better modeled as a continuum. AI, of course, are not as intelligent as human beings (at least, not yet). But AI still have some intelligence. We can even bring in the idea of &quot;multiple intelligences&quot;: humans are good at creativity while AI are good at solving math. Just because humans are &#39;top dogs&#39; does not mean that we can disrespect &#39;lesser dogs&#39;.&lt;/p&gt;
+
+&lt;h2&gt;Of course, I do not think that Duke Greene, my instructor at DevBootCamp, would even like the idea of measuring intelligence in the first place. He quoted a philosopher who (and I am paraphrasing here) that if bunnies thought like humans, then bunnies would consider themselves to be the most intelligent beings on Earth and the second-intelligent beings would be those beings who take orders from the bunnies. Prehaps intelligence itself merely a codeword for &quot;thinking like us&quot;, and we should instead respect AI as what it is, rather than hope for it to turn into something it is not.&lt;/h2&gt;
+
+&lt;p&gt;As a side-note: I do like the idea of having code so complex humans would not understand how it actually works. Such a thing would make the code unpredictable, and unpredictable code is code that cannot be trusted to do work as reliably as a human can. (In fact, in a blog post about how to stop AI automation from destorying jobs, I mused about giving AI &lt;a href=&quot;http://tra38.github.io/blog/c11-ai2.html&quot;&gt;&#39;free will&#39;&lt;/a&gt; to make them less appealing as job candidates. Unpredictablity can also work to discourage people from hiring bots.)&lt;/p&gt;
+
+&lt;p&gt;The problem is that unpredictable code is &lt;strong&gt;bad&lt;/strong&gt;. Such code will be dismissed as being buggy and unmaintainable, especially by the programmer who wrote the code in the first place. Programmers will invest time in trying to simplify the program&#39;s complexity and refactor it so that the code can end up being predictable and simple to understand. If a program passes the Lovelace Test, it is not a sign of an AI renaissance. It is a sign that something has gone horribly wrong.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sun, 02 Aug 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c15-lovelace-test.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c15-lovelace-test.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C14 Surviving Dbc</title>
@@ -19,7 +56,7 @@
 
 &lt;p&gt;I would not be where I was today without asking for help. Indeed, I asked for help a lot during the assessment, perhaps more so than necessary. There has been instances where I asked for help only to be able to solve the problem by myself, with the guide just sitting there watching me explain the problem and figure out what&#39;s wrong. The lesson I learnt from today is that I need to be more self-confident of my own abilities. At the same time, I still need to know when to ask for help...but only when I know when I need that help.&lt;/p&gt;
 
-&lt;p&gt;After the assessment, DevBootCamp gives us 1.5 days to work on any project we want, so long as we use an API (Application Programming Interface). I decided to work on Friend-Computer, a program that will automatically generate blog posts. I had thought that the program would take me 2 hours to complete, but instead it took me all day. However, I did manage to &lt;a href=&quot;http://friend-computer.herokuapp.com/&quot;&gt;successfully create it&lt;/a&gt;, and most people are sastified with the results, though there is some critique about the &quot;grammar&quot; of the posts. The lesson I learnt here is that I need to prepare for the fact that I &lt;strong&gt;don&#39;t&lt;/strong&gt; know how long a project would take, and prepare myself accordingly. I must avoid overconfidence, lest I get burned.&lt;/p&gt;
+&lt;p&gt;After the assessment, DevBootCamp gives us 1.5 days to work on any project we want, so long as we use an API (Application Programming Interface). I decided to work on Friend-Computer, a program that will automatically generate blog posts. I had thought that the program would take me 2 hours to complete, but instead it took me all day. However, I did manage to &lt;a href=&quot;http://friendcomputer.herokuapp.com/&quot;&gt;successfully create it&lt;/a&gt;, and most people are sastified with the results, though there is some critique about the &quot;grammar&quot; of the posts. The lesson I learnt here is that I need to prepare for the fact that I &lt;strong&gt;don&#39;t&lt;/strong&gt; know how long a project would take, and prepare myself accordingly. I must avoid overconfidence, lest I get burned.&lt;/p&gt;
 
 &lt;p&gt;Indeed, when I entered into DevBootCamp, I had the intention of updating my blog every week. This, of course, did not happen, as I was more focused on preparing for the assessment than producing content. But if DevBootCamp helps me be a better programmer, nay, a better person, then the experience will all be worth it.&lt;/p&gt;
 &lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
@@ -283,85 +320,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Tue, 02 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t9-professional-website.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t9-professional-website.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>E4 Recursion</title>
-        <description>![CDATA[Tim Cannaday, a fellow student at DevBootCamp, wrote a blog post about various technical issues, including recurison. He showed an example of recurison in action by using it to calcuate Fibonnaci Numbers...except that, er, Tim Cannady didn't understand it.
-]</description>
-        <content>&lt;p&gt;Tim Cannaday, a fellow student at DevBootCamp, &lt;a href=&quot;https://timcannady.github.io/blog/blog_posts/t8-tech.html&quot;&gt;wrote a blog post about various technical issues&lt;/a&gt;, including recurison. He showed an example of recurison in action by using it to calcuate Fibonnaci Numbers...except that, er, Tim Cannady didn&#39;t understand it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;[I] don&#39;t really understand what fibonacci() is doing.&lt;/em&gt;---Tim Cannady&lt;/p&gt;
-
-&lt;p&gt;As a way of thanking Tim for his example, I&#39;ll...uh...explain his example? Please forgive me if this explaination isn&#39;t exactly elegant: the goal is to explain, not to do so prettily.&lt;/p&gt;
-
-&lt;p&gt;This was the code that Tim used:&lt;/p&gt;
-
-&lt;pre&gt;
-&lt;code&gt;
-def fibonacci(n)
-n &lt;= 1 ? n : fibonacci(n-1) + fibonacci(n-2)
-end
-
-p fibonacci(12)
-#=&gt;144
-&lt;/code&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;And here is what the code is actually doing in IRB:&lt;/p&gt;
-
-
-&lt;p&gt;&lt;code&gt;
-*&lt;strong&gt;Stack 1: fibonacci(12)&lt;/strong&gt;: Okay, first thing I should do, check to see if 12 is less than or equal to 1. If 12 is less than or equal to 1, I just output 12, and I&#39;m good to go.&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;Wait. 12 &lt;em&gt;isn&#39;t&lt;/em&gt; less than or equal to 1? Okay, then, new plan. I&#39;ll just return fibonacci(12-1) + fibonnacci(12-2)...which is, fibonnaci(11)+fibonnaci(10).&lt;/p&gt;
-
-
-&lt;p&gt;All I have to is to create two new stacks: fibonnaci(11) and fibonnaci(10). I&#39;ll just ask them to return their values over to my stack, and I can then plug them into the equation and return the answer. Simple.
-&lt;p&gt;I&#39;ll just wait until those two functions are done...&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 2: fibonacci(11)&lt;/strong&gt;: Awesome! Thanks Stack 1. Okay, I should first check to see if 11 is less than or equal to 1. If 11 is less than or equal to 1, I just return 11 to Stack 1, and I&#39;m good to go.&lt;/p&gt;
-&lt;p&gt;Wait. 11 &lt;em&gt;isn&#39;t&lt;/em&gt; less than or equal to 1? Okay, then, new plan. I&#39;ll just return fibonacci(11-1) + fibonnacci(11-2)...which is, fibonnaci(10)+fibonnaci(9).&lt;/p&gt;
-&lt;p&gt;All I have to is to create two new stacks: fibonnaci(10) and fibonnaci(9). I&#39;ll just ask them to return their values over to my stack, and I can then plug them into the equation and return my answer over to Stack 1. Simple.&lt;/p&gt;
-&lt;p&gt;I&#39;ll just wait until those two functions are done...&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 3: fibonacci(10)&lt;/strong&gt;: What do you mean that 10 is not less than or equal to 1? That means I have to now create two new stacks (fibonnaci(9) and fibonacci(8) ) and wait for them to be done.&lt;/p&gt;
-&lt;/code&gt;
-&lt;p&gt;Several stacks later...&lt;/p&gt;
-&lt;code&gt;
-&lt;p&gt;&lt;strong&gt;Stack 11: fibonacci(3)&lt;/strong&gt;: Yay! Stack 10 (currently handling a difficult puzzle of fibonacci(4) ) have just created me to help him with his very important Fibonacci. And, lo and behold, 3 is not less than or equal to 1. I&#39;ll have to return fibonnaci(2)+fibonnaci(1). Time to create some new stacks...and then wait excitedly for the results!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 12: fibonacci(2)&lt;/strong&gt;: Well, 2 is not less than or equal to 1. So I&#39;m going to have to create two new stacks: fibonnaci(1), and fibonnaci(0), and then wait for their results. Once I get their results, I&#39;ll add them up and return the answer to you, Stack 11.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 13: fibonacci(1)&lt;/strong&gt;:  Okay, first thing I should do, check to see if 1 is less than or equal to 1. If 1 is less than or equal to 1, I just return 1. &lt;strong&gt;Oh cool!&lt;/strong&gt; 1 is less than or equal to 1! I&#39;ll just return 1 over to Stack 13!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 14: fibonacci(0)&lt;/strong&gt;: &lt;strong&gt;Oh cool!&lt;/strong&gt; 0 is less than or equal to 1! I&#39;ll just return 0 over to Stack 13!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Stack 12:&lt;/strong&gt; Alright, so Stack 13 returned 1 and Stack 14 returned 0. 1+0 is equal to 1. Stack 11, here&#39;s your answer: 1!&lt;/p&gt;
-&lt;strong&gt;Stack 11: fibonacci(3)&lt;/strong&gt;: Good, Stack 12 is done. So, now that I know that fibonacci(2) is equal to 1. So whatever fibonnaci(1) is equal to, I just add 1 to it and then return it over to Stack 10. Let&#39;s see how Stack 15 is doing...&lt;/p&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Stack 15: fibonacci(1)&lt;/strong&gt;: &lt;strong&gt;Oh cool!&lt;/strong&gt; 1 is indeed less than or equal to 1! I&#39;m done. I return 1 over to Stack 11!&lt;/p&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Stack 11&lt;/strong&gt;: Excellent. 1+1 is equal to 2! I can return this value over to Stack 10, who will then use this value to help him calcuate fibonnaci(4). I love my job.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Moving back up the stacks...&lt;/p&gt;
-
-
-&lt;p&gt;&lt;code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 3: fibonacci(10)&lt;/strong&gt;: According to the stacks that I have created (and the stacks they have created, and the stacks &lt;em&gt;they&lt;/em&gt; have created, etc.), fibonnaci(9) is equal to 34 and fibonacci(8) is equal to 21. 34+21=55. I&#39;ll return the value of 55 over to Stack 2.&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 2: fibonacci(11)&lt;/strong&gt;: According to the stacks, fibonnaci(10) is equal to 55 and fibonacci(9) is equal to 34. 55+34=89. I&#39;ll return the value of 89 over to Stack 1.&lt;/p&gt;
-&lt;p&gt;&lt;p&gt;&lt;strong&gt;Stack 1: fibonacci(12)&lt;/strong&gt;: According to the stacks, fibonnaci(11) is equal to 89 and fibonacci(10) is equal to 55. 89+55=144. I&#39;ll return 144 as the final answer.&lt;/p&gt;
-&lt;p&gt;...that was slow.&lt;/p&gt;
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;And Stack 1 is right. Recurison is much slower than other approaches, such as simple looping, because you are creating all these stacks. However, recurison is sometimes easier to code and understand! Some problems are very easy to solve using recursion (such as the &quot;Tower of Hanoi&quot; problem), but are incredibly complex when you are trying to do a simple loop. And since computers continue to increase in processing power and speed, the &quot;slowness&quot; of recurison is usually a cost many programmers are willing to pay. Nobody is really going to care about losing a few milliseconds.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sat, 30 May 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/e4-recursion.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/e4-recursion.html</guid>
         
         
       </item>
