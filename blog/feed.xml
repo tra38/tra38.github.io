@@ -5,8 +5,8 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Aug 2015 09:54:30 -0500</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2015 09:54:30 -0500</lastBuildDate>
+    <pubDate>Sun, 02 Aug 2015 10:12:00 -0500</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2015 10:12:00 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,9 +23,12 @@
 
 &lt;p&gt;To pass the Lovelace Test:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).
-&lt;/em&gt;The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)
-*The programmer must not know how the program actually works.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).&lt;/li&gt;
+&lt;li&gt;The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)&lt;/li&gt;
+&lt;li&gt;The programmer must not know how the program actually works.&lt;/li&gt;
+&lt;/ol&gt;
+
 
 &lt;p&gt;This test also seemed like a good idea, except when it isn&#39;t. This test is very easy to pass, even easier than the Turing Test. If a programmer writes up a program that is overly complex, then the programmer would not know how the program works. Therefore, the program would pass the Lovelace Test easily. (Any output by this complex program would could then be defined as being &#39;original&#39; and &#39;creative&#39; by at least one other person.)&lt;/p&gt;
 
@@ -33,7 +36,9 @@
 
 &lt;p&gt;The main problem I have with both the Lovelace Test and the Turing Test is that it assumes that intelligence is a binary trait. Either you have it or you do not. But it seems intelligence would be better modeled as a continuum. AI, of course, are not as intelligent as human beings (at least, not yet). But AI still have some intelligence. We can even bring in the idea of &quot;multiple intelligences&quot;: humans are good at creativity while AI are good at solving math. Just because humans are &#39;top dogs&#39; does not mean that we can disrespect &#39;lesser dogs&#39;.&lt;/p&gt;
 
-&lt;h2&gt;Of course, I do not think that Duke Greene, my instructor at DevBootCamp, would even like the idea of measuring intelligence in the first place. He quoted a philosopher who (and I am paraphrasing here) that if bunnies thought like humans, then bunnies would consider themselves to be the most intelligent beings on Earth and the second-intelligent beings would be those beings who take orders from the bunnies. Prehaps intelligence itself merely a codeword for &quot;thinking like us&quot;, and we should instead respect AI as what it is, rather than hope for it to turn into something it is not.&lt;/h2&gt;
+&lt;p&gt;Of course, I do not think that Duke Greene, my instructor at DevBootCamp, would even like the idea of measuring intelligence in the first place. He quoted a philosopher who (and I am paraphrasing here) that if bunnies thought like humans, then bunnies would consider themselves to be the most intelligent beings on Earth and the second-intelligent beings would be those beings who take orders from the bunnies. Prehaps intelligence itself merely a codeword for &quot;thinking like us&quot;, and we should instead respect AI as what it is, rather than hope for it to turn into something it is not.&lt;/p&gt;
+
+&lt;h6&gt;#&lt;/h6&gt;
 
 &lt;p&gt;As a side-note: I do like the idea of having code so complex humans would not understand how it actually works. Such a thing would make the code unpredictable, and unpredictable code is code that cannot be trusted to do work as reliably as a human can. (In fact, in a blog post about how to stop AI automation from destorying jobs, I mused about giving AI &lt;a href=&quot;http://tra38.github.io/blog/c11-ai2.html&quot;&gt;&#39;free will&#39;&lt;/a&gt; to make them less appealing as job candidates. Unpredictablity can also work to discourage people from hiring bots.)&lt;/p&gt;
 
