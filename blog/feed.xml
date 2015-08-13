@@ -5,9 +5,44 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Aug 2015 10:12:00 -0500</pubDate>
-    <lastBuildDate>Sun, 02 Aug 2015 10:12:00 -0500</lastBuildDate>
+    <pubDate>Wed, 12 Aug 2015 19:34:11 -0500</pubDate>
+    <lastBuildDate>Wed, 12 Aug 2015 19:34:11 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C16 Lovelace Test 2</title>
+        <description>![CDATA[In my previous blog post, I wrote about two tests used to determine whether AI is intelligent. However, it turns out that I did not fully understand one of those tests: the Lovelace Test.
+]</description>
+        <content>&lt;p&gt;In my previous blog post, I wrote about &lt;a href=&quot;http://tra38.github.io/blog/c15-lovelace-test.html&quot;&gt;two tests used to determine whether AI is intelligent&lt;/a&gt;. However, it turns out that I did not fully understand one of those tests: the Lovelace Test.&lt;/p&gt;
+
+&lt;p&gt;The Lovelace Test was named after Ada Lovelace (the first computer programmer) who argued famously that computers will only follow instructions that programmers give it. According to my summary of this test, a program must match the following criteria:&lt;/p&gt;
+
+&lt;p&gt;&quot;1. The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).
+2. The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)
+3. The programmer must not know how the program actually works.&quot;&quot;&lt;/p&gt;
+
+&lt;p&gt;I thought that this test is flawed because it excludes the possibility of bugs or programs being so overly complex that a programmer would not be able to understand them.&lt;/p&gt;
+
+&lt;p&gt;But it turns out that my summary of this test was based on &lt;a href=&quot;http://motherboard.vice.com/read/forget-turing-the-lovelace-test-has-a-better-shot-at-spotting-ai&quot;&gt;a Vice article&lt;/a&gt;, which neglected one additional criteria: the program must not be a result of bugs. In the original paper &lt;a href=&quot;http://kryten.mm.rpi.edu/lovelace.pdf&quot;&gt;&quot;Creativity, the Turing Test, and the (Better) Lovelace Test&quot;&lt;/a&gt;, the authors specifically addressed the idea of bugs, and why their presence does not mean intelligence.&lt;/p&gt;
+
+&lt;p&gt;“Sure, we all know that computers do things we don’t intend for them to do. But that’s because we’re not smart and careful enough, or — if we’re talking about rare hardware errors — because sometimes microscopic events unfold in unforeseen ways. The unpredictability in question does not result from the fact that the computer system has taken it upon itself to originate something. To see the point, consider the assembling of your Toyota Camry. Suppose that while assembling a bumper, a robot accidentally attaches a spare tire to the bumper instead of leaving it to be placed in its designated spot in the trunk. The cause of the error, assume, is either a ﬂuke low—level hardware error or a bug inadvertently introduced by some programmers. And suppose for the sake of argument that as serendipity would have it, the new position for the tire strikes some designers as the ﬁrst glorious step toward an automobile that is half conventional sedan and half sport utility vehicle. Would we want to credit the malfunctioning robot with having originated a new auto? Of course not.”&lt;/p&gt;
+
+&lt;p&gt;Under this idea, the Lovelace Test does indeed have meaning. It may be impossible to actually pass (as originally designed), as I actually do support Ada Lovelace&#39;s contentions that computer programs only do stuff we tell it to do. But I do not think that the ability to tell programs what to do automatically renders programs non-intelligent. Even intelligent species like humans have to receive instructions and learn from other intelligent beings.&lt;/p&gt;
+
+&lt;p&gt;But at least the test has rational and logical meaning, and places a higher barrier than the Turing Test. So this blog post is an apology of sorts for misrepresenting the Lovelace Test in my previous post. If you do agree with the premises of the test, then it would serve as a valid way of determining intelligence. That being said, this passage on bugs raises three questions about the Lovelace Test:&lt;/p&gt;
+
+&lt;p&gt;1) Who do we credit then for making the new car, if not the robot? We can’t credit the designers...they did not come up with the idea or build the prototype. We can’t credit the programmers or the low-level hardware error: they made mistakes and were not doing their job. The only entity that actually built the new auto was the malfunctioning robot, and is not creation a type of origination?&lt;/p&gt;
+
+&lt;p&gt;2) If machines do something new and unexpected, it is not a sign of machine intelligence, but human stupidity. This seems somewhat more disturbing to me, especially as we may soon easily build machines so complex that we cannot even begin to understand and comprehend how they work. How would the &quot;stupid&quot; humans be able to handle dealing with these mechanical brutes (especially in terms of debugging)?&lt;/p&gt;
+
+&lt;p&gt;3) These &quot;complex&quot; machines may, of course, accomplish their assigned tasks efficiently than a human can. Does that make the machines&#39; non-intelligence &quot;better&quot; than human intelligence? Is &quot;intelligence&quot;, then, an overrated concept?&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Wed, 12 Aug 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c16-lovelace-test-2.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c16-lovelace-test-2.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C15 Lovelace Test</title>
@@ -298,33 +333,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Wed, 03 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c9-questions.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c9-questions.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T9 Professional Website</title>
-        <description>![CDATA[Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, using a framework such as Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which 'framework' is superior.
-]</description>
-        <content>&lt;p&gt;Before entering into DevBootCamp, I created websites using Wordpress. During this week of DevBootCamp, we were asked to modify our website to be more professional, using a framework such as Jekyll. So I decided to configure my blog using Jekyll and compare my experience to my year-long-experience with Wordpress, to decide which &#39;framework&#39; is superior.&lt;/p&gt;
-
-&lt;p&gt;Wordpress is a Content Management System: you just upload content, and Wordpress will manage the content for you (by storing and retriving it through databases). By contrast, Jekyll is a &quot;HTML code generator&quot;. All it does is take your content and generate web pages out of it, which you can then manually upload directly onto a web server.&lt;/p&gt;
-
-&lt;p&gt;Jekyll is rather primitive, but for many people, that&#39;s actually a benefit! Wordpress, because of its complexity, is slower than &quot;static HTML pages&quot;. Wordpress&#39; databases can also be hacked unless you continually  install all required updates, a rather time-consuming task. When people recommend Jekyll, they do so for these reasons.&lt;/p&gt;
-
-&lt;p&gt;Yet, I do not like Jekyll. Wordpress is much more user-friendly, not just in terms of installation (upload it to server, and click a few buttons to allow Wordpress to generate the databases needed to store the data), but also in terms of setting up a website. There is a central repository for website templates and &quot;plugins&quot; built into the software, allowing you to browse through and see what you may want to use. You can preview any changes you make to the website, and push updates immediately. The User-Interface is also very easy to grasp, and no tutorial was necessary.&lt;/p&gt;
-
-&lt;p&gt;By contrast, I spent hours reading and re-reading &lt;a href=&quot;https://www.andrewmunsell.com/blog/ultimate-jekyll-tutorial&quot;&gt;a simple Jekyll tutorial&lt;/a&gt; before starting the painful migration process of moving my blog posts into Jekyll. I only was able to succeed through trial and error, and had to continually preview my website by &quot;building&quot; the website again and again so that I can see if there were any changes made.&lt;/p&gt;
-
-&lt;p&gt;Jekyll does have helpful commands to help alleviate the pain. I used &#39;jekyll serve --watch&#39; often so that I can quickly view the results of minor changes and then modify the website. But it did take me a while to find those commands. Documentation was semi-helpful, but I had to also use Google to supplement my knowledge.&lt;/p&gt;
-
-&lt;p&gt;Though Wordpress may be much easier to use &quot;out of the box&quot;, Jekyll may be much easier to customize. To do any significant changes to Wordpress requires knowledge of both HTML and PHP, while Jekyll only require knowledge of just HTML and &quot;Markdown&quot; (an improved version of plain text). There is some potential for Jekyll, and now that I have gotten the basics of it, I may choose to explore it further. However, if a client wants to set up a website quickly to represent an organization &lt;em&gt;and plans on running the website himself&lt;/em&gt;, then Wordpress is much more suitable to his goals. If we want people to build well-designed, functioning websites in a reasonable amount of time, then it&#39;s clear Wordpress wins, hands-down.&lt;/p&gt;
-
-&lt;p&gt;The only praise that I will give to Jekyll is its licensing. Wordpress is licensed under the GPL license, which mandates that any contributions you make to Wordpress (such as producing &#39;plugins&#39; and themes) must be open-source. This, of course, is no barrier to making money, as people can sell premium plugins/themes and &quot;technical support&quot;. But I do have some philosophical objections to the idea of forcing people&#39;s contributions to be open-source. Jekyll is licensed under the MIT license, meaning that you can choose to have your contributions to Jekyll be &#39;closed-source&#39;. I doubt that I would ever make any plugins for Jekyll, but it&#39;s nice to know that if I ever do, Jekyll would give me more freedom than Wordpress would.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Tue, 02 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t9-professional-website.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t9-professional-website.html</guid>
         
         
       </item>
