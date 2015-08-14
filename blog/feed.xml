@@ -5,9 +5,46 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 12 Aug 2015 19:34:11 -0500</pubDate>
-    <lastBuildDate>Wed, 12 Aug 2015 19:34:11 -0500</lastBuildDate>
+    <pubDate>Thu, 13 Aug 2015 21:43:50 -0500</pubDate>
+    <lastBuildDate>Thu, 13 Aug 2015 21:43:50 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C17 Postmorterm</title>
+        <description>![CDATA[Devbootcamp does not have a conventional 'final exam' like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build "Hashography", a website that would display tweets about a certain word onto a Google Map.
+]</description>
+        <content>&lt;p&gt;Devbootcamp does not have a conventional &#39;final exam&#39; like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &quot;Hashography&quot;, a website that would display tweets about a certain word onto a Google Map.&lt;/p&gt;
+
+&lt;p&gt;Our project lead, Evangeline Garreau, was inspired by a news article about a professor who was able to trace the usage of certain words on Twitter and develop a heat map displaying his results. Evangeline found the system cool and wanted to replicate that with a website that would display the history of word usage throughout the entire world.&lt;/p&gt;
+
+&lt;p&gt;At first, the whole team was excited about the project. We wanted to determine the history of a word and be able to trace it from the very beginning. We also wanted to know where the words were being used, not just in the US, but globally. We had big dreams and aspirations for how to interpret the data and display it on a &quot;heat map&quot;. All we had to do is just to grab those Tweets from Twitter.&lt;/p&gt;
+
+&lt;p&gt;But then those big ideas faced &quot;technical limitations&quot;, which would be a euphemism for &quot;cold hard reality&quot;. The best way to grab data from Twitter is to use an API. An API is a tool that enables websites (like Twitter) to communicate with other programs and websites (like &quot;Hashography&quot;). Twitter has two such APIs: a &quot;REST API&quot; that allows us to access past tweets, and a &quot;Streaming API&quot; that allows us to view present &#39;real-time&#39; tweets.&lt;/p&gt;
+
+&lt;p&gt;It turns out that they were inherent limits to the Twitter REST API...such as the fact that Twitter would only allow us access to the last 7-10 days of Tweets. It also turns out that the professor that inspired Evangeline likely used the &quot;Streaming API&quot; for an entire year in order to grab the tweets necessary for him to discover the history. This option was incredibly impractical for our week-long project.&lt;/p&gt;
+
+&lt;p&gt;Our passion for the project turned into panic. We tried searching for alternative ways of meeting our project. We looked at Google Trends, which gave us all the data we need to trace the history of the word usage...except that if we end up using it, we would be pretty much copy Google Trends. We tried switching to a multimiedia approach that would use Instagram&#39;s photographs to present a history of the word, except Instagram&#39;s own API gave us trouble too. At some point, some members of our team even half-jokingly supported violating Twitter&#39;s Terms of Service agreement by building robots that would &quot;scrape&quot; tweets.&lt;/p&gt;
+
+&lt;p&gt;We floundered horribly.&lt;/p&gt;
+
+&lt;p&gt;By Friday afternoon, it was agreed that we had to pivot away from the original idea behind the project. The group overall came to an agreement that it was more important to see where tweets are located rather than see the &quot;history&quot; of the word (after all, Google Trends already gave us a good history of the word). We decided to use the Twitter Streaming API to grab current tweets of a word and then display them onto a map. We also decided that we never really liked seeing &quot;heat maps&quot;, and switched to displaying data as points on a Google Map.&lt;/p&gt;
+
+&lt;p&gt;At the time, it seemed that we had &quot;lost time&quot;, as we spent two days without any &quot;progress&quot;. But we have learned a lot more about our tools and our limitations, enabling us to catch up quickly. We also were more willing to try everything possible to resolve any disaster that would confront us, including preparing backup plans in case our current &quot;course-of-action&quot; was not working. We ended up producing a workable website by Sunday, and started polishing and improving on it.&lt;/p&gt;
+
+&lt;p&gt;True, we still had problems after Sunday. We did not have enough automated tests and had to waste valuable time manually testing changes. We needed to learn the &quot;best practices&quot; for the new tools we were using. We needed to refactor our code constantly. We had trouble with designing our website to be user-friendly. But those were problems that we could &lt;strong&gt;fix&lt;/strong&gt; as part of standard maintenance, and they were much easier problems than trying to build the website in the first place. The very act of having a physical web presence gave the team a big morale boost.&lt;/p&gt;
+
+&lt;p&gt;User feedback was excellent, and people saw our program as being &#39;beautiful and meaningful&#39;. Our &quot;pivot&quot; was a success.&lt;/p&gt;
+
+&lt;p&gt;Why was it a success? For me, I think it was just due to the fact that we &lt;s&gt;panicked&lt;/s&gt; realized the extent of our situation early, and thus was more willing to do &quot;whatever it takes&quot; to accomplish our goals, including changing our goals to something more feasible. Our project lead, Evangeline Garreau, would instead likely credit the fact that we had good group dynamics and that we respected each other&#39;s ideas. (Of course, both thoughts may be true.) And, of course, we may have just been lucky.&lt;/p&gt;
+
+&lt;p&gt;Overall, we did a good job with this website, and it showed us ultimately that we can still produce beautiful and meaningful work without necessarily staying true to the original idea. We were humbled by the experience, and only by being humble can we begin to learn from our surroundings. We had fun, and we learned a lot.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 13 Aug 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c17-postmorterm.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c17-postmorterm.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C16 Lovelace Test 2</title>
@@ -291,48 +328,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Thu, 04 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c10-ai.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c10-ai.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C9 Questions</title>
-        <description>![CDATA[At the start of DevBootCamp, I wrote a blog post on research. But every good research starts with the design of a good question. If your question is too vague, it's likely that you will fail miserably when doing research on that question.
-]</description>
-        <content>&lt;p&gt;At the start of DevBootCamp, I wrote &lt;a href=&quot;/blog/e1-research.html&quot;&gt;a blog post&lt;/a&gt; on research. But every good research starts with the design of a good question. If your question is too vague, it&#39;s likely that you will fail miserably when doing research on that question.&lt;/p&gt;
-
-&lt;p&gt;Generally speaking, it&#39;s always better to divide a broad question into narrow ones. Trying to ask people how to create a Space Invaders game will lead to failure, but asking people how to program a movable ship, how to program barriers, how to program enemies, etc. can lead to real progress. You are more likely to find sources that can easily answer those narrow questions, than you are in finding one source that can answer the much broader question.&lt;/p&gt;
-
-&lt;p&gt;You are also more likely to realize what you already know. It&#39;s possible that you already know how to program movable ships and barriers, so you don&#39;t even need to conduct research on stuff you already know. Instead, you can just focus your efforts on researching how to program enemies instead.&lt;/p&gt;
-
-&lt;p&gt;But what if you can&#39;t divide a question down any further? Then you have to add some way to quantify and measure your success. How close are you to finding the right answer to your question? Now, your quantifiying and measuring does not have to be &quot;quantitative&quot; (using numbers). Your measurements can be just your gut feelings if you are more comfortable with that. But you do have to measure your success somehow.&lt;/p&gt;
-
-&lt;p&gt;Measuring success is important, because it allows you to know whether you are making progress. If you have started browsing for the answer and there is no progress being made, then you have to decide whether it makes sense to continue onward with that specific question. If it does not make sense, then you need to come up with a new question that captures the &quot;essence&quot; of your previous question and then start doing research on that. The answer to your new question will, more than likely, provide you with enough information to answer your original question.&lt;/p&gt;
-
-&lt;p&gt;You may have to create and throw away multiple questions several times to get onto the right track.&lt;/p&gt;
-
-&lt;h4&gt;An Anecdote To Demonstrate Throwing Away A Question&lt;/h4&gt;
-
-
-&lt;p&gt;Recently, I wondered whether I would have an &quot;RSS feed&quot; for this blog. An &quot;RSS feed&quot; is a simple way to check what updates were made on a blog...without actually going to the blog itself. Numerous websites have it, and even the default Jekyll-generated website post has its own RSS feed. This made me wonder whether I should also have an RSS feed too.&lt;/p&gt;
-
-&lt;p&gt;My first research question was: &lt;strong&gt;&quot;Should I have an RSS feed?&quot;&lt;/strong&gt;, but then quickly realized that question is way too opinion-based. I realized this when I clicked on the first blog post and read &lt;a href=&quot;dannybrown.me/2015/03/12/does-your-blog-really-need-to-provide-an-rss-feed-anymore/&quot;&gt;Danny Brown (a blogger) criticizing RSS feeds&lt;/a&gt;. After all, the blogger claimed, most people uses email subscriptions to keep track of blogs instead of using clunky RSS feed interfaces. This may have sastified me if it was not for the commenters on that blog, many of whom use RSS feeds and disliked Danny Brown&#39;s criticism. These users said that they find RSS feeds to be very helpful in reading multiple blogs at once, and dislike the idea of receiving hundreds of emails. Skimming the comments also reveal that there were several commenters who agreed with Danny Brown and preferred email over RSS.&lt;/p&gt;
-
-&lt;p&gt;I did not really want to spend time wading through the pro/con arguments though, and did not really care about the relative merits of RSS feeds versus email subscriptions. I just wanted to know whether I should have a RSS feed. But the question &lt;strong&gt;&quot;Should I have an RSS feed?&quot;&lt;/strong&gt; suggest that I &lt;em&gt;have&lt;/em&gt; to weigh the pros/cons and figure out what is the best argument for having/not-having an RSS feed. Success with this line of questioning would not be worth the costs.&lt;/p&gt;
-
-&lt;p&gt;So I instead changed my research question to &lt;strong&gt;&quot;Are there any uses for RSS feeds that would justify me creating them?&lt;/strong&gt;. Presumbly, if there are any uses that would justify me creating then, then I would create them.&lt;/p&gt;
-
-&lt;p&gt;Already, I can see some use for RSS feeds: attracing those people who find RSS feeds helpful. Those people may make up a  minority of your readers, but they do exist, and it may be good to help them, in the same way that you would want your website to work on older web browsers. But it still takes some time to maintain the RSS feeds to ensure they work properly, and that is time that could be spent elsewhere. So I continued searching.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://blog.kissmetrics.com/blogs-rss-feed/&quot;&gt;This blog post&lt;/a&gt; showed me multiple uses of RSS feeds, including auto-tweeting your blog posts and managing email subscription services. It seems that while humans may not like RSS feeds, robots can more easily extract data about a blog post from them and use that data in convincing ways. So, if I want to use these robots, I should create an RSS feed first.&lt;/p&gt;
-
-&lt;p&gt;In only two clicks, I have finished my research and determined that I &lt;em&gt;do&lt;/em&gt; need an RSS feed. This is, of course, a lucky example, and one not likely to be replicated. During this blog post, I did four to five clicks (and trial and error) trying to learn how to link to my own blog posts in Jekyll.&lt;/p&gt;
-
-&lt;p&gt;As a useful teaching tool to explain how to properly throw away research questions, I think this anecdote works.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Wed, 03 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c9-questions.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c9-questions.html</guid>
         
         
       </item>
