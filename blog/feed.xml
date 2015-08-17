@@ -5,15 +5,15 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 13 Aug 2015 21:43:50 -0500</pubDate>
-    <lastBuildDate>Thu, 13 Aug 2015 21:43:50 -0500</lastBuildDate>
+    <pubDate>Mon, 17 Aug 2015 15:56:38 -0500</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2015 15:56:38 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>C17 Postmorterm</title>
-        <description>![CDATA[Devbootcamp does not have a conventional 'final exam' like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build "Hashography", a website that would display tweets about a certain word onto a Google Map.
+        <description>![CDATA[Devbootcamp does not have a conventional 'final exam' like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &lt;a href=""Hashography", a website that would display tweets about a certain word onto a Google Map.
 ]</description>
-        <content>&lt;p&gt;Devbootcamp does not have a conventional &#39;final exam&#39; like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &quot;Hashography&quot;, a website that would display tweets about a certain word onto a Google Map.&lt;/p&gt;
+        <content>&lt;p&gt;Devbootcamp does not have a conventional &#39;final exam&#39; like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &amp;lt;a href=&quot;&quot;Hashography&quot;, a website that would display tweets about a certain word onto a Google Map.&lt;/p&gt;
 
 &lt;p&gt;Our project lead, Evangeline Garreau, was inspired by a news article about a professor who was able to trace the usage of certain words on Twitter and develop a heat map displaying his results. Evangeline found the system cool and wanted to replicate that with a website that would display the history of word usage throughout the entire world.&lt;/p&gt;
 
