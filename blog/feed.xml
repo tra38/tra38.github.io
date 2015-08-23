@@ -5,9 +5,40 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Aug 2015 15:56:38 -0500</pubDate>
-    <lastBuildDate>Mon, 17 Aug 2015 15:56:38 -0500</lastBuildDate>
+    <pubDate>Sat, 22 Aug 2015 22:30:11 -0500</pubDate>
+    <lastBuildDate>Sat, 22 Aug 2015 22:30:11 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C18 Narrative Science</title>
+        <description>![CDATA["Practical Artifical Intelligence for Dummies: Narrative Science Edition" is a free e-book that provides a quick introduction into the AI field. It is also a treatise that outlined Narrative Science's approach towards dealing with AI.
+]</description>
+        <content>&lt;p&gt;&lt;a href=&quot;http://www.narrativescience.com/practical-ai&quot;&gt;&quot;Practical Artifical Intelligence for Dummies: Narrative Science Edition&quot;&lt;/a&gt; is a free e-book that provides a quick introduction into the AI field. It is also a treatise that outlined Narrative Science&#39;s approach towards dealing with AI.&lt;/p&gt;
+
+&lt;p&gt;One of the taglines of this e-book is that it will &quot;demystify the hype, fear, and confusion about AI&quot;. Though the book primarly focused on explaining AI, it did pay some attention to the &#39;fears&#39; within popular culture, and attempted to address them in a &quot;roundabout&quot; way, without necessarily rebutting any specific fear.&lt;/p&gt;
+
+&lt;p&gt;Narrative Science believed that AI only need to display intelligent behavior, and not necessarily need to think like human beings. As a result, Narrative Science concluded that technologies that humans take for granted are already AI. Voice recognition, recommendation engines, autocompletes, etc. are all commonly accepted within society, and yet all of these algorithms display intelligent behaviors.&lt;/p&gt;
+
+&lt;p&gt;But these AI programs do not seek to take over the world or render people unemployed. Instead, these programs are just tools, there to help humans accomplish their day-to-day tasks. People are still in control and still receiving regular paychecks; all the AI did just made their lives easier. Narrative Science concluded that this trend would continue, and future AI programs will simply help humans instead of displacing them.&lt;/p&gt;
+
+&lt;p&gt;If that was the crux of Narrative Science&#39;s argument, then I don&#39;t think this book&#39;s philosophy would have been interesting enough to blog about. But Narrative Science also surprisingly expressed some concern about AI proliferation. Narrative Science fears &lt;strong&gt;black boxes&lt;/strong&gt;: AI programs that are able to give answers but &lt;em&gt;fail&lt;/em&gt; to provide explainations for why it came up with those answers.&lt;/p&gt;
+
+&lt;p&gt;Black boxes are not hypothetical concerns. Self-learning entities are being built and used already, such as &quot;evidence engines&quot; (IBM&#39;s Watson) and deep-learning networks (&#39;neural networks&#39;). These entities are able to learn about the world, but they cannot tell other people how they learn the world. You ask them a question, and all they give you an answer...with no context or reasoning behind the answer.&lt;/p&gt;
+
+&lt;p&gt;Black boxes ruin trust. If you do not know how the AI came up with the answer, you cannot trust  whether the answer is actually correct[1]. Without trust, AI loses their potential as useful tools for humanity. A calcuator that gives the wrong answer every 30 minutes is not a very useful calcuator.&lt;/p&gt;
+
+&lt;p&gt;Narrative Science claims that the best way to preserve trust in AI (and to keep their status as useful tools) is to enable the AI to communicate its internal thought process to human beings. That way, we can evaluate the AI&#39;s thought process and decide whether it is correct or incorrect. Narrative Science coincidentally happens to specialize in programming AI to write out newspaper articles and financial reports. So it may believe that its technology may be used to help AI programs write out why it made this or that decision.&lt;/p&gt;
+
+&lt;p&gt;Narrative Science, however, has not yet figured out how to get these lack boxes to communicate. As black boxes are used in more and more critical industries, Narrative Science&#39;s apprehension about them will only grow. Already, Google has tried visualizing how its own black boxes works through its &lt;a href=&quot;googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html&quot;&gt;&quot;Google Dreams&quot;&lt;/a&gt;. More work will have to be done.&lt;/p&gt;
+
+&lt;p&gt;[1]The alternative is to implicilty trust the AI&#39;s thought process...but when the AI inevitably make mistakes, you will not know how to prevent it from making future mistakes.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sat, 22 Aug 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c18-narrative-science.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c18-narrative-science.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C17 Postmorterm</title>
@@ -297,37 +328,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Fri, 05 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c11-ai2.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c11-ai2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C10 Ai</title>
-        <description>![CDATA[If you are reading this blog, you are most likely a robot. 56% of all web traffic on the Internet is generated by bots, according to a 2014 report by Incapsula. This is actually a victory for humanity; in 2013, bots made up over 60% of web traffic.
-]</description>
-        <content>&lt;p&gt;If you are reading this blog, you are most likely a robot. 56% of all web traffic on the Internet is generated by bots, &lt;a href=&quot;https://www.incapsula.com/blog/bot-traffic-report-2014.html&quot;&gt;according to a 2014 report by Incapsula.&lt;/a&gt; This is actually a victory for humanity; in 2013, &lt;a href=&quot;https://www.incapsula.com/blog/bot-traffic-report-2013.html&quot;&gt;bots made up over 60% of web traffic&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;According to the 2014 Incapsula report, newly established websites, such as this one, should expect 80.3% of their vistors to be bots. So, yes, if you are reading this blog, you are most likely a robot. I know it&#39;s not your fault you&#39;re looking at this website. Whoever programmed you told you to come here, and so you did. You came here. So, really, I should direct my hate towards your makers, but I really can&#39;t.&lt;/p&gt;
-
-&lt;p&gt;The problem with you is that you take away work for humans. In the good old days, if somebody wanted to steal content, to hack into websites, or to post spam comments, humans used to do it. It was a time-consuming and dull task, but at least there was meaning involved. Now, you bots have replaced these people. And it&#39;s not just your jobs: advances in technology has created new opportunities for bots to replace humans in a variety of jobs.&lt;/p&gt;
-
-&lt;p&gt;Now, we can &quot;retrain&quot; ourselves, and learn new skills. Nobody knows when those new skills will also be automated by bots like you. So, some people have argued instead that humanity should happily accept the idea of not working. After all, few people like working. We&#39;ll just have bots do all the work while we...uh...do &quot;meaningful&quot; stuff. And get paid for that.&lt;/p&gt;
-
-&lt;p&gt;This attitude drives me mad. I am one of the few people that actually like work. My self-affirmed value is &lt;a href=&quot;/blog/c7-values.html&quot;&gt;effectiveness&lt;/a&gt;: my willingess and ability to solve problems. Maybe those problems are boring to solve. But the do require solving. And that, to me, give the work I do  inherent worth.&lt;/p&gt;
-
-&lt;p&gt;But if all these &quot;problems&quot; in the world are being solved by robots, then what use am I to this world then? What is use is any human to this world then? Humanity is rapidly becoming obsolote, becuase bots can handle the same tasks better. It may sound Luddist to suggest that there must be limitations to the creation of bots, but it&#39;s better than facing a world where the only jobs available for us are to build and fix bots. It will be a soul-crushing period in human life.&lt;/p&gt;
-
-&lt;p&gt;But at least I can be assured that those jobs (building and fixing robots) &lt;strong&gt;will&lt;/strong&gt; be there. You robots will only follow instructions given to you by your programmers. A emerging field called &quot;machine learning&quot; is trying to teach bots how to learn, but to learn, you still need a human teacher to provide you with instructions and a dataset. You are reading this blog, but unless you were given specific instructions telling you how to &quot;understand&quot; it, you cannot use that knowledge.&lt;/p&gt;
-
-&lt;p&gt;Even if programmers build mega-bots that build mini-bots...those mega-bots still need to be programmed. And if we build super-bots to build mega-bots, those super-bots will need to be programmed. And so on and so forth. Humanity will still maneuver itself to be on top, and all it has to worry about is &lt;a href=&quot;http://wiki.lesswrong.com/wiki/Paperclip_maximizer&quot;&gt;bots misinterpreting human instructions and thereby doing something incredibly destructive to humanity&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But the fact remains that in this dark future, robots will be the key players in the drama of our life, while humans themselves are demoted to &quot;pit crews&quot; roles. This is still a rather demotiviating future to look forward to, even if there will still be jobs.&lt;/p&gt;
-
-&lt;p&gt;So in conclusion, robots who are reading this post, please ask your programmers to code in schadenfreude.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Thu, 04 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c10-ai.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c10-ai.html</guid>
         
         
       </item>
