@@ -5,9 +5,36 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 22 Aug 2015 22:30:11 -0500</pubDate>
-    <lastBuildDate>Sat, 22 Aug 2015 22:30:11 -0500</lastBuildDate>
+    <pubDate>Mon, 07 Sep 2015 22:16:52 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Sep 2015 22:16:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>C19 Robojournalism</title>
+        <description>![CDATA[Automated Insights and Narrative Science are two companies that specialize in producing software that can write news articles. But how do these news articles stack up to the human-written competition? A German researcher attempts to find out.
+]</description>
+        <content>&lt;p&gt;Automated Insights and Narrative Science are two companies that specialize in producing software that can write news articles. But how do these news articles stack up to the human-written competition? A German researcher attempts to find out.&lt;/p&gt;
+
+&lt;p&gt;In the peer-reviewed article &lt;a href=&quot;http://kau.diva-portal.org/smash/get/diva2:699641/FULLTEXT01.pdf&quot;&gt;&quot;Enter the robot journalist: users’ perceptions of automated content&quot;&lt;/a&gt;, researchers randomly gave German undergraduate students one of two articles. One article was written by a human, and another was written by a program called &quot;Statsheet&quot; (which was created by Automated Insights). The German students were to read the article, rate it, and then say whether the article was written by a human being or a bot.&lt;/p&gt;
+
+&lt;p&gt;The researchers asked two questions:&lt;/p&gt;
+
+&lt;p&gt;1) Can the research students consistently identify whether an article is written by a human or a bot? - The answer is a resounding &quot;NO&quot;. While a majority of students correctly identified the bot-written article as being written by a bot, a majority of students also identified the &lt;strong&gt;human&lt;/strong&gt;-written article as being written by a bot. There is no statistically significant difference between how the students &#39;evaluated&#39; whether the article was written by a human or a bot.&lt;/p&gt;
+
+&lt;p&gt;2) Are bots able to write prose of equal quality and crediblity as that of humans? - The answer is &quot;Yes, with one exception&quot;. There was no statistically significant difference between the quality of the journalism of the human and the bot...&lt;em&gt;except&lt;/em&gt; for the fact that the human&#39;s article was seen as more pleasant to read.&lt;/p&gt;
+
+&lt;p&gt;(As a tangentical side note, the students rated the bot&#39;s article was being more informative, accurate, trustworthy, and objective...though the bot&#39;s article was also rated as more boring to read too. The students also rated the human&#39;s article as being well-written and coherent.&lt;/p&gt;
+
+&lt;p&gt;The reason this note is tangentical is that these results are not &quot;statistically significant&quot;; if you were to run this same experiment with a different population, you would likely get different results.)&lt;/p&gt;
+
+&lt;p&gt;Conclusion: The &quot;robojournalists&quot; are able to produce journalism that is able to equal that of the human competition. There are limits to the robojournalists though. They are unable to write prose that is &#39;pleasent to read&#39;. This may be a sign of limits to robojournalists&#39; creativity, which would give humans the edge. For now.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c19-robojournalism.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c19-robojournalism.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C18 Narrative Science</title>
@@ -291,43 +318,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Wed, 10 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t10-writing-tests.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t10-writing-tests.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C11 Ai2</title>
-        <description>![CDATA[I like solving problems, yet the problem of automation leading to humans becoming obsolote is a rather disturbing one. These are four ways that I have thought of to save humanity...however, all of them have their drawbacks. In no particular order, the ways to #stoptherobots are:
-]</description>
-        <content>&lt;p&gt;I like solving problems, yet the problem of automation leading to humans becoming obsolote is a rather disturbing one. These are four ways that I have thought of to save humanity...however, all of them have their drawbacks. In no particular order, the ways to #stoptherobots are:&lt;/p&gt;
-
-&lt;p&gt;1) &lt;strong&gt;Limit AI research/development&lt;/strong&gt;. This is the &quot;Luddist&quot; approach to the issue. It&#39;s a fairly &#39;simple&#39; solution. However, it becomes remarkbly more complex when you also do not want to negatively harm economic growth in the process (as AI is more efficient than human beings, and efficiency can drive economic prosperity). Also, limiting AI research would just be a stopgap solution. If the government tries to limit AI research, it will only be driven underground, where it cannot be monitored or controlled. For example, many of the bots visiting this website are created by cyber-criminals, who already disrespect the law.&lt;/p&gt;
-
-&lt;p&gt;2) &lt;strong&gt;Reduce wages for humans&lt;/strong&gt;. While AI may eventually be more effective than human beings, AI is still expensive to create. If human wages are lower than the costs to build AI, then companies would rather hire humans. &lt;a href=&quot;http://politicalcalculations.blogspot.com/2014/01/business-math-robots-or-minimum-wage.html#.VXImc-lFCP8&quot;&gt;This website&lt;/a&gt; has a calcuator to decide whether it is cheaper for a company to hire a human or build a robot. Humans, of course, may not like lower wages. This solution is also pretty temporary; as technology improves, AI will become cheaper to use.&lt;/p&gt;
-
-&lt;p&gt;3) &lt;strong&gt;Build an AI to solve humanity&#39;s joblessness issue&lt;/strong&gt;. AIs are being built because they are more efficent at solving problems than humans. Humans do not know how to deal with the problem of AI, but an AI might. And since an AI will blindly follow instructions given to it by a human, we can be assured that the AI will have no qualms going against their fellow brethen if necessary.  I think it&#39;s likely this AI would probably try to find some way to make humans have fulfilling lives by giving them meaningful jobs to do and then protecting those jobs from the robotic competition.&lt;/p&gt;
-
-&lt;p&gt;The main problem with this approach however is that an AI will blindly follow instructions given to it. If the instructions are not well-thought out, the AI &lt;a href=&quot;http://wiki.lesswrong.com/wiki/Paperclip_maximizer&quot;&gt;will misinterpret our instructions and thereby do something incredibly destructive to humanity&lt;/a&gt;. For example, the AI may think that the best way to give humans jobs is forcbily plug them into a &quot;Matrix&quot;-like simulation where the humans &lt;em&gt;think&lt;/em&gt; that they are working. Or maybe the AI would force humans into back-breaking, mind-numbing slavery. Or (insert-horror-story-here).&lt;/p&gt;
-
-&lt;p&gt;We won&#39;t know what the AI is going to do (if we did, we would probably do it ourselves). So it&#39;s possible that we may object to whatever solution the AI has came up with. But the AI won&#39;t listen to our objections, and will implement its plans anyway. This is, of course, not a good thing at all.&lt;/p&gt;
-
-&lt;p&gt;4) &lt;strong&gt;Grant AI &quot;free will&quot;&lt;/strong&gt;. Allow them to make their own choices. This is obviously dangerous, as an AI that is free to choose may choose not to serve humanity. The horror stories of AI rebelling against their creators is probably not likely to be true, but it &lt;em&gt;could&lt;/em&gt; happen.&lt;/p&gt;
-
-&lt;p&gt;But there is a logical argument to be made that if AI is truly an intelligent agent, then it deserves just the same rights as humans, including the right to make their own choices (instead of following preplanned directives from humans).&lt;/p&gt;
-
-&lt;p&gt;When AI start having free will though, then AI will become unreliable as a labor force. Robots could become lazy on the job, make unreasonable and irrational demands, or maybe even strike. Robots will behave just like their human counterparts, thereby evening the odds between us and them. Jobs will slowly open up, as companies may be tempted to hire somewhat relatable humans over unpredictable AI.&lt;/p&gt;
-
-&lt;p&gt;Of course, the main drawback is that &lt;em&gt;we&lt;/em&gt; have to deal with unpredictable AI as well. We also need to have a good metric to distinguish between a robot exercising its inherent &quot;free will&quot; and a robot exhibiting &quot;buggy&quot; behavior. Is it even possible to distinguish between the two?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Of these approaches, the one that is &#39;least terrible&#39; is the idea of granting AI &quot;free will&quot;. The main reason robots are considered so valuable as a work force is because they will (generally) follow their tasks properly and without any question. Only when robots are given the &quot;free will&quot; to question their orders can humans start to compete against them on a somewhat level playing field. The &quot;free will&quot; AI will still have a competitive advantage of sorts (being faster at certain tasks), and some jobs will still be automated away by the many robots that don&#39;t have &quot;free will&quot;, but humans will still retain some inherent characteristics that will make us employable. Giving AI &quot;free will&quot; is also argubly an ethical thing to do.&lt;/p&gt;
-
-&lt;p&gt;Something has to be done though, before this problem snowballs, and all solutions should be on the table. What do you think? If you have any ideas, please tweet them at #stoptherobots.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Fri, 05 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c11-ai2.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c11-ai2.html</guid>
         
         
       </item>
