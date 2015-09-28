@@ -5,9 +5,108 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Sep 2015 22:16:52 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Sep 2015 22:16:52 -0500</lastBuildDate>
+    <pubDate>Sun, 27 Sep 2015 18:59:49 -0500</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2015 18:59:49 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>T12 Dumb Ai</title>
+        <description>![CDATA[For a recent coding challenge, I had to implement an AI for a Tic-Tac-Toe game. This AI should not be able to lose a match. A quick Google search reveals that the most efficent way is to use a minimax algorithm to determine what moves are likely to cause the AI to either tie or win against another player. However, nobody I found seemed to analyze what decisions the AI actually makes.
+]</description>
+        <content>&lt;p&gt;For a recent coding challenge, I had to implement an AI for a Tic-Tac-Toe game. This AI should not be able to lose a match. A quick Google search reveals that the most efficent way is to use &lt;a href=&quot;http://neverstopbuilding.com/minimax&quot;&gt;a minimax algorithm&lt;/a&gt; to determine what moves are likely to cause the AI to either tie or win against another player. However, nobody I found seemed to analyze what decisions the AI actually makes.&lt;/p&gt;
+
+&lt;p&gt;The minimax algorimth works by having the computer play Tic-Tac-Toe against itself, figuring out the best moves to use against itself...and then figuring out the best counters to those moves, and so on and so forth. It will then rank all the possible moves it can take:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;-10&lt;/td&gt;&lt;td&gt;- The AI will lose if it chooses this move. Avoid it.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt; 0&lt;/td&gt;&lt;td&gt;- It&#39;s a tie.&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;- The AI will win.&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;p&gt;The AI will pick the move that has the highest score.&lt;/p&gt;
+
+&lt;p&gt;Therefore, the computer will play perfectly and never lose. It may never win either though, if the human it is playing against is also playing perfectly.&lt;/p&gt;
+
+&lt;p&gt;But there is an extreme amount of trust in how the Minimax Algorithm works. There is a lot of literature examining how to program the algorithm, and very little literature on what choices the algorithm ends up making. I assume that most people assume that since the algorithm will choose the best possible move for Tic-Tac-Toe, examining what moves it actually picks would be a waste of time.&lt;/p&gt;
+
+&lt;p&gt;But the problem is that the computer has to play through every possible game of Tic-Tac-Toe before it can make its choice. This is not an instantaneous process. For the worst case scenario (where the AI goes first, and thus must play through all Tic-Tac-Toe games), I had to wait 114 seconds for a response from the AI. This is absurd.&lt;/p&gt;
+
+&lt;p&gt;There are ways to reduce the number of games a computer has to play through (since many Tic-Tac-Toe games are really just duplicates of each other, with the boards being rotated)...but there had to be a better way to make the game go faster.&lt;/p&gt;
+
+&lt;p&gt;I decided to look &quot;under the hood&quot; of the AI, because I was curious in seeing how the AI thought for itself. I soon realize that if I know that the AI is thinking, I could &#39;hardcode&#39; in the AI&#39;s choices. The AI will just end up doing its move rather than spending 114 seconds learning to do that same move.&lt;/p&gt;
+
+&lt;p&gt;In the following terminal outputs, O is human and X is the computer. I also output a Hash showing the computer&#39;s thought process (&quot;MOVE&quot;=&gt;SCORE).&lt;/p&gt;
+
+&lt;p&gt;So here&#39;s three starting scenarios:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;O goes first and pick a corner space.&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;7&lt;/em&gt;|&lt;em&gt;O&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;It is now X&#39;s Turn.&lt;/p&gt;
+
+&lt;p&gt;{&quot;0&quot;=&gt;-10, &quot;1&quot;=&gt;-10, &quot;2&quot;=&gt;-10, &quot;3&quot;=&gt;-10, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;-10, &quot;6&quot;=&gt;-10, &quot;7&quot;=&gt;-10}&lt;/p&gt;
+
+&lt;p&gt;X has picked Spot 4.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The computer will choose the space that has the highest score. In this case, &lt;em&gt;every space&lt;/em&gt; other than 4 has a score of -10. The only space that allows the computer to tie the human player is 4, the spot right in the middle. So X picks that.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+O goes first and pick a edge space.&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;O&lt;/em&gt;|&lt;em&gt;8&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;It is now X&#39;s Turn.&lt;/p&gt;
+
+&lt;p&gt;{&quot;0&quot;=&gt;-10, &quot;1&quot;=&gt;0, &quot;2&quot;=&gt;-10, &quot;3&quot;=&gt;-10, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;-10, &quot;6&quot;=&gt;0, &quot;8&quot;=&gt;0}&lt;/p&gt;
+
+&lt;p&gt;X has picked Spot 1.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In this case, now, there are four moves that may lead to a tie: 1, 4, 6, and 8. Any other move will lead to the computer&#39;s loss.&lt;/p&gt;
+
+&lt;p&gt;But it does not matter how the computer gets to that tie. A tie is a tie. So the computer can easily pick any move that leads to a tie, and the outcome will always be the same. In this case, the computer just choses Spot 1.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+What happens if I let the computer go first?&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;7&lt;/em&gt;|&lt;em&gt;8&lt;/em&gt;|&lt;/p&gt;
+
+&lt;p&gt;{&quot;0&quot;=&gt;0, &quot;1&quot;=&gt;0, &quot;2&quot;=&gt;0, &quot;3&quot;=&gt;0, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;0, &quot;6&quot;=&gt;0, &quot;7&quot;=&gt;0, &quot;8&quot;=&gt;0}&lt;/p&gt;
+
+&lt;p&gt;X has picked Spot 0.
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;None&lt;/em&gt; of the spaces are any more advantageous than the others. No matter what move the computer picks, a tie will result. So the computer could pick literally any move and be ensured that the other player won&#39;t win. In this case, the computer choses Spot 0.&lt;/p&gt;
+
+&lt;p&gt;I now know that the computer sees the space &quot;4&quot; as an excellent move to make, no matter whether O goes first or second. (Other moves can be just as excellent as &quot;4&quot;, but &quot;4&quot; will always be excellent.)&lt;/p&gt;
+
+&lt;p&gt;I then programmed the computer to always pick &quot;4&quot; as its first move. The minimax algorithm would still be used after the first move though. After the first few moves, the number of possible Tic-Tac-Toe games decreases, and so the minimax algorithm is speedy enough for the user to not be annoyed.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: The AI is still unbeatable, but now the game is faster to play! It takes less than a second for the computer to make its first move, and its second move against the player is still just as fast.&lt;/p&gt;
+
+&lt;p&gt;It is cool to have the AI think how to beat its opponent. But just because something is cool does not mean that it is necessary or worthwhile in the real world. Thinking takes time, and a user is not going to be happy waiting for 114 seconds while the computer figure out what it should do next. Hardcoding in the AI choice ensure that the game runs faster. And since the hardcoded choice is actually based on the results of the minimax algorithm, we are not risking the chance of the AI losing.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sun, 27 Sep 2015 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t12-dumb-ai.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t12-dumb-ai.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C19 Robojournalism</title>
@@ -69,9 +168,9 @@
     
       <item>
         <title>C17 Postmorterm</title>
-        <description>![CDATA[Devbootcamp does not have a conventional 'final exam' like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &lt;a href=""Hashography", a website that would display tweets about a certain word onto a Google Map.
+        <description>![CDATA[Devbootcamp does not have a conventional 'final exam' like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build Hashography, a website that would display tweets about a certain word onto a Google Map.
 ]</description>
-        <content>&lt;p&gt;Devbootcamp does not have a conventional &#39;final exam&#39; like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &amp;lt;a href=&quot;&quot;Hashography&quot;, a website that would display tweets about a certain word onto a Google Map.&lt;/p&gt;
+        <content>&lt;p&gt;Devbootcamp does not have a conventional &#39;final exam&#39; like most schools. Instead, to graduate from the program, you must work with a team of like-minded individuals to build a full-blown website within 7 days. This was my experience in trying to build &lt;a href=&quot;http://hashography.herokuapp.com/&quot;&gt;Hashography&lt;/a&gt;, a website that would display tweets about a certain word onto a Google Map.&lt;/p&gt;
 
 &lt;p&gt;Our project lead, Evangeline Garreau, was inspired by a news article about a professor who was able to trace the usage of certain words on Twitter and develop a heat map displaying his results. Evangeline found the system cool and wanted to replicate that with a website that would display the history of word usage throughout the entire world.&lt;/p&gt;
 
@@ -297,27 +396,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Thu, 18 Jun 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/e5-writing.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/e5-writing.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T10 Writing Tests</title>
-        <description>![CDATA[Testing is an important part of any programmer's life, to detect and eliminate bugs. But writing automated tests themselves can be rather costly endeavour. Not only does it take time to write your tests, but you also must make sure your tests are working properly as well. To reduce your costs, you need to reduce the amount of tests you write.
-]</description>
-        <content>&lt;p&gt;Testing is an important part of any programmer&#39;s life, to detect and eliminate bugs. But writing automated tests themselves can be rather costly endeavour. Not only does it take time to write your tests, but you also must make sure your tests are working properly as well. To reduce your costs, you need to reduce the amount of tests you write.&lt;/p&gt;
-
-&lt;p&gt;According to the &lt;a href=&quot;poodr.com&quot;&gt;Practical Object-Oriented Guide to Ruby&lt;/a&gt;, automated tests should only test the &lt;em&gt;outputs&lt;/em&gt; of your code. Trying to test &lt;strong&gt;how&lt;/strong&gt; that code calcuates the output would lead to your tests breaking every time you change that code. This will waste a lot of time and energy that could be spent on other aspects of your programs. Just test the outputs of a program.&lt;/p&gt;
-
-&lt;p&gt;POODR also suggests that you should check to see if this output ever actually gets used anywhere in the program or displayed to the user. If nobody (not even the code) gets to see this output, then it&#39;s possible that this output is unncessary. You can then delete the code that produces the output without fear, and will not have to worry about testing this code as well. You have saved yourself time and grief in maintaining the code that produces your output.&lt;/p&gt;
-
-&lt;p&gt;Finally, POODR recommends not testing private methods. Private methods are methods that you want only the computer program to use. Since you do not want any human using them, you are free to not test these methods. It can be assumed that the program will end up using those private methods to calcuate the outputs, and if the private methods are bugged, then the resulting outputs would be wrong as well. Then the tests that you have written will indicate to you that a bug exists in your code, and you can then fix the private methods in question.&lt;/p&gt;
-
-&lt;p&gt;I wrote a blog post recently on the differences between &lt;a href=&quot;/blog/t8-tech.html&quot;&gt;automated testing and manual testing&lt;/a&gt;. One of the points I made is how automatic tests are more efficent than manual testing but are also more expensive to create. By reducing the number of tests you create, you reduce your costs, and thereby benefit more from automated testing.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Wed, 10 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t10-writing-tests.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t10-writing-tests.html</guid>
         
         
       </item>
