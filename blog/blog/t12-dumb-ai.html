@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <title> Technical - Minimaxing the Minimax Algorithm </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blog-stylesheet.css">
+</head>
+
+<main>
+<section class="socialmedia">
+    <a href="http://www.linkedin.com/in/trali"><img src="/img/linkedin.png" /></a>
+    <a href="http://twitter.com/Tariq_Ali38"><img src="/img/twitter.png" /></a>
+    <a href="https://github.com/tra38"><img src="/img/github_32.png" /></a>
+    </section>
+    <section class="links">
+      <a href="/index.html">Home/Portfolio</a>
+      <a href="/blog/index.html">Blog</a>
+    </section>
+  <h1>Minimaxing the Minimax Algorithm in Tic-Tac-Toe</h1>
+  <h2>In Praise of Hardcoding</h2>
+  <h4>27 September 2015</h4>
+
+  <section>
+  <p>For a recent coding challenge, I had to implement an AI for a Tic-Tac-Toe game. This AI should not be able to lose a match. A quick Google search reveals that the most efficent way is to use <a href="http://neverstopbuilding.com/minimax">a minimax algorithm</a> to determine what moves are likely to cause the AI to either tie or win against another player. However, nobody I found seemed to analyze what decisions the AI actually makes.</p>
+
+<p>The minimax algorimth works by having the computer play Tic-Tac-Toe against itself, figuring out the best moves to use against itself...and then figuring out the best counters to those moves, and so on and so forth. It will then rank all the possible moves it can take:</p>
+
+<table>
+<tr><td>-10</td><td>- The AI will lose if it chooses this move. Avoid it.</td></tr>
+<tr><td> 0</td><td>- It's a tie.</td></tr>
+<tr><td>10</td><td>- The AI will win.</td></tr>
+</table>
+
+
+<p>The AI will pick the move that has the highest score.</p>
+
+<p>Therefore, the computer will play perfectly and never lose. It may never win either though, if the human it is playing against is also playing perfectly.</p>
+
+<p>But there is an extreme amount of trust in how the Minimax Algorithm works. There is a lot of literature examining how to program the algorithm, and very little literature on what choices the algorithm ends up making. I assume that most people assume that since the algorithm will choose the best possible move for Tic-Tac-Toe, examining what moves it actually picks would be a waste of time.</p>
+
+<p>But the problem is that the computer has to play through every possible game of Tic-Tac-Toe before it can make its choice. This is not an instantaneous process. For the worst case scenario (where the AI goes first, and thus must play through all Tic-Tac-Toe games), I had to wait 114 seconds for a response from the AI. This is absurd.</p>
+
+<p>There are ways to reduce the number of games a computer has to play through (since many Tic-Tac-Toe games are really just duplicates of each other, with the boards being rotated)...but there had to be a better way to make the game go faster.</p>
+
+<p>I decided to look "under the hood" of the AI, because I was curious in seeing how the AI thought for itself. I soon realize that if I know that the AI is thinking, I could 'hardcode' in the AI's choices. The AI will just end up doing its move rather than spending 114 seconds learning to do that same move.</p>
+
+<p>In the following terminal outputs, O is human and X is the computer. I also output a Hash showing the computer's thought process ("MOVE"=>SCORE).</p>
+
+<p>So here's three starting scenarios:</p>
+
+<p><code>O goes first and pick a corner space.</p>
+
+<p>|<em>0</em>|<em>1</em>|<em>2</em>|</p>
+
+<p>|<em>3</em>|<em>4</em>|<em>5</em>|</p>
+
+<p>|<em>6</em>|<em>7</em>|<em>O</em>|</p>
+
+<p>It is now X's Turn.</p>
+
+<p>{"0"=>-10, "1"=>-10, "2"=>-10, "3"=>-10, "4"=>0, "5"=>-10, "6"=>-10, "7"=>-10}</p>
+
+<p>X has picked Spot 4.
+</code></p>
+
+<p>The computer will choose the space that has the highest score. In this case, <em>every space</em> other than 4 has a score of -10. The only space that allows the computer to tie the human player is 4, the spot right in the middle. So X picks that.</p>
+
+<p><code>
+O goes first and pick a edge space.</p>
+
+<p>|<em>0</em>|<em>1</em>|<em>2</em>|</p>
+
+<p>|<em>3</em>|<em>4</em>|<em>5</em>|</p>
+
+<p>|<em>6</em>|<em>O</em>|<em>8</em>|</p>
+
+<p>It is now X's Turn.</p>
+
+<p>{"0"=>-10, "1"=>0, "2"=>-10, "3"=>-10, "4"=>0, "5"=>-10, "6"=>0, "8"=>0}</p>
+
+<p>X has picked Spot 1.
+</code></p>
+
+<p>In this case, now, there are four moves that may lead to a tie: 1, 4, 6, and 8. Any other move will lead to the computer's loss.</p>
+
+<p>But it does not matter how the computer gets to that tie. A tie is a tie. So the computer can easily pick any move that leads to a tie, and the outcome will always be the same. In this case, the computer just choses Spot 1.</p>
+
+<p><code>
+What happens if I let the computer go first?</p>
+
+<p>|<em>0</em>|<em>1</em>|<em>2</em>|</p>
+
+<p>|<em>3</em>|<em>4</em>|<em>5</em>|</p>
+
+<p>|<em>6</em>|<em>7</em>|<em>8</em>|</p>
+
+<p>{"0"=>0, "1"=>0, "2"=>0, "3"=>0, "4"=>0, "5"=>0, "6"=>0, "7"=>0, "8"=>0}</p>
+
+<p>X has picked Spot 0.
+</code></p>
+
+<p><em>None</em> of the spaces are any more advantageous than the others. No matter what move the computer picks, a tie will result. So the computer could pick literally any move and be ensured that the other player won't win. In this case, the computer choses Spot 0.</p>
+
+<p>I now know that the computer sees the space "4" as an excellent move to make, no matter whether O goes first or second. (Other moves can be just as excellent as "4", but "4" will always be excellent.)</p>
+
+<p>I then programmed the computer to always pick "4" as its first move. The minimax algorithm would still be used after the first move though. After the first few moves, the number of possible Tic-Tac-Toe games decreases, and so the minimax algorithm is speedy enough for the user to not be annoyed.</p>
+
+<p><strong>Result</strong>: The AI is still unbeatable, but now the game is faster to play! It takes less than a second for the computer to make its first move, and its second move against the player is still just as fast.</p>
+
+<p>It is cool to have the AI think how to beat its opponent. But just because something is cool does not mean that it is necessary or worthwhile in the real world. Thinking takes time, and a user is not going to be happy waiting for 114 seconds while the computer figure out what it should do next. Hardcoding in the AI choice ensure that the game runs faster. And since the hardcoded choice is actually based on the results of the minimax algorithm, we are not risking the chance of the AI losing.</p>
+
+  </section>
+  <a href="index.html">Return back to Blog Index</a>
+</main>
+
