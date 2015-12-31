@@ -5,9 +5,77 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Nov 2015 11:57:41 -0600</pubDate>
-    <lastBuildDate>Sat, 14 Nov 2015 11:57:41 -0600</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Thu, 31 Dec 2015 15:20:10 -0600</pubDate>
+    <lastBuildDate>Thu, 31 Dec 2015 15:20:10 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>T13 Sql Ordinals And Aliases</title>
+        <description>![CDATA[Writing SQL can be a painful experience. But there are two shortcuts that can be used to make your code easier to type. Both shortcuts are cool to understand, but only one is actually advised by the broader "SQL community".
+]</description>
+        <content>&lt;p&gt;Writing SQL can be a painful experience. But there are two shortcuts that can be used to make your code easier to type. Both shortcuts are cool to understand, but only one is actually advised by the broader &quot;SQL community&quot;.&lt;/p&gt;
+
+&lt;p&gt;I was inspired to write this blog post while completing Codecademy&#39;s tutorial &quot;SQL: Analyzing Business Metrics&quot;. In one exercise in the tutorial, I had to write an SQL query to find out how many people are playing a game per day. This was the query I wrote:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-psql&quot; data-lang=&quot;psql&quot;&gt;SELECT date(created_at), count(DISTINCT user_id)
+from gameplays
+GROUP BY date(created_at)
+ORDER BY date(created_at);&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;And this is the resulting table...&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;date(created_at)  count(distinct user_id)
+2015-08-04          99
+2015-08-05          117
+2015-08-06          106
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;But the SQL query is too verbose and unclear. Could there be a simpler way to refer back to &#39;date(created_at)&#39;? Codecademy suggest using &quot;ordinals&quot;. Ordinals are numbers that are used to refer to the columns you are &#39;selecting&#39; in an SQL query.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s an easy diagram to determine the ordinal number of a SELECT query...&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-psql&quot; data-lang=&quot;psql&quot;&gt;SELECT date(created_at), count(DISTINCT user_id)
+       ^^^^              ^^^
+       1                 2&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;By using ordinals, we can simplify our original SQL query as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-psql&quot; data-lang=&quot;psql&quot;&gt;SELECT date(created_at), count(DISTINCT user_id)
+FROM gameplays
+GROUP BY 1
+ORDER BY 1;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;This approach &lt;em&gt;seems&lt;/em&gt; less verbose, but it is actually much more unclear. At first glance, it is impossible to know what &quot;1&quot; is supposed to mean. And if someone decides to switch the order of the SELECT query (putting &quot;count(DISTINCT user_id)&quot; first), the resulting table will be messed up.&lt;/p&gt;
+
+&lt;p&gt;There has to be a better way.&lt;/p&gt;
+
+&lt;p&gt;And there is. SQL Aliases. Aliases work the same as variables in other programming languages, and to define an alias in SQL, you simply write &quot;AS [alias_name]&quot;. Aliases ensure that your SQL code will be self-documenting, while also ensuring that your code would be less verbose.&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s an example of me defining aliases in an SELECT query, and then using them later on:&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-psql&quot; data-lang=&quot;psql&quot;&gt;SELECT date(created_at) AS time, count(DISTINCT user_id) AS daily_users
+FROM gameplays
+GROUP BY time
+ORDER BY time;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;An interesting side note is that by defining variables in the SELECT query, you also change the name of the columns in the resulting table...&lt;/p&gt;
+
+&lt;p&gt;&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;time              daily_users
+2015-08-04          99
+2015-08-05          117
+2015-08-06          106
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;p&gt;The main reason Codecademy teaches the use of ordinals is because it was traditionally used during the early days of SQL programming. Thus, knowing ordinals will allow you to understand and debug any legacy SQL queries you encounter.&lt;/p&gt;
+
+&lt;p&gt;However, the broader SQL community strongly discourages the use of ordinals because of the confusion and problems that they may cause. Instead, the SQL community suggest using aliases to make your code clearer and easier to understand. Following these recommendations would make sure that when you do deal with SQL, your pain would be minimal.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 31 Dec 2015 00:00:00 -0600</pubDate>
+        <link>tra38.github.io/blog/t13-sql-ordinals-and-aliases.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t13-sql-ordinals-and-aliases.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>E6 Fads 2</title>
@@ -404,29 +472,6 @@ Variable names can also serve as documentation. Variable names help to explain w
         <pubDate>Sat, 04 Jul 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t11-documentation.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t11-documentation.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C12 Fake Papers</title>
-        <description>![CDATA[The most popular way of measuring the effectiveness of a scientist is by knowing how many other people 'cite' their work. If lots of people are referring to your research, then your research must therefore be good. This metric is codified as the H-Index.
-]</description>
-        <content>&lt;p&gt;The most popular way of measuring the effectiveness of a scientist is by knowing how many other people &#39;cite&#39; their work. If lots of people are referring to your research, then your research must therefore be good. This metric is codified as the &lt;a href=&quot;https://en.wikipedia.org/wiki/H-index&quot;&gt;H-Index&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But every metric has its own flaws. In 2010, Cyril Labbé (a computer scientist) &lt;a href=&quot;https://hal.archives-ouvertes.fr/hal-00713564/document&quot;&gt;was able to manipulate the H-Index by publishing 102 computer-generated research articles&lt;/a&gt;, many of whom cited each other. Since the papers all cited each other, the &quot;author&quot; of all these fake papers (Ike Antkare) had his H-index score boosted. The fake research papers also cited legitimate research papers to disguise the ruse.&lt;/p&gt;
-
-&lt;p&gt;Ike Antkare soon became the 21st highest-cited scientist in the world, even outclassing Albert Einstein.&lt;/p&gt;
-
-&lt;p&gt;The computer-generated research articles were created using &lt;a href=&quot;https://en.wikipedia.org/wiki/SCIgen&quot;&gt;SCIgen&lt;/a&gt;, a program designed to produce &quot;context-free&quot; research papers that &lt;em&gt;seems&lt;/em&gt; to be like real scientific papers, but are actually meaningless. If anybody bothered to read them, then the articles would be known to be false. The inventors of SCIgen intended to use this software to expose academic conferences and journals that accepts research papers without bothering to read them.&lt;/p&gt;
-
-&lt;p&gt;Once Cyril Labbé exposed the ruse he made, people started reading the papers that Ike Antkare wrote. Ike Antkare lost his prestigious H-index score, as search engines began removing Ike&#39;s papers from their databases.&lt;/p&gt;
-
-&lt;p&gt;This incident exposes a very important part about metrics...you cannot rely on only one. If you had just relied on the H-index to tell you how effective a scientist is at research, then Ike Antkare would have been a star. Only by reading Ike&#39;s papers will you be able to know the truth about Ike and avoid being fooled.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Fri, 26 Jun 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c12-fake-papers.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c12-fake-papers.html</guid>
         
         
       </item>
