@@ -5,9 +5,40 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2016 14:11:00 -0600</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2016 14:11:00 -0600</lastBuildDate>
+    <pubDate>Thu, 07 Jan 2016 07:41:13 -0600</pubDate>
+    <lastBuildDate>Thu, 07 Jan 2016 07:41:13 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>C20 Robojournalism 2</title>
+        <description>![CDATA[Though we are able to teach robots how to write as well as a human, we may have difficulty teaching them how to view the world as a human.
+]</description>
+        <content>&lt;p&gt;Though we are able to teach robots how to write as well as a human, we may have difficulty teaching them how to view the world as a human.&lt;/p&gt;
+
+&lt;p&gt;Computers are learning how to write. It&#39;s not considered weird or bizarre anymore to see companies like &lt;a href=&quot;http://narrativescience.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Narrative Science&lt;/a&gt; and &lt;a href=&quot;https://automatedinsights.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Automated Insights&lt;/a&gt; be able to generate news reports covering topics as broad as sports and finance.  Automated Insights have also made their &quot;Wordsmith&quot; platform publicly available, meaning that anyone have the potential to command their own robotic writers, without any programming knowledge.&lt;/p&gt;
+
+&lt;p&gt;Human journalists have been able to accept their robo-journalistic brethren under the mistaken impression that robo-journalists will be regulated to writing &quot;quantitative&quot; articles while humans will have more time to write &quot;qualitative&quot; analyses. But you can indeed turn human experiences into quantitative data that a robot can then write. For example, &quot;sentiment analysis&quot; algorithms are able to determine whether a certain article is happy or sad, based on analyzing what words were used. The output would be a qualitative judgment, based solely on quantitative data. Narrative Science has already explored the possibility of moving onto &quot;qualitative&quot; analyses by creating &quot;Quill Connect&quot;, a program that is able to write &lt;a href=&quot;https://quillconnect.narrativescience.com&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;qualitative analyses of Twitter profiles&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Algorithms are not limited to writing nonfiction. Every November (starting from 2013), programmers participate in a competition called &lt;a href=&quot;https://github.com/dariusk/NaNoGenMo-2015&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;National Novel Generation Month&lt;/a&gt;; the goal is to write a fictional novel of 50,000 words or more. Some of these generated novels are generally dull, but readable (examples: &quot;&lt;a href=&quot;https://github.com/dariusk/NaNoGenMo-2015/issues/142&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Around the World in X Wikipedia Articles&lt;/a&gt;&quot;, &quot;&lt;a href=&quot;https://github.com/dariusk/NaNoGenMo-2015/issues/11&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;A Time of Destiny&lt;/a&gt;&quot;, &quot;&lt;a href=&quot;https://github.com/dariusk/NaNoGenMo-2015/issues/40&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Simulationist Fantasy Novel&lt;/a&gt;&quot;). They have the plot, characterization, and imagery that you would normally associate with a human-written work. Programmers will have to put in more effort for computer-generated novels to be on-par with human-produced literature, but there does not seem to be any inherent limit to algorithmic creativity.&lt;/p&gt;
+
+&lt;p&gt;Of course, one could argue that robots will never be able to replace humans at all. Robots are reliant on &quot;templates&quot; to help them organize their stories properly, and humans are the ones in charge of designing the templates that the robots will end up using to write. In this viewpoint, humans would willingly give up the ability to write since they can find it a much more rewarding task to simply instruct the computer how to write a certain story.&lt;/p&gt;
+
+&lt;p&gt;But I would argue that even if humans would want to outsource all writing to their robotic slaves, humans will still write out some of their ideas out by hand...because of an inherent limitations of bots. Bots lack the &quot;worldview&quot; of humans.&lt;/p&gt;
+
+&lt;p&gt;Humans take for granted their ability to perceive the world. Their five senses gives a continual stream of data that humans are able to quickly process. Bots, on other hand, are only limited to the &quot;raw data&quot; that we give them to process. They will not &quot;see&quot; anything that is not in the dataset. As a result, how the bots understand our world will be very foreign to our own (human) understanding.&lt;/p&gt;
+
+&lt;p&gt;For some people, this is actually a benefit that bots bring to writing. Bots will not have the same biases as human beings. They will therefore discover new insights and meanings that humans may have overlooked. However, bots will instead bring their own unique &#39;biases&#39; and issues into their work, and humans may not tolerate the biases of algorithms as much as they would tolerate the biases of other humans. Humans will, of course, still happily read what the bots have to say. But they also want to read what humans have to say too.&lt;/p&gt;
+
+&lt;p&gt;Humans will likely tolerate the rise of automation in literature, and accept it. Bots may even write the majority of all literature by 2100. But there will still be some marginal demand for human writers, simply because humans can relate more to the &quot;worldview&quot; of other humans. These human writers must learn how to coexist with their robotic brethren though.&lt;/p&gt;
+
+&lt;p&gt;This article was originally published by me on LinkedIn as &lt;a href=&quot;https://www.linkedin.com/pulse/why-robots-fully-replace-human-writers-tariq-ali?trk=pulse_spock-articles&quot; rel=&quot;no-follow&quot;&gt;&quot;Why Robots Will Not (Fully) Replace Human Writers&quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 07 Jan 2016 00:00:00 -0600</pubDate>
+        <link>tra38.github.io/blog/c20-robojournalism-2.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c20-robojournalism-2.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T13 Sql Ordinals And Aliases</title>
@@ -437,41 +468,6 @@ What happens if I let the computer go first?&lt;/p&gt;
         <pubDate>Thu, 23 Jul 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c14-surviving-dbc.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c14-surviving-dbc.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T11 Documentation</title>
-        <description>![CDATA[If you are given a powerful program, but are not given the instructions on how to use it, then the program is worthless to you. Documentation is essential to understanding code.
-]</description>
-        <content>&lt;p&gt;If you are given a powerful program, but are not given the instructions on how to use it, then the program is worthless to you. Documentation is essential to understanding code.&lt;/p&gt;
-
-&lt;p&gt;Yet, documentation is neglected in the programming community. Many people tend to prioritize producing quality code over writing out how the code is supposed to work. While this may seem sensible in the short-term, in the long-term, it leads to code that is difficult for people to use. Many prospective programmers will be scared off by the complexitiy of the code, and the few that remain will spend valuable time understand what the program does instead of actually improving it.&lt;/p&gt;
-
-&lt;p&gt;The most common form of documentation is &#39;human-readable paperwork&#39;. Examples of such paperwork includes READMEs, flowcharts, diagrams, technical manuals, and code comments. This sort of documentation is useful for people to understand the code quickly (provided the paperwork itself is well-written). However, the documentation can quickly become obsolete whenever a new update to the program is released. As a result, such documentation must be updated constantly for it to be useful. The constant strain of updating &quot;human-readable paperwork&quot; is a major reason why people tend to fear documentation altogether.&lt;/p&gt;
-
-&lt;p&gt;But documentation is still necessary. So programmers have been exploring &lt;em&gt;alternatives&lt;/em&gt; to human-readable paperwork. These alternatives are tied directly to the source code, so whenever the code is updated, the documentation is too. These alternatives include tests, names, and self-documenting code.&lt;/p&gt;
-
-&lt;p&gt;1) Automated tests can inform programmers about about how the code is supposed to behave. By running the tests, you can learn whether the program actually does end up behaving as it is supposed to. Since automated tests are more effective at debugging than manual testing, programmers are encouraged to have these tests anyway. So the &quot;documentation&quot; is seen as a &#39;bonus&#39;. Automated tests however only tell you what code is supposed to do, and not &lt;em&gt;why&lt;/em&gt;. You also have to still write the tests in question, and write enough tests to convey all that is essential to know about the program.&lt;/p&gt;
-
-&lt;p&gt;2) Names convey information about a particular section of code. Whether you are naming a variable (list_of_dogs), a method (add_dog_to_list), or even a class (List), you are sending a message about what that code does (and usually more quickly than you would with a comment). Knowing what the code is supposed to do helps someone also understand how the code is supposed to work as well. However, it is extremely difficult to name variables properly and what seems like a clear variable name to the original programmer may not be to future programmers.&lt;/p&gt;
-
-&lt;p&gt;3) Self-documenting code refers to having a consistent &quot;style guide&quot; within the code proper and ahdering to it. If a programmer is familiar with the &#39;coding conventions&#39; that the &quot;style guide&quot; promotes, then the programmer is better able to understand the program. There are innumerable style guides for every language though, so someone who is not familiar with the conventions of your guide may struggle with understanding the code. It may be difficult to convince all programmers on the team to follow the chosen &quot;style guide&quot; properly.&lt;/p&gt;
-
-&lt;p&gt;Of course, ideally, a programmer would want all types of documentation: human-readable paperwork, automated tests, names and self-documenting code. The problem is that documentation takes time to produce, and skill to produce &lt;strong&gt;well&lt;/strong&gt;. It is essential to have good documentation, but there are many ways to do it, and some programmers will naturally graviate towards some forms of documentation while shying away from others.&lt;/p&gt;
-
-&lt;!-- It is tempting to also have tests also play a secondary role of informing people about the code tends to be 
-
- &quot;self-documenting code&quot;: code that is easy for programmers to understand. The two parts of self-documenting code are variable names and automated testing.
-
-Variable names can also serve as documentation. Variable names help to explain what is the purpose of the &#39;variable&#39; in the program. However, it is extremely difficult to name variables properly and 
- --&gt;
-
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sat, 04 Jul 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t11-documentation.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t11-documentation.html</guid>
         
         
       </item>
