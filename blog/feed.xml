@@ -5,8 +5,8 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jan 2016 07:41:13 -0600</pubDate>
-    <lastBuildDate>Thu, 07 Jan 2016 07:41:13 -0600</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2016 07:49:26 -0600</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2016 07:49:26 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -324,11 +324,13 @@ What happens if I let the computer go first?&lt;/p&gt;
 
 &lt;p&gt;Black boxes ruin trust. If you do not know how the AI came up with the answer, you cannot trust  whether the answer is actually correct[1]. Without trust, AI loses their potential as useful tools for humanity. A calcuator that gives the wrong answer every 30 minutes is not a very useful calcuator.&lt;/p&gt;
 
-&lt;p&gt;Narrative Science claims that the best way to preserve trust in AI (and to keep their status as useful tools) is to enable the AI to communicate its internal thought process to human beings. That way, we can evaluate the AI&#39;s thought process and decide whether it is correct or incorrect. Narrative Science coincidentally happens to specialize in programming AI to write out newspaper articles and financial reports. So it may believe that its technology may be used to help AI programs write out why it made this or that decision.&lt;/p&gt;
+&lt;p&gt;Narrative Science claims that the best way to preserve trust in AI (and to keep their status as useful tools) is to enable the AI to communicate its internal thought process to human beings. That way, we can evaluate the AI&#39;s thought process and decide whether it is correct or incorrect. Narrative Science has already implemented a &quot;logic trace&quot; within its own AI program, &quot;Quill&quot;, allowing people to understand why the AI program had made the choices that it did. Quill is currently being used to write newspaper articles and financial reports.&lt;/p&gt;
 
-&lt;p&gt;Narrative Science, however, has not yet figured out how to get these lack boxes to communicate. As black boxes are used in more and more critical industries, Narrative Science&#39;s apprehension about them will only grow. Already, Google has tried visualizing how its own black boxes works through its &lt;a href=&quot;googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html&quot;&gt;&quot;Google Dreams&quot;&lt;/a&gt;. More work will have to be done.&lt;/p&gt;
+&lt;p&gt;As black boxes are used in more and more critical industries, Narrative Science&#39;s apprehension about them will only grow. Narrative Science recommends that other companies also implement &quot;logic traces&quot; in their own AI programs as a way to counteract the possibility of &#39;black boxes&#39;. Already, Google has tried visualizing how its own black boxes works through its &lt;a href=&quot;googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html&quot;&gt;&quot;Google Dreams&quot;&lt;/a&gt;. More work will have to be done to deal with the dangers of of black boxes..&lt;/p&gt;
 
 &lt;p&gt;[1]The alternative is to implicilty trust the AI&#39;s thought process...but when the AI inevitably make mistakes, you will not know how to prevent it from making future mistakes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Correction&lt;/strong&gt; - On Janurary 17, 2016, this article was updated to correct mistaken impressions about Narrative Science.&lt;/p&gt;
 &lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
         <pubDate>Sat, 22 Aug 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c18-narrative-science.html</link>
