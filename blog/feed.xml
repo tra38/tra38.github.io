@@ -5,9 +5,105 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jan 2016 07:49:26 -0600</pubDate>
-    <lastBuildDate>Mon, 18 Jan 2016 07:49:26 -0600</lastBuildDate>
+    <pubDate>Tue, 02 Feb 2016 09:06:30 -0600</pubDate>
+    <lastBuildDate>Tue, 02 Feb 2016 09:06:30 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>C21 Robot Rights</title>
+        <description>![CDATA[As technology advances, so too does the capabilities of robots. As a result, some philosophers wondered whether robots may one day acquire 'rights' equal to that of their human brethren.
+]</description>
+        <content>&lt;p&gt;As technology advances, so too does the capabilities of robots. As a result, some philosophers wondered whether robots may one day acquire &#39;rights&#39; equal to that of their human brethren.&lt;/p&gt;
+
+&lt;p&gt;In 2015, Time Maganize asked the question: &quot;Will Robots Need Rights?&quot; It also posted the answers of three people:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://time.com/4026684/david-gelernter-will-robots-need-rights/&quot;&gt;David Gelernter&lt;/a&gt; claim that robots are unlikely to gain rights because they lack consciousness. However, people should still treat robots humanely.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://time.com/4023496/ray-kurzweil-will-robots-need-rights/&quot;&gt;Ray Kurzweil&lt;/a&gt; states that consciousness is not scientifically testable, and thus would have to defined through philosophical arguments. Ray argued that robots will have rights once they are able to convince us that they deserves rights.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;(http://time.com/4023497/susan-n-herman-will-robots-need-rights/&quot;&gt;Susan N. Herman&lt;/a&gt;, President of the ACLU, suggest that the ACLU might defend robot rights if robots share the same sensibilities as human beings, but would first have to argue deeply over what types of rights robots should get.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;All three answers show a sympathetic outlook towards robots, treating the concept of &quot;rights&quot; as something to seriously consider as we deal with potential alien-sque entities. And while I support respecting robots as &quot;potential alien-sque entities&quot; instead of treating them as &quot;just tools&quot; to be used and abused, I believe that the case for robotic rights has been vastly overstated (and you don&#39;t even need to bring in the nebulous idea of consciousness into the discussion).&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I will lay out a hardline case against robotic rights. It&#39;s not a case I fully belive in myself, but it&#39;s a case that I believe that most people will end up using. Note that my argument is only against robot rights; it is silent on the question on whether humans have rights.&lt;/p&gt;
+
+&lt;h3&gt;Premise&lt;/h3&gt;
+
+&lt;p&gt;I rest my case on the premise that rights can only belong to entities that are able to exercise some control over their own actions and motives. I call these entities &quot;autonomous actors&quot;, to avoid any confusion with the term &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomous_agent&quot;&gt;&quot;autonomous agent&quot;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;The Lovelace Test&lt;/h3&gt;
+
+&lt;p&gt;The original Lovelace Test, outlined in &lt;a href=&quot;http://kryten.mm.rpi.edu/lovelace.pdf&quot;&gt;&quot;Creativity, the Turing Test, and the (Better) Lovelace Test&quot;&lt;/a&gt;, was meant as a way to determine whether programs are intelligent. A program is intelligent if and only if it did all these things:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).&lt;/li&gt;
+&lt;li&gt;The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)&lt;/li&gt;
+&lt;li&gt;The program&#39;s creative output must not be a result of bugs within the program itself.&lt;/li&gt;
+&lt;li&gt;The programmer must not know how the program actually works.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Criteria #4 is the kicker though. It is very possible for programs to design &#39;original&#39; and &#39;creative&#39; work. After all, &lt;a href=&quot;http://tra38.github.io/blog/c20-robojournalism-2.html&quot;&gt;robots are already writing fiction and nonfiction stories&lt;/a&gt;. But the programmers themselves &lt;em&gt;know&lt;/em&gt; how the robots are able to produce creative outputs. Therefore, all of these programs fail the original Lovelace Test.&lt;/p&gt;
+
+&lt;p&gt;Even an algorithm that uses &quot;machine learning&quot; is unable to pass Criteria #4, as it can be argued that the programmers are able to control the robot by controlling the dataset the robot uses to understand the world. Thus, you can explain the robot&#39;s creative output by deducing the dataset that it used.&lt;/p&gt;
+
+&lt;p&gt;In fact, the whole point of this original Lovelace Test is to argue against the idea that robots could ever be intelligent, by arguing that robots ultimately need programmers. Mark O. Riedl &lt;a href=&quot;http://arxiv.org/pdf/1410.6142v3.pdf&quot;&gt;wrote&lt;/a&gt; that &quot;any [programmer] with resources to build [the program] in the first place ... also has the ability to explain [how the program generates the creative output]&quot; [1].&lt;/p&gt;
+
+&lt;p&gt;I disagree with the original Lovelace Test, because it claims that intelligence is a trait that either exists or doesn&#39;t exist. I prefer to think of intelligence either in terms of a continuum or through the idea of multiple intelligences.&lt;/p&gt;
+
+&lt;p&gt;But I think the original version of the Lovelace Test is useful when thinking about robotic rights. Robots do what programmers tell them to do. They do not have any independent &#39;will&#39; of their own. Robots are essentially puppets. It&#39;s hard to consider them autonomous actors, because there is always someone behind them (either a human or a dataset) pulling the strings. And we can see those strings.&lt;/p&gt;
+
+&lt;h3&gt;The Parable of the Paperclip Maximizer&lt;/h3&gt;
+
+&lt;p&gt;That doesn&#39;t mean programmers has &lt;em&gt;total control&lt;/em&gt; over these robots. Sloppy code, bad planning and codebase complexity can lead to unexpected outcomes.&lt;/p&gt;
+
+&lt;p&gt;Given enough time and patience, a programmer should be able to figure out why his code lead to the outcome that it did. If a problem is big enough though, practically speaking, many programmers will not have the time or patience. Shortcuts are taken. Rationalization sets in. Ignorance is accepted as best practice.&lt;/p&gt;
+
+&lt;p&gt;For example, I can easily imagine a lazy programmer write the following code before going to bed...&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Produce as many paperclips as physically possible.&lt;/li&gt;
+&lt;li&gt;Increase your processing power so that you can more effectively produce paperclips.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;...and thereby destroy humanity because his &lt;a href=&quot;https://wiki.lesswrong.com/wiki/Paperclip_maximizer&quot;&gt;&#39;Paperclip Maximizer&#39;&lt;/a&gt; has decided to turn the entire solar system into paperclips and computer mainframes.&lt;/p&gt;
+
+&lt;p&gt;But this is not an &quot;artificial intelligence&quot; problem. It&#39;s a &quot;human stupidity&quot; problem. The programmer wanted to produce paperclips and did not think through the consequences of his code. The &#39;Paperclip Maximizer&#39; simply followed orders.&lt;/p&gt;
+
+&lt;p&gt;The programmer, if he did think through his code carefully, would have likely noticed problems. But, of course, he had other priorities. He had to go to sleep so that he can be well-rested the next day to watch Netflix movies and contribute to open source projects. And his code was so elegant, and it passed all his automated tests. He had nothing to worry about.&lt;/p&gt;
+
+&lt;p&gt;So he goes to sleep and never wakes up.&lt;/p&gt;
+
+&lt;h3&gt;Robots Follow Orders, Only We May Not Know What Those Orders Mean&lt;/h3&gt;
+
+&lt;p&gt;A programmer may not know exactly why a program is doing what it is doing...but he has the &lt;em&gt;theoretical capability&lt;/em&gt; to find out for himself (since, you know, the programmer wrote the program). And he should at least attempt to do that, so that you can reduce the chances of scenarios such as the above parable.&lt;/p&gt;
+
+&lt;p&gt;But what if a programmer is unable (or unwilling) to do this? Does the robot deserves rights then?&lt;/p&gt;
+
+&lt;p&gt;No. The programmer had the capability to understand what a robot is doing. He just decided not to use it. But the fact that the programmer could have found out suggest that the robot is not an autonomous actor.&lt;/p&gt;
+
+&lt;p&gt;The robot simply follow orders...only in this specific case, they are orders that we do not quite fully understand ourselves.&lt;/p&gt;
+
+&lt;p&gt;For debugging purposes, we should hire another programmer who will be more willing to figure out why the robot is acting the way it is. After all, if one human has the theoretical capability to find out what a robot is doing...then it is likely that another human will eventually gain that same theoretical capability.&lt;/p&gt;
+
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;If we want robots to actually think for themselves (instead of just being puppets of datasets and human programmers), we have to turn robots into autonomous actors. As the original Lovelace Test suggest, this is an impossible goal. If we are able to write a program, then we should be able to also know how that program works. There is no autonomy to be found anywhere.&lt;/p&gt;
+
+&lt;p&gt;If robots can never be free, then they can never deserve rights.&lt;/p&gt;
+
+&lt;h2&gt;Footnotes&lt;/h2&gt;
+
+&lt;p&gt;[1] Incidentally, Mark O. Riedl proposed a less strict version of the Lovelace Test, the &lt;a href=&quot;http://arxiv.org/pdf/1410.6142v3.pdf&quot;&gt;Lovelace 2.0 Test&lt;/a&gt;, as a test that can actually be beaten. Instead of mandating that the programmer remain ignorant of the inner workings of his program, the program&#39;s creative output must meet certain constraints as determined by an independent judge.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 -0600</pubDate>
+        <link>tra38.github.io/blog/c21-robot-rights.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c21-robot-rights.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C20 Robojournalism 2</title>
@@ -449,27 +545,6 @@ What happens if I let the computer go first?&lt;/p&gt;
         <pubDate>Sun, 02 Aug 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c15-lovelace-test.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c15-lovelace-test.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C14 Surviving Dbc</title>
-        <description>![CDATA[DevBootCamp has been a rough journey, but I know that it will give me the skill and confidence necessary for me to survive in the tech world.
-]</description>
-        <content>&lt;p&gt;DevBootCamp has been a rough journey, but I know that it will give me the skill and confidence necessary for me to survive in the tech world.&lt;/p&gt;
-
-&lt;p&gt;Today, I passed a major assessment in DevBootCamp, thereby ensuring that I will move forward in the program. The feedback I got from my assessor was excellent, telling me my weaknesses (failing to use prototypes in Javascript, accidentally destroying the DOM element instead of simply hiding it, having complicated code when simple code would do). But now that I know these weaknesses, I can now move to correct them. Progress is being made.&lt;/p&gt;
-
-&lt;p&gt;I would not be where I was today without asking for help. Indeed, I asked for help a lot during the assessment, perhaps more so than necessary. There has been instances where I asked for help only to be able to solve the problem by myself, with the guide just sitting there watching me explain the problem and figure out what&#39;s wrong. The lesson I learnt from today is that I need to be more self-confident of my own abilities. At the same time, I still need to know when to ask for help...but only when I know when I need that help.&lt;/p&gt;
-
-&lt;p&gt;After the assessment, DevBootCamp gives us 1.5 days to work on any project we want, so long as we use an API (Application Programming Interface). I decided to work on Friend-Computer, a program that will automatically generate blog posts. I had thought that the program would take me 2 hours to complete, but instead it took me all day. However, I did manage to &lt;a href=&quot;http://friendcomputer.herokuapp.com/&quot;&gt;successfully create it&lt;/a&gt;, and most people are sastified with the results, though there is some critique about the &quot;grammar&quot; of the posts. The lesson I learnt here is that I need to prepare for the fact that I &lt;strong&gt;don&#39;t&lt;/strong&gt; know how long a project would take, and prepare myself accordingly. I must avoid overconfidence, lest I get burned.&lt;/p&gt;
-
-&lt;p&gt;Indeed, when I entered into DevBootCamp, I had the intention of updating my blog every week. This, of course, did not happen, as I was more focused on preparing for the assessment than producing content. But if DevBootCamp helps me be a better programmer, nay, a better person, then the experience will all be worth it.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Thu, 23 Jul 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c14-surviving-dbc.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c14-surviving-dbc.html</guid>
         
         
       </item>
