@@ -5,9 +5,51 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Feb 2016 22:26:51 -0600</pubDate>
-    <lastBuildDate>Fri, 12 Feb 2016 22:26:51 -0600</lastBuildDate>
+    <pubDate>Wed, 17 Feb 2016 07:50:35 -0600</pubDate>
+    <lastBuildDate>Wed, 17 Feb 2016 07:50:35 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>C22 Sartre</title>
+        <description>![CDATA[A few days ago, I read a blog post titled "Write code that was easy to delete, not easy to extend". At the top of this blog post was a quote...
+]</description>
+        <content>&lt;p&gt;A few days ago, I read a blog post titled &lt;a href=&quot;http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to&quot;&gt;&quot;Write code that was easy to delete, not easy to extend&quot;&lt;/a&gt;. At the top of this blog post was a quote...&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Every line of code is written without reason, maintained out of weakness, and deleted by chance.”&lt;/em&gt; Jean-Paul Sartre’s Programming in ANSI C[1]&lt;/p&gt;
+
+&lt;p&gt;I was so fasinciated by this profound quote that I didn&#39;t even bother reading the rest of the blog post and decided to find this obscure book and read it myself.&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t agree with all of what Sartre has written; his ideas about individualism reads a bit too utopian for my tastes. However, his ideas are still interesting to read. Here are a few choice quotes from the book.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;“Ah! How I hate the crimes of the new generation: they are dry and sterile as Assembly.”&lt;/li&gt;
+&lt;li&gt;“A programmer is condemned to be free; because once thrown into the codebase, he is responsible for everything he does.”&lt;/li&gt;
+&lt;li&gt;“Intellectuals cannot be good revolutionaries; they are just good enough to be programmers.”&lt;/li&gt;
+&lt;li&gt;“If you want to deserve Hell, you need only stay in bed. The codebase is iniquity; if you accept it, you are an accomplice, if you change it you are an executioner.”&lt;/li&gt;
+&lt;li&gt;“You must be afraid, my son. That is how one becomes an honest programmer.”&lt;/li&gt;
+&lt;li&gt;“The more one is absorbed in fighting bad programming, the less one is tempted to write good programs.”&lt;/li&gt;
+&lt;li&gt;“Do you think you can program innocently?”&lt;/li&gt;
+&lt;li&gt;“As far as programmers go, it is not what they are that interests me, but what they can become.”&lt;/li&gt;
+&lt;li&gt;“A programmer cannot will unless he has first understood that he must count on no one but himself; that he is alone, abandoned in the codebase in the midst of his infinite responsibilities, without help, with no other aim than the one he sets himself, with no other destiny than the one he forges for himself in his IDE.”&lt;/li&gt;
+&lt;li&gt;“I do not give a damn about the previous programmers. They died for the codebase and the codebase can decide what it wants. I practice a live man’s politics, for the living.”&lt;/li&gt;
+&lt;li&gt;“We programmers exist, that is all, and I find it nauseating.”&lt;/li&gt;
+&lt;li&gt;“How can I, who was not able to retain my own past knowledge of the codebase, hope to teach another?”&lt;/li&gt;
+&lt;li&gt;“I embraced Agile because its cause was just and I will leave Agile when it ceases to be just.”&lt;/li&gt;
+&lt;li&gt;“Ah! Do not judge the gurus, young man, for they too have painful secrets.”&lt;/li&gt;
+&lt;li&gt;“If a victory is told in detail, one can no longer distinguish it from a defeat.”&lt;/li&gt;
+&lt;li&gt;“I respect orders but I respect myself too and I do not obey foolish design patterns made especially to humiliate me.”&lt;/li&gt;
+&lt;li&gt;“What do you want to do with the language? Write Fizz-Buzz? What good is it to sharpen a knife every day if you never use it for slicing? Code is never more than a means. There is only one objective: power.”&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;[1]&quot;Jean-Paul Sartre’s Programming in ANSI C&quot; is a fictional book. The philosopher himself is real, as are the quotes, but almost all of them were modified to take into account the subject matter of programming.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Wed, 17 Feb 2016 00:00:00 -0600</pubDate>
+        <link>tra38.github.io/blog/c22-sartre.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c22-sartre.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T14 Abstract</title>
@@ -552,41 +594,6 @@ What happens if I let the computer go first?&lt;/p&gt;
         <pubDate>Thu, 13 Aug 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c17-postmorterm.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c17-postmorterm.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C16 Lovelace Test 2</title>
-        <description>![CDATA[In my previous blog post, I wrote about two tests used to determine whether AI is intelligent. However, it turns out that I did not fully understand one of those tests: the Lovelace Test.
-]</description>
-        <content>&lt;p&gt;In my previous blog post, I wrote about &lt;a href=&quot;http://tra38.github.io/blog/c15-lovelace-test.html&quot;&gt;two tests used to determine whether AI is intelligent&lt;/a&gt;. However, it turns out that I did not fully understand one of those tests: the Lovelace Test.&lt;/p&gt;
-
-&lt;p&gt;The Lovelace Test was named after Ada Lovelace (the first computer programmer) who argued famously that computers will only follow instructions that programmers give it. According to my summary of this test, a program must match the following criteria:&lt;/p&gt;
-
-&lt;p&gt;&quot;1. The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).
-2. The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)
-3. The programmer must not know how the program actually works.&quot;&quot;&lt;/p&gt;
-
-&lt;p&gt;I thought that this test is flawed because it excludes the possibility of bugs or programs being so overly complex that a programmer would not be able to understand them.&lt;/p&gt;
-
-&lt;p&gt;But it turns out that my summary of this test was based on &lt;a href=&quot;http://motherboard.vice.com/read/forget-turing-the-lovelace-test-has-a-better-shot-at-spotting-ai&quot;&gt;a Vice article&lt;/a&gt;, which neglected one additional criteria: the program must not be a result of bugs. In the original paper &lt;a href=&quot;http://kryten.mm.rpi.edu/lovelace.pdf&quot;&gt;&quot;Creativity, the Turing Test, and the (Better) Lovelace Test&quot;&lt;/a&gt;, the authors specifically addressed the idea of bugs, and why their presence does not mean intelligence.&lt;/p&gt;
-
-&lt;p&gt;“Sure, we all know that computers do things we don’t intend for them to do. But that’s because we’re not smart and careful enough, or — if we’re talking about rare hardware errors — because sometimes microscopic events unfold in unforeseen ways. The unpredictability in question does not result from the fact that the computer system has taken it upon itself to originate something. To see the point, consider the assembling of your Toyota Camry. Suppose that while assembling a bumper, a robot accidentally attaches a spare tire to the bumper instead of leaving it to be placed in its designated spot in the trunk. The cause of the error, assume, is either a ﬂuke low—level hardware error or a bug inadvertently introduced by some programmers. And suppose for the sake of argument that as serendipity would have it, the new position for the tire strikes some designers as the ﬁrst glorious step toward an automobile that is half conventional sedan and half sport utility vehicle. Would we want to credit the malfunctioning robot with having originated a new auto? Of course not.”&lt;/p&gt;
-
-&lt;p&gt;Under this idea, the Lovelace Test does indeed have meaning. It may be impossible to actually pass (as originally designed), as I actually do support Ada Lovelace&#39;s contentions that computer programs only do stuff we tell it to do. But I do not think that the ability to tell programs what to do automatically renders programs non-intelligent. Even intelligent species like humans have to receive instructions and learn from other intelligent beings.&lt;/p&gt;
-
-&lt;p&gt;But at least the test has rational and logical meaning, and places a higher barrier than the Turing Test. So this blog post is an apology of sorts for misrepresenting the Lovelace Test in my previous post. If you do agree with the premises of the test, then it would serve as a valid way of determining intelligence. That being said, this passage on bugs raises three questions about the Lovelace Test:&lt;/p&gt;
-
-&lt;p&gt;1) Who do we credit then for making the new car, if not the robot? We can’t credit the designers...they did not come up with the idea or build the prototype. We can’t credit the programmers or the low-level hardware error: they made mistakes and were not doing their job. The only entity that actually built the new auto was the malfunctioning robot, and is not creation a type of origination?&lt;/p&gt;
-
-&lt;p&gt;2) If machines do something new and unexpected, it is not a sign of machine intelligence, but human stupidity. This seems somewhat more disturbing to me, especially as we may soon easily build machines so complex that we cannot even begin to understand and comprehend how they work. How would the &quot;stupid&quot; humans be able to handle dealing with these mechanical brutes (especially in terms of debugging)?&lt;/p&gt;
-
-&lt;p&gt;3) These &quot;complex&quot; machines may, of course, accomplish their assigned tasks efficiently than a human can. Does that make the machines&#39; non-intelligence &quot;better&quot; than human intelligence? Is &quot;intelligence&quot;, then, an overrated concept?&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Wed, 12 Aug 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c16-lovelace-test-2.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c16-lovelace-test-2.html</guid>
         
         
       </item>
