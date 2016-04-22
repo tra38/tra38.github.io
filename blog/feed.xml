@@ -5,9 +5,141 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 Mar 2016 22:44:49 -0500</pubDate>
-    <lastBuildDate>Wed, 30 Mar 2016 22:44:49 -0500</lastBuildDate>
+    <pubDate>Thu, 21 Apr 2016 20:40:30 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Apr 2016 20:40:30 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>T15 Architect</title>
+        <description>![CDATA[Can humans build a story-telling machine that can trick other human beings (a la the 'Turing Test')? Dartmouth College's Neukom Institute for Computational Science is hosting a competition ("DigiLit") to see if that can be done. I submitted a program (Architect) to this program. I think it has a good shot of winning (~40%).
+]</description>
+        <content>&lt;p&gt;Can humans build a story-telling machine that can trick other human beings (a la the &#39;Turing Test&#39;)? Dartmouth College&#39;s Neukom Institute for Computational Science is hosting a competition (&quot;DigiLit&quot;) to see if that can be done. I submitted a program (Architect) to this program. I think it has a good shot of winning (~40%).&lt;/p&gt;
+
+&lt;p&gt;The idea behind &lt;a href=&quot;http://bregman.dartmouth.edu/turingtests/digilit&quot;&gt;DigiLit&lt;/a&gt; is simple. You build a machine that can accept an arbitrary noun prompt (&quot;wedding&quot;, &quot;sorrow&quot;, &quot;car keys&quot;, etc.). The machine then uses this noun prompt to generate a short story that is 7000 words or less. Then this short story is then presented to two panels (each with 3 judges). If you can convince a majority of one panel that your story is human-generated, then you win.&lt;/p&gt;
+
+&lt;p&gt;This does seem like a difficult task. You must:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Have the computer accept arbitrary input&lt;/li&gt;
+&lt;li&gt;Generate a story using the input&lt;/li&gt;
+&lt;li&gt;Make sure the story is coherent enough to be readable&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Yet, I think I completed this task. After I finished writing my program (&lt;strong&gt;Architect&lt;/strong&gt;, named after the program in the Matrix trilogy), I decided to test it out. I chose a random noun prompt, and wrote a story based on it. I also had my program generate a story as well (using that same noun prompt). I then gave those two stories to 7 people. Story A was written by me, and Story B was written by the program.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3 people correctly identified Story A as being written by a human.&lt;/li&gt;
+&lt;li&gt;3 people wrongly identified Story B as being written by a human.&lt;/li&gt;
+&lt;li&gt;1 person admitted he didn&#39;t know.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This means that 43% of the humans were fooled. That&#39;s pretty good. And it&#39;s good enough for me to submit it over to DigiLit.&lt;/p&gt;
+
+&lt;p&gt;That doesn&#39;t mean that victory is assured, after all. 43% isn&#39;t exactly a majority. But consider that I really need to convince 2 out of 6 judges to have a good chance of &#39;convincing&#39; a whole panel of 3 judges (assuming that both judges sit on the same panel). That means I only need to convince 33% of all judges.&lt;/p&gt;
+
+&lt;p&gt;To be 100% certain of convincing a panel though, I would need to convince 3 out of 6 judges (so that no matter how the judges are distributed, at least a majority of those I convinced would sit on a single panel). That does require me to be able to convince 50% of all judges. That doesn&#39;t seem too likely.&lt;/p&gt;
+
+&lt;p&gt;One main problem with my study is that the format of my test and the DigiLit test is slightly different. In my test, each person is reading both stories individually and then making a choice. In DigiLit, the judges sit on a panel, have access to multiple stories (some human-generated and some machine-generated) so they can detect patterns and &#39;tells&#39;, and can talk to one another and share their insights. The mob will likely find more faults in a story than a single human can. So my study may likely overestimate how good my program actually is.&lt;/p&gt;
+
+&lt;p&gt;But enough boring stats. Here&#39;s &lt;a href=&quot;https://github.com/tra38/Architect&quot;&gt;the source code&lt;/a&gt; of Architect and a brief description of how it works:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;
+  Have the computer accept input:
+  &lt;ul&gt;
+  &lt;li&gt;Plug the input into a madlib template: {INPUT} {LOCATION_TYPE}. For example:
+    &lt;ul&gt;
+      &lt;li&gt;Sorrow Academy.&lt;/li&gt;
+      &lt;li&gt;Wedding Plaza.&lt;/li&gt;
+      &lt;li&gt;Car Keys Muesum&lt;/li&gt;
+    &lt;/ul&gt;
+  The story will therefore be about a generated LOCATION, and not directly about the noun prompt. Here, I&#39;m assuming that reader will assume that when the program is writing about &quot;Sorrow Academy&quot;, they assume it to be symbolic of the actual noun in question (&#39;sorrow&#39;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;Generate a story using that input:
+  &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Randomly pick an introductory sentence from a corpus of introductory sentences.&lt;/li&gt;
+    &lt;li&gt;Load the program with several pre-written passages.&lt;/li&gt;
+    &lt;li&gt;Randomly pick a few of those passages. Insert in the LOCATION into the passages (so that the passages would therefore be about the input in question).&lt;/li&gt;
+    &lt;li&gt;Between each passage, insert a &quot;transition passage&quot; to link the two passages together (providing an illusion of continuity between the passages). The &quot;transition passage&quot; was also pre-written.&lt;/li&gt;
+    &lt;li&gt;Randomly pick an conclusion sentence from a corpus of conclusion sentences.&lt;/li&gt;
+  &lt;/ul&gt;
+This isn&#39;t a story with any planned plot or coherence. The program has no idea what it&#39;s writing. But since there is an illusion of continuity between passages, humans are able to read a &#39;narrative&#39;.
+&lt;/li&gt;
+&lt;br&gt;
+&lt;li&gt;
+  Have the story be thematically coherent enough to be readable.
+  &lt;br&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Each sentence of the story must have certain repeated symbols, themes, and characters within them, so that readers are more likely to assume that there is some purpose behind the words. (This approach was originally used in the &lt;a href=&quot;https://web.archive.org/web/20061112014356/http://www.brown.edu/Courses/FR0133/Fairytale_Generator/gen.html&quot;&gt;Fairy Tale Generator&lt;/a&gt; to create interesting stories based on random paragraphs.)&lt;/li&gt;
+    &lt;li&gt;Since I&#39;m too lazy to hand-craft most of these sentences myself, I decided to use a preexisting generator (Abulafia&#39;s &lt;a href=&quot;http://www.random-generator.com/index.php?title=Film_Noir_Monologue&quot;&gt;Film Noir Monologue&lt;/a&gt; generator) to generate most of the paragraphs, introductory sentences, and conclusion sentences. Since this generator already had a prebuilt theme in mind (a cynical detective trying to solve a mysterious case), the resulting output does have some sort of thematic coherence. I then edited most of the paragraphs and sentences to provide even more thematic coherence.&lt;/li&gt;
+    &lt;li&gt;The &#39;transition passages&#39;, however, were hand-written me. Again, their goal is to provide thematic coherence and to &quot;fit&quot; with the rest of the passages.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;This was the computer-generated story that I presented to my readers during the test:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;blockquote&gt;&lt;p&gt;It was a dark day—maybe normal for this time of year, but today the big city felt even darker and more sinister.&lt;/p&gt;
+
+&lt;p&gt;Miss Kitty Rider prowled through my door like a tigress slinks into a Burmese orphanage—a pinup blonde with legs as far as you could want ’em. No dame her age could afford a coat like that, my money was right where my mind was: the gutter. She was to bad news what apple pie is to America. The dame was all business—before I could even close the office door, she told me she wants Investigator Blake dead. Turns out Blake is masterminding the gang violence, and wants to seize the Envy Foundation for himself by killing off all his rivals. I laughed at her; Blake may be a devil, but he&#39;s a devil I can work with. I wasn&#39;t going to sell him out.&lt;/p&gt;
+
+&lt;p&gt;I asked Miss Kitty Rider if there was another way to end the gang violence, without having to take out Investigator Blake. Miss Kitty Rider responded me that if I wanted to bring an end to the violence, then I needed someone who is outside of the system. She recommended a fresh recruit from the police academy who was &#39;on the ball&#39;. Mr. Simpson. I foolishly took her advice.&lt;/p&gt;
+
+&lt;p&gt;“An inside job…?” Simpson gasped timidly. “Well … No… not an inside job,” I growled. I could barely contain myself with this new guy. “Here’s the deal,” I muttered, “Why don’t I handle this case, while you make like a magnet … and flux off?”&lt;/p&gt;
+
+&lt;p&gt;Before I left, Mr. Simpson offered me the phone number to the office. He claimed that the office had helped him greatly and that it can help me too. Desperate for any clues, I took Mr. Simpson&#39;s advice. I spoke to the receptionist for an hour, and jotted down everything she said.&lt;/p&gt;
+
+&lt;p&gt;I had little to go on this time … but the office did manage to dig something up. G-Men, fighting crime and resisting corruption, deciding that the best way to fight crime and resist corruption is to kill everyone who might be a criminal and might be corrupt. Their current goal is to &#39;purify&#39; the Envy Foundation before moving onto other tourist attractions. I always knew that G-Men were a little &#39;special&#39;.&lt;/p&gt;
+
+&lt;p&gt;I shoulda got out when I had the chance.&lt;/p&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Now, this story does have its faults. According to one of my readers, there isn&#39;t really any coherent plot, and no actual attempt to explain what&#39;s going on. And I agree with that reader. The stories that my program spits out are really more like &#39;prose poetry&#39;: the plot is really just an excuse to show off different evocative scenes. But I know that some people may like reading these stories anyway. Evocative scenes are enjoyable in their own right.&lt;/p&gt;
+
+&lt;p&gt;In addition, another reader praised the computer-generated story as having &quot;linear progression&quot;, and a &quot;[natural] level of detail and organization and flow&quot;. This suggest that the existing of some underlining structure may also help to make this story more appealing to read.&lt;/p&gt;
+
+&lt;p&gt;What is undeniable is that my computer has written a story.&lt;/p&gt;
+
+&lt;p&gt;My entry is based on a simple trick: Humans has a tendency to see patterns in everyday life, even when no patterns exist. The very act of me placing words right next to each other imply that the words must have some &lt;em&gt;relationship&lt;/em&gt; with each other. So the humans create this &lt;em&gt;relationship&lt;/em&gt; within their own mind. This tendency for humans to see patterns where none exist has a name: &quot;apophenia&quot;.&lt;/p&gt;
+
+&lt;p&gt;All I have to do is to provide some context and themes to help trick the humans into assuming that there must be meaning in the words that the program generates. Once that happens, the humans will then fill in the details by interpreting the program&#39;s words. The computer can write total nonsense...and that&#39;s okay, because the humans will just happily figure out the meaning of that nonsense. While the humans figure out that meaning, they thereby construct the story out of that nonsense. A story, therefore, appears from a mere collection of words.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Appendix A: Is This Story Of High-Quality?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I don&#39;t know. It appears that if the judges think that a story is human-written, they will generally assume it to be better...&lt;/p&gt;
+
+&lt;p&gt;This sounds silly, but according to my data, the rating of the quality of the story is dependent on whether the judge assume the story is written by a human.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Out of the 3 people who correctly identified Story A as being written by a human, 2 of them gave that story higher marks than Story B, while 1 person gave Story B higher marks.&lt;/li&gt;
+&lt;li&gt;Out of the 3 people who wrongly identified Story B as being written by a human, all of them gave Story B higher marks.&lt;/li&gt;
+&lt;li&gt;The one person who didn&#39;t know which story was human-written? He gave both stories &lt;em&gt;equal&lt;/em&gt; marks.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This is a pretty odd result and suggests to me that the &#39;origin&#39; of a story impacts how judges view its quality. This makes some sense: humans like reading what other humans have written, and if they assume that something is human-written, they are willing to think of it as good (even if it&#39;s not). But at the same time, I do have a small sample size, and it&#39;s possible that a different group of judges would determine the quality of a story more &quot;objectively&quot;.&lt;/p&gt;
+
+&lt;p&gt;By the way, there have been several peer-reviewed studies about how humans&#39; perceptions of news articles can change based on whether they were told the news article was written by a &#39;human&#39; or by a &#39;robot&#39;, and I do plan on blogging on these articles later. I trust the results of those peer-reviewed studies over that of my unscientific study.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Appendix B: Can This Program &#39;Scale&#39;?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Using a single noun prompt, my story can generate 120 different short stories. Most people are not going to read all 120 stories. Instead, they&#39;ll only read a few computer-generated stories before moving onto the next content to consume. So I&#39;m fine with how the algorithm works currently. There&#39;s no reason to spend time writing more code than is necessary.&lt;/p&gt;
+
+&lt;p&gt;That being said, the algorithm could &quot;scale&quot; upwards. If the program is given more passages, you could easily generate more short stories (or even &lt;em&gt;longer&lt;/em&gt; stories, possibly even novels). Finding those passages (and making sure they are all thematic coherent) may be somewhat difficult to do, and would most likely require using passages from Creative Commons or public domain works.&lt;/p&gt;
+
+&lt;p&gt;Note that the &quot;transition phrases&quot; will have to be made more &#39;generic&#39; and reusable for different passages. Currently, I had to handwrite each transition phrase to handle specific situations (for example, I handwrote a the transition phrase to justify our unnamed detective leaving Mr. Simpson&#39;s place and calling the Office). Handwriting each transition phrase is a very laborious and tedious process. Having &quot;generic&quot; transition phrases, on the other hand, would have enabled me to focus on copying and pasting as many evocative scenes as possible into the generator.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 21 Apr 2016 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t15-architect.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t15-architect.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ai3</title>
@@ -666,39 +798,6 @@ What happens if I let the computer go first?&lt;/p&gt;
         <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/c19-robojournalism.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/c19-robojournalism.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C18 Narrative Science</title>
-        <description>![CDATA["Practical Artificial Intelligence for Dummies: Narrative Science Edition" is a free e-book that provides a quick introduction into the AI field. It is also a treatise that outlined Narrative Science's approach towards dealing with AI.
-]</description>
-        <content>&lt;p&gt;&lt;a href=&quot;http://www.narrativescience.com/practical-ai&quot;&gt;&quot;Practical Artificial Intelligence for Dummies: Narrative Science Edition&quot;&lt;/a&gt; is a free e-book that provides a quick introduction into the AI field. It is also a treatise that outlined Narrative Science&#39;s approach towards dealing with AI.&lt;/p&gt;
-
-&lt;p&gt;One of the taglines of this e-book is that it will &quot;demystify the hype, fear, and confusion about AI&quot;. Though the book primarly focused on explaining AI, it did pay some attention to the &#39;fears&#39; within popular culture, and attempted to address them in a &quot;roundabout&quot; way, without necessarily rebutting any specific fear.&lt;/p&gt;
-
-&lt;p&gt;Narrative Science believed that AI only need to display intelligent behavior, and not necessarily need to think like human beings. As a result, Narrative Science concluded that technologies that humans take for granted are already AI. Voice recognition, recommendation engines, autocompletes, etc. are all commonly accepted within society, and yet all of these algorithms display intelligent behaviors.&lt;/p&gt;
-
-&lt;p&gt;But these AI programs do not seek to take over the world or render people unemployed. Instead, these programs are just tools, there to help humans accomplish their day-to-day tasks. People are still in control and still receiving regular paychecks; all the AI did just made their lives easier. Narrative Science concluded that this trend would continue, and future AI programs will simply help humans instead of displacing them.&lt;/p&gt;
-
-&lt;p&gt;If that was the crux of Narrative Science&#39;s argument, then I don&#39;t think this book&#39;s philosophy would have been interesting enough to blog about. But Narrative Science also surprisingly expressed some concern about AI proliferation. Narrative Science fears &lt;strong&gt;black boxes&lt;/strong&gt;: AI programs that are able to give answers but &lt;em&gt;fail&lt;/em&gt; to provide explainations for why it came up with those answers.&lt;/p&gt;
-
-&lt;p&gt;Black boxes are not hypothetical concerns. Self-learning entities are being built and used already, such as &quot;evidence engines&quot; (IBM&#39;s Watson) and deep-learning networks (&#39;neural networks&#39;). These entities are able to learn about the world, but they cannot tell other people how they learn the world. You ask them a question, and all they give you an answer...with no context or reasoning behind the answer.&lt;/p&gt;
-
-&lt;p&gt;Black boxes ruin trust. If you do not know how the AI came up with the answer, you cannot trust  whether the answer is actually correct[1]. Without trust, AI loses their potential as useful tools for humanity. A calcuator that gives the wrong answer every 30 minutes is not a very useful calcuator.&lt;/p&gt;
-
-&lt;p&gt;Narrative Science claims that the best way to preserve trust in AI (and to keep their status as useful tools) is to enable the AI to communicate its internal thought process to human beings. That way, we can evaluate the AI&#39;s thought process and decide whether it is correct or incorrect. Narrative Science has already implemented a &quot;logic trace&quot; within its own AI program, &quot;Quill&quot;, allowing people to understand why the AI program had made the choices that it did. Quill is currently being used to write newspaper articles and financial reports.&lt;/p&gt;
-
-&lt;p&gt;As black boxes are used in more and more critical industries, Narrative Science&#39;s apprehension about them will only grow. Narrative Science recommends that other companies also implement &quot;logic traces&quot; in their own AI programs as a way to counteract the possibility of &#39;black boxes&#39;. Already, Google has tried visualizing how its own black boxes works through its &lt;a href=&quot;googleresearch.blogspot.com/2015/06/inceptionism-going-deeper-into-neural.html&quot;&gt;&quot;Google Dreams&quot;&lt;/a&gt;. More work will have to be done to deal with the dangers of of black boxes..&lt;/p&gt;
-
-&lt;p&gt;[1]The alternative is to implicilty trust the AI&#39;s thought process...but when the AI inevitably make mistakes, you will not know how to prevent it from making future mistakes.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Correction&lt;/strong&gt; - On Janurary 17, 2016, this article was updated to correct mistaken impressions about Narrative Science.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sat, 22 Aug 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c18-narrative-science.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c18-narrative-science.html</guid>
         
         
       </item>
