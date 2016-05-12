@@ -5,9 +5,81 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Apr 2016 06:36:17 -0500</pubDate>
-    <lastBuildDate>Thu, 28 Apr 2016 06:36:17 -0500</lastBuildDate>
+    <pubDate>Thu, 12 May 2016 07:53:55 -0500</pubDate>
+    <lastBuildDate>Thu, 12 May 2016 07:53:55 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>T16 Resume Driven Development</title>
+        <description>![CDATA[Disclaimer: I wrote the book "Essential Copying and Pasting From Stack Overflow", which was inspired by a cover designed by ThePracticalDev. This blog post is also inspired by a cover designed by ThePracticalDev. Just like "Essential Copying and Pasting From Stack Overflow", "Expert Resumé Driven Development" is also written in a deadpan manner.
+]</description>
+        <content>&lt;p&gt;Disclaimer: I wrote the book &lt;a href=&quot;https://tra38.gitbooks.io/essential-copying-and-pasting-from-stack-overflow/content/&quot;&gt;&quot;Essential Copying and Pasting From Stack Overflow&quot;&lt;/a&gt;, which was inspired by a cover designed by &lt;a href=&quot;https://twitter.com/thepracticaldev?lang=en&quot;&gt;ThePracticalDev&lt;/a&gt;. This blog post is also inspired by a cover designed by ThePracticalDev. Just like &quot;Essential Copying and Pasting From Stack Overflow&quot;, &quot;Expert Resumé Driven Development&quot; is also written in a deadpan manner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;float: left; height: 30%; width: 30%&quot; src=&quot;http://i.imgur.com/DQcks8u.jpg&quot; alt=&quot;Cover for Resumé Driven Development, &#39;The Passionate, Functional, Micro-Serviced Approach&quot;&gt;&lt;h3&gt;What is &quot;Resumé Driven Development&quot;?&lt;/h3&gt;&lt;/p&gt;
+
+&lt;p&gt;Resumé Driven Development refers to the practice of choosing hot new technologies for your projects to make your resumé more impressive. For example, you want to write a program in that hot new Javascript micro-generator framework &lt;a href=&quot;https://github.com/amwmedia/plop&quot;&gt;&quot;Plop.js&quot;&lt;/a&gt;...because it&#39;s a hot new JavaScript framework. Sure, you can use the technologies that you already know and are probably better suited for the job, but that wouldn&#39;t be as impressive as riding the hot bandwagon. You don&#39;t even know what &quot;Plop.js&quot; is, but you&#39;ll find out soon enough.&lt;/p&gt;
+
+&lt;p&gt;There is some controversy on whether Resumé Driven Development is actually good. &lt;a href=&quot;http://willcode4beer.com/opinion.jsp?set=in_favor_of_rdd&quot;&gt;Paul E. Davis defended the practice&lt;/a&gt; as it is an indictator that the developer is willing to learn new technologes instead of sticking with potentially obsolete solutions. Sure, &quot;Plop.js&quot; may not actually be suited for your use case, but at least you showed that you &lt;em&gt;can&lt;/em&gt; learn it and use it quickly, and that you could later on find the bleeding-edge technology that might actually be useful.&lt;/p&gt;
+
+&lt;p&gt;&quot;In the end, if developers are not concerned with their own careers, it&#39;s not likely they&#39;ll be concered with your business.&quot;---Paul E. Davis&lt;/p&gt;
+
+&lt;p&gt;Most developers seem to detest RDD though (as can be seen by &lt;a href=&quot;http://rdd.io&quot;&gt;this parody website&lt;/a&gt;). There is a general belief that developers are not using using the hot new technologies in their spare time, but instead &lt;a href=&quot;http://www.healthcareguy.com/2007/01/19/resume-driven-development-rdd/&quot;&gt;using them on company projects&lt;/a&gt;. This is a colossal waste of company funds, as the technology may be ill-suited for the task at hand and can lead to long-term maintanance headaches.&lt;/p&gt;
+
+&lt;p&gt;Developers are not the only people that engage in Resumé Driven Development. Management may also engage in RDD &lt;a href=&quot;http://radar.oreilly.com/2014/10/resume-driven-development.html&quot;&gt;during the hiring process as well&lt;/a&gt;. If a job vacancy exists, there is a desire to hire a new programmer with the same skillset of the old programmer. So the old programmer was an expert in Plop.js, then the job posting will read &quot;6 months  experience with Plop.js&quot;. This may be a very bad thing because you are optimizing for knowledge of certain technologies, instead of choosing the &quot;right tool&quot; for the job. If you only hire Plop.js developers, you will only get Plop.js websites.&lt;/p&gt;
+
+&lt;p&gt;RDD is probably a subset of a larger &lt;a href=&quot;https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem&quot;&gt;Principal-Agent Problem&lt;/a&gt;. The Principal (management) hires an Agent (a developer) to build a program and allow the Agent to choose the tech stack. But the Agent&#39;s interest (making his resumé more impressive) can be orthogonal to the Principal&#39;s interest (producing a great product by using the &quot;right tool&quot; for the job). If the Principal allows the Agent to do as he wish, then the Agent &lt;strong&gt;will&lt;/strong&gt; do as he wishes, thereby leading to the Agent to prosper and the Principal to suffer.&lt;/p&gt;
+
+&lt;p&gt;RDD is composed of two sections: the Resumé and the Technology. Let&#39;s look at them both briefly.&lt;/p&gt;
+
+&lt;h3&gt;The Role of the &quot;Resumé&quot;&lt;/h3&gt;
+
+
+&lt;p&gt;A resumé serves to let people know what you have done, in the hopes of getting people impressed. According to &lt;a href=&quot;http://cdn.theladders.net/static/images/basicSite/pdfs/TheLadders-EyeTracking-StudyC2.pdf&quot;&gt;a study by TheLadders, a resume re-writing company&lt;/a&gt;, recruiters can spend 6 seconds per  resumé, scanning for keywords and cursory background information about your education and job history before deciding whether you are &quot;fit&quot; or &quot;no-fit&quot;. You can see why some developers want to maximize those 6 seconds by practicing RDD.&lt;/p&gt;
+
+&lt;p&gt;Now, there is not that much in-depth examination of what&#39;s on the resumé. If someone says that they used Plop.js when building a Uber-For-Dogs application, then you assume that they did use Plop.js and that there actually is a Uber-For-Dogs application...that he really spent 6 months on it...and that he got to pet a unicorn while on the job. It says so on the resumé. Just keep scanning for more keywords then.&lt;/p&gt;
+
+&lt;p&gt;You can see where I&#39;m going here. Resumés can lie. You can claim to have worked on sixty Plop.js projects in closed-source companies, and provide fake phone numbers and references as &#39;proof&#39; that these closed-source projects exist. Lying is horribly unethical, and I would not recommend it for anyone to do. But it can be done, and is probably more efficent than a pure RDD approach...at least in getting the foot in the door. However, at the interview stage, interviewers will attempt to weed out those that did lie on their resumés - such as asking basic questions like &quot;What is Plop.js?&quot;.&lt;/p&gt;
+
+&lt;p&gt;So the better option is to actually use the technologies on real projects then, so that when you get to the interview stage, you can actually prove your expertise in it and not be exposed as a fraud. That (sadly) means you do have to build a Uber-For-Dogs application just so you can use the Plop.js keyword. You may even need to provide a link to the application and show the source code, in case someone looks at your resumé for longer than six seconds. However, once you do this, you do not have to worry about proving anything else. If you can demonstrate that you can use Plop.js, then most people will assume that you know how to use it.&lt;/p&gt;
+
+&lt;h3&gt;Choosing the Hot Technology&lt;/h3&gt;
+
+
+&lt;p&gt;The biggest problem with choosing hot new technologies isn&#39;t actually learning them. It&#39;s difficult, and you&#39;ll have to deal with bad documentation and difficult solutions, but given enough time and persistence, you will eventually succeed.&lt;/p&gt;
+
+&lt;p&gt;No, the biggest problem with choosing hot new technologies is that you don&#39;t &lt;strong&gt;know&lt;/strong&gt; what is actually hot.&lt;/p&gt;
+
+&lt;p&gt;You can guess. You can listen to a community, and if the community talks a lot about Plop.js, then that suggest that Plop.js is hot. If the community stops talking about Plop.js, then Plop.js must not be hot. You can bookmark &lt;a href=&quot;https://www.google.com/trends/&quot;&gt;Google Trends&lt;/a&gt; and pay attention to what words people are searching. You can look at job postings and see what keywords the recruiters are using. And so on and so forth.&lt;/p&gt;
+
+&lt;p&gt;But they&#39;re all trailing indictators. It doesn&#39;t help you predict whether that tech will stay hot in the future.&lt;/p&gt;
+
+&lt;p&gt;It is here that Gartner Hype Cycle can be most useful for an RDDer. Gartner argues that all new technologies go through a cycle. I described the Hype Cycle in &lt;a href=&quot;http://tra38.github.io/blog/ai3.html&quot;&gt;my blog post against Artifical Intelligence&lt;/a&gt;...and I reprint my comments on this cycle here:&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&quot;float: right;&quot; src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Gartner_Hype_Cycle.svg/559px-Gartner_Hype_Cycle.svg.png&quot; &gt;&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;At first, people become very interested in a brand new technology (a &quot;Technology Trigger&quot;). Companies start to over-invest in researching this technology, leading to a &quot;Peak of Inflated Expectations&quot; (i.e, a bubble). But the technology turns out to have major limitations. As a result, investment in the technology dries up (&quot;Trough of Disillusionment&quot;). Most companies either begin laying people off or closing down outright.&lt;/p&gt;
+
+&lt;p&gt;Eventually, the survivors soon realize how to use the technology properly (&quot;Slope of Enlightenment&quot;), and we can finally use the technology in our day-to-day life (&quot;Plateau of Productivity&quot;). But as this picture from Wikipedia shows, the visibility of the technology in the Plateau of Productivity is much less than the visibility of that same technology in the Peak of Inflated Expectations. The brand new technology has done great things for us. It&#39;s just not as great as we hoped it to be. And does it justify the extreme waste seen in the &quot;Peak of Inflated Expectations&quot;?&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Since the technology reaches the maximum visibility/hype in the Peak of Inflated Expectations, this implies that, by the time you hear of a tech, &lt;em&gt;it&#39;s already too late&lt;/em&gt;. The only people who would be able to take advantage of the hype are the &#39;early adopters&#39;, and they are the ones who will likely reap most of the benefits (though they also accept most of the costs as well, since not all new technologies are interesting or useful enough to go through this Hype Cycle).&lt;/p&gt;
+
+&lt;p&gt;Another message this charts tells us is that the best time to learn a new technology is either during the Technology Trigger or the Trough of Disillusionment.&lt;/p&gt;
+
+&lt;p&gt;During the Technology Trigger stage, there are no experts. There are only a few people who know your keyword. Specializing now as an &#39;early adopter&#39; (while the field is still young) would be much more impressive than being an expert during the Peak of Expectation, when you have thousands of &#39;experts&#39; in your field. Building a bot that can draw paintings now seems neat. Building a paint-bot five years from now, when every programmer have already built their own personal paint-bot? &lt;strong&gt;Boring.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;During the Trough of Disillusionment, you are able to take advantage of previous research done during the Technology Trigger and the Peak of Inflated Expectations, learning from past successes and failures with the tech. You also will have less competition during the Trough, as most programmers have already left to move onto the next &quot;hot&quot; technology. Eventually, interest in the tech will revive, and your lovely keyword will regain some allure.&lt;/p&gt;
+
+&lt;p&gt;Any other time to study a technology would carry either too much competition (the Peak of Inflated Expectations) or too little reward (the Plateau of Productivity) to justify the expense. The only reason you would want to study the technology in that case is because you think it might actually help you grow as a developer.&lt;/p&gt;
+
+&lt;!-- Now, if you are not dealing with recruiters but instead cold-calling or networking with companies directly, then it is possible that a company will probably do more in-depth research on you before deciding &quot;fit&quot;/&quot;no-fit&quot;. This may seem good (more than 6 seconds&#39; attention) but it also means that your resumé itself might play a lesser role in the deciding process (lessening the need for RDD). Instead, your Side Projects and GitHub Open Source contributions might play a larger role (though you can also highlight that on your resumé). --&gt;
+
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Thu, 12 May 2016 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t16-resume-driven-development.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t16-resume-driven-development.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T15 Architect</title>
@@ -771,33 +843,6 @@ What happens if I let the computer go first?&lt;/p&gt;
         <pubDate>Sun, 27 Sep 2015 00:00:00 -0500</pubDate>
         <link>tra38.github.io/blog/t12-dumb-ai.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t12-dumb-ai.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C19 Robojournalism</title>
-        <description>![CDATA[Automated Insights and Narrative Science are two companies that specialize in producing software that can write news articles. But how do these news articles stack up to the human-written competition? A German researcher attempts to find out.
-]</description>
-        <content>&lt;p&gt;Automated Insights and Narrative Science are two companies that specialize in producing software that can write news articles. But how do these news articles stack up to the human-written competition? A German researcher attempts to find out.&lt;/p&gt;
-
-&lt;p&gt;In the peer-reviewed article &lt;a href=&quot;http://kau.diva-portal.org/smash/get/diva2:699641/FULLTEXT01.pdf&quot;&gt;&quot;Enter the robot journalist: users’ perceptions of automated content&quot;&lt;/a&gt;, researchers randomly gave German undergraduate students one of two articles. One article was written by a human, and another was written by a program called &quot;Statsheet&quot; (which was created by Automated Insights). The German students were to read the article, rate it, and then say whether the article was written by a human being or a bot.&lt;/p&gt;
-
-&lt;p&gt;The researchers asked two questions:&lt;/p&gt;
-
-&lt;p&gt;1) Can the research students consistently identify whether an article is written by a human or a bot? - The answer is a resounding &quot;NO&quot;. While a majority of students correctly identified the bot-written article as being written by a bot, a majority of students also identified the &lt;strong&gt;human&lt;/strong&gt;-written article as being written by a bot. There is no statistically significant difference between how the students &#39;evaluated&#39; whether the article was written by a human or a bot.&lt;/p&gt;
-
-&lt;p&gt;2) Are bots able to write prose of equal quality and crediblity as that of humans? - The answer is &quot;Yes, with one exception&quot;. There was no statistically significant difference between the quality of the journalism of the human and the bot...&lt;em&gt;except&lt;/em&gt; for the fact that the human&#39;s article was seen as more pleasant to read.&lt;/p&gt;
-
-&lt;p&gt;(As a tangentical side note, the students rated the bot&#39;s article was being more informative, accurate, trustworthy, and objective...though the bot&#39;s article was also rated as more boring to read too. The students also rated the human&#39;s article as being well-written and coherent.&lt;/p&gt;
-
-&lt;p&gt;The reason this note is tangentical is that these results are not &quot;statistically significant&quot;; if you were to run this same experiment with a different population, you would likely get different results.)&lt;/p&gt;
-
-&lt;p&gt;Conclusion: The &quot;robojournalists&quot; are able to produce journalism that is able to equal that of the human competition. There are limits to the robojournalists though. They are unable to write prose that is &#39;pleasent to read&#39;. This may be a sign of limits to robojournalists&#39; creativity, which would give humans the edge. For now.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Mon, 07 Sep 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/c19-robojournalism.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c19-robojournalism.html</guid>
         
         
       </item>
