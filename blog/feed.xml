@@ -5,9 +5,235 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 May 2016 07:53:55 -0500</pubDate>
-    <lastBuildDate>Thu, 12 May 2016 07:53:55 -0500</lastBuildDate>
+    <pubDate>Sat, 18 Jun 2016 17:44:58 -0500</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 17:44:58 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>T17 Markov</title>
+        <description>![CDATA[According to Victor Powell, "Markov chains, named after Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another." Many people, including Andrey Markov, used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.
+]</description>
+        <content>&lt;p&gt;According to &lt;a href=&quot;http://setosa.io/ev/markov-chains/&quot;&gt;Victor Powell&lt;/a&gt;, &quot;Markov chains, named after Andrey Markov, are mathematical systems that hop from one &quot;state&quot; (a situation or set of values) to another.&quot; Many people, including Andrey Markov, used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/zolrath/marky_markov&quot;&gt;Marky_Markov&lt;/a&gt; is a Ruby gem that can be used to generate Markov chains. I used it to quickly set up a Markov chain and start fooling around with it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;require &#39;marky_markov&#39;
+
+markov = MarkyMarkov::TemporaryDictionary.new
+markov.parse_string &quot;The cat is very friendly.&quot;
+markov.parse_string &quot;The dog is slightly friendly.&quot;
+markov.parse_string &quot;The sky is very unfriendly.&quot;
+markov.parse_string &quot;The window is slightly unfriendly.&quot;
+
+markov.generate_10_sentences
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;=&gt;&quot;The window is slightly unfriendly. The window is slightly friendly. The sky is very unfriendly. The sky is very unfriendly. The window is slightly friendly. The sky is very friendly. The cat is very unfriendly. The cat is very unfriendly. The window is slightly unfriendly. The cat is very friendly.&quot;&lt;/p&gt;
+
+&lt;p&gt;Some of the sentences are copies of the original corpus, but other sentences are original! The algorithm had learned how to write original sentences!&lt;/p&gt;
+
+&lt;p&gt;These sentences are fairly dull though. The generator also repeats itself sometimes.&lt;/p&gt;
+
+&lt;p&gt;At this point, the budding Markov Chainer will start searching for a pre-made corpus that can then be fed into the Markov Chain. But I&#39;m not a budding Markov Chainer...if anything, I&#39;m slightly jaded. The benefit of feeding a pre-made corpus into a Markov Chain is that the text start sounding more interesting. The problem is that the text also becomes less &lt;em&gt;coherent&lt;/em&gt;. Here&#39;s &lt;a href=&quot;https://brandonbyars.com/2007/05/06/tdding-a-markov-chain/&quot;&gt;some sample text from a Markov chain trained on &quot;The Raven&quot;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Once upon a bust of Pallas just above my chamber door; –
+This it is, and this mystery explore; –
+‘Tis the wind and nothing more.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I can understand why some people may be happy with text that seems meaningful so long as you don&#39;t read it too deeply. In fact, this text could plausibly be used as poetry. Any oddities in the text itself can be explained away as stylistic choices and metaphors.&lt;/p&gt;
+
+&lt;p&gt;But if we decide to use Markov chains outside of poetry, well...um....&lt;/p&gt;
+
+&lt;p&gt;Here&#39;s &lt;a href=&quot;http://www.r-bloggers.com/is-deep-learning-a-markov-chain-in-disguise/&quot;&gt;some sample text from a Markov chain trained on the &#39;tinyshakespeare&#39; corpus&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;DUKE VINCENTIO:&lt;/p&gt;
+
+&lt;p&gt;Well, your wit is in the care of side and that.&lt;/p&gt;
+
+&lt;p&gt;FRIAR LAURENCE:&lt;/p&gt;
+
+&lt;p&gt;Or walk liest;&lt;/p&gt;
+
+&lt;p&gt;And the ears.&lt;/p&gt;
+
+&lt;p&gt;And hell!&lt;/p&gt;
+
+&lt;p&gt;In self.&lt;/p&gt;
+
+&lt;p&gt;PETRUCHIO:&lt;/p&gt;
+
+&lt;p&gt;Persuading to our the enemy, even woman, I&#39;ll afford show&#39;d and speaking of&lt;/p&gt;
+
+&lt;p&gt;England all out what least. Be satisfied! Now, sir.&lt;/p&gt;
+
+&lt;p&gt;Second Lord:&lt;/p&gt;
+
+&lt;p&gt;They would be ruled after this chamber, and&lt;/p&gt;
+
+&lt;p&gt;my fair nues begun out of the fact, to be conveyed,&lt;/p&gt;
+
+&lt;p&gt;Whose noble souls I&#39;ll have the heart of the wars.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;...yeah, no. The blogger is surprised about how his Markov chain learned Old English, but I absolutely hate this output. This is why I had been reluctant to use Markov chains ever...because what they actually produce is utter nonsense.&lt;/p&gt;
+
+&lt;p&gt;When I conduct experimentation in text generation, my goal is to produce text that reaches human quality. This bias may have been caused by my previous experience as a journalist, where I was expected to write words that people are able to read...not necessarily text that &lt;em&gt;appears&lt;/em&gt; to be readable. This causes me to prefer more &#39;conservative&#39; techniques in text generation (shuffling paragraphs, using pre-written templates, etc.)&lt;/p&gt;
+
+&lt;p&gt;My post in Reddit showing off some templates I used in text generation was somewhat controversial, as can be seen in &lt;a href=&quot;https://www.reddit.com/r/proceduralgeneration/comments/4ken1d/laughter_in_the_singularity_computergenerated/?&quot;&gt;the comment thread&lt;/a&gt;. Many people raised the valid point that the algorithm was just too simplistic for their tastes. While I was happy with my output (it was readable), I also realized that I needed to do slightly more experimentation. One reddit poster (kleer001) made a rather interesting comment:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;let&#39;s see some markov chains maybe?
+here, have som fun with this: http://projects.haykranen.nl/markov/demo/
+sorry I noped you, you sound like a cool dude, but still, you can do hella better. i believe in you.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Hence, why I was fooling around with marky_markov.&lt;/p&gt;
+
+&lt;p&gt;Looking at the output of my toy Markov chain (&quot;The window is slightly friendly&quot;) makes me realize that the main problem I had with Markov chains isn&#39;t necessarily the chain itself, but the corpus that people use to train on it. If you provide complicated prose to a Markov chain (such as Shakespeare&#39;s plays), you are not going to get good results out of it. What I&#39;m going to have to do is to simplify the prose to a level that a Markov chain will be able to grasp and imitate properly.&lt;/p&gt;
+
+&lt;p&gt;I need to generate a corpus that follow these two rules:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Each sentence should have very simplistic and repetitive grammar.&lt;/li&gt;
+&lt;li&gt;Each sentence should be context-less; there should be no connection to previous and future sentences (the Markov chain will not have the ability to understand the context of words).&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Now, writing out all these sentences for a corpus is rather dull...which can explain why some people reach for a pre-made corpus instead. But I remembered that I still had prior experience in text-generation. Why don&#39;t I write a program that can generate text...and then use its &lt;em&gt;output&lt;/em&gt; as a corpus? I used the Ruby gem &lt;a href=&quot;https://github.com/maetl/calyx&quot;&gt;&#39;Calyx&#39;&lt;/a&gt; to quickly set up a template-based text generator.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;require &#39;marky_markov&#39;
+require &#39;calyx&#39;
+
+markov = MarkyMarkov::TemporaryDictionary.new
+
+class CorpusGenerator &amp;lt; Calyx::Grammar
+  start &#39;{dialogue}, {gender} {speak} {mood}.&#39;
+  rule :dialogue, &#39;Do you think she is out there&#39;, &#39;Do you think she cares&#39;, &#39;Will she ever care&#39;,
+  &#39;We have a job to do&#39;, &#39;She has a job to do&#39;, &#39;I did the right thing&#39;,
+  &#39;She did what was right&#39;, &#39;Do not kill me&#39;, &#39;I must kill you&#39;,
+  &#39;You have a job to do&#39;, &#39;I am sorry&#39;, &#39;She is sorry&#39;,
+  &#39;I hate you&#39;, &#39;I am sorry I met you&#39;
+  rule :gender, &#39;he&#39;, &#39;she&#39;, &#39;the computer&#39;, &#39;the monster&#39;
+  rule :speak, &quot;says&quot;, &quot;giggles&quot;, &quot;laughs&quot;, &quot;cries&quot;, &quot;sings&quot;
+  rule :mood, &quot;sadly&quot;, &quot;madly&quot;
+end
+
+generator = CorpusGenerator.new
+
+corpus = []
+
+10.times do
+  sentence = generator.generate
+  corpus &amp;lt;&amp;lt; sentence
+  markov.parse_string sentence
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now, the problem is that the sentences are so basic that it&#39;s likely a Markov chain could just re-generate those same, basic sentences. That&#39;s no fun. But, the Markov chain does have the possibility of generating unique sentences too. I may need to measure how many &#39;duplicated&#39; sentences it generates, to determine how much &quot;uniqueness&quot; the Markov chain can produce.&lt;/p&gt;
+
+&lt;p&gt;I decide to run my program with 10 corpus sentences, and then generate 10 sentences using my Markov chain, and then compare the uniqueness (the number of unique sentences divided by the number of total sentences generated).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10.times do |sentence|
+  generated_sentences &amp;lt;&amp;lt; markov.generate_1_sentence
+end
+
+duplicated_sentences = generated_sentences.select {|sentence| corpus.include?(sentence) }
+
+def calculate_odds(duplicated_sentences)
+  duplicates = (duplicated_sentences.length.to_f)
+  percent_of_duplicate = (duplicates/(SAMPLE.to_f))
+  1 - percent_of_duplicate
+end
+
+puts &quot;The number of duplicated sentences is #{duplicated_sentences.length}.&quot;
+puts &quot;The uniqueness of the text is #{calculate_odds(duplicated_sentences)}.&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I also added some print statements to this code to view what was the original corpus and the duplicated_sentences are, so that I can see the unique sentences for myself.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#Input Corpus (Generated By Templates):
+Do you think she cares, the monster says madly.
+Do you think she cares, the monster sings madly.
+She has a job to do, she giggles madly.
+I am sorry, she sings sadly.
+I am sorry I met you, the computer cries sadly.
+I hate you, he says sadly.
+I did the right thing, she laughs madly.
+I am sorry I met you, she sings madly.
+She has a job to do, the monster says sadly.
+Will she ever care, the monster says madly.
+
+#Ouput Sentences (Generated by Markov Chains):
+I hate you, he says sadly.
+I did the right thing, she laughs madly.
+Will she ever care, the monster says madly.
+She has a job to do, she giggles madly.
+I hate you, he says sadly.
+- I am sorry I met you, she sings sadly. -
+She has a job to do, she giggles madly.
+- Will she ever care, the monster says sadly. -
+- Will she ever care, the monster sings madly. -
+Will she ever care, the monster says madly.
+
+The number of duplicated sentences is 7.
+The uniqueness of the text is 0.19999999999999996.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I highlighted the unique sentences by using dashes.&lt;/p&gt;
+
+&lt;p&gt;So, about 20% of the generated text is unique. That&#39;s...actually kinda justifiable. Surely, the generator is doing most of the work, but the Markov chain is able to add some additional &quot;variation&quot; to the output.&lt;/p&gt;
+
+&lt;p&gt;Usually, Markov chains work well when you give it a large corpus. But luckily, since we already have a text generator, we can just tell it to produce as many sentences as we want. So, I generate a corpus of 1000 sentences, use that corpus to train a Markov chain, and then use the Markov chain to generate 1000 new sentences.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The number of duplicated sentences is 712.
+The uniqueness of the text is 0.28800000000000003.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Excellent. 288 unique sentences! I wonder what they read like...&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I met you, the monster giggles madly.
+a job to do, she sings madly.
+I met you, she cries madly.
+must kill you, she sings madly.
+do, the monster laughs sadly.
+You have a job to do, the computer laughs sadly.
+he cries madly.
+job to do, the computer cries madly.
+a job to do, she sings madly.
+me, he giggles madly.
+I met you, the monster cries madly.
+you think she is out there, she says madly.
+he says madly.
+She is sorry, the monster cries sadly.
+she cries madly.
+I met you, the monster laughs sadly.
+right, she laughs sadly.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Oh.&lt;/p&gt;
+
+&lt;p&gt;Clearly, there&#39;s still work to be done, especially with the initial text generator. The sentence fragments are annoying (though I presume I can write some more code to scan the generated text and delete any sentence that aren&#39;t complete). The bigger problem is that this wall of text is...fairly dull and boring. I don&#39;t really care why all these characters are speaking.&lt;/p&gt;
+
+&lt;p&gt;I need to try to create a somewhat sensible theme, at least one well enough that to justify having all these random people talking to each other. Or maybe I need to have different types of sentences that could be generated (possible descriptions and actions) that makes the generated text slightly more engaging.&lt;/p&gt;
+
+&lt;p&gt;The Markov chain interestingly was able to generate a phrase that was not specifically hardocded into the generator...&quot;I met you&quot; (obviously an extract from &quot;I am sorry I met you&quot;). And yes, it can repeat that phrase a lot.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;I met you, the monster says sadly.
+I met you, the computer giggles madly.
+I met you, the monster says sadly.
+I met you, the computer laughs madly.
+I met you, the monster sings madly.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I am unsure whether this experiment was a success. On the one hand, the Markov chain did add &#39;value&#39; to the process, by generating fairly unique sentences. On the other hand, much of this additional variation could have been easily accomplished by simply running the text generator again. The variations that the Markov chain does produce are fairly trivial and may not be interesting on its own.&lt;/p&gt;
+
+&lt;p&gt;I am also dubious on whether more uniqueness would actually be a worthwhile goal. &lt;a href=&quot;http://procedural-generation.tumblr.com/post/137167846082/infinity-and-procedural-generation-i-was-asked-on&quot;&gt;Infinite text generation itself may not be very interesting&lt;/a&gt;. You&#39;re usually only going to read a small fraction of whatever the program generates, before you get bored and ready to move onto the next content to consume. If that&#39;s the case, then why try to increase the number of possible variations? The reader is still going to get bored anyway. It may be smarter to instead focus on making each individual variation interesting.&lt;/p&gt;
+
+&lt;p&gt;The one bright spot in this research is its possible application to machine learning. The blogger who trained Markov chains on the &#39;tinyshakespeare&#39; corpus asked &lt;a href=&quot;http://www.r-bloggers.com/is-deep-learning-a-markov-chain-in-disguise&quot;&gt;&quot;Is Deep Learning a Markov Chain In Disguise?&quot;&lt;/a&gt; The output of a machine learning algorithm (when trained on text) is only slightly better than that of a Markov chain, after all. If you can write a program that can generate a corpus that then can train a Markov chain to produce meaningful text, then you could reuse that same program on a machine learning algorithm. Maybe their output may be more interesting to read.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sat, 18 Jun 2016 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/t17-markov.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/t17-markov.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T16 Resume Driven Development</title>
@@ -744,105 +970,6 @@ ORDER BY time;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
         <pubDate>Sat, 14 Nov 2015 00:00:00 -0600</pubDate>
         <link>tra38.github.io/blog/e6-fads-2.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/e6-fads-2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>T12 Dumb Ai</title>
-        <description>![CDATA[For a recent coding challenge, I had to implement an AI for a Tic-Tac-Toe game. This AI should not be able to lose a match. A quick Google search reveals that the most efficent way is to use a minimax algorithm to determine what moves are likely to cause the AI to either tie or win against another player. However, nobody I found seemed to analyze what decisions the AI actually makes.
-]</description>
-        <content>&lt;p&gt;For a recent coding challenge, I had to implement an AI for a Tic-Tac-Toe game. This AI should not be able to lose a match. A quick Google search reveals that the most efficent way is to use &lt;a href=&quot;http://neverstopbuilding.com/minimax&quot;&gt;a minimax algorithm&lt;/a&gt; to determine what moves are likely to cause the AI to either tie or win against another player. However, nobody I found seemed to analyze what decisions the AI actually makes.&lt;/p&gt;
-
-&lt;p&gt;The minimax algorimth works by having the computer play Tic-Tac-Toe against itself, figuring out the best moves to use against itself...and then figuring out the best counters to those moves, and so on and so forth. It will then rank all the possible moves it can take:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;tr&gt;&lt;td&gt;-10&lt;/td&gt;&lt;td&gt;- The AI will lose if it chooses this move. Avoid it.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt; 0&lt;/td&gt;&lt;td&gt;- It&#39;s a tie.&lt;/td&gt;&lt;/tr&gt;
-&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;- The AI will win.&lt;/td&gt;&lt;/tr&gt;
-&lt;/table&gt;
-
-
-&lt;p&gt;The AI will pick the move that has the highest score.&lt;/p&gt;
-
-&lt;p&gt;Therefore, the computer will play perfectly and never lose. It may never win either though, if the human it is playing against is also playing perfectly.&lt;/p&gt;
-
-&lt;p&gt;But there is an extreme amount of trust in how the Minimax Algorithm works. There is a lot of literature examining how to program the algorithm, and very little literature on what choices the algorithm ends up making. I assume that most people assume that since the algorithm will choose the best possible move for Tic-Tac-Toe, examining what moves it actually picks would be a waste of time.&lt;/p&gt;
-
-&lt;p&gt;But the problem is that the computer has to play through every possible game of Tic-Tac-Toe before it can make its choice. This is not an instantaneous process. For the worst case scenario (where the AI goes first, and thus must play through all Tic-Tac-Toe games), I had to wait 114 seconds for a response from the AI. This is absurd.&lt;/p&gt;
-
-&lt;p&gt;There are ways to reduce the number of games a computer has to play through (since many Tic-Tac-Toe games are really just duplicates of each other, with the boards being rotated)...but there had to be a better way to make the game go faster.&lt;/p&gt;
-
-&lt;p&gt;I decided to look &quot;under the hood&quot; of the AI, because I was curious in seeing how the AI thought for itself. I soon realize that if I know that the AI is thinking, I could &#39;hardcode&#39; in the AI&#39;s choices. The AI will just end up doing its move rather than spending 114 seconds learning to do that same move.&lt;/p&gt;
-
-&lt;p&gt;In the following terminal outputs, O is human and X is the computer. I also output a Hash showing the computer&#39;s thought process (&quot;MOVE&quot;=&gt;SCORE).&lt;/p&gt;
-
-&lt;p&gt;So here&#39;s three starting scenarios:&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;O goes first and pick a corner space.&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;7&lt;/em&gt;|&lt;em&gt;O&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;It is now X&#39;s Turn.&lt;/p&gt;
-
-&lt;p&gt;{&quot;0&quot;=&gt;-10, &quot;1&quot;=&gt;-10, &quot;2&quot;=&gt;-10, &quot;3&quot;=&gt;-10, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;-10, &quot;6&quot;=&gt;-10, &quot;7&quot;=&gt;-10}&lt;/p&gt;
-
-&lt;p&gt;X has picked Spot 4.
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The computer will choose the space that has the highest score. In this case, &lt;em&gt;every space&lt;/em&gt; other than 4 has a score of -10. The only space that allows the computer to tie the human player is 4, the spot right in the middle. So X picks that.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-O goes first and pick a edge space.&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;O&lt;/em&gt;|&lt;em&gt;8&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;It is now X&#39;s Turn.&lt;/p&gt;
-
-&lt;p&gt;{&quot;0&quot;=&gt;-10, &quot;1&quot;=&gt;0, &quot;2&quot;=&gt;-10, &quot;3&quot;=&gt;-10, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;-10, &quot;6&quot;=&gt;0, &quot;8&quot;=&gt;0}&lt;/p&gt;
-
-&lt;p&gt;X has picked Spot 1.
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;In this case, now, there are four moves that may lead to a tie: 1, 4, 6, and 8. Any other move will lead to the computer&#39;s loss.&lt;/p&gt;
-
-&lt;p&gt;But it does not matter how the computer gets to that tie. A tie is a tie. So the computer can easily pick any move that leads to a tie, and the outcome will always be the same. In this case, the computer just choses Spot 1.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;
-What happens if I let the computer go first?&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;0&lt;/em&gt;|&lt;em&gt;1&lt;/em&gt;|&lt;em&gt;2&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;3&lt;/em&gt;|&lt;em&gt;4&lt;/em&gt;|&lt;em&gt;5&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;|&lt;em&gt;6&lt;/em&gt;|&lt;em&gt;7&lt;/em&gt;|&lt;em&gt;8&lt;/em&gt;|&lt;/p&gt;
-
-&lt;p&gt;{&quot;0&quot;=&gt;0, &quot;1&quot;=&gt;0, &quot;2&quot;=&gt;0, &quot;3&quot;=&gt;0, &quot;4&quot;=&gt;0, &quot;5&quot;=&gt;0, &quot;6&quot;=&gt;0, &quot;7&quot;=&gt;0, &quot;8&quot;=&gt;0}&lt;/p&gt;
-
-&lt;p&gt;X has picked Spot 0.
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;None&lt;/em&gt; of the spaces are any more advantageous than the others. No matter what move the computer picks, a tie will result. So the computer could pick literally any move and be ensured that the other player won&#39;t win. In this case, the computer choses Spot 0.&lt;/p&gt;
-
-&lt;p&gt;I now know that the computer sees the space &quot;4&quot; as an excellent move to make, no matter whether O goes first or second. (Other moves can be just as excellent as &quot;4&quot;, but &quot;4&quot; will always be excellent.)&lt;/p&gt;
-
-&lt;p&gt;I then programmed the computer to always pick &quot;4&quot; as its first move. The minimax algorithm would still be used after the first move though. After the first few moves, the number of possible Tic-Tac-Toe games decreases, and so the minimax algorithm is speedy enough for the user to not be annoyed.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Result&lt;/strong&gt;: The AI is still unbeatable, but now the game is faster to play! It takes less than a second for the computer to make its first move, and its second move against the player is still just as fast.&lt;/p&gt;
-
-&lt;p&gt;It is cool to have the AI think how to beat its opponent. But just because something is cool does not mean that it is necessary or worthwhile in the real world. Thinking takes time, and a user is not going to be happy waiting for 114 seconds while the computer figure out what it should do next. Hardcoding in the AI choice ensure that the game runs faster. And since the hardcoded choice is actually based on the results of the minimax algorithm, we are not risking the chance of the AI losing.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sun, 27 Sep 2015 00:00:00 -0500</pubDate>
-        <link>tra38.github.io/blog/t12-dumb-ai.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/t12-dumb-ai.html</guid>
         
         
       </item>

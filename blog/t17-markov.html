@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>
+  <title> Technical - Markov Chains </title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css">
+  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blog-stylesheet.css">
+  <script type="text/javascript">
+    var _mfq = _mfq || [];
+    (function() {
+      var mf = document.createElement("script");
+      mf.type = "text/javascript"; mf.async = true;
+      mf.src = "//cdn.mouseflow.com/projects/1771b82f-f215-4af9-ae2e-f35186702620.js";
+      document.getElementsByTagName("head")[0].appendChild(mf);
+    })();
+  </script>
+</head>
+
+<main>
+<section class="socialmedia">
+    <a href="http://www.linkedin.com/in/trali"><img src="/img/linkedin.png" /></a>
+    <a href="http://twitter.com/Tariq_Ali38"><img src="/img/twitter.png" /></a>
+    <a href="https://github.com/tra38"><img src="/img/github_32.png" /></a>
+    </section>
+    <section class="links">
+      <a href="/index.html">Home/Portfolio</a>
+      <a href="/blog/index.html">Blog</a>
+    </section>
+    <br>
+  <h1>Experimenting with Markov Chains</h1>
+  <h2>...to Generate Readable Text</h2>
+  <h4>18 June 2016</h4>
+
+  <section>
+  <p>According to <a href="http://setosa.io/ev/markov-chains/">Victor Powell</a>, "Markov chains, named after Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another." Many people, including Andrey Markov, used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.</p>
+
+<p><a href="https://github.com/zolrath/marky_markov">Marky_Markov</a> is a Ruby gem that can be used to generate Markov chains. I used it to quickly set up a Markov chain and start fooling around with it.</p>
+
+<pre><code class="ruby">require 'marky_markov'
+
+markov = MarkyMarkov::TemporaryDictionary.new
+markov.parse_string "The cat is very friendly."
+markov.parse_string "The dog is slightly friendly."
+markov.parse_string "The sky is very unfriendly."
+markov.parse_string "The window is slightly unfriendly."
+
+markov.generate_10_sentences
+</code></pre>
+
+<p>=>"The window is slightly unfriendly. The window is slightly friendly. The sky is very unfriendly. The sky is very unfriendly. The window is slightly friendly. The sky is very friendly. The cat is very unfriendly. The cat is very unfriendly. The window is slightly unfriendly. The cat is very friendly."</p>
+
+<p>Some of the sentences are copies of the original corpus, but other sentences are original! The algorithm had learned how to write original sentences!</p>
+
+<p>These sentences are fairly dull though. The generator also repeats itself sometimes.</p>
+
+<p>At this point, the budding Markov Chainer will start searching for a pre-made corpus that can then be fed into the Markov Chain. But I'm not a budding Markov Chainer...if anything, I'm slightly jaded. The benefit of feeding a pre-made corpus into a Markov Chain is that the text start sounding more interesting. The problem is that the text also becomes less <em>coherent</em>. Here's <a href="https://brandonbyars.com/2007/05/06/tdding-a-markov-chain/">some sample text from a Markov chain trained on "The Raven"</a>:</p>
+
+<blockquote><p>Once upon a bust of Pallas just above my chamber door; –
+This it is, and this mystery explore; –
+‘Tis the wind and nothing more.</p></blockquote>
+
+<p>I can understand why some people may be happy with text that seems meaningful so long as you don't read it too deeply. In fact, this text could plausibly be used as poetry. Any oddities in the text itself can be explained away as stylistic choices and metaphors.</p>
+
+<p>But if we decide to use Markov chains outside of poetry, well...um....</p>
+
+<p>Here's <a href="http://www.r-bloggers.com/is-deep-learning-a-markov-chain-in-disguise/">some sample text from a Markov chain trained on the 'tinyshakespeare' corpus</a>:</p>
+
+<blockquote><p>DUKE VINCENTIO:</p>
+
+<p>Well, your wit is in the care of side and that.</p>
+
+<p>FRIAR LAURENCE:</p>
+
+<p>Or walk liest;</p>
+
+<p>And the ears.</p>
+
+<p>And hell!</p>
+
+<p>In self.</p>
+
+<p>PETRUCHIO:</p>
+
+<p>Persuading to our the enemy, even woman, I'll afford show'd and speaking of</p>
+
+<p>England all out what least. Be satisfied! Now, sir.</p>
+
+<p>Second Lord:</p>
+
+<p>They would be ruled after this chamber, and</p>
+
+<p>my fair nues begun out of the fact, to be conveyed,</p>
+
+<p>Whose noble souls I'll have the heart of the wars.</p></blockquote>
+
+<p>...yeah, no. The blogger is surprised about how his Markov chain learned Old English, but I absolutely hate this output. This is why I had been reluctant to use Markov chains ever...because what they actually produce is utter nonsense.</p>
+
+<p>When I conduct experimentation in text generation, my goal is to produce text that reaches human quality. This bias may have been caused by my previous experience as a journalist, where I was expected to write words that people are able to read...not necessarily text that <em>appears</em> to be readable. This causes me to prefer more 'conservative' techniques in text generation (shuffling paragraphs, using pre-written templates, etc.)</p>
+
+<p>My post in Reddit showing off some templates I used in text generation was somewhat controversial, as can be seen in <a href="https://www.reddit.com/r/proceduralgeneration/comments/4ken1d/laughter_in_the_singularity_computergenerated/?">the comment thread</a>. Many people raised the valid point that the algorithm was just too simplistic for their tastes. While I was happy with my output (it was readable), I also realized that I needed to do slightly more experimentation. One reddit poster (kleer001) made a rather interesting comment:</p>
+
+<blockquote><p>let's see some markov chains maybe?
+here, have som fun with this: http://projects.haykranen.nl/markov/demo/
+sorry I noped you, you sound like a cool dude, but still, you can do hella better. i believe in you.</p></blockquote>
+
+<p>Hence, why I was fooling around with marky_markov.</p>
+
+<p>Looking at the output of my toy Markov chain ("The window is slightly friendly") makes me realize that the main problem I had with Markov chains isn't necessarily the chain itself, but the corpus that people use to train on it. If you provide complicated prose to a Markov chain (such as Shakespeare's plays), you are not going to get good results out of it. What I'm going to have to do is to simplify the prose to a level that a Markov chain will be able to grasp and imitate properly.</p>
+
+<p>I need to generate a corpus that follow these two rules:</p>
+
+<ol>
+<li>Each sentence should have very simplistic and repetitive grammar.</li>
+<li>Each sentence should be context-less; there should be no connection to previous and future sentences (the Markov chain will not have the ability to understand the context of words).</li>
+</ol>
+
+
+<p>Now, writing out all these sentences for a corpus is rather dull...which can explain why some people reach for a pre-made corpus instead. But I remembered that I still had prior experience in text-generation. Why don't I write a program that can generate text...and then use its <em>output</em> as a corpus? I used the Ruby gem <a href="https://github.com/maetl/calyx">'Calyx'</a> to quickly set up a template-based text generator.</p>
+
+<pre><code>require 'marky_markov'
+require 'calyx'
+
+markov = MarkyMarkov::TemporaryDictionary.new
+
+class CorpusGenerator &lt; Calyx::Grammar
+  start '{dialogue}, {gender} {speak} {mood}.'
+  rule :dialogue, 'Do you think she is out there', 'Do you think she cares', 'Will she ever care',
+  'We have a job to do', 'She has a job to do', 'I did the right thing',
+  'She did what was right', 'Do not kill me', 'I must kill you',
+  'You have a job to do', 'I am sorry', 'She is sorry',
+  'I hate you', 'I am sorry I met you'
+  rule :gender, 'he', 'she', 'the computer', 'the monster'
+  rule :speak, "says", "giggles", "laughs", "cries", "sings"
+  rule :mood, "sadly", "madly"
+end
+
+generator = CorpusGenerator.new
+
+corpus = []
+
+10.times do
+  sentence = generator.generate
+  corpus &lt;&lt; sentence
+  markov.parse_string sentence
+end
+</code></pre>
+
+<p>Now, the problem is that the sentences are so basic that it's likely a Markov chain could just re-generate those same, basic sentences. That's no fun. But, the Markov chain does have the possibility of generating unique sentences too. I may need to measure how many 'duplicated' sentences it generates, to determine how much "uniqueness" the Markov chain can produce.</p>
+
+<p>I decide to run my program with 10 corpus sentences, and then generate 10 sentences using my Markov chain, and then compare the uniqueness (the number of unique sentences divided by the number of total sentences generated).</p>
+
+<pre><code>10.times do |sentence|
+  generated_sentences &lt;&lt; markov.generate_1_sentence
+end
+
+duplicated_sentences = generated_sentences.select {|sentence| corpus.include?(sentence) }
+
+def calculate_odds(duplicated_sentences)
+  duplicates = (duplicated_sentences.length.to_f)
+  percent_of_duplicate = (duplicates/(SAMPLE.to_f))
+  1 - percent_of_duplicate
+end
+
+puts "The number of duplicated sentences is #{duplicated_sentences.length}."
+puts "The uniqueness of the text is #{calculate_odds(duplicated_sentences)}."
+</code></pre>
+
+<p>I also added some print statements to this code to view what was the original corpus and the duplicated_sentences are, so that I can see the unique sentences for myself.</p>
+
+<pre><code>#Input Corpus (Generated By Templates):
+Do you think she cares, the monster says madly.
+Do you think she cares, the monster sings madly.
+She has a job to do, she giggles madly.
+I am sorry, she sings sadly.
+I am sorry I met you, the computer cries sadly.
+I hate you, he says sadly.
+I did the right thing, she laughs madly.
+I am sorry I met you, she sings madly.
+She has a job to do, the monster says sadly.
+Will she ever care, the monster says madly.
+
+#Ouput Sentences (Generated by Markov Chains):
+I hate you, he says sadly.
+I did the right thing, she laughs madly.
+Will she ever care, the monster says madly.
+She has a job to do, she giggles madly.
+I hate you, he says sadly.
+- I am sorry I met you, she sings sadly. -
+She has a job to do, she giggles madly.
+- Will she ever care, the monster says sadly. -
+- Will she ever care, the monster sings madly. -
+Will she ever care, the monster says madly.
+
+The number of duplicated sentences is 7.
+The uniqueness of the text is 0.19999999999999996.
+</code></pre>
+
+<p>I highlighted the unique sentences by using dashes.</p>
+
+<p>So, about 20% of the generated text is unique. That's...actually kinda justifiable. Surely, the generator is doing most of the work, but the Markov chain is able to add some additional "variation" to the output.</p>
+
+<p>Usually, Markov chains work well when you give it a large corpus. But luckily, since we already have a text generator, we can just tell it to produce as many sentences as we want. So, I generate a corpus of 1000 sentences, use that corpus to train a Markov chain, and then use the Markov chain to generate 1000 new sentences.</p>
+
+<pre><code>The number of duplicated sentences is 712.
+The uniqueness of the text is 0.28800000000000003.
+</code></pre>
+
+<p>Excellent. 288 unique sentences! I wonder what they read like...</p>
+
+<pre><code>I met you, the monster giggles madly.
+a job to do, she sings madly.
+I met you, she cries madly.
+must kill you, she sings madly.
+do, the monster laughs sadly.
+You have a job to do, the computer laughs sadly.
+he cries madly.
+job to do, the computer cries madly.
+a job to do, she sings madly.
+me, he giggles madly.
+I met you, the monster cries madly.
+you think she is out there, she says madly.
+he says madly.
+She is sorry, the monster cries sadly.
+she cries madly.
+I met you, the monster laughs sadly.
+right, she laughs sadly.
+</code></pre>
+
+<p>Oh.</p>
+
+<p>Clearly, there's still work to be done, especially with the initial text generator. The sentence fragments are annoying (though I presume I can write some more code to scan the generated text and delete any sentence that aren't complete). The bigger problem is that this wall of text is...fairly dull and boring. I don't really care why all these characters are speaking.</p>
+
+<p>I need to try to create a somewhat sensible theme, at least one well enough that to justify having all these random people talking to each other. Or maybe I need to have different types of sentences that could be generated (possible descriptions and actions) that makes the generated text slightly more engaging.</p>
+
+<p>The Markov chain interestingly was able to generate a phrase that was not specifically hardocded into the generator..."I met you" (obviously an extract from "I am sorry I met you"). And yes, it can repeat that phrase a lot.</p>
+
+<pre><code>I met you, the monster says sadly.
+I met you, the computer giggles madly.
+I met you, the monster says sadly.
+I met you, the computer laughs madly.
+I met you, the monster sings madly.
+</code></pre>
+
+<p>I am unsure whether this experiment was a success. On the one hand, the Markov chain did add 'value' to the process, by generating fairly unique sentences. On the other hand, much of this additional variation could have been easily accomplished by simply running the text generator again. The variations that the Markov chain does produce are fairly trivial and may not be interesting on its own.</p>
+
+<p>I am also dubious on whether more uniqueness would actually be a worthwhile goal. <a href="http://procedural-generation.tumblr.com/post/137167846082/infinity-and-procedural-generation-i-was-asked-on">Infinite text generation itself may not be very interesting</a>. You're usually only going to read a small fraction of whatever the program generates, before you get bored and ready to move onto the next content to consume. If that's the case, then why try to increase the number of possible variations? The reader is still going to get bored anyway. It may be smarter to instead focus on making each individual variation interesting.</p>
+
+<p>The one bright spot in this research is its possible application to machine learning. The blogger who trained Markov chains on the 'tinyshakespeare' corpus asked <a href="http://www.r-bloggers.com/is-deep-learning-a-markov-chain-in-disguise">"Is Deep Learning a Markov Chain In Disguise?"</a> The output of a machine learning algorithm (when trained on text) is only slightly better than that of a Markov chain, after all. If you can write a program that can generate a corpus that then can train a Markov chain to produce meaningful text, then you could reuse that same program on a machine learning algorithm. Maybe their output may be more interesting to read.</p>
+
+  </section>
+  <a href="index.html">Return back to Blog Index</a>
+</main>
+
