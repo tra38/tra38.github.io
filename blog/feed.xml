@@ -5,15 +5,15 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jun 2016 17:44:58 -0500</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 17:44:58 -0500</lastBuildDate>
+    <pubDate>Sun, 19 Jun 2016 14:28:56 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 14:28:56 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>T17 Markov</title>
-        <description>![CDATA[According to Victor Powell, "Markov chains, named after Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another." Many people, including Andrey Markov, used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.
+        <description>![CDATA[According to Victor Powell, "Markov chains, named after Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another." Many people have used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.
 ]</description>
-        <content>&lt;p&gt;According to &lt;a href=&quot;http://setosa.io/ev/markov-chains/&quot;&gt;Victor Powell&lt;/a&gt;, &quot;Markov chains, named after Andrey Markov, are mathematical systems that hop from one &quot;state&quot; (a situation or set of values) to another.&quot; Many people, including Andrey Markov, used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.&lt;/p&gt;
+        <content>&lt;p&gt;According to &lt;a href=&quot;http://setosa.io/ev/markov-chains/&quot;&gt;Victor Powell&lt;/a&gt;, &quot;Markov chains, named after Andrey Markov, are mathematical systems that hop from one &quot;state&quot; (a situation or set of values) to another.&quot; Many people have used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/zolrath/marky_markov&quot;&gt;Marky_Markov&lt;/a&gt; is a Ruby gem that can be used to generate Markov chains. I used it to quickly set up a Markov chain and start fooling around with it.&lt;/p&gt;
 
@@ -78,7 +78,7 @@ This it is, and this mystery explore; –
 
 &lt;p&gt;When I conduct experimentation in text generation, my goal is to produce text that reaches human quality. This bias may have been caused by my previous experience as a journalist, where I was expected to write words that people are able to read...not necessarily text that &lt;em&gt;appears&lt;/em&gt; to be readable. This causes me to prefer more &#39;conservative&#39; techniques in text generation (shuffling paragraphs, using pre-written templates, etc.)&lt;/p&gt;
 
-&lt;p&gt;My post in Reddit showing off some templates I used in text generation was somewhat controversial, as can be seen in &lt;a href=&quot;https://www.reddit.com/r/proceduralgeneration/comments/4ken1d/laughter_in_the_singularity_computergenerated/?&quot;&gt;the comment thread&lt;/a&gt;. Many people raised the valid point that the algorithm was just too simplistic for their tastes. While I was happy with my output (it was readable), I also realized that I needed to do slightly more experimentation. One reddit poster (kleer001) made a rather interesting comment:&lt;/p&gt;
+&lt;p&gt;Recently, I started &lt;a href=&quot;https://medium.com/laughter-in-the-singularity&quot;&gt;a Medium blog&lt;/a&gt; where I showed off some fictional work that was computer-generated. This blog was somwehat  generation was somewhat controversial on Reddit, as can be seen in &lt;a href=&quot;https://www.reddit.com/r/proceduralgeneration/comments/4ken1d/laughter_in_the_singularity_computergenerated/?&quot;&gt;the comment thread&lt;/a&gt;. Many people raised the valid point that the algorithms used were just too simplistic for their tastes (as I was too reliant on my &#39;conservative&#39; techniques). While I was happy with my output (it was readable), I also realized that I needed to do slightly more experimentation. One reddit poster (kleer001) made a rather interesting comment:&lt;/p&gt;
 
 &lt;blockquote&gt;&lt;p&gt;let&#39;s see some markov chains maybe?
 here, have som fun with this: http://projects.haykranen.nl/markov/demo/
