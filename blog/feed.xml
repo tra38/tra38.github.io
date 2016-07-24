@@ -5,9 +5,82 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 19 Jun 2016 14:43:44 -0500</pubDate>
-    <lastBuildDate>Sun, 19 Jun 2016 14:43:44 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Jul 2016 19:56:53 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jul 2016 19:56:53 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>C23 One Year Later</title>
+        <description>![CDATA[Most people think spies are afraid of guns, or KGB guards, or barbed wire, but in point of fact the most dangerous thing they face is paper. Papers carry secrets. Papers can carry death warrants. Papers like this one, this folio with its blurry eighteen year old faked missile photographs and estimates of time/survivor curves and pervasive psychosis ratios, can give you nightmares, dragging you awake screaming in the middle of the night.---A Colder War
+]</description>
+        <content>&lt;blockquote&gt;&lt;p&gt;Most people think spies are afraid of guns, or KGB guards, or barbed wire, but in point of fact the most dangerous thing they face is paper. Papers carry secrets. Papers can carry death warrants. Papers like this one, this folio with its blurry eighteen year old faked missile photographs and estimates of time/survivor curves and pervasive psychosis ratios, can give you nightmares, dragging you awake screaming in the middle of the night.---&lt;a href=&quot;http://www.infinityplus.co.uk/stories/colderwar.htm&quot;&gt;A Colder War&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Humans have written papers all their lives. Writing was once considered a praiseworthy activity that required intelligence.  But technology has now advanced to the point that computers are able to imitate the very process of writing successfully, and we are forced to decide between two unappeasing statements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Computers must be intelligent.&lt;/li&gt;
+&lt;li&gt;Writing doesn&#39;t require intelligence.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;This is, to me, pretty scary for a variety of reasons: loss of purpose and ego issues, possible rise in unemployment, human dependency on technology to do all the work for them, etc. And I wanted to do something to counter the rising power of AI.&lt;/p&gt;
+
+&lt;p&gt;It has been 15 months since I first entered DBC, almost one year since I graduated from Dev Bootcamp. During that time, I attempted to research the emerging field of computer-generated literature...in the hopes of using this technology against them, as a form of advocacy against uncontrolled research into AI.&lt;/p&gt;
+
+&lt;p&gt;During the on-site portion of the DBC curriculum in Chicago, many people learned about this plan, especially after I produced &lt;a href=&quot;https://github.com/tra38/FriendComputer&quot;&gt;Friend Computer&lt;/a&gt;, a blog written by a computer, as a standalone DBC project. However, since then, I have not been in much contact with the people on DBC ever since my graduation...and so I decide to write a blog post to explain what happened.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll start by quoting an email that I sent to a random stranger:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Let me introduce myself fairly carefully. I like to write. When I was a teenager, I served as a volunteer journalist. In college, I published a research paper. Even today, I write nonfictional blog posts and some (unpublished) fictional stories. So I still write, although I do not identify myself as a &quot;writer&quot;. My day-job is a computer programmer...where I write computer code (although it may not be beautiful or elegant to read).&lt;/p&gt;
+
+&lt;p&gt;I had very some uncomfortable feelings about artificial intelligence and technology...especially our overt dependence on it and its potential impact on humanity. After reading an article about Narrative Science and its robojournalist articles, I wanted to take a stand against technological progress causing us to &quot;shoot ourselves in the foot&quot; [by writing a dystopian novel about an AI supercomputer that ruled over human society with an iron fist].&lt;/p&gt;
+
+&lt;p&gt;And I immediately realized that this novel had to be computer-generated. It had to be that way. If I &quot;handwrote&quot; a sci-fi novel about the dangers of technology, then it would just be my opinions, my thoughts. Not reality. Nobody would listen to the thoughts of a random person, and would simply dismiss my fear as &quot;Luddism&quot;. If I am able to build proof of the dangers of technology (computer-generated literature), then that would make my arguments against technology more persuasive. &quot;If technology can do X now, what about the future?&quot; Etc., etc.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;The &quot;Ozymandias Gambit&quot; is the term that Duke Greene (a DBC teacher) named my scheme. It is named after the character from the &quot;Watchmen&quot; comic book series. Ozymandias, the main villian of the comic book series, wanted to end the Cold War by creating a Lovecraftian monster to attack both the United States and the Soviet Union. His hope is that this monster would scare the superpowers long enough to unify together, thereby forestalling the possibility of nuclear armageddon.&lt;/p&gt;
+
+&lt;p&gt;I built &lt;a href=&quot;https://github.com/tra38/Skynet&quot;&gt;&quot;Skynet&quot;&lt;/a&gt;, a command-line program that can be used to generate stories based on a &quot;Mad-Lib&quot;-style template. Someone even built &lt;a href=&quot;https://github.com/enkiv2/Skynet/blob/master/txt2sky.py&quot;&gt;a Python script&lt;/a&gt; that can turn existing novels &lt;em&gt;into&lt;/em&gt; templates that can then be used to generate stories...and used it and &lt;a href=&quot;https://github.com/enkiv2/Skynet/blob/master/odyssey.dict&quot;&gt;a configuration file&lt;/a&gt; to generate a Sky template of &lt;a href=&quot;https://github.com/enkiv2/Skynet/blob/master/odyssey.sky&quot;&gt;The Odyssey&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, certainly, I could have actually produced the anti-technological novel with this tool I had. But I would have to &lt;em&gt;write&lt;/em&gt; out all the templates in question, which almost defeats the whole purpose of building the program. The templates would have done most of the work, while the computer in question really only randomly select words to plug into the templates. So I gave up on that line...and tried other approaches to procedural generation.&lt;/p&gt;
+
+&lt;p&gt;As for expressing my ire about technology, I did find other outlets. I wrote algorithms to generate &lt;a href=&quot;https://medium.com/laughter-in-the-singularity&quot;&gt;two short stories against technology&lt;/a&gt; and &lt;a href=&quot;tra38.github.io/blog/ai3.html&quot;&gt;a blog post condemning artificial intelligence&lt;/a&gt;. There was still some human involvement involved. I wrote all the words in the short stories and the blog posts. But the algorithm also played a role in deciding the order of my paragraphs within the story. And the order matters just as much as the text. I even released my algorithm as an open-source Ruby gem called &lt;a href=&quot;https://github.com/tra38/Prolefeed&quot;&gt;Prolefeed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, yeah, I carried out a lesser version of the &quot;Ozymandias Gambit&quot;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Most people didn&#39;t cared.&lt;/em&gt; Those that did can be placed into two camps, the Futurists and the Traditionalists:&lt;/p&gt;
+
+&lt;h2&gt;The Futurists&lt;/h2&gt;
+
+&lt;p&gt;There are those who really liked the technology that I was working on. They saw it as cool and exciting, and thought about improving on my methods. Which, of course, &lt;em&gt;misses the point.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Which is why I started my blog post by quoting from &quot;A Colder War&quot; instead of from the &quot;Watchmen&quot;. &quot;A Colder War&quot; is a novella that had a premise: What if the superpowers discovered Lovecraftian technologies? The answer was simple...they started using it to fight their Cold War! The &#39;paper&#39; that the quote was referring to is a CIA report about Soviet Union&#39;s &quot;Project Koschei&quot; (a plan to use Cthulhu as a superweapon against the United States).&lt;/p&gt;
+
+&lt;p&gt;So Ozymandias may have been too optimistic. Instead of seeing Ozymandias&#39; monster as a wakeup call, the superpowers could have simply started building their own monsters instead. I mean, Ozy already did it. How hard could it be?&lt;/p&gt;
+
+&lt;p&gt;Ozymandias could, of course, take a perverse pride in contributing to the very fear that he opposed. In fact, he&#39;d probably make a killing selling his monster-building techniques to the superpowers. But the irony is there. It cannot be concealed or denied.&lt;/p&gt;
+
+&lt;h2&gt;The Traditionalists&lt;/h2&gt;
+
+&lt;p&gt;These people did view technology as a threat, and thus would sympathize with my anti-tech rants. They were mostly creeped out by the possibility of text generation. The computer-generated text may not be &#39;on par&#39; with human-generated work, but it could improve with time..and besides, computer-generated work doesn&#39;t have to be &quot;good&quot;. It just have to be &quot;good enough&quot;. This audience was receptive to my message.&lt;/p&gt;
+
+&lt;p&gt;But that&#39;s it. Having felt chills down their spine, they haven&#39;t moved a single inch to stop this trend. It&#39;s almost as if they couldn&#39;t &lt;em&gt;do anything&lt;/em&gt; to stop it. There is almost a sense of resignation...that you can&#39;t fight progress. I guess the best you can do is write against the future...but then again, I already wrote an algorithm to write against the future.&lt;/p&gt;
+
+&lt;p&gt;In this scenario, people saw Ozymandias&#39; evil monster, but resigned themselves to the fact that it existed and moved on with their lives. &quot;Yeah, a monster destroyed New York. What a shame. So whose going to win the Super Bowl this year?&quot; It&#39;s not like they hate the future...they certainly do. But they realize that they can&#39;t change it. All they can do is to accept it and prepare for it.&lt;/p&gt;
+
+&lt;h2&gt;The Failure of the Ozymandias Gambit&lt;/h2&gt;
+
+&lt;p&gt;Today, I sometimes &quot;write&quot; computer-generated blog posts about computer-generated literature and &lt;a href=&quot;https://dev.to/tra&quot;&gt;post them on dev.to&lt;/a&gt;, with plans to eventually port them over to this site. I like to inform people about this field and its technical merits, while also conveying my distaste and disgust. at the field as well.&lt;/p&gt;
+
+&lt;p&gt;This blog post, however, was not computer-generated. I could have wrote an algorithm to write this blog post. I have to break this blog post up into smaller chunks, and then use &lt;a href=&quot;https://github.com/tra38/Prolefeed&quot;&gt;Prolefeed&lt;/a&gt; to shuffle the chunks. It is fairly easy (although time-consuming) to pull off. But today, I just wanted to express &lt;em&gt;my&lt;/em&gt; own feelings about my experience. Not what the computer wanted to write about. Maybe the computer might be a better writer than me. But I still want to vent my thoughts anyway. (Duke Greene, my DBC teacher, have also said the same thing about his own creative works...he likes doing them manually because he wants to express his own thoughts, without any such mechanical filters.)&lt;/p&gt;
+
+&lt;p&gt;I&#39;ll probably keep writing against the future, warning people about the possible disaster of artificial intelligence and how we need societal regulation against it to limit its damages. But now I am under no illusion that my posts will actually change anything. At least I tried.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Sat, 23 Jul 2016 00:00:00 -0500</pubDate>
+        <link>tra38.github.io/blog/c23-one-year-later.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c23-one-year-later.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>T17 Markov</title>
@@ -898,78 +971,6 @@ ORDER BY time;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;&lt;/p&gt;
         <pubDate>Thu, 31 Dec 2015 00:00:00 -0600</pubDate>
         <link>tra38.github.io/blog/t13-sql-ordinals-and-aliases.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t13-sql-ordinals-and-aliases.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>E6 Fads 2</title>
-        <description>![CDATA[In the past, I wrote about Yali Pali's paper about the lifecycle of intellectual fads. I am curious about fads because the programming field seems prone to them, and it's important to avoid fads at all costs. Today, I learned two new ways to explain fads, after reading When a Fad Ends: An Agent-Based Model of Imitative Behavior by Margo Bergman.
-]</description>
-        <content>&lt;p&gt;In the past, I wrote about &lt;a href=&quot;http://tra38.github.io/blog/e2-fads.html&quot;&gt;Yali Pali&#39;s paper about the lifecycle of intellectual fads&lt;/a&gt;. I am curious about fads because the programming field seems prone to them, and it&#39;s important to avoid fads at all costs. Today, I learned two new ways to explain fads, after reading &lt;a href=&quot;http://uh.edu/margo/paper.pdf&quot;&gt;When a Fad Ends: An Agent-Based Model of Imitative Behavior&lt;/a&gt; by Margo Bergman.&lt;/p&gt;
-
-&lt;p&gt;Pali focused his studies on academica and claimed that &quot;intellectual fads&quot; followed this pattern:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;A new field is developed.&lt;/li&gt;
-&lt;li&gt;People see that the field has no experts yet (since it is a new field).&lt;/li&gt;
-&lt;li&gt;People &lt;strong&gt;rush&lt;/strong&gt; to be a part of the hot new thing, with the goal of becoming prestigious experts.&lt;/li&gt;
-&lt;li&gt;A few people ends up becoming experts.&lt;/li&gt;
-&lt;li&gt;Everyone else gets bored and leave. The fad ends.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;This approach seems to make sense for explaining fads in programming, since it implies why certain languages, frameworks, and even methodologies may rise and fall in popularity. But what if programming is not structured like academia? What if languages/frameworks/methodologies are not specialized fields of interest but instead tools that can be switched in and out? Then it may be important to view fads in programming as being about &#39;products&#39;, not about &#39;intellectual pursuits&#39;. Bergman&#39;s paper only discusses product fads (and I have taken the liberty of using term &quot;product&quot; with &quot;tool&quot; interchangeably).&lt;/p&gt;
-
-&lt;p&gt;When Bergman wrote her paper, she argued against &quot;information cascades&quot;, a theory developed in economics in the 1990s that also purports to provide a lifecycle for fads. An &quot;information cascade&quot; has these stages:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;People are given a choice to accept or reject a tool. Since they lack complete knowledge about whether that tool is good to use, they rely on other signals from previous &quot;adopters&quot; of the tool.&lt;/li&gt;
-&lt;li&gt;The signals from previous &quot;adopters&quot; show that the tool is indeed good. Therefore, people end up adapting the tool.&lt;/li&gt;
-&lt;li&gt;The tool actually turns out to be terrible.&lt;/li&gt;
-&lt;li&gt;When people learn that the tool is terrible, they stop using the tool. The fad ends.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;Bergman does not like this theory though because it implies that fads are always around &#39;bad&#39; tools. For example, Hula Hoops, miniskirts, and Rubik&#39;s Cubes are not &quot;bad&quot; products by any means, yet they were all examples of fads.&lt;/p&gt;
-
-&lt;p&gt;Bergman instead argued that people can be divided into two groups:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Fad Setters&lt;/em&gt; are people who are always looking out for the next best thing. According to Bergman, they &quot;specialize in the discovery of new products&quot; and &quot;are known to be the people who others wish to emulate&quot;. Fad Setters do not care about what other Fad Setters do and are independent.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Fad Followers&lt;/em&gt; are people who want to use the next best thing, but do not know how to find it. So they instead rely on the preferences of Fad Setters. Whatever a Fad Setter wants, the Fad Followers will want too.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;Fad Followers do not need to know the exact identity of a Fad Setter to decide whether to buy a product. Instead they look at the behavior of other people, some of whom may potentially have access to the knowledge of a Fad Setter. They can then copy the behavior of those other people, and thereby indirectly emulate the Fad Setter.&lt;/p&gt;
-
-&lt;p&gt;Bergman&#39;s fad theory has these stages:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;A Fad Setter finds a product, finding it novel and new. He starts using the product.&lt;/li&gt;
-&lt;li&gt;Fad Followers end up emulating the Fad Setter by using that product too.&lt;/li&gt;
-&lt;li&gt;When too many Fad Followers use the product, the Fad Setter gets disgusted. The product is no longer novel or new enough for him to use. The Fad Setter leaves the product.&lt;/li&gt;
-&lt;li&gt;Fad Followers also leave the product, thereby emulating the Fad Setter.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;Bergman also discussed ways to prevent fads from occuring.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;First, there may be multiple Fad Setters using different products and competing with each other. No one product would become popular enough to inspire &quot;disgust&quot; in the Fad Setters (as all the Fad Followers would end up following different Fad Setters). These products thereby continue to stay popular, and avoid having to face the downturn that a fad normally faces.&lt;/li&gt;
-&lt;li&gt;Second, a Fad Setter may get disgusted easily and leave a product as soon as Fad Followers starts getting interested. This stops a fad from rising.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;I tend to not like Bergman&#39;s theory all that much, because it seems to imply that most people are lemmings, who only follow Fad Setters without any regard to whether the product is actually good. It also implies that Fad Setters are themselves not interested in whether the product is actually good either, and only choose products based on whether other people are &lt;em&gt;not&lt;/em&gt; using them. Yet whether I like it has no bearing on whether it is true or not, and it does seem plausible that programmers are tempted to &quot;follow the crowd&quot; and listen to gurus. I&#39;m not sure whether the gurus themselves are as flaky as the term &quot;Fad Setters&quot; imply.&lt;/p&gt;
-
-&lt;p&gt;Surely, more work has to be done to determine whether Pali&#39;s theory, &quot;Information Cascade&quot; theory, or Bergman&#39;s theory is the correct way to explain the presences of fads in programming. Or maybe all three approaches are correct. I just don&#39;t know yet. I do know that the &#39;life cycle&#39; of a fad is an important topic that I have to keep in mind when evaluating the &quot;next hot thing&quot; in programming. As I wrote in a previous blog post:&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;&quot;As beginning programmers, we do not have the time or the money to be chasing fads. We want to specialize in the fields that (a) we like and/or (b) will be popular for a long time. Understanding these fads is important, simply so that we can spot them and avoid them.&quot;&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Sat, 14 Nov 2015 00:00:00 -0600</pubDate>
-        <link>tra38.github.io/blog/e6-fads-2.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/e6-fads-2.html</guid>
         
         
       </item>
