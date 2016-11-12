@@ -5,9 +5,90 @@
     <description>A blog dedicated to showcasing my talents</description>
     <link>tra38.github.io/blog/</link>
     <atom:link href="tra38.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 19:56:39 -0500</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 19:56:39 -0500</lastBuildDate>
+    <pubDate>Sat, 12 Nov 2016 10:01:44 -0600</pubDate>
+    <lastBuildDate>Sat, 12 Nov 2016 10:01:44 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>C25 Fear</title>
+        <description>![CDATA[Today, many developers feel the need to express their non-technical political opinions online...in a wide variety of different, public forums (Twitter, Facebook, blog posts, comments on blog posts, etc). I can understand why people may feel the to express their own views to random strangers on the Internet. After all, politics is an important aspect of a civil society, and it is essential to understand how a country is run. I, myself, have posted Tweets about non-technical issues (mostly condemning the growing national debt, the polarization of American society and the rise of extremist politics), and may have posted comments on popular blogs using dubious pseudonyms.
+]</description>
+        <content>&lt;p&gt;Today, many developers feel the need to express their &lt;em&gt;non-technical&lt;/em&gt; political opinions online...in a wide variety of different, public forums (Twitter, Facebook, blog posts, comments on blog posts, etc). I can understand why people may feel the to express their own views to random strangers on the Internet. After all, politics is an important aspect of a civil society, and it is essential to understand how a country is run. I, myself, have posted Tweets about non-technical issues (mostly condemning the growing national debt, the polarization of American society and the rise of extremist politics), and may have posted comments on popular blogs using dubious pseudonyms.&lt;/p&gt;
+
+&lt;p&gt;However, this tendency to &quot;speak your mind to random strangers on the Internet&quot; as being very...problematic.  While some of these strangers are automated bots just crawling for text, many of these strangers are real, live human beings. These human beings may:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Disagree with me entirely because it does not fit within their own preconceived biases&lt;/li&gt;
+&lt;li&gt;Agree with me entirely because it fits within their own preconceived biases&lt;/li&gt;
+&lt;li&gt;Reinterpret my opinion so that it acts to reinforce their own preconceived biases&lt;/li&gt;
+&lt;li&gt;Agree with me on &lt;em&gt;most&lt;/em&gt; of my opinion, but disagrees with a minor aspect of the opinion that actually undermines my whole argument&lt;/li&gt;
+&lt;li&gt;Agree with my opinion until they actually read my terrible arguments in favor of it, believe that the opinion itself must be stupid, and then &lt;em&gt;change their opinion&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Not actually care because they&#39;re just wasting time on the Internet&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;And these human beings may have different motives for even finding my article. They may:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Have an opinion and want to hear someone else say it in a different manner&lt;/li&gt;
+&lt;li&gt;Have an opinion and want to hear flawed arguments against it to make their own opinion look smarter&lt;/li&gt;
+&lt;li&gt;Have an opinion and only want to &quot;know the enemy&quot; by reading an argument against it&lt;/li&gt;
+&lt;li&gt;Want to read something funny to pass the time&lt;/li&gt;
+&lt;li&gt;Actually want to learn about an issue (very unlikely, I admit)&lt;/li&gt;
+&lt;li&gt;Etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;There&#39;s a lot that can go wrong when conveying information online to random strangers, and it is very hard to get feedback form these users on why they are reading my opinion and whether I successfully expressed the opinion correctly. As a result, it is very easy for you to make a mistake when expressing your political opinion, and to do lasting damage as a result of your carelessness.&lt;/p&gt;
+
+&lt;p&gt;And while having a political opinion is good, expressing it does seems to require a little more deftness that I don&#39;t really know I have. If you argue a cause incorrectly, then you might end up damaging your cause (instead of helping it). If you are preaching to an echo chamber, you&#39;re really just wasting your time. If your opinion is uninformed (or worse, just &lt;em&gt;utterly wrong&lt;/em&gt;), then you&#39;re causing real damage to society.&lt;/p&gt;
+
+&lt;p&gt;So if you have no feedback on the success of your writing, and no confidence that what you&#39;re saying is even right...why bother speaking in public? Self-censorship seems more justified to me in this case (and sharing political opinions should be done in the semi-privacy of one&#39;s own home or job).&lt;/p&gt;
+
+&lt;p&gt;In addition, as a developer, I build tools that can ideally be used by any random stranger...including by those who disagree with me. And I find that pretty odd. The tools that I build are probably much more impactful than the opinions I utter on the Internet...and in fact, can be used to undermine my opinions entirely. Consider this hypothetical example:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;I hate spam. I write excellent blog posts against spam, how to identify spam, what can be done to filter out spam, etc., etc., and they receive rave reviews from other people who read it.&lt;/li&gt;
+&lt;li&gt;Concidentially, I am a contributor to &lt;a href=&quot;https://github.com/maetl/calyx&quot;&gt;Calyx&lt;/a&gt; - &quot;[a] Ruby library for generating text with declarative recursive grammars&quot;.&lt;/li&gt;
+&lt;li&gt;Spammers download Calyx and uses it to generate unique spam emails.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Since I built the program that allowed people to send spam, does it really matter how many blog posts I written against spam? Yes, I didn&#39;t intend for the program to be used in that fashion, but &lt;em&gt;intent&lt;/em&gt; doesn&#39;t really matter, does it? I share some responsibility for building the tool. I was indirectly responsible for the spam. And it means that my arguments against spam were unintentionally stupid.&lt;/p&gt;
+
+&lt;p&gt;This is not much of a problem if I decide to only work on proprietary projects that I have previously  vetted as fitting my political opinions, but that would seem fairly limiting. Most proprietary projects today are dependent on &quot;open source&quot; programs, and it is generally accepted convention to &#39;contribute back&#39; to the open source community.&lt;/p&gt;
+
+&lt;p&gt;&quot;Open source&quot;, that great buzzword of tech enthusiasts everwhere, spurn any limitations on how you use technology. Freedom 0 of &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Free_Software_Definition#The_definition_and_the_Four_Freedoms&quot;&gt;FSF&#39;s Four Freedoms&lt;/a&gt; is:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The freedom to run the program as you wish, for any purpose.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;And &lt;a href=&quot;https://opensource.org/docs/osd&quot;&gt;the Open Source Definition&lt;/a&gt; has Clause 6, &quot;No Discrimination Against Fields of Endeavor&quot;:&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.json.org/license.html&quot;&gt;JSON License&lt;/a&gt; is considered a non-&quot;open source&quot; license simply because it demands &quot;The Software shall be used for Good, not Evil.&quot; It is a rather toothless and unenforcable limitation, because anyone can define what they are doing is as &quot;Good, not Evil&quot;, yet the fact that it even bothers to sugget that software should be used ethically has led to many arguments. &lt;a href=&quot;https://github.com/jshint/jshint/issues/1234&quot;&gt;Many programs must be rewritten&lt;/a&gt; so that they could then be relicensed to a &#39;proper&#39; open source license.&lt;/p&gt;
+
+&lt;p&gt;I&#39;m not saying that &quot;open source&quot; is &lt;em&gt;bad&lt;/em&gt;. I&#39;m just saying that it&#39;s very absurd to publicly advocate for a policy position, and that the same time, gleefully create software for people who will use it against your policy position. I should either stop contributing to open source, or stop speaking. I chose the latter.&lt;/p&gt;
+
+&lt;p&gt;Therefore, I impose upon myself an indefinite moratorium on posting political opinions on &lt;em&gt;non-technical&lt;/em&gt; issues in public settings (especially on Twitter and my personal blog). If I am to speak about &lt;em&gt;non-technical&lt;/em&gt; issues within a public setting, I must first lift this moratorium -- and explain why I feel the pressing need to do so, knowing that &quot;speaking out&quot; has a high chance of backfiring and that I am unable to control the &lt;em&gt;users&lt;/em&gt; of the open-source projects that I contribute to.&lt;/p&gt;
+
+&lt;p&gt;Now, I am only limiting myself to commenting on &lt;em&gt;non-technical&lt;/em&gt; issues. I can still write technical opinions on major issues such as &quot;tabs versus spaces&quot;, how to define clean code, the proper role of automation in society, etc. These technical opinions are probably just as heated an passionate as political opinions, but seem qualitatively different because they focus less on &lt;em&gt;what&lt;/em&gt; you should do and more on &lt;em&gt;how&lt;/em&gt; you should do it.&lt;/p&gt;
+
+&lt;p&gt;There&#39;s less of a need to worry about convenying information wrongly to strangers. Most of the time, technical arguments tend to have objective answers, and it&#39;s very easy to check if they are correct or not. Even on issues where subjectivity exists, there&#39;s usually wide areas of agreement between content creators...and you can usually synthesize together your own truth about technology. Technical arguments have (so far) avoided &lt;a href=&quot;http://www.nytimes.com/2014/06/12/upshot/polarization-is-dividing-american-society-not-just-politics.html?_r=0&quot;&gt;the polarization that had infected most of American society&lt;/a&gt;, and so it is much easier to divorce feeling and emotion from the technical arguments being made (although it is still very difficult).&lt;/p&gt;
+
+&lt;p&gt;Worries about people using my works for goals I dislike has also been reduced: I may hate spammers, but I would also want them to perform their job effectively and ensure that their codebase is maintainable. It is reasonable to want people to succeed at their task while at the same time disliking the fact that they are doing the task in the first place.&lt;/p&gt;
+
+&lt;p&gt;The Internet is a revolutionary technology that enables communication with a wide variety of people...even people that I will never know or meet. These random strangers, the &quot;silent majority&quot;, that consumes the work that I produce (software and words), matters to a rather unhealthy degree. Perhaps, in the good old days, when it was hard to communicate your ideas to others, could you afford to take a strong moral stand without fear of your words backfiring or your actions hypocritically underming your moral stand. Today, we don&#39;t have that luxury.&lt;/p&gt;
+
+&lt;p&gt;Technology is ruthlessly amoral. It is the humans that decide how to deal with it.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
+        <pubDate>Fri, 11 Nov 2016 00:00:00 -0600</pubDate>
+        <link>tra38.github.io/blog/c25-fear.html</link>
+        <guid isPermaLink="true">tra38.github.io/blog/c25-fear.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>C24 Player Piano</title>
@@ -965,102 +1046,6 @@ end
         <pubDate>Fri, 12 Feb 2016 00:00:00 -0600</pubDate>
         <link>tra38.github.io/blog/t14-abstract.html</link>
         <guid isPermaLink="true">tra38.github.io/blog/t14-abstract.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>C21 Robot Rights</title>
-        <description>![CDATA[As technology advances, so too does the capabilities of robots. As a result, some philosophers wondered whether robots may one day acquire 'rights' equal to that of their human brethren.
-]</description>
-        <content>&lt;p&gt;As technology advances, so too does the capabilities of robots. As a result, some philosophers wondered whether robots may one day acquire &#39;rights&#39; equal to that of their human brethren.&lt;/p&gt;
-
-&lt;p&gt;In 2015, Time Maganize asked the question: &quot;Will Robots Need Rights?&quot; It also posted the answers of three people:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://time.com/4026684/david-gelernter-will-robots-need-rights/&quot;&gt;David Gelernter&lt;/a&gt; claim that robots are unlikely to gain rights because they lack consciousness. However, people should still treat robots humanely.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://time.com/4023496/ray-kurzweil-will-robots-need-rights/&quot;&gt;Ray Kurzweil&lt;/a&gt; states that consciousness is not scientifically testable, and thus would have to defined through philosophical arguments. Ray argued that robots will have rights once they are able to convince us that they deserves rights.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;(http://time.com/4023497/susan-n-herman-will-robots-need-rights/&quot;&gt;Susan N. Herman&lt;/a&gt;, President of the ACLU, suggest that the ACLU might defend robot rights if robots share the same sensibilities as human beings, but would first have to argue deeply over what types of rights robots should get.&lt;/li&gt;
-&lt;/ul&gt;
-
-
-&lt;p&gt;All three answers show a sympathetic outlook towards robots, treating the concept of &quot;rights&quot; as something to seriously consider as we deal with potential alien-sque entities. And while I support respecting robots as &quot;potential alien-sque entities&quot; instead of treating them as &quot;just tools&quot; to be used and abused, I believe that the case for robotic rights has been vastly overstated (and you don&#39;t even need to bring in the nebulous idea of consciousness into the discussion).&lt;/p&gt;
-
-&lt;p&gt;In this blog post, I will lay out a hardline case against robotic rights. It&#39;s not a case I fully belive in myself, but it&#39;s a case that I believe that most people will end up using. Note that my argument is only against robot rights; it is silent on the question on whether humans have rights.&lt;/p&gt;
-
-&lt;h3&gt;Premise&lt;/h3&gt;
-
-&lt;p&gt;I rest my case on the premise that rights can only belong to entities that are able to exercise some control over their own actions and motives. I call these entities &quot;autonomous actors&quot;, to avoid any confusion with the term &lt;a href=&quot;https://en.wikipedia.org/wiki/Autonomous_agent&quot;&gt;&quot;autonomous agent&quot;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3&gt;The Lovelace Test&lt;/h3&gt;
-
-&lt;p&gt;The original Lovelace Test, outlined in &lt;a href=&quot;http://kryten.mm.rpi.edu/lovelace.pdf&quot;&gt;&quot;Creativity, the Turing Test, and the (Better) Lovelace Test&quot;&lt;/a&gt;, was meant as a way to determine whether programs are intelligent. A program is intelligent if and only if it did all these things:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;The program must be able to design something &#39;original&#39; and &#39;creative&#39; (such as a story, music, idea, or even another computer program).&lt;/li&gt;
-&lt;li&gt;The program itself is a result of processes that can be &#39;reproduced&#39;. (In other words, it does not rely on some bug in the &#39;hardware&#39; that the program is running on.)&lt;/li&gt;
-&lt;li&gt;The program&#39;s creative output must not be a result of bugs within the program itself.&lt;/li&gt;
-&lt;li&gt;The programmer must not know how the program actually works.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;Criteria #4 is the kicker though. It is very possible for programs to design &#39;original&#39; and &#39;creative&#39; work. After all, &lt;a href=&quot;http://tra38.github.io/blog/c20-robojournalism-2.html&quot;&gt;robots are already writing fiction and nonfiction stories&lt;/a&gt;. But the programmers themselves &lt;em&gt;know&lt;/em&gt; how the robots are able to produce creative outputs. Therefore, all of these programs fail the original Lovelace Test.&lt;/p&gt;
-
-&lt;p&gt;Even an algorithm that uses &quot;machine learning&quot; is unable to pass Criteria #4, as it can be argued that the programmers are able to control the robot by controlling the dataset the robot uses to understand the world. Thus, you can explain the robot&#39;s creative output by deducing the dataset that it used.&lt;/p&gt;
-
-&lt;p&gt;In fact, the whole point of this original Lovelace Test is to argue against the idea that robots could ever be intelligent, by arguing that robots ultimately need programmers. Mark O. Riedl &lt;a href=&quot;http://arxiv.org/pdf/1410.6142v3.pdf&quot;&gt;wrote&lt;/a&gt; that &quot;any [programmer] with resources to build [the program] in the first place ... also has the ability to explain [how the program generates the creative output]&quot; [1].&lt;/p&gt;
-
-&lt;p&gt;I disagree with the original Lovelace Test, because it claims that intelligence is a trait that either exists or doesn&#39;t exist. I prefer to think of intelligence either in terms of a continuum or through the idea of multiple intelligences.&lt;/p&gt;
-
-&lt;p&gt;But I think the original version of the Lovelace Test is useful when thinking about robotic rights. Robots do what programmers tell them to do. They do not have any independent &#39;will&#39; of their own. Robots are essentially puppets. It&#39;s hard to consider them autonomous actors, because there is always someone behind them (either a human or a dataset) pulling the strings. And we can see those strings.&lt;/p&gt;
-
-&lt;h3&gt;The Parable of the Paperclip Maximizer&lt;/h3&gt;
-
-&lt;p&gt;That doesn&#39;t mean programmers has &lt;em&gt;total control&lt;/em&gt; over these robots. Sloppy code, bad planning and codebase complexity can lead to unexpected outcomes.&lt;/p&gt;
-
-&lt;p&gt;Given enough time and patience, a programmer should be able to figure out why his code lead to the outcome that it did. If a problem is big enough though, practically speaking, many programmers will not have the time or patience. Shortcuts are taken. Rationalization sets in. Ignorance is accepted as best practice.&lt;/p&gt;
-
-&lt;p&gt;For example, I can easily imagine a lazy programmer write the following code before going to bed...&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Produce as many paperclips as physically possible.&lt;/li&gt;
-&lt;li&gt;Increase your processing power so that you can more effectively produce paperclips.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-&lt;p&gt;...and thereby destroy humanity because his &lt;a href=&quot;https://wiki.lesswrong.com/wiki/Paperclip_maximizer&quot;&gt;&#39;Paperclip Maximizer&#39;&lt;/a&gt; has decided to turn the entire solar system into paperclips and computer mainframes.&lt;/p&gt;
-
-&lt;p&gt;But this is not an &quot;artificial intelligence&quot; problem. It&#39;s a &quot;human stupidity&quot; problem. The programmer wanted to produce paperclips and did not think through the consequences of his code. The &#39;Paperclip Maximizer&#39; simply followed orders.&lt;/p&gt;
-
-&lt;p&gt;The programmer, if he did think through his code carefully, would have likely noticed problems. But, of course, he had other priorities. He had to go to sleep so that he can be well-rested the next day to watch Netflix movies and contribute to open source projects. And his code was so elegant, and it passed all his automated tests. He had nothing to worry about.&lt;/p&gt;
-
-&lt;p&gt;So he goes to sleep and never wakes up.&lt;/p&gt;
-
-&lt;h3&gt;Robots Follow Orders, Only We May Not Know What Those Orders Mean&lt;/h3&gt;
-
-&lt;p&gt;A programmer may not know exactly why a program is doing what it is doing...but he has the &lt;em&gt;theoretical capability&lt;/em&gt; to find out for himself (since, you know, the programmer wrote the program). And he should at least attempt to do that, so that you can reduce the chances of scenarios such as the above parable.&lt;/p&gt;
-
-&lt;p&gt;But what if a programmer is unable (or unwilling) to do this? Does the robot deserves rights then?&lt;/p&gt;
-
-&lt;p&gt;No. The programmer had the capability to understand what a robot is doing. He just decided not to use it. But the fact that the programmer could have found out suggest that the robot is not an autonomous actor.&lt;/p&gt;
-
-&lt;p&gt;The robot simply follow orders...only in this specific case, they are orders that we do not quite fully understand ourselves.&lt;/p&gt;
-
-&lt;p&gt;For debugging purposes, we should hire another programmer who will be more willing to figure out why the robot is acting the way it is. After all, if one human has the theoretical capability to find out what a robot is doing...then it is likely that another human will eventually gain that same theoretical capability.&lt;/p&gt;
-
-&lt;h3&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;If we want robots to actually think for themselves (instead of just being puppets of datasets and human programmers), we have to turn robots into autonomous actors. As the original Lovelace Test suggest, this is an impossible goal. If we are able to write a program, then we should be able to also know how that program works. There is no autonomy to be found anywhere.&lt;/p&gt;
-
-&lt;p&gt;If robots can never be free, then they can never deserve rights.&lt;/p&gt;
-
-&lt;h2&gt;Footnotes&lt;/h2&gt;
-
-&lt;p&gt;[1] Incidentally, Mark O. Riedl proposed a less strict version of the Lovelace Test, the &lt;a href=&quot;http://arxiv.org/pdf/1410.6142v3.pdf&quot;&gt;Lovelace 2.0 Test&lt;/a&gt;, as a test that can actually be beaten. Instead of mandating that the programmer remain ignorant of the inner workings of his program, the program&#39;s creative output must meet certain constraints as determined by an independent judge.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this blog post written by Tariq Ali, an aspiring web developer. If you are interested in reading more blog posts, please go to tra38.github.io/blog today.&lt;/p&gt;</content>
-        <pubDate>Tue, 02 Feb 2016 00:00:00 -0600</pubDate>
-        <link>tra38.github.io/blog/c21-robot-rights.html</link>
-        <guid isPermaLink="true">tra38.github.io/blog/c21-robot-rights.html</guid>
         
         
       </item>
