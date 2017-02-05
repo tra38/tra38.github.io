@@ -1,5 +1,5 @@
 ---
-title: "Featured Open-Source Projects"
+title: "Other Open-Source Projects"
 sort_order: 6
 ---
 <p><a href="http://stackai.herokuapp.com">StackAI</a>: An aggregator of 'artificial intelligence' questions from six StackExchange websites - built using Ruby on Rails and Bootstrap. Built before <a href="http://ai.stackexchange.com">AI StackExchange</a> entered public beta. <strong><a href="https://github.com/tra38/StackAI">Source Code</a></strong></p>
