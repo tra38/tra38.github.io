@@ -9,7 +9,7 @@ pagination:
 <h4>{{ post.post_title }}: {{ post.post_subtitle }}</h4>
 <h4>{{ post.date | date_to_long_string }}</h4>
 <p>{{ post.excerpt | strip_html }}</p>
-<a href="/blog{{ post.url }}">Read More</a>
+<a href="{{ post.url }}">Read More</a>
 </p>
 {% endfor %}
 
