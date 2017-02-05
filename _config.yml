@@ -24,9 +24,11 @@ gems: ['jekyll-paginate']
 github_username: tra38
 linkedin_username: trali
 twitter_username: Tariq_Ali38
+practical_developer_username: tra
 
 # -----------------------#
-#  Accordions            #
+#  Collections           #
 # -----------------------#
 collections:
-  - accordions
+- accordions
+- social_media
