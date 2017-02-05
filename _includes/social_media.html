@@ -1,6 +1,6 @@
 <section class="socialmedia">
   {% assign accounts = site.social_media | sort: 'sort_order' %}
   {% for account in accounts %}
-    <a href="{{ account.url }}"><img src="{{ account.image_url }}" /></a>
+    <a href="{{ account.social_media_url }}"><img src="{{ account.image_url }}" /></a>
   {% endfor %}
 </section>
