@@ -1,0 +1,25 @@
+---
+title_bar: Culture - Why Robots Will Not (Fully) Replace Human Writers
+post_title: Why Robots Will Not (Fully) Replace Human Writers
+post_subtitle: An Argument About Algorithms
+layout: default
+---
+Though we are able to teach robots how to write as well as a human, we may have difficulty teaching them how to view the world as a human.
+
+Computers are learning how to write. It's not considered weird or bizarre anymore to see companies like <a href="http://narrativescience.com" target="_blank" rel="nofollow">Narrative Science</a> and <a href="https://automatedinsights.com" target="_blank" rel="nofollow">Automated Insights</a> be able to generate news reports covering topics as broad as sports and finance.  Automated Insights have also made their "Wordsmith" platform publicly available, meaning that anyone have the potential to command their own robotic writers, without any programming knowledge.
+
+Human journalists have been able to accept their robo-journalistic brethren under the mistaken impression that robo-journalists will be regulated to writing "quantitative" articles while humans will have more time to write "qualitative" analyses. But you can indeed turn human experiences into quantitative data that a robot can then write. For example, "sentiment analysis" algorithms are able to determine whether a certain article is happy or sad, based on analyzing what words were used. The output would be a qualitative judgment, based solely on quantitative data. Narrative Science has already explored the possibility of moving onto "qualitative" analyses by creating "Quill Connect", a program that is able to write <a href="https://quillconnect.narrativescience.com" target="_blank" rel="nofollow">qualitative analyses of Twitter profiles</a>.
+
+Algorithms are not limited to writing nonfiction. Every November (starting from 2013), programmers participate in a competition called <a href="https://github.com/dariusk/NaNoGenMo-2015" target="_blank" rel="nofollow">National Novel Generation Month</a>; the goal is to write a fictional novel of 50,000 words or more. Some of these generated novels are generally dull, but readable (examples: "<a href="https://github.com/dariusk/NaNoGenMo-2015/issues/142" target="_blank" rel="nofollow">Around the World in X Wikipedia Articles</a>", "<a href="https://github.com/dariusk/NaNoGenMo-2015/issues/11" target="_blank" rel="nofollow">A Time of Destiny</a>", "<a href="https://github.com/dariusk/NaNoGenMo-2015/issues/40" target="_blank" rel="nofollow">Simulationist Fantasy Novel</a>"). They have the plot, characterization, and imagery that you would normally associate with a human-written work. Programmers will have to put in more effort for computer-generated novels to be on-par with human-produced literature, but there does not seem to be any inherent limit to algorithmic creativity.
+
+Of course, one could argue that robots will never be able to replace humans at all. Robots are reliant on "templates" to help them organize their stories properly, and humans are the ones in charge of designing the templates that the robots will end up using to write. In this viewpoint, humans would willingly give up the ability to write since they can find it a much more rewarding task to simply instruct the computer how to write a certain story.
+
+But I would argue that even if humans would want to outsource all writing to their robotic slaves, humans will still write out some of their ideas out by hand...because of an inherent limitations of bots. Bots lack the "worldview" of humans.
+
+Humans take for granted their ability to perceive the world. Their five senses gives a continual stream of data that humans are able to quickly process. Bots, on other hand, are only limited to the "raw data" that we give them to process. They will not "see" anything that is not in the dataset. As a result, how the bots understand our world will be very foreign to our own (human) understanding.
+
+For some people, this is actually a benefit that bots bring to writing. Bots will not have the same biases as human beings. They will therefore discover new insights and meanings that humans may have overlooked. However, bots will instead bring their own unique 'biases' and issues into their work, and humans may not tolerate the biases of algorithms as much as they would tolerate the biases of other humans. Humans will, of course, still happily read what the bots have to say. But they also want to read what humans have to say too.
+
+Humans will likely tolerate the rise of automation in literature, and accept it. Bots may even write the majority of all literature by 2100. But there will still be some marginal demand for human writers, simply because humans can relate more to the "worldview" of other humans. These human writers must learn how to coexist with their robotic brethren though.
+
+This article was originally published by me on LinkedIn as <a href="https://www.linkedin.com/pulse/why-robots-fully-replace-human-writers-tariq-ali?trk=pulse_spock-articles" rel="no-follow">"Why Robots Will Not (Fully) Replace Human Writers"</a>.

@@ -1,0 +1,32 @@
+name: "Tariq Ali's Blog"
+description: "A blog dedicated to showcasing my talents"
+
+# --------------------- #
+#    Jekyll Configs     #
+# --------------------- #
+# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
+root: /
+markdown: rdiscount
+highlighter: true
+
+# ------------------- #
+#    Blog Configs     #
+# ------------------- #
+permalink: /blog/:title.html
+paginate_path: "/blog/page:num"
+paginate: 5
+destination: _site/
+gems: ['jekyll-paginate']
+
+# -----------------------#
+#  Social Media Configs  #
+# -----------------------#
+github_username: tra38
+linkedin_username: trali
+twitter_username: Tariq_Ali38
+
+# -----------------------#
+#  Accordions            #
+# -----------------------#
+collections:
+  - accordions

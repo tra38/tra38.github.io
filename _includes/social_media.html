@@ -1,0 +1,11 @@
+<section class="socialmedia">
+  {% if site.linkedin_username %}
+    <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}"><img src="/img/linkedin.png" /></a>
+  {%endif%}
+  {% if site.twitter_username %}
+    <a href="http://twitter.com/{{ site.twitter_username }}"><img src="/img/twitter.png" /></a>
+  {%endif%}
+  {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}"><img src="/img/github_32.png" /></a>
+  {%endif%}
+</section>

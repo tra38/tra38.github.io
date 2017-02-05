@@ -1,89 +1,43 @@
-<!DOCTYPE html>
-<head>
-  <title> Tariq Ali's Blog </title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/default.css">
-  <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="/stylesheets/blog-stylesheet.css">
-</head>
+---
+layout: paginator
+pagination:
+  enabled: true
+  collection: posts
+---
 
-<main>
-<section class="socialmedia">
-    <a href="http://www.linkedin.com/in/trali"><img src="/img/linkedin.png" /></a>
-    <a href="http://twitter.com/Tariq_Ali38"><img src="/img/twitter.png" /></a>
-    <a href="https://github.com/tra38"><img src="/img/github_32.png" /></a>
-    </section>
-    <section class="links">
-      <a href="/index.html">Home/Portfolio</a>
-      <a href="/blog/index.html">Blog</a>
-    </section>
-  <section>
-  <br>
-  
-<h4>Why I Will Avoid 'Speaking Out': Fear Of The Consequences</h4>
-<h4>11 November 2016</h4>
-<p>Today, many developers feel the need to express their non-technical political opinions online...in a wide variety of different, public forums (Twitter, Facebook, blog posts, comments on blog posts, etc). I can understand why people may feel the to express their own views to random strangers on the Internet. After all, politics is an important aspect of a civil society, and it is essential to understand how a country is run. I, myself, have posted Tweets about non-technical issues (mostly condemning the growing national debt, the polarization of American society and the rise of extremist politics), and may have posted comments on popular blogs using dubious pseudonyms.
+{% for post in paginator.posts %}
+<h4>{{ post.post_title }}: {{ post.post_subtitle }}</h4>
+<h4>{{ post.date | date_to_long_string }}</h4>
+<p>{{ post.excerpt | strip_html }}</p>
+<a href="/blog{{ post.url }}">Read More</a>
 </p>
-<a href="/blog/c25-fear.html">Read More</a>
-</p>
+{% endfor %}
 
-<h4>EPICAC XIV Shows Potential Dangers With Human-Machine Collabaration: A Parable From Player Piano</h4>
-<h4>15 October 2016</h4>
-<p>Recently, the term "Human-Machine Collabaration" has came in the vogue, to describe a sort of alliance between mankind and their tools to accomplish a specific purpose. There has been much talk about the potentials of such collabaration. There has been less talk about its dangers.
-</p>
-<a href="/blog/c24-player-piano.html">Read More</a>
-</p>
+{% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+    <a href="/blog/index.html">Prev</a> |
+  {% else %}
+    <a href="/blog/page{{ paginator.previous_page }}">Prev</a> |
+  {% endif %}
+{% else %}
+  <span class="disabled">Prev |</span>
+{% endif %}
 
-<h4>The Difficulty of Writing About Cutting-Edge Technology: Or, My Experience In Writing About Text Generation</h4>
-<h4>29 September 2016</h4>
-<p>This month, I finished a blog post series about "text generation" -- or less jargony, programming computers how to write. This blog post series is available on the Practical Developer website (for mass consumption by a technical audience).
-</p>
-<a href="/blog/t18-novel-generation.html">Read More</a>
-</p>
+{% if paginator.page == 1 %}
+  <span class="active">1</span> |
+{% else %}
+  <a href="/blog/index.html">1</a> |
+{% endif %}
 
-<h4>The Ozymandias Gambit: Over A Year</h4>
-<h4>23 July 2016</h4>
-<p>Most people think spies are afraid of guns, or KGB guards, or barbed wire, but in point of fact the most dangerous thing they face is paper. Papers carry secrets. Papers can carry death warrants. Papers like this one, this folio with its blurry eighteen year old faked missile photographs and estimates of time/survivor curves and pervasive psychosis ratios, can give you nightmares, dragging you awake screaming in the middle of the night.---A Colder War
-</p>
-<a href="/blog/c23-one-year-later.html">Read More</a>
-</p>
+{% for count in (2..paginator.total_pages) %}
+  {% if count == paginator.page %}
+    {{ count }} |
+  {% endif %}
+{% endfor %}
 
-<h4>Experimenting with Markov Chains: ...to Generate Readable Text</h4>
-<h4>18 June 2016</h4>
-<p>According to Victor Powell, "Markov chains, named after Andrey Markov, are mathematical systems that hop from one "state" (a situation or set of values) to another." Many people have used Markov chains to generate literature based on a pre-existing corpus. This blog post explains some experiments I recently did with Markov chains, with the goal of generating readable text.
-</p>
-<a href="/blog/t17-markov.html">Read More</a>
-</p>
-
-
-
-<span class="disabled">Prev |</span>
-
-
-<span class="active">1</span> |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a href="/blog/page2">Next</a>
-
+{% if paginator.next_page %}
+  <a href="/blog/page{{ paginator.next_page }}">Next</a>
+{% else %}
+  <span class="disabled">Next</span>
+{% endif %}
 </ul>
-  </section>
-</main>

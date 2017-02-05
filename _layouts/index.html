@@ -1,0 +1,12 @@
+<head>
+  <title> {{ page.title_bar }} </title>
+  <meta charset="UTF-8">
+  {% include default_styles.html %}
+  {% include blog_styles.html %}
+  {% include user_analytics.html %}
+</head>
+
+<main>
+  {% include navbar.html %}
+  {{ content }}
+</main>
