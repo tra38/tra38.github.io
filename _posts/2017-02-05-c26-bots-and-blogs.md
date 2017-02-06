@@ -4,8 +4,6 @@ post_title: Untold Problems of a Software Blog
 post_subtitle: Bots
 layout: default
 ---
-*Note* - This article was originally published on [dev.to](https://dev.to/tra/untold-problems-of-a-software-blog---bots) on Jan. 7th 2016, and has since ported over here.
-
 [According to a 2015 report by Incapsula](https://www.incapsula.com/blog/bot-traffic-report-2015.html), 48.5% of all web traffic are by bots. If you are running a *small* website (10 to 1000 visits per day), 85.4% of your web traffic are by bots. Even if you happen to run a very large website (100,000 to 1 million visits per day), 39.7% of your web traffic are by bots.
 
 Put it frankly, most of your audience are composed of robots. (I've learned this the hard way when I was maintaining a website for a Texan religious organization and found out from Google Analytics that 90% of people visiting the site were from Russia.)
@@ -69,3 +67,5 @@ Humans wrote this content. But humans are being denied credit for their effort, 
 
 **Correction**:
  - While it is true that howdoi is currently engaging in plagiarism, [the developers are aware of this](https://github.com/gleitz/howdoi/issues/152) and [a PR have been opened up to fix this issue](https://github.com/gleitz/howdoi/pull/153).
+
+ *Note* - This article was originally published on [dev.to](https://dev.to/tra/untold-problems-of-a-software-blog---bots) on Jan. 7th 2016, and has since ported over here.
