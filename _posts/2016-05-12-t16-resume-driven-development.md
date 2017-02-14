@@ -6,7 +6,9 @@ layout: default
 ---
 Disclaimer: I wrote the book ["Essential Copying and Pasting From Stack Overflow"](https://tra38.gitbooks.io/essential-copying-and-pasting-from-stack-overflow/content/), which was inspired by a cover designed by [ThePracticalDev](https://twitter.com/thepracticaldev?lang=en). This blog post is also inspired by a cover designed by ThePracticalDev. Just like "Essential Copying and Pasting From Stack Overflow", "Expert Resumé Driven Development" is also written in a deadpan manner.
 
-<img style="float: left; height: 30%; width: 30%" src="http://i.imgur.com/DQcks8u.jpg" alt="Cover for Resumé Driven Development, 'The Passionate, Functional, Micro-Serviced Approach"><h3>What is "Resumé Driven Development"?</h3>
+<img style="float: left; height: 30%; width: 30%" src="http://i.imgur.com/DQcks8u.jpg" alt="Cover for Resumé Driven Development, 'The Passionate, Functional, Micro-Serviced Approach">
+
+<h3>What is "Resumé Driven Development"?</h3>
 
 Resumé Driven Development refers to the practice of choosing hot new technologies for your projects to make your resumé more impressive. For example, you want to write a program in that hot new Javascript micro-generator framework ["Plop.js"](https://github.com/amwmedia/plop)...because it's a hot new JavaScript framework. Sure, you can use the technologies that you already know and are probably better suited for the job, but that wouldn't be as impressive as riding the hot bandwagon. You don't even know what "Plop.js" is, but you'll find out soon enough.
 
