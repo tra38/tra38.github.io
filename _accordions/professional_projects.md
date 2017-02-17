@@ -2,7 +2,7 @@
 title: "Professional Projects"
 sort_order: 1
 ---
-<p>Technological Spikes (2016)</p> While working at Firespring, I wrote minor applications to determine the feasibility of new projects for the company.
+<p>Technological Spikes (2016) - While working at Firespring, I wrote minor applications to determine the feasibility of new projects for the company.
   <ul>
     <li>Setting up an insurance rate calculator, using NodeJS as a reverse-proxy server to allow us to query an external API.</li>
     <li>Rebuilding an internal website (the "Checkin Board") using the ReactJS framework.</li>
