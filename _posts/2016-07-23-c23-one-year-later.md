@@ -13,6 +13,10 @@ Humans have written papers all their lives. Writing was once considered a praise
 
 This is, to me, pretty scary for a variety of reasons: loss of purpose and ego issues, possible rise in unemployment, human dependency on technology to do all the work for them, etc. And I wanted to do something to counter the rising power of AI.
 
+[EDIT, Feb. 23rd 2017 - This statement may seem rather "Luddite" if divorced from context, so I am adding this edit note as clarification of my intent. I am not specifically opposed to AI as a technology in and of itself, because AI is useful and have its benefits. But AI also have risks as well, and what I noticed is the lack of societial regulations meant to deal with those risks.
+
+I don't think this is controverisal, per se, to suggest that society needs to take steps to contain the very real dangers of AI, maximizing its benefits while minimizing its damages. Progress is not always positive, and the dangers of AI can outweigh its benefits...if progress is not carefully controlled.]
+
 It has been 15 months since I first entered DBC, almost one year since I graduated from Dev Bootcamp. During that time, I attempted to research the emerging field of computer-generated literature...in the hopes of using this technology against them, as a form of advocacy against uncontrolled research into AI.
 
 During the on-site portion of the DBC curriculum in Chicago, many people learned about this plan, especially after I produced [Friend Computer](https://github.com/tra38/FriendComputer), a blog written by a computer, as a standalone DBC project. However, since then, I have not been in much contact with the people on DBC ever since my graduation...and so I decide to write a blog post to explain what happened.
@@ -54,7 +58,9 @@ But that's it. Having felt chills down their spine, they haven't moved a single 
 In this scenario, people saw Ozymandias' evil monster, but resigned themselves to the fact that it existed and moved on with their lives. "Yeah, a monster destroyed New York. What a shame. So whose going to win the Super Bowl this year?" It's not like they hate the future...they certainly do. But they realize that they can't change it. All they can do is to accept it and prepare for it.
 
 ##The Failure of the Ozymandias Gambit
-Today, I sometimes "write" computer-generated blog posts about computer-generated literature and [post them on dev.to](https://dev.to/tra), with plans to eventually port them over to this site. I like to inform people about this field and its technical merits, while also conveying my distaste and disgust. at the field as well.
+Today, I sometimes "write" computer-generated blog posts about computer-generated literature and [post them on dev.to](https://dev.to/tra), with plans to eventually port them over to this site. I like to inform people about this field and its technical merits, while also conveying my distaste and disgust at the field as well.
+
+[EDIT, Feb. 23rd 2017 - This distaste and disgust is not based on the technology itself, as the technology is very cool and exciting. However, there are uncontroleld risks with AI. That's what I express my distate and disgust at -- that there's problems with AI as well and we humans don't have a good solution to deal with these problems.]
 
 This blog post, however, was not computer-generated. I could have wrote an algorithm to write this blog post. I have to break this blog post up into smaller chunks, and then use [Prolefeed](https://github.com/tra38/Prolefeed) to shuffle the chunks. It is fairly easy (although time-consuming) to pull off. But today, I just wanted to express *my* own feelings about my experience. Not what the computer wanted to write about. Maybe the computer might be a better writer than me. But I still want to vent my thoughts anyway. (Duke Greene, my DBC teacher, have also said the same thing about his own creative works...he likes doing them manually because he wants to express his own thoughts, without any such mechanical filters.)
 
