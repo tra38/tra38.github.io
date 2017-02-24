@@ -10,7 +10,7 @@ In 2015, Time Maganize asked the question: "Will Robots Need Rights?" It also po
 
 - [David Gelernter](http://time.com/4026684/david-gelernter-will-robots-need-rights/) claim that robots are unlikely to gain rights because they lack consciousness. However, people should still treat robots humanely.
 - [Ray Kurzweil](http://time.com/4023496/ray-kurzweil-will-robots-need-rights/) states that consciousness is not scientifically testable, and thus would have to defined through philosophical arguments. Ray argued that robots will have rights once they are able to convince us that they deserves rights.
-- [Susan N. Herman]((http://time.com/4023497/susan-n-herman-will-robots-need-rights/), President of the ACLU, suggest that the ACLU might defend robot rights if robots share the same sensibilities as human beings, but would first have to argue deeply over what types of rights robots should get.
+- [Susan N. Herman](http://time.com/4023497/susan-n-herman-will-robots-need-rights/), President of the ACLU, suggest that the ACLU might defend robot rights if robots share the same sensibilities as human beings, but would first have to argue deeply over what types of rights robots should get.
 
 All three answers show a sympathetic outlook towards robots, treating the concept of "rights" as something to seriously consider as we deal with potential alien-sque entities. And while I support respecting robots as "potential alien-sque entities" instead of treating them as "just tools" to be used and abused, I believe that the case for robotic rights has been vastly overstated (and you don't even need to bring in the nebulous idea of consciousness into the discussion).
 
