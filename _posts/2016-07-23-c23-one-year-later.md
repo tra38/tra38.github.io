@@ -15,7 +15,7 @@ This is, to me, pretty scary for a variety of reasons: loss of purpose and ego i
 
 [EDIT, Feb. 23rd 2017 - This statement may seem rather "Luddite" if divorced from context, so I am adding this edit note as clarification of my intent. I am not specifically opposed to AI as a technology in and of itself, because AI is useful and have its benefits. But AI also have risks as well, and what I noticed is the lack of societial regulations meant to deal with those risks.
 
-I don't think this is controverisal, per se, to suggest that society needs to take steps to contain the very real dangers of AI, maximizing its benefits while minimizing its damages. Progress is not always positive, and the dangers of AI can outweigh its benefits...if progress is not carefully controlled.]
+I don't think this is controverisal, per se, to suggest that society needs to take steps to contain the very real dangers of AI, maximizing its benefits while minimizing its damages. Progress is not always positive, and the dangers of AI can outweigh its benefits...if progress is not carefully controlled. Otherwise, we are simply "shoot[ing] ourselves in the foot".]
 
 It has been 15 months since I first entered DBC, almost one year since I graduated from Dev Bootcamp. During that time, I attempted to research the emerging field of computer-generated literature...in the hopes of using this technology against them, as a form of advocacy against uncontrolled research into AI.
 
