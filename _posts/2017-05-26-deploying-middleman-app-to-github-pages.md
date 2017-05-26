@@ -45,3 +45,5 @@ bundle exec middleman build
 ...commit the resulting build folder to our repository, and then push the result up to our GitHub repository.
 
 There is still one tiny flaw though. Any time you need to make a change, you must rebuild the ```/docs``` directory and commit the generated files. I leave it to the reader to decide how to best automate this process (probably by writing out a Raketask).
+
+*Note* - This article was originally published on [dev.to](https://dev.to/tra/how-to-abuse-the-docs-feature-to-quickly-deploy-a-middleman-static-site-onto-github-pages) on April 29th 2017, and has since ported over here.
