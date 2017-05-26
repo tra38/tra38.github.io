@@ -137,4 +137,4 @@ But I'm going to be more cautious and careful when programming. More importantly
 
 Being comfortable with ignorance means that I might be able to anticipate and prepare for situations where the Generalized Peter Principle comes true and my tools break hard.
 
- *Note* - This article was originally published on [dev.to](https://dev.to/tra/a-real-world-example-of-duck-typing-in-ruby/) on Feb. 21st 2016, and has since ported over here.
+ *Note* - This article was originally published on [dev.to](https://dev.to/tra/a-real-world-example-of-duck-typing-in-ruby/) on Feb. 21st 2017, and has since ported over here.
