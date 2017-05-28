@@ -36,7 +36,11 @@ Innovations included, but were not limited to:
 
 Human creativity has been leveraged, and probably even expanded, in this dystopian future. Instead of tediously trying to come up with new words to express what has already been expressed better before, you can simply reuse what already exist and then tweak it to match your specifications. Creativity simply moves to a higher level of abstractions, in the same way that programmers moves from Assembly to COBOL. 'DRYness' has been applied to literature.
 
-And there's no sign of technological unemployment. Instead, the content economy is itching to hire more people. After all, you have the "cool hunters" to find the works to be repackaged and repurposed, privacy violators to spy on people and gather data about their reading habits and data scientists to analyze the data and to write the algorithms necessary to generate the stories.
+And there's no sign of technological unemployment. Instead, the content economy is itching to hire more people...
+
+- "Cool hunters" finds the works to be repackaged and repurposed
+- Privacy violators spy on people and gather data about their reading habits
+- Data scientists analyzes data and writes the algorithms necessary to generate the stories
 
 However, writers are nowhere to be found in this golden age of human creativity except in an aside describing the creation of a new TV series ("The Game of Thrones reboot"):
 
