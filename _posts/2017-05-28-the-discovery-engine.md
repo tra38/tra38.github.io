@@ -61,4 +61,4 @@ But in the real world, I don't think anybody would care. After all, the story of
 **Appendix**:
 Though "The Discovery Engine" emphasized how fictional narratives would be generated, it would be very simple to imagine this same process unfolding for the generation of non-fictional narratives as well. In fact, the ending of the story revealed how RNNs were being used to generate peer-reviweed articles as well, cutting out the "human" middlemen.
 
-Content Generation is a broad field. If it ever gets disrupted, everything ( the movies you watch, the blog posts you read, the books you skim, the podcasts you hear, etc.) will be impacted. Society may very well be on the cutting-edge of a silent revolution.
+Content Generation is a broad field. If it ever does gets disrupted, everything (the movies you watch, the blog posts you read, the books you skim, the podcasts you hear, etc.) will be impacted...for good or for ill.
