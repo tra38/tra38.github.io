@@ -1,7 +1,7 @@
 ---
 title_bar: Culture - "Discovery Engine" Review
-post_title: The Discovery Engine
-post_subtitle: A Review of a Short Story
+post_title: Reviewing "The Discovery Engine"
+post_subtitle: A Short Story About the Future of Content Generation
 layout: default
 ---
 In December 2016, Ben Halpren and I got in [a discussion over the future of publishing](https://dev.to/tra/nanogenmo-2016-and-my-predictions-about-text-generation/comments/3i).
@@ -34,13 +34,15 @@ Innovations included, but were not limited to:
 - Increasing discoverability of existing literature so that people can wind up finding assets that can be reused
 - ...or skipping the discovery process and using RNNs to just generate the stories outright
 
-Human creativity has been leveraged, and probably even expanded, in this dystopian future. Instead of tediously trying to come up with new words to express what has already been expressed better before, you can simply reuse what already exist and then tweak it to match your specifications. Creativity simply moves to a higher level of abstractions, in the same way that programmers moves from Assembly to COBOL. 'DRYness' has been applied to literature.
+Human creativity has been leveraged, and probably even expanded, in this dystopian future. Instead of tediously trying to come up with new words to express what has already been expressed better before, you can simply reuse what already exist and then tweak it to match your specifications. Creativity simply moves to a higher level of abstraction, similar to how programmers move from low-level languages (like Assembly) to higher-level languages (like COBOL). 'DRYness' has been applied to literature.
 
 And there's no sign of technological unemployment. Instead, the content economy is itching to hire more people...
 
-- "Cool hunters" finds the works to be repackaged and repurposed
+- "Cool hunters" find the works to be repackaged and repurposed
+- "Lit geeks" identify current fads and trends in literature, enabling corporations to tailor their generated books to a mass audience
 - Privacy violators spy on people and gather data about their reading habits
-- Data scientists analyzes data and writes the algorithms necessary to generate the stories
+- Data scientists analyze the data and design the algorithms necessary to generate the stories
+- And, of course, marketers develop the initial ad campaigns to acquire potential readers
 
 However, writers are nowhere to be found in this golden age of human creativity except in an aside describing the creation of a new TV series ("The Game of Thrones reboot"):
 
@@ -48,10 +50,15 @@ However, writers are nowhere to be found in this golden age of human creativity 
 
 I find "The Discovery Engine" to be (a) a pleasant read and (b) a plausible prediction for the fate of all content generation (both human-made and machine-made). I do quibble with two of the author's points though.
 
-First, while RNNs certainly have their place as [part of a "toolkit" in text generation](https://dev.to/tra/nanogenmo-2016-and-my-predictions-about-text-generation), I highly doubt that they have the potential to generate coherent stories by themselves. I could imagine a world where RNNs generate hundreds of different stories and then a secondary algorithm filters through the resulting junk to find one or two stories that may be worthwhile. Even in this imaginary state though, I'd still see a fleet of programmers and data scientists behind the scenes, trying their best to massage the data and the algorithms to produce the best possible outcome.
+First, while RNNs certainly have their place as [part of a "toolkit" in text generation](https://dev.to/tra/nanogenmo-2016-and-my-predictions-about-text-generation), I highly doubt that they have the potential to generate coherent stories by themselves. I could imagine a world where RNNs generate hundreds of different stories and then a secondary algorithm filters through the resulting junk to find one or two stories that may be worthwhile. Even in this imaginary state though, I'd still see a fleet of data scientists behind the scenes, trying their best to massage the data and the algorithms to produce the best possible outcome.
 
 The second point I quibble with is more philosophical. One subplot in this sci-fi story involved society's reaction to multiple versions of the same public domain work being published by major corporations, leading to a reactionary (and doomed) impulse by a few scholars to recover and preserve the "original" works.
 
 But in the real world, I don't think anybody would care. After all, the story of [Cinderella](https://en.wikipedia.org/wiki/Cinderella) has been rewritten countless times, with different versions personalized to different regions of the world. And we can sensibly discuss about the different versions of Cinderella (for example: arguing whether The Brothers Grimm's version is superior to Walt Disney's version) without getting ourselves confused. Ideas has always been cheap; it's the execution of those ideas that matters.
 
 >The New Work departments in the publishers and movie studios were eventually dwarfed by the Repurposing departments; it became increasingly impossible to sell a book or script just because no one had ever written something like it before.  It turned out, actually, that this was always false, and it was far easier and cheaper to update Trollope than to pay Franzen for his novel on the same topic.
+
+**Appendix**:
+Though "The Discovery Engine" emphasized how fictional narratives would be generated, it would be very simple to imagine this same process unfolding for the generation of non-fictional narratives as well. In fact, the ending of the story revealed how RNNs were being used to generate peer-reviweed articles as well, cutting out the "human" middlemen.
+
+Content Generation is a broad field. If it ever gets disrupted, everything ( the movies you watch, the blog posts you read, the books you skim, the podcasts you hear, etc.) will be impacted. Society may very well be on the cutting-edge of a silent revolution.
