@@ -28,7 +28,7 @@ This does not sound sustainable, to me or to Ben. The only reason consumers have
 
 There is, of course, an alternative viewpoint that contrasts with both Ben's and mine's, one that argues that the content ecosystem is *sustainable*, that Content Shock is no problem at all, and that far from the ecosystem collapsing, is bound to explode and proliferate.
 
-This viewpoint argues that major content publishers will learn how to take advantage of "economies of scale" by reusing existing works. Content publishers will also learn how to 'personalize' content to match the whims and desires of the people who are reading it, thereby keeping them engaged. The content ecosystem will adapt, and the process of adapation would lead to a new 'golden age' of human creativity.
+This viewpoint argues that major content publishers will learn how to take advantage of "economies of scale" by reusing existing works. Content publishers will also learn how to 'personalize' content to match the whims and desires of the people who are reading it, thereby keeping them engaged. The content ecosystem will adapt, and the process of adaptation would lead to a new 'golden age' of human creativity.
 
 That viewpoint is best expressed by the short story "The Discovery Engine".
 
