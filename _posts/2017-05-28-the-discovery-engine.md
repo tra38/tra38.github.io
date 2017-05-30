@@ -16,9 +16,23 @@ In December 2016, Ben Halpren and I got in [a discussion over the future of publ
 
 >If this content ecosystem does collapse, then the amount of text generation (human or automated) will probably decrease. It's an open question whether the humans that remain in that line decide to embrace automation (and use the content wreckage as corpus) or to shun it.
 
+The current "quantity over quality model" that exists within content generation exist primarly [due to Google's algorithms favoring more content](http://relevance.com/how-google-ruined-content-marketing/):
+
+>While one high-quality article might drive a thousand shares, 10 articles that drive 120 shares each is more. Replace shares with traffic or conversions. It’s the same concept. In this way, Google is actually encouraging us to commoditize our content in lieu of creating great content, whether it’s purposeful or not.
+
+Or, to put it [more plainly](https://digiday.com/media/whos-winning-at-volume-in-publishing/):
+
+>Winning in digital media now boils down to a simple equation: figure out a way to produce the most content at as low a cost as possible.
+
+This does not sound sustainable, to me or to Ben. The only reason consumers haven't yet given up on the Internet though is our reliance on various curators (human aggregation, search engine bots, machine learning recommendation systems, etc.) that suggest us the content to consume. But what about content **producers**? What happen to them if they are unable to produce enough content that appeals to the curators? It seems that they have to shut down. And when they do, the content ecosystem would implode.
+
 There is, of course, an alternative viewpoint that contrasts with both Ben's and mine's, one that argues that the content ecosystem is *sustainable*, that Content Shock is no problem at all, and that far from the ecosystem collapsing, is bound to explode and proliferate.
 
+This viewpoint argues that major content publishers will learn how to take advantage of "economies of scale" by reusing existing works. Content publishers will also learn how to 'personalize' content to match the whims and desires of the people who are reading it, thereby keeping them engaged. Content producers will adapt, and the process of adapation would lead to a new 'golden age' of human creativity.
+
 That viewpoint is best expressed by the short story "The Discovery Engine".
+
+<hr />
 
 "The Discovery Engine, (or, Algorithms Everywhere and Nowhere)" is one of two short stories written by Professor Christopher Ketly in the peer-reviewed article [Two Fables](http://www.uclalawreview.org/two-fables/). This short story imagines a world where the "myth of the Romantic Author" died. As a result, the US government reformed intellectual property laws, allowing for major corporations to remix and reuse content in brand new ways.
 
