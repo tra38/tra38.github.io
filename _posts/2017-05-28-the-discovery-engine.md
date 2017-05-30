@@ -24,7 +24,7 @@ Or, to put it [more plainly](https://digiday.com/media/whos-winning-at-volume-in
 
 >Winning in digital media now boils down to a simple equation: figure out a way to produce the most content at as low a cost as possible.
 
-This does not sound sustainable, to me or to Ben. The only reason consumers haven't yet given up on the Internet though is our reliance on various curators (human aggregation, search engine bots, machine learning recommendation systems, etc.) that suggest us the content to consume. But what about content **producers**? What happen to them if they are unable to produce enough content that appeals to the curators? It seems that they have to shut down. And when they do, the content ecosystem would implode.
+This does not sound sustainable, to me or to Ben. The only reason consumers haven't yet given up on the Internet though is our reliance on various curators (human aggregation, search engine bots, machine learning recommendation systems, etc.) to tell us what content to consume. But what about content **producers**? What happen to them if they are unable to produce enough content that appeals to the curators? It seems that they have to shut down. And when they do, the content ecosystem would implode.
 
 There is, of course, an alternative viewpoint that contrasts with both Ben's and mine's, one that argues that the content ecosystem is *sustainable*, that Content Shock is no problem at all, and that far from the ecosystem collapsing, is bound to explode and proliferate.
 
