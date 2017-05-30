@@ -71,8 +71,3 @@ The second point I quibble with is more philosophical. One subplot in this sci-f
 But in the real world, I don't think anybody would care. After all, the story of [Cinderella](https://en.wikipedia.org/wiki/Cinderella) has been rewritten countless times, with different versions personalized to different regions of the world. And we can sensibly discuss about the different versions of Cinderella (for example: arguing whether The Brothers Grimm's version is superior to Walt Disney's version) without getting ourselves confused. Ideas has always been cheap; it's the execution of those ideas that matters.
 
 >The New Work departments in the publishers and movie studios were eventually dwarfed by the Repurposing departments; it became increasingly impossible to sell a book or script just because no one had ever written something like it before.  It turned out, actually, that this was always false, and it was far easier and cheaper to update Trollope than to pay Franzen for his novel on the same topic.
-
-**Appendix**:
-Though "The Discovery Engine" emphasized how fictional narratives would be generated, it would be very simple to imagine this same process unfolding for the generation of non-fictional narratives as well. In fact, the ending of the story revealed how RNNs were being used to generate peer-reviewed  articles as well, cutting out the "human scientist" middlemen.
-
-Content Generation is a broad field. If it ever does gets disrupted, everything (the movies you watch, the blog posts you read, the books you skim, the podcasts you hear, etc.) will be impacted...for good or for ill.
