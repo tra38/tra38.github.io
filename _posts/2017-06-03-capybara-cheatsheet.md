@@ -1,7 +1,7 @@
 ---
 title_bar: Technical - Capybara
 post_title: Please Read the Documentation Beforehand
-post_subtitle: A Case Study In Making Foolishing Assumptions When Interacting With Forms Using Capybara
+post_subtitle: A Case Study In Making Foolish Assumptions When Interacting With Forms Using Capybara
 layout: default
 ---
 Capybara is a very useful tool for writing integration tests, but it can be very hard to get used to its DSL for interacting with forms. It is even worse when you don't read the documentation for using the DSL, and instead only trust the source code of existing integration tests.
