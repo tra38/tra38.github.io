@@ -2,6 +2,10 @@
 title: "NaNoGenMo (National Novel Generation Month) Projects"
 sort_order: 5
 ---
+<strong>2017</strong>
+<ul>
+  <li><a href="https://github.com/NaNoGenMo/2017/issues/5">Skynet's ██████</a> - An attempt to "extend" a pre-existing corpus by using █s and machine-learning</li>
+</ul>
 <strong>2016</strong>
 <ul>
   <li><a href="https://github.com/NaNoGenMo/2016/issues/15">The Track Method</a> - Arranges paragraphs using a specific structure (the "Track Method") inspired by <a href="https://gist.github.com/cpressey/6324fff6ef0dfdf69b96">the Story Compiler approach</a> invented by Chris Pressey. The resulting novella is 13,606 words. However, since the corpus was old-fashioned, the generated text also seems old-fashioned as well.</li>
