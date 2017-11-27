@@ -10,8 +10,8 @@ sort_order: 1
 </p>
 <p>Ramal Tech Consulting (2017 to present) - I worked with several companies to help build and maintain their Ruby on Rails applications.
 <ul>
-  <li>Admin dashboard for an organic milk delivery business. Uses Ruby on Rails and RailsAdmin.</li>
-  <li>Educational web app for Kaplan that teaches data science concept - Ruby on Rails, Angular 1.X.</li>
+  <li>Admin dashboard for an organic milk delivery business, using Ruby on Rails and RailsAdmin.</li>
+  <li>Educational web app for Kaplan that teaches data science concept, using Ruby on Rails and Angular 1.X.</li>
   <li>Report generator for athletes using Calyx (a Ruby gem), and a Ruby on Rails webapp for gathering reviews about athletic programs using jQuery and RailsAdmin.</li>
 </ul>
 </p><p>Technological Spikes (2016) - While working at Firespring, I wrote minor applications to determine the feasibility of new projects for the company.
