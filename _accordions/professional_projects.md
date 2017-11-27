@@ -12,7 +12,6 @@ sort_order: 1
 <ul>
   <li>Admin dashboard for an organic milk delivery business. Uses Ruby on Rails and RailsAdmin.</li>
   <li>Educational web app for Kaplan that teaches data science concept - Ruby on Rails, Angular 1.X.</li>
-  <li>Maintaining an educational web app for Kaplan that teaches data science concepts, which uses Ruby on Rails on the backend and Angular 1.X on the front-end.</li>
   <li>Report generator for athletes using Calyx (a Ruby gem), and a Ruby on Rails webapp for gathering reviews about athletic programs using jQuery and RailsAdmin.</li>
 </ul>
 </p><p>Technological Spikes (2016) - While working at Firespring, I wrote minor applications to determine the feasibility of new projects for the company.
