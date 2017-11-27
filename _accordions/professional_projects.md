@@ -1,5 +1,5 @@
 ---
-title: "Professional, Closed-Source Projects"
+title: "Professional Projects"
 sort_order: 1
 ---
 <p>Microsoft Contract (2017)
