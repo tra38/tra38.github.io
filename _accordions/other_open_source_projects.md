@@ -2,6 +2,7 @@
 title: "Other Open-Source Projects"
 sort_order: 6
 ---
+<p><a href="https://tra38.github.io/cocomo_application_composition/">COCOMO Application Composition</a>: A webapp to help programmers estimate how long a coding project will take, by using COCOMO II's "Application Composition" model.
 <p><a href="https://tra38.github.io/LaunchPedia/">LaunchPedia</a>: A webapp that allows users to search for launches using the <a href="https://launchlibrary.net/">LaunchLibrary API</a> and save certian launches. Built using React.js and Bootstrap. <strong><a href="https://github.com/tra38/LaunchPedia">Source Code</a></strong></p>
 <p><a href="http://stackai.herokuapp.com">StackAI</a>: An aggregator of 'artificial intelligence' questions from six StackExchange websites - built using Ruby on Rails and Bootstrap. Built before <a href="http://ai.stackexchange.com">AI StackExchange</a> entered public beta. <strong><a href="https://github.com/tra38/StackAI">Source Code</a></strong></p>
 <p><a href="https://github.com/tra38/Architect">Architect</a>: A small Ruby script that can generate stories based on a noun prompt, as an entry into the <a href="http://bregman.dartmouth.edu/turingtests/digilit">DigiLit</a> competition being held at Dartmouth College's Neukom Institute for Computational Science. You can read a <a href="http://tra38.github.io/blog/t15-architect.html">postmorterm of this program here</a>.
