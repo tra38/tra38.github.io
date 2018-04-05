@@ -47,7 +47,7 @@ Even if the student has personally verified the teacher's CV/resume, and even if
 
 Higher education does not promise mere "knowledge" to students. It provides something more valuable - a piece of paper that easily demonstrates to employers that you have gained knowledge, making you more employable in the marketplace.
 
-But who is best qualified to give out that piece of paper (credential)? According to the current triad model, it is the institution who gets the power of accreditation, and it uses that power to certify certain academics...giving them the power to teach courses that enable students to receive credentials.
+But who is best qualified to give out that piece of paper (credential)? According to the current triad model, it is the institution who gets the power of accreditation, and it uses that power to certify certain academics...giving them the power to teach courses that enable students to receive credentialscredentials.
 
 But who are best qualified to decide who is an academic? Only other academics! As Shawn wrote:
 
@@ -89,7 +89,7 @@ But people may not care about that proof. If there is no need for proof, then th
 
 For example, when I signed up for Gitcoin's mentorship program, Gitcoin never asked me for any certificate proving that I could actually "mentor" any of the programming subjects that I signed up for. It is assumed that I actually knew the stuff that I claimed to knew. It is expected that I wouldn't lie, because prospective students can do background checks and interviews to make sure I'm not lying. If I say that I know C++, but I can't answer basic questions about C++, students have the right to be suspicious.
 
-In most of the professional world, it is also assumed that I know the stuff I claimed to know - I am expected to create your own resume to demonstrate my expertise, and most employers trust this resume as being a somewhat accurate indicator of my knowledge - only doing background checks and interviews to make sure I'm not lying on it.
+In most of the professional world, it is also assumed that I know the stuff I claimed to know - I am expected to create my own resume to demonstrate my expertise, and most employers trust this resume as being a somewhat accurate indicator of my knowledge - only doing background checks and interviews to make sure I'm not lying on it.
 
 Mere "knowledge", of course, is not enough to secure a mentorship gig or get hired by a company - students and employers rely on additional information (samples of prior work, references, etc.) before making a decision. This additional information, of course, can also be provided by an academic setting. But this is separate from the credential.
 
