@@ -73,6 +73,8 @@ In addition, by removing the institution (the middlepeople) from the picture, th
 
 So that's the idea anyway.
 
+(As an aside: Institutions would still play a valuable role in the PSA model though, but it would not be via accredition. Instead, institutions would sell valuable services to the students and academics, serving as a  "vendor" to the system. For example, an institution could sell access to support staff and facilities to academics, enabling them to teach effectively.)
+
 ## Criticism
 
 There's the implementation details that has to be taken into account:
