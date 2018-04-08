@@ -97,6 +97,12 @@ Mere "knowledge", of course, is not enough to secure a mentorship gig or get hir
 
 Of course, there are places where you can expect people to demand proof of knowledge - such as the medical industry. In places where regulatory constraints or informal expectations require people to be certified by an external agency, I could see the PSA role serving as a viable alternative to traditional academia. However, for many other industries, where certification is not required, the PSA may not be necessary.
 
-This appears to be the case in the industry I'm in - programming. There are many programmers who have received a Bachelor's degree in Computer Science (and thus, has a formal credential in programming). But there are also programmers who have "self-taught" themselves programming, programmers who have received Bachelor's degrees in other fields before transitioning to programming and programmers who have attended bootcamps  specifically designed to teach programming (but lacks formal accreditation). The fact that these programmers are able to be gainfully employed, with or without a credential in programming, is telling.
+This appears to be the case in the industry I'm in - programming. There are many programmers who have received a Bachelor's degree in Computer Science (and thus, has a formal credential in programming). But there are also other types of programmers:
+
+ - programmers who have "self-taught" themselves programming
+ - programmers who have received Bachelor's degrees in other fields before transitioning to programming
+ - programmers who have attended bootcamps  specifically designed to teach programming (but lacks formal accreditation)
+
+The fact that these programmers are able to be gainfully employed, with or without a credential in programming, is telling.
 
 Therefore, it is unlikely that the PSA model could work for Gitcoin's mentorship program. I do think it's a worthy model to explore though, and may be more applicable to other industries. I thank Shawn Warren for writing up an alternative approach to academia and for demonstrating a possible approach to reforming higher education.
