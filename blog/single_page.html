@@ -1,0 +1,128 @@
+---
+layout: index
+---
+
+<table id="blog_posts_for_javascript">
+  <thead>
+      <tr>
+          <th></th>
+          <th>Post</th>
+          <th>Date</th>
+      </tr>
+  </thead>
+  <tbody>
+    {% assign posts = site.posts %}
+
+    {% for post in posts %}
+      {% capture checkbox %}modal-{{ forloop.index }}{% endcapture %}
+      <tr>
+
+        <!-- Modals -->
+        <td class="details-control">
+            <label class="btn" for="{{checkbox}}">Show</label>
+            <input class="modal-state" id="{{checkbox}}" type="checkbox" />
+            <div class="modal">
+              <label class="modal__bg" for="{{checkbox}}"></label>
+
+              <div class="modal__inner">
+                <label class="modal__close" for="{{checkbox}}"></label>
+                <h1>
+                  {{ post.post_title }}
+                </h1>
+                <h2>
+                  {{ post.post_subtitle }}
+                </h2>
+                <h4>
+                  {{ post.date | date_to_long_string }}
+                </h4>
+                <section>
+                  {{ post.content }}
+                  <a href="{{post.url}}">Permalink</a>
+                </section>
+              </div>
+
+            </div>
+        </td>
+
+          <!-- Header -->
+          <td>
+              {{ post.post_title }}: {{ post.post_subtitle }}
+          </td>
+
+          <!-- Dates -->
+
+          <td>
+            {{ post.date | date_to_string }}
+          </td>
+
+        </tr>
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
+<script>
+
+// Code taken from https://datatables.net/plug-ins/sorting/date-dd-MMM-yyyy
+// Technically, this code has been depercated in favor of moment.js, but I don't feel the need right now to bring it a huge javascript file just for sorting a single column. Maybe in the future though.
+(function () {
+
+var customDateDDMMMYYYYToOrd = function (date) {
+    "use strict"; //let's avoid tom-foolery in this function
+    // Convert to a number YYYYMMDD which we can use to order
+    var dateParts = date.split(/\s/);
+    console.log(dateParts[1].toUpperCase())
+    console.log($.inArray(dateParts[1].toUpperCase(), ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]) * 100)
+    return (dateParts[2] * 10000) + ($.inArray(dateParts[1].toUpperCase(), ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]) * 100) + (dateParts[0]*1);
+};
+
+// This will help DataTables magic detect the "dd-MMM-yyyy" format; Unshift
+// so that it's the first data type (so it takes priority over existing)
+jQuery.fn.dataTableExt.aTypes.unshift(
+    function (sData) {
+        "use strict"; //let's avoid tom-foolery in this function
+        if (/^([0-2]?\d|3[0-1])-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-\d{4}/i.test(sData)) {
+            return 'date-dd-mmm-yyyy';
+        }
+        return null;
+    }
+);
+
+// define the sorts
+jQuery.fn.dataTableExt.oSort['date-dd-mmm-yyyy-asc'] = function (a, b) {
+    "use strict"; //let's avoid tom-foolery in this function
+    var ordA = customDateDDMMMYYYYToOrd(a),
+        ordB = customDateDDMMMYYYYToOrd(b);
+    return (ordA < ordB) ? -1 : ((ordA > ordB) ? 1 : 0);
+};
+
+jQuery.fn.dataTableExt.oSort['date-dd-mmm-yyyy-desc'] = function (a, b) {
+    "use strict"; //let's avoid tom-foolery in this function
+    var ordA = customDateDDMMMYYYYToOrd(a),
+        ordB = customDateDDMMMYYYYToOrd(b);
+    return (ordA < ordB) ? 1 : ((ordA > ordB) ? -1 : 0);
+};
+
+})();
+
+  $(document).ready(function() {
+      $('#blog_posts_for_javascript').DataTable({
+        "order": [[2, "desc"]],
+        columnDefs: [
+          { type: 'date-dd-mmm-yyyy', targets: 2 }
+        ]
+        // "columnDefs": [
+        //     {
+        //         "targets": [ 2 ],
+        //         "visible": false,
+        //     }
+        // ]
+      });
+  } );
+
+</script>
