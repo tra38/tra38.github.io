@@ -44,7 +44,7 @@ However, this system only works if the package you want to install exists on PyP
 
 I realized this issue when I forked howdoi, created a branch (```links```), and made some changes before [submitting a pull request](https://github.com/gleitz/howdoi/pull/197). I wanted to test out my changes in a production environment while waiting for the PR to approved, but I didn't want to deploy my minor fork onto PyPi -- the fork would be renderered useless once the PR is approved and merged.
 
-I created an experimental fork of "LiftyNiftySubweb"...called [LittleNiftySubweb-Experimental](https://repl.it/@tra38/LittleNiftySubweb-Experimental) (really, creative name, I know), and then started tinkering with that fork, trying to see if I can get my version of howdoi loaded onto their system.
+I created an experimental fork of "LiftyNiftySubweb"...called [LittleNiftySubweb-Experimental](https://repl.it/@tra38/LittleNiftySubweb-Experimental) (really creative name, I know), and then started tinkering with that fork, trying to see if I can get my version of howdoi loaded onto their system.
 
 I remembered that pip does have an option to install a Python package from git. For example...
 
