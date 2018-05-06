@@ -34,8 +34,8 @@ Collecting pyquery (from howdoi)
 ...
 
 Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3
-howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.
-18.4 requests-cache-0.4.13 urllib3-1.22
+howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0
+requests-2.18.4 requests-cache-0.4.13 urllib3-1.22
 You are using pip version 9.0.1, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
@@ -244,8 +244,9 @@ Collecting howdoi
 
 ...
 
-Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3 howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.
-18.4 requests-cache-0.4.13 urllib3-1.22
+Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3
+howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0
+requests-2.18.4 requests-cache-0.4.13 urllib3-1.22
 You are using pip version 9.0.1, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 
