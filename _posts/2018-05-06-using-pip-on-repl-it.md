@@ -182,15 +182,16 @@ But, let's ignore BeautifulSoup and focus on howdoi here. I rewrote the code, fo
 ```
 # https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module
 def set_up_user_directory():
-    import os
-    import sys
-    import site
-    # this makes it work
-    if not os.path.exists(site.USER_SITE):
-        os.makedirs(site.USER_SITE)
-        # since I'm installing with --user, packages should be installed here,
-        #so make sure it's on the path
-        sys.path.insert(0, site.USER_SITE)
+  import os
+  import sys
+  import site
+  # this makes it work
+  if not os.path.exists(site.USER_SITE):
+    os.makedirs(site.USER_SITE)
+    # since I'm installing with --user, packages
+    # should be installed here,
+    #so make sure it's on the path
+    sys.path.insert(0, site.USER_SITE)
 
 def install(package):
   # set_up_user_directory()
@@ -216,15 +217,16 @@ Here it is.
 ```
 # https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module
 def set_up_user_directory():
-    import os
-    import sys
-    import site
-    # this makes it work
-    if not os.path.exists(site.USER_SITE):
-        os.makedirs(site.USER_SITE)
-        # since I'm installing with --user, packages should be installed here,
-        #so make sure it's on the path
-        sys.path.insert(0, site.USER_SITE)
+  import os
+  import sys
+  import site
+  # this makes it work
+  if not os.path.exists(site.USER_SITE):
+    os.makedirs(site.USER_SITE)
+    # since I'm installing with --user, packages
+    # should be installed here,
+    #so make sure it's on the path
+    sys.path.insert(0, site.USER_SITE)
 
 def install(package):
   set_up_user_directory()
