@@ -60,8 +60,6 @@ pip install git+https://github.com/example_user/example_repo.git@example_branch
 
 So all I have to do is to call pip with the proper command-line arguments (providing the link to my repo along with the the name of my branch) and it'll all be set.
 
-First, I forked the
-
 However, you do not have access to repl.it's Linux instance directly. Instead, the only way you can access the instance and run commands like pip is through the programming environment. Which didn't take too long to figure out.
 
 ```
