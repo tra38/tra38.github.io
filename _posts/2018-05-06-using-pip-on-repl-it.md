@@ -214,6 +214,7 @@ But you know what, I'm already fine with waiting for repl.it to download  packag
 Here it is.
 
 ```
+# https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module
 def set_up_user_directory():
     import sys
     import site
