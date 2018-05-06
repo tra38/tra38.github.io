@@ -49,13 +49,13 @@ I created an experimental fork of "LiftyNiftySubweb"...called [LittleNiftySubweb
 I remembered that pip does have an option to install a Python package from git. For example...
 
 ```
-pip install git+https://github.com/example_user/example_repo.git#example_repo.egg
+pip install git+https://github.com/example_user/example_repo.git
 ```
 
 By default, pip selects the master branch to install from, but you can also specify what branch you want to install from.
 
 ```
-pip install git+https://github.com/example_user/example_repo.git@example_branch#example_repo.egg
+pip install git+https://github.com/example_user/example_repo.git@example_branch
 ```
 
 So all I have to do is to call pip with the proper command-line arguments (providing the link to my repo along with the the name of my branch) and it'll all be set.
@@ -69,7 +69,7 @@ def install(package):
   import pip
   pip.main(['install', package])
 
-install("git+https://github.com/tra38/howdoi.git@links#howdoi.egg")
+install("git+https://github.com/tra38/howdoi.git@links")
 ```
 
 However, running this command revealed a very interesting error:
@@ -82,20 +82,20 @@ Collecting git+https://github.com/tra38/howdoi.git@links
 
 It is surprising to me that repl.it's Linux instance doesn't come pre-installed with git. I don't know if it was meant to save space or if it was just an oversight on their part. Trying to programatically install git on their machine using a simple Python shell didn't seem doable, so instead I explored other options.
 
-A simple StackOverflow search later and I learned that GitHub also [packages up its repos as zipball or tarball files](https://developer.github.com/v3/repos/contents/#get-archive-link) (with each zip file referring to . All I have to do is to directly provide a link to the archive that I want to download. pip can then read that archive.
+A simple StackOverflow search later and I learned that GitHub also [packages up its repos as zipball or tarball files](https://developer.github.com/v3/repos/contents/#get-archive-link) (with each zip file referring to a valid "reference", usually the name of a branch of the git repo). All I have to do is to directly provide a link to the archive that I want to download. pip can then read that archive.
 
 ```
 def install(package):
   import pip
   pip.main(['install', package])
 
-install("https://github.com/tra38/howdoi/zipball/links#howdoi.egg")
+install("https://github.com/tra38/howdoi/zipball/links")
 ```
 
 This works...sorta. I was able to download howdoi package and its dependencies, but installing these packages and dependencies lead to a permissions issue.
 
 ```
-Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
+Collecting https://github.com/tra38/howdoi/zipball/links
   Downloading https://github.com/tra38/howdoi/zipball/links
 Collecting pyquery (from howdoi==1.1.13)
   Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8
@@ -114,13 +114,13 @@ def install(package):
   import pip
   pip.main(['install', package, "--user"])
 
-install("https://github.com/tra38/howdoi/zipball/links#howdoi.egg")
+install("https://github.com/tra38/howdoi/zipball/links")
 ```
 
 Installation was now successful.
 
 ```
-Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
+Collecting https://github.com/tra38/howdoi/zipball/links
   Downloading https://github.com/tra38/howdoi/zipball/links
 Collecting pyquery (from howdoi==1.1.13)
   Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8
@@ -216,6 +216,7 @@ Here it is.
 ```
 # https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module
 def set_up_user_directory():
+    import os
     import sys
     import site
     # this makes it work
@@ -230,7 +231,7 @@ def install(package):
   import pip
   pip.main(['install', package, "--user", "--upgrade"])
 
-install("https://github.com/tra38/howdoi/zipball/links#howdoi.egg")
+install("https://github.com/tra38/howdoi/zipball/links")
 ```
 
 When I run the script, repl.it first installs the latest version of howdoi from PyPi...
@@ -260,7 +261,7 @@ Then, it runs the ```set_up_user_directory()``` function to create a user direct
 ...and then it runs my commands to "upgrade" howdoi - thereby replacing the PyPi version of howdoi with *my* version of howdoi (located within a user directory that I have permissions for).
 
 ```
-Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
+Collecting https://github.com/tra38/howdoi/zipball/links
   Downloading https://github.com/tra38/howdoi/zipball/links
 
 ...
@@ -275,7 +276,7 @@ And only *then* I can use my version of howdoi.
 The only catch is that every time I run the script, I will still re-install my version of howdoi, even if I already have it installed on the Linux instance.
 
 ```
-Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
+Collecting https://github.com/tra38/howdoi/zipball/links
   Downloading https://github.com/tra38/howdoi/zipball/links
 
 ...
