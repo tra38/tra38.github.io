@@ -209,7 +209,7 @@ Collecting howdoi
   72a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
 ```
 
-But you know what, I'm already fine with waiting for repl.it to download  packages anyway (as you can see with my total disregard for the random package download of BeautifulSoup). With that in mind, I finally deduced a ~elegant~ hacky approach to the problem I'm facing.
+But you know what, I'm already fine with waiting for repl.it to download  packages anyway (as you can see with my total disregard for the random package download of BeautifulSoup). With that in mind, I finally deduced a ~~elegant~~ hacky approach to the problem I'm facing.
 
 Here it is.
 
