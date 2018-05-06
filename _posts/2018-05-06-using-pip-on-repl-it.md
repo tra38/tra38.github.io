@@ -182,7 +182,9 @@ You should consider upgrading via the 'pip install --upgrade pip' command.
 But, let's ignore BeautifulSoup and focus on howdoi here. I rewrote the code, following the advice from [this SO answer](https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module).
 
 ```
+# https://stackoverflow.com/questions/32478724/cannot-import-dynamically-installed-python-module
 def set_up_user_directory():
+    import os
     import sys
     import site
     # this makes it work
