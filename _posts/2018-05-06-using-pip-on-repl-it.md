@@ -4,7 +4,7 @@ post_title: Using Pip on Repl.it
 post_subtitle: An Interesting Experience
 layout: default
 ---
->BUILD AND DEPLOY IN SECONDS. Instant programming environment for your favorite language.--[repl.it](https://repl.it)'s homepage, repl.it
+>BUILD AND DEPLOY IN SECONDS. Instant programming environment for your favorite language.--[repl.it](https://repl.it)'s homepage
 
 I used repl.it primarly for hosting [LittleNiftySubweb](https://repl.it/@tra38/LittleNiftySubweb), a command-line script that enables me to use [howdoi](https://github.com/gleitz/howdoi) without ever needing to install Python. This is very useful to me since it allows me to easily use howdoi on Windows machines (since Python doesn't come on Windows pre-installed).
 
