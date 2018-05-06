@@ -80,7 +80,13 @@ Collecting git+https://github.com/tra38/howdoi.git@links
 
 It is surprising to me that repl.it's Linux instance doesn't come pre-installed with git. I don't know if it was meant to save space or if it was just an oversight on their part. Trying to programatically install git on their machine using a simple Python shell didn't seem doable, so instead I explored other options.
 
-A simple StackOverflow search later and I learned that GitHub also [packages up its repos as zipball or tarball files](https://developer.github.com/v3/repos/contents/#get-archive-link) (with each zip file referring to a valid "reference", usually the name of a branch of the git repo). All I have to do is to directly provide a link to the archive that I want to download. pip can then read that archive.
+A simple StackOverflow search later and I learned that GitHub also [packages up its repos as zipball or tarball files](https://developer.github.com/v3/repos/contents/#get-archive-link) (with each zip file referring to a valid "reference", usually the name of a branch of the git repo).
+
+```
+pip install https://github.com/example_user/example_repo/zipball/example_branch
+```
+
+All I have to do is to directly provide a link to the archive that I want to download. pip can then read that archive.
 
 ```
 def install(package):
@@ -151,7 +157,9 @@ First, I *was* able to import the howdoi module (and could successfully use my v
 
 >If a path that does not yet exist is added to sys.path, it doesn't seem like it will ever be checked again when importing modules, even if it exists at a later point (or at least in python 2.7).
 
-repl.it's Linux instance is using Python 3.6.1, so I believe that this behavior has not changed.
+This means that even though I installed the package, Python doesn't know about it until *after* I run the script a second time.
+
+repl.it's Linux instance is using Python 3.6.1, so I believe that this behavior must not have changed.
 
 Second, howdoi attempts to install a bunch of packages that I never even asked to be installed!
 
