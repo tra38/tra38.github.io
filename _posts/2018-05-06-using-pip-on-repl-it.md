@@ -25,13 +25,17 @@ Repl.it: Installing fresh packages
 Repl.it: howdoi
 
 Collecting howdoi
-   Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c372a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
+   Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c
+   372a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
 Collecting pyquery (from howdoi)
-  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-none-any.whl
+  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8
+  337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-none-any.whl
 
 ...
 
-Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3 howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.18.4 requests-cache-0.4.13 urllib3-1.22
+Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3
+howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.
+18.4 requests-cache-0.4.13 urllib3-1.22
 You are using pip version 9.0.1, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
@@ -94,7 +98,9 @@ This works...sorta. I was able to download howdoi package and its dependencies, 
 Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
   Downloading https://github.com/tra38/howdoi/zipball/links
 Collecting pyquery (from howdoi==1.1.13)
-  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-none-any.whl
+  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8
+  337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-
+  none-any.whl
 
 ...
 
@@ -117,13 +123,16 @@ Installation was now successful.
 Collecting https://github.com/tra38/howdoi/zipball/links#howdoi.egg
   Downloading https://github.com/tra38/howdoi/zipball/links
 Collecting pyquery (from howdoi==1.1.13)
-  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-none-any.whl
+  Downloading https://files.pythonhosted.org/packages/09/c7/ce8c9c37ab8ff8
+  337faad3335c088d60bed4a35a4bed33a64f0e64fbcf29/pyquery-1.4.0-py2.py3-
+  none-any.whl
 
 ...
 
 Installing collected packages: cssselect, lxml, pyquery, pygments, requests-cache, howdoi
   Running setup.py install for howdoi ... done
-  Successfully installed cssselect-1.0.3 howdoi-1.1.13 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-cache-0.4.13
+  Successfully installed cssselect-1.0.3 howdoi-1.1.13 lxml-4.2.1 pygments
+  -2.2.0 pyquery-1.4.0 requests-cache-0.4.13
 You are using pip version 9.0.1, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 ```
@@ -153,7 +162,9 @@ Repl.it: Installing fresh packages
 Repl.it: BeautifulSoup, Pillow, Sphinx, beautifulsoup4, colorama, ctags, docutils, html5lib, pkg_resources, pymongo
 
 Collecting BeautifulSoup
-  Downloading https://files.pythonhosted.org/packages/1e/ee/295988deca1a5a7accd783d0dfe14524867e31abb05b6c0eeceee49c759d/BeautifulSoup-3.2.1.tar.gz
+  Downloading https://files.pythonhosted.org/packages/1e/ee/295988deca1a5a
+  7accd783d0dfe14524867e31abb05b6c0eeceee49c759d/BeautifulSoup-3.2.1.tar.
+  gz
     Complete output from command python setup.py egg_info:
     Traceback (most recent call last):
       File "<string>", line 1, in <module>
@@ -194,7 +205,8 @@ Repl.it: Installing fresh packages
 Repl.it: howdoi
 
 Collecting howdoi
-  Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c372a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
+  Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c3
+  72a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
 ```
 
 But you know what, I'm already fine with waiting for repl.it to download  packages anyway (as you can see with my total disregard for the random package download of BeautifulSoup). With that in mind, I finally deduced a ~elegant~ hacky approach to the problem I'm facing.
@@ -227,11 +239,13 @@ Repl.it: Installing fresh packages
 Repl.it: howdoi
 
 Collecting howdoi
-  Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c372a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
+  Downloading https://files.pythonhosted.org/packages/bc/21/87dd3caacaa7c3
+  72a9838de8e2a2a9640043e72f382cf1300574e78e9a86/howdoi-1.1.13.tar.gz
 
 ...
 
-Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3 howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.18.4 requests-cache-0.4.13 urllib3-1.22
+Successfully installed certifi-2018.4.16 chardet-3.0.4 cssselect-1.0.3 howdoi-1.1.13 idna-2.6 lxml-4.2.1 pygments-2.2.0 pyquery-1.4.0 requests-2.
+18.4 requests-cache-0.4.13 urllib3-1.22
 You are using pip version 9.0.1, however version 10.0.1 is available.
 You should consider upgrading via the 'pip install --upgrade pip' command.
 
