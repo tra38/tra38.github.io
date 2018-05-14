@@ -160,6 +160,7 @@ $(document).ready(function() {
   }
 
   function toMidnight(hours) {
+    console.log(hours);
     return (2400 - hours)
   }
 
@@ -193,9 +194,11 @@ $(document).ready(function() {
     console.log(hours);
 
     if (pla >= hours) {
-      timeRemaining = (hours - pla) * 60
+      console.log("entering into PLA >= Hours branch");
+      timeRemaining = (hours - pla);
     } else {
-      timeRemaining = (toMidnight(hours) + pla) * 60
+      console.log("entering into PLA <= Hours branch");
+      timeRemaining = (toMidnight(hours) + pla);
     }
   });
 
@@ -203,8 +206,8 @@ $(document).ready(function() {
 
     jQuery(this).find("tbody  > tr.salah").each(function(i,v){
       var pla = timeInIntegerFormat(jQuery(this).attr("value"));
-      if(pla >=hours) {
-        timeRemaining = (hours - pla) * 60
+      if(pla >= hours) {
+        timeRemaining = (hours - pla);
         jQuery(this).addClass("hightlight");
         jQuery(".iqamahTable > tbody  > tr:first").removeClass("hightlight");
         $isNotFajr=true;
@@ -222,6 +225,7 @@ $(document).ready(function() {
   console.log(timeRemaining);
 
   function startTimer(duration, display) {
+    console.log("the duration is " + duration)
       setInterval(function () {
           var hours = Math.floor(duration / 3600);
           var minutes = Math.floor(duration % 3600 / 60);
@@ -243,7 +247,7 @@ $(document).ready(function() {
   }
 
   display = $('#salahTimer');
-  startTimer(timeRemaining, display);
+  startTimer(timeRemaining * 60, display);
 });
 
 
