@@ -109,26 +109,6 @@ table.myTable {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="PrayTimes.js"></script>
 <script>
-// https://stackoverflow.com/questions/8207655/how-to-get-time-of-specific-timezone-using-javascript
-// A bit buggy, so commented out for now...consider deleting, and let it be an outstanding bug
-
-// function calcTime(offset) {
-//     // create Date object for current location
-//     var d = new Date();
-
-//     // convert to msec
-//     // subtract local time zone offset
-//     // get UTC time in msec
-//     var utc = d.getTime() - (d.getTimezoneOffset() * 60000);
-
-//     // create new Date object for different city
-//     // using supplied offset
-//     var nd = new Date(utc + (3600000*offset));
-
-//     // return time as a string
-//     return nd;
-// }
-
 // Some of this code is from the "Iqamah Table" Wordpress Plugin, licensed under GPL 2.0
 $(document).ready(function() {
   var salahObject = prayTimes.getTimes(new Date(), [29.658119, -95.65767], -6);
@@ -285,73 +265,5 @@ $(document).ready(function() {
 
   setUpTimer();
 });
-
-
-/*
-
-function startTimer(duration, display) {
-    var start = Date.now(),
-        diff,
-        minutes,
-        seconds;
-    function timer() {
-        // get the number of seconds that have elapsed since
-        // startTimer() was called
-        diff = duration - (((Date.now() - start) / 1000) | 0);
-
-        // does the same job as parseInt truncates the float
-        minutes = (diff / 60) | 0;
-        seconds = (diff % 60) | 0;
-
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        display.textContent = minutes + ":" + seconds;
-
-        if (diff <= 0) {
-            // add one second so that the count down starts at the full duration
-            // example 05:00 not 04:59
-            start = Date.now() + 1000;
-        }
-    };
-    // we don't want to wait a full second before the timer starts
-    timer();
-    setInterval(timer, 1000);
-}
-
-window.onload = function () {
-    var fiveMinutes = 60 * 5,
-        display = document.querySelector('#time');
-    startTimer(fiveMinutes, display);
-};
-
-
-
-(function ($) {
-    function startTimer(duration, display) {
-       var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-
-        display.html = minutes + ":" + seconds;
-
-        if (--timer < 0) {
-            timer = duration;
-        }
-    }, 1000);
-   }
-
-    $(document).ready(function() {
-         var fiveMinutes = 60 * 5;
-         var display = $('.salahTimer');
-         startTimer(fiveMinutes, display);
-         console.log(fiveMinutes);
-    });
-
-})(jQuery);
-*/
 </script>
 </html>
