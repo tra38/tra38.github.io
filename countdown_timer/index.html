@@ -51,10 +51,12 @@ table.myTable {
         </tr>
 
 
-        <tr value="06:31" class="salah">
+        <tr value="06:31" class="salah sunriseTableRow">
           <td><center>Sunrise</center></td>
           <td><center>🌄</center></td>
-          <td colspan="2"><center>6:31 AM</center></td>
+          <td colspan="2">
+            <center class="sunriseTableTime">6:31 AM</center>
+          </td>
         </tr>
 
         <tr value="14:00" class="salah">
@@ -131,9 +133,13 @@ table.myTable {
 $(document).ready(function() {
   var salahObject = prayTimes.getTimes(new Date(), [29.658119, -95.65767], -6);
   var magribTime = salahObject["maghrib"];
-  console.log(magribTime);
+  var sunriseTime = salahObject["sunrise"];
+
   $(".magribTableRow").val(magribTime);
   $(".magribTableTime").text(convert24HourTimeTo12HourTime(magribTime));
+
+  $(".sunriseTableRow").val(sunriseTime);
+  $('.sunriseTableTime').text(convert24HourTimeTo12HourTime(sunriseTime));
 
   var $isNotFajr = false;
 
