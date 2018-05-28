@@ -24,7 +24,7 @@ table.myTable {
 
 }
 
-.hightlight {
+.highlight {
     background: #81d742 !important;
     color: #f7f7f7;
 }
@@ -71,11 +71,13 @@ table.myTable {
           <td colspan="2"><center>6:15 PM</center></td>
         </tr>
 
-        <tr value="20:07" class="salah">
+        <tr value="20:07" class="salah magribTableRow">
           <td><center>Magrib</center></td>
           <td><center>🌆</center></td>
           <!-- <td><center>8:07</center></td> -->
-          <td colspan="2"><center>8:07 PM</center></td>
+          <td colspan="2">
+              <center class="magribTableTime">8:07 PM</center>
+          </td>
         </tr>
 
 
@@ -103,6 +105,7 @@ table.myTable {
     </table>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="PrayTimes.js"></script>
 <script>
 // https://stackoverflow.com/questions/8207655/how-to-get-time-of-specific-timezone-using-javascript
 // A bit buggy, so commented out for now...consider deleting, and let it be an outstanding bug
@@ -124,9 +127,13 @@ table.myTable {
 //     return nd;
 // }
 
-// Code from "Iqamah Table" Wordpress Plugin, licensed under GPL 2.0
-
+// Some of this code is from the "Iqamah Table" Wordpress Plugin, licensed under GPL 2.0
 $(document).ready(function() {
+  var salahObject = prayTimes.getTimes(new Date(), [29.658119, -95.65767], -6);
+  var magribTime = salahObject["maghrib"];
+  console.log(magribTime);
+  $(".magribTableRow").val(magribTime);
+  $(".magribTableTime").text(convert24HourTimeTo12HourTime(magribTime));
 
   var $isNotFajr = false;
 
@@ -159,95 +166,118 @@ $(document).ready(function() {
     return (d < 10) ? '0' + d.toString() : d.toString();
   }
 
-  function toMidnight(hours) {
-    console.log(hours);
-    return (2400 - hours)
-  }
-
-  var now = new Date();
-
-  var hourString = pad(now.getHours())+""+pad(now.getMinutes());
-
-  var hours = parseInt(hourString);
-
-  var dayOfWeek = daysOfWeek[now.getDay()];
-  var month = months[now.getMonth()];
-  var date = now.getDate();
-
-  var currentDate = dayOfWeek + ", " + month + " " + date
-
-  var timeRemaining;
-
   function timeInIntegerFormat(pla) {
-    var string = pla.replace(":","");
-    var integer = parseInt(string)
-    return integer
+    var array = pla.split(":");
+    var minutes = parseInt(array[1]) + (60 * parseInt(array[0]));
+    return minutes
   }
 
-  jQuery(".currentDate").html(currentDate)
+  function convert24HourTimeTo12HourTime(time) {
+    // Check correct time format and split into components
+    time = time.toString ().match (/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [time];
 
-  jQuery("table.iqamahTable").each(function(i,v){
-    var fajrDiv = jQuery(this).find("tbody  > tr:first")
-    fajrDiv.addClass("hightlight");
-    pla = timeInIntegerFormat(jQuery(fajrDiv).attr("value"));
-    console.log(pla);
-    console.log(hours);
-
-    if (pla >= hours) {
-      console.log("entering into PLA >= Hours branch");
-      timeRemaining = (hours - pla);
-    } else {
-      console.log("entering into PLA <= Hours branch");
-      timeRemaining = (toMidnight(hours) + pla);
+    if (time.length > 1) { // If time format correct
+      time = time.slice (1);  // Remove full string match value
+      time[5] = +time[0] < 12 ? ' AM' : ' PM'; // Set AM/PM
+      time[0] = +time[0] % 12 || 12; // Adjust hours
     }
-  });
+    return time.join (''); // return adjusted time or original string
+  }
 
-  jQuery("table.iqamahTable").each(function(i,v){
+  function integerInTimeFormat(duration) {
+    var hours = Math.floor(duration / 3600);
+    var minutes = Math.floor(duration % 3600 / 60);
 
-    jQuery(this).find("tbody  > tr.salah").each(function(i,v){
-      var pla = timeInIntegerFormat(jQuery(this).attr("value"));
-      if(pla >= hours) {
-        timeRemaining = (hours - pla);
-        jQuery(this).addClass("hightlight");
-        jQuery(".iqamahTable > tbody  > tr:first").removeClass("hightlight");
-        $isNotFajr=true;
-        return false;
+    var stringOutput = (hours + ":" + minutes);
+    return stringOutput;
+  }
+
+  function toMidnight(currentTime) {
+    var elevenFiftyNine = timeInIntegerFormat("23:59");
+    return (elevenFiftyNine - currentTime)
+  }
+
+  function setUpTimer() {
+    $(".highlight").removeClass("highlight");
+
+    var now = new Date();
+
+    var currentTimeString = pad(now.getHours())+":"+pad(now.getMinutes());
+
+    var currentTime = timeInIntegerFormat(currentTimeString);
+
+    var dayOfWeek = daysOfWeek[now.getDay()];
+    var month = months[now.getMonth()];
+    var date = now.getDate();
+
+    var currentDate = dayOfWeek + ", " + month + " " + date
+
+    var timeRemaining;
+
+    jQuery(".currentDate").html(currentDate)
+
+    jQuery("table.iqamahTable").each(function(i,v){
+      var fajrDiv = jQuery(this).find("tbody  > tr:first")
+      fajrDiv.addClass("highlight");
+      pla = timeInIntegerFormat(jQuery(fajrDiv).attr("value"));
+
+      if (pla >= currentTime) {
+        console.log("entering into PLA >= currentTime branch");
+        timeRemaining = (currentTime - pla);
+      } else {
+        console.log("entering into PLA <= currentTime branch");
+        timeRemaining = (toMidnight(currentTime) + pla);
       }
     });
-  });
 
-  if($isNotFajr) {
     jQuery("table.iqamahTable").each(function(i,v){
-      jQuery(this).find("tbody  > tr:first").removeClass("hightlight");
-    });
-  }
 
-  console.log(timeRemaining);
+      jQuery(this).find("tbody  > tr.salah").each(function(i,v){
+        var pla = timeInIntegerFormat(jQuery(this).attr("value"));
+        if(pla >= currentTime) {
+          timeRemaining = (pla - currentTime);
+          jQuery(this).addClass("highlight");
+          jQuery(".iqamahTable > tbody  > tr:first").removeClass("highlight");
+          $isNotFajr=true;
+          return false;
+        }
+      });
+    });
+
+    if($isNotFajr) {
+      jQuery("table.iqamahTable").each(function(i,v){
+        jQuery(this).find("tbody  > tr:first").removeClass("highlight");
+      });
+    }
+
+    console.log(timeRemaining);
+
+    display = $('#salahTimer');
+
+    startTimer(timeRemaining * 60, display);
+  }
 
   function startTimer(duration, display) {
     console.log("the duration is " + duration)
-      setInterval(function () {
-          var hours = Math.floor(duration / 3600);
-          var minutes = Math.floor(duration % 3600 / 60);
-          var seconds = Math.floor(duration % 3600 % 60);
+    var interval = setInterval(function () {
+        var hours = Math.floor(duration / 3600);
+        var minutes = Math.floor(duration % 3600 / 60);
+        var seconds = Math.floor(duration % 3600 % 60);
 
-          // hours = hours < 1 ? "0" : (hours);
-          // minutes = minutes < 10 ? "0": minutes;
-          // seconds = seconds < 10 ? "0" : seconds;
+        if (duration >= 0)
+        {
+          display.text(pad(hours) + ":" + pad(minutes) + ":" + pad(seconds));
+        } else {
+          clearInterval(interval);
+          testBoolean = true;
+          setUpTimer();
+        }
 
-          if (duration >= 0)
-          {
-            display.text(pad(hours) + ":" + pad(minutes) + ":" + pad(seconds));
-          } else {
-            display.text("00:00:00");
-          }
-
-          duration--;
-      }, 1000);
+        duration--;
+    }, 1000);
   }
 
-  display = $('#salahTimer');
-  startTimer(timeRemaining * 60, display);
+  setUpTimer();
 });
 
 
