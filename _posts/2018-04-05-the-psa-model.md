@@ -47,7 +47,7 @@ Even if the student has personally verified the teacher's CV/resume, and even if
 
 Higher education does not promise mere "knowledge" to students. It provides something more valuable - a piece of paper that easily demonstrates to employers that you have gained knowledge, making you more employable in the marketplace.
 
-But who is best qualified to give out that piece of paper (credential)? According to the current triad model, it is the institution who gets the power of accreditation, and it uses that power to certify certain academics...giving them the power to teach courses that enable students to receive credentialscredentials.
+But who is best qualified to give out that piece of paper (credential)? According to the current triad model, it is the institution who gets the power of accreditation, and it uses that power to certify certain academics...giving them the power to teach courses that enable students to receive credentials.
 
 But who are best qualified to decide who is an academic? Only other academics! As Shawn wrote:
 
