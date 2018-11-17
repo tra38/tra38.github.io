@@ -42,7 +42,7 @@ gemfile true do
 end
 ```
 
-Once these dependencies are installed, then you can ```require``` Ruby gems without any issues.
+Once these dependencies are installed, then my Github repo can ```require```  Ruby gems without any issues.
 
 Second, due to permission issues, I could not use a command like ```./Paranoia_Super_Mission_Generator/main.rb``` to run ```main.rb```. However, Ruby does have a command called ```load```, which allows us to load any arbitrary Ruby file. This circumvents the permissions file.
 
