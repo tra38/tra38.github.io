@@ -2,6 +2,12 @@
 title: "NaNoGenMo (National Novel Generation Month) Projects"
 sort_order: 5
 ---
+<strong>
+<strong>2018</strong>
+<ul>
+  <li><a href="https://github.com/tra38/nanogenmo-2018">The Computer Crashes</a> - Another attempt at novel generation, via cut-ups and citations. The resulting novella is 11,995 words.</li>
+  <li><a href="https://github.com/NaNoGenMo/2018/issues/92">A Pseudo-Philosophical Novel</a> - Uses quotes from <a href="https://github.com/NaNoGenMo/2018/issues/84">another NaNoGenMo project</a> to create paragraphs composed entirely of witty sayings.</li>
+</ul>
 <strong>2017</strong>
 <ul>
   <li><a href="https://github.com/NaNoGenMo/2017/issues/5">Skynet's ██████</a> - An attempt to "extend" a pre-existing corpus by using █s and machine-learning</li>
