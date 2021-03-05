@@ -1,0 +1,28 @@
+---
+layout: samurai_world
+title_bar: Tariq Ali
+---
+<section id="accordion">
+
+  {% assign items = site.samurai_world_notes | sort: 'sort_order' %}
+
+  {% for item in items %}
+    {% capture checkbox %}check-{{ forloop.index }}{% endcapture %}
+    <div class="{{checkbox}}">
+      <input type="checkbox" id="{{checkbox}}" />
+      <label for="{{checkbox}}"><h3>{{item.title}}</h3></label>
+      <article>
+        {% if item.sections['cyber_samurai'] == blank or item.sections['cyber_samurai'] == nil %}
+          {{ item.content }}
+        {% else %}
+          {{ item.sections['cyber_samurai'] | textilize }}
+        {% endif %}
+
+        {% if item.sections['cyber_samurai_addition'] == blank or item.sections['cyber_samurai_addition'] == nil %}
+        {% else %}
+          {{ item.sections['cyber_samurai_addition'] | textilize }}
+        {% endif %}
+      </article>
+    </div>
+  {% endfor %}
+</section>

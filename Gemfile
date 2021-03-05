@@ -7,3 +7,5 @@ gem 'sassc'
 
 gem 'pry'
 gem 'classifier-reborn'
+
+gem 'kramdown-parser-gfm'
