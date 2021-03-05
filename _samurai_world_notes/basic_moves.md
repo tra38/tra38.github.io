@@ -112,6 +112,6 @@ If your character dies from their injuries in combat or ritual suicide while the
 
 <strong>Gaining Shadow:</strong>
 <br><br>
-Gain <strong>Shadow</strong> at the end of any scene where you were touched by Maho sorcery or a Shadowlands creature or used a <strong>Shadow Ability</strong>. If <strong>Shadow</strong> reaches a new multiple of five scratch out an unused <strong>Advancement</strong> and gain a <strong>Shadow Move</strong> in its place. You never lose a <strong>Shadow Move</strong> even if <strong>Shadow drops to 0.
+Gain <strong>Shadow</strong> at the end of any scene where you were touched by Maho sorcery or a Shadowlands creature or used a <strong>Shadow Ability</strong>. If <strong>Shadow</strong> reaches a new multiple of five scratch out an unused <strong>Advancement</strong> and gain a <strong>Shadow Move</strong> in its place. You never lose a <strong>Shadow Move</strong> even if <strong>Shadow</strong> drops to 0.
 
 If you ever have more than 3 <strong>Shadow Moves</strong> your character is doomed to become a monster.  Work with the GM to decide their fate by the end of the session or current quest.  Once the GM takes control of this character, make a new one.
