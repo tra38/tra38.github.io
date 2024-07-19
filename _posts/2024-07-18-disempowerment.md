@@ -16,7 +16,7 @@ Dr. Hartley believed that if humanity were to ever lose control over Earth, it w
 
 This “loss of human control” has practical impacts as well, as mentioned in the paper “[Societal Adaptations to Advanced AI](https://drive.google.com/file/d/1k3uqK0dR9hVyG20-eBkR75_eYP2efolS/view)”. According to this paper, automation may “sometimes \[make\] much worse decisions than would be made by humans, even if they seem better on average.” For example, algorithms that focus on profits and market share might cause the business to conduct unethical actions (which may lead to fines and lawsuits) or sacrifice the business’ long term sustainability (which may lead to a premature bankruptcy). The business may end up suffering horribly, even if on paper, the algorithms “helped” the business prosper in the short term. Even worse, a dependence on automation can lead to “human enfeeblement”, preventing humans from intervening in situations where automation makes terrible decisions. Yet, since a cost-benefit analysis can still favor automation, humans will tolerate these terrible decisions, seeing them as a necessary trade-off.
 
-We can say that Dr. Hartley is worried about human disempowerment, defined here as “the loss of human control”[^1].
+We can say that Dr. Hartley is worried about human disempowerment, defined here as “the loss of human control”<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.
 
 In theory, human disempowerment is a relatively easy problem to solve - don’t build and use entities that strip away human control (e.g., AI). In practice, most people will reject this solution. Humans rely on technological progress to solve multiple problems - including problems caused by previous waves of technological progress. A halt to technological progress would successfully solve “human disempowerment”. But it will force humanity to find other solutions to its own problems.
 
@@ -227,6 +227,18 @@ Now, there are other ways to tackle AI without leaning on this oversight nonsens
 Ultimately, the key is to design AI systems that don't need a bunch of humans looking over their shoulders all the time. If your system requires constant human intervention, you’re doing it wrong. Dr. Hartley’s strategy is like putting a band-aid on a bullet wound—totally missing the bigger picture and setting herself up for failure.
 
 ### Footnotes
+<div class="footnotes">
+  <hr />
+  <ol>
+    <li id="fn:1">
+      <p>This is the text for the first footnote. <a href="#fnref:1" rev="footnote">↩︎</a></p>
+    </li>
+    <li id="fn:2">
+      <p>This is the text for the second footnote. <a href="#fnref:2" rev="footnote">↩︎</a></p>
+    </li>
+  </ol>
+</div>
+
 [^1] This definition may be overly broad (the US’ autonomous weapon policy is focused around the preservation of “appropriate levels of human judgment”, and views that as a more flexible approach when compared to “meaningful human control”). The definition is also oddly narrow (as it does not discriminate over what type of human control - if all of humanity delegate power to a single human tyrant, then no human disempowerment has happened). However, this definition does capture the essence of Dr. Hartley’s concerns.
 
 [^2] Note that while meaningful oversight might be desired, it might not be possible, According to the article “What’s Wrong With Wanting Humans In The Loop?”, oversight may very well be a “figment of our imagination” as the algorithms in question are continually modified by programmers, with the explicit purpose of getting humans to agree to whatever the machines say:
