@@ -229,6 +229,8 @@ We want the benefits of technological advances. To do so, we have to deal with t
   </ol>
 </div>
 
+<hr>
+
 ### Appendix A: Alternatives To Human Oversight
 #### uncovered during a conversation with GPT-4o, prompted to write as an informal, cynical Reddior - edited by Tariq Ali
 
