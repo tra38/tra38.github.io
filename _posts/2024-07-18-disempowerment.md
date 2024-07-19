@@ -204,30 +204,6 @@ It is important to have hope for the future, but this hope must be tempered with
 
 We want the benefits of technological advances. To do so, we have to deal with the consequences. Bracing for the impact may not be pleasant. But doing so will allow us to thrive in an age of rapid technological growth.
 
-### Appendix A: Alternatives To Human Oversight
-#### uncovered during a conversation with GPT-4o, prompted to write as an informal, cynical Reddior - edited by Tariq Ali
-
-**GPT-4o:**
-First off, oversight sounds nice on paper, but it’s a weak crutch when dealing with AI. Humans get lazy and trust the machines too much—automation bias. The whole point of AI is to reduce human error and inefficiency, but then we turn around and say, "Hey, let's have humans oversee these things," which kind of defeats the purpose. It's like hiring a babysitter for your babysitter.
-
-Now, there are other ways to tackle AI without leaning on this oversight nonsense:
-
-1. **Built-in Ethics and Safety Protocols**: Embed ethical guidelines and safety protocols directly into the AI. Think of it like Asimov's Laws of Robotics but on steroids. This way, the AI has an intrinsic understanding of what’s acceptable and what’s not.
-
-2. **Decentralized AI Systems**: Instead of one big AI making all the decisions, spread the tasks across multiple, smaller AIs that check each other. It’s harder for one rogue AI to screw things up if it has to get past a bunch of others.
-
-3. **Dynamic Learning and Adaptation**: Implement AI that can learn and adapt without needing constant human babysitting. These AIs should be able to recognize when something’s going wrong and correct themselves autonomously.
-
-4. **Robust Fail-safes and Kill Switches**: Develop fail-safes and immediate shutdown mechanisms. If an AI starts acting out of line, it should have hard-coded protocols to stop itself or be stopped automatically by another system.
-
-5. **Transparent Algorithms and Decision-making**: Make AI decision processes transparent. If everyone can see how decisions are made, there's less room for shenanigans. It keeps things accountable without needing a dedicated human overseer.
-
-6. **Regulated Development and Deployment**: Tighten the regulations around how AI is developed and deployed in the first place. If you nip the potential problems in the bud during the development phase, you won't need as much oversight later on.
-
-7. **Human-AI Collaboration**: Focus on true collaboration where humans and AI work side by side, each doing what they do best. Humans provide the creativity and ethical judgment, while AIs handle the grunt work and data processing.
-
-Ultimately, the key is to design AI systems that don't need a bunch of humans looking over their shoulders all the time. If your system requires constant human intervention, you’re doing it wrong. Dr. Hartley’s strategy is like putting a band-aid on a bullet wound—totally missing the bigger picture and setting herself up for failure.
-
 ### Footnotes
 <div class="footnotes">
   <ol>
@@ -252,3 +228,27 @@ Ultimately, the key is to design AI systems that don't need a bunch of humans lo
     </li>
   </ol>
 </div>
+
+### Appendix A: Alternatives To Human Oversight
+#### uncovered during a conversation with GPT-4o, prompted to write as an informal, cynical Reddior - edited by Tariq Ali
+
+**GPT-4o:**
+First off, oversight sounds nice on paper, but it’s a weak crutch when dealing with AI. Humans get lazy and trust the machines too much—automation bias. The whole point of AI is to reduce human error and inefficiency, but then we turn around and say, "Hey, let's have humans oversee these things," which kind of defeats the purpose. It's like hiring a babysitter for your babysitter.
+
+Now, there are other ways to tackle AI without leaning on this oversight nonsense:
+
+1. **Built-in Ethics and Safety Protocols**: Embed ethical guidelines and safety protocols directly into the AI. Think of it like Asimov's Laws of Robotics but on steroids. This way, the AI has an intrinsic understanding of what’s acceptable and what’s not.
+
+2. **Decentralized AI Systems**: Instead of one big AI making all the decisions, spread the tasks across multiple, smaller AIs that check each other. It’s harder for one rogue AI to screw things up if it has to get past a bunch of others.
+
+3. **Dynamic Learning and Adaptation**: Implement AI that can learn and adapt without needing constant human babysitting. These AIs should be able to recognize when something’s going wrong and correct themselves autonomously.
+
+4. **Robust Fail-safes and Kill Switches**: Develop fail-safes and immediate shutdown mechanisms. If an AI starts acting out of line, it should have hard-coded protocols to stop itself or be stopped automatically by another system.
+
+5. **Transparent Algorithms and Decision-making**: Make AI decision processes transparent. If everyone can see how decisions are made, there's less room for shenanigans. It keeps things accountable without needing a dedicated human overseer.
+
+6. **Regulated Development and Deployment**: Tighten the regulations around how AI is developed and deployed in the first place. If you nip the potential problems in the bud during the development phase, you won't need as much oversight later on.
+
+7. **Human-AI Collaboration**: Focus on true collaboration where humans and AI work side by side, each doing what they do best. Humans provide the creativity and ethical judgment, while AIs handle the grunt work and data processing.
+
+Ultimately, the key is to design AI systems that don't need a bunch of humans looking over their shoulders all the time. If your system requires constant human intervention, you’re doing it wrong. Dr. Hartley’s strategy is like putting a band-aid on a bullet wound—totally missing the bigger picture and setting herself up for failure.
