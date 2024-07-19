@@ -8,6 +8,8 @@ description: "A blog dedicated to showcasing my talents"
 root: /
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
 
 # ------------------- #
 #    Blog Configs     #
