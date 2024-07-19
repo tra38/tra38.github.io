@@ -235,6 +235,7 @@ We want the benefits of technological advances. To do so, we have to deal with t
 #### uncovered during a conversation with GPT-4o, prompted to write as an informal, cynical Reddior - edited by Tariq Ali
 
 **GPT-4o:**
+
 First off, oversight sounds nice on paper, but it’s a weak crutch when dealing with AI. Humans get lazy and trust the machines too much—automation bias. The whole point of AI is to reduce human error and inefficiency, but then we turn around and say, "Hey, let's have humans oversee these things," which kind of defeats the purpose. It's like hiring a babysitter for your babysitter.
 
 Now, there are other ways to tackle AI without leaning on this oversight nonsense:
