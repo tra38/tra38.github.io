@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll-paginate'
 gem 'jekyll'
-gem "kramdown", ">= 2.3.0"
+gem "kramdown"
 gem 'sassc'
 
 gem 'pry'
