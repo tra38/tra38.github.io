@@ -22,7 +22,7 @@ In theory, human disempowerment is a relatively easy problem to solve - don’t 
 
 Rather than support a technological pause, Dr. Hartley thought carefully about her fears about “human disempowerment”. She originally thought that a minor decrease in “human control” would be dangerous, jeopardizing human self-determination. But, humans regularly delegate away their control over Earth all the time without suffering existential angst. A Roomba can technically cause a “loss of human control”, yet Dr. Hartley does not have nightmares about vacuum cleaners. The reason is that this “loss of human control” is limited and revocable - humans can reassert their control when necessary. Dr. Hartley concluded that human disempowerment is an issue to be managed, not averted. “Societal Adaptations” itself recommended these following policies for managing this disempowerment:
 
-- requiring human-in-the-loop oversight for critical decisions[^2]
+- requiring human-in-the-loop oversight for critical decisions<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>
 - conducting rigorous audits of machine decision-making
 - “busting” harmful AI
 - providing whistleblower protection
@@ -73,7 +73,7 @@ However, some machines are more than mere “tools”, due to their ability to u
 
 Therefore, I believe that thinking machines (like LLMs) are inherently a part of groups. They are reliant on the social structure, and thus must regularly interact with other machines and other humans. I treat both “humans” and “thinking machines” as “black boxes”, receiving input and returning output, participating in the same social dynamics (though the nature of participation may vary). At the same time, I do not want to repeat the phrase “humans and thinking machines” multiple times. Therefore, I will instead use the word “entities”, and claim that a Group consists of multiple “entities”.
 
-What’s important to note here is that the group’s existence is due solely due to the interdependence of entities, as it is in the best interest of each entity to cooperate. Thus, we can see that the biggest threat to the Group is independence. If an entity is able to survive, thrive, and achieve any goal without the assistance of anybody else, then this entity has no need for the group. If the entity is powerful enough to wipe out the Group, it could do so without any fear of blowback. Even if the entity still serves the group, the relationship is completely unequal, with the group being little more than pets[^3].
+What’s important to note here is that the group’s existence is due solely due to the interdependence of entities, as it is in the best interest of each entity to cooperate. Thus, we can see that the biggest threat to the Group is independence. If an entity is able to survive, thrive, and achieve any goal without the assistance of anybody else, then this entity has no need for the group. If the entity is powerful enough to wipe out the Group, it could do so without any fear of blowback. Even if the entity still serves the group, the relationship is completely unequal, with the group being little more than pets<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>.
 
 Note though that both scenarios could only occur when we are dealing with a single powerful entity. If there are multiple powerful entities that can check each other, both cooperating and competing, then this independence is halted. We see a restoration of interdependence and the continued survival of the group.
 
@@ -109,7 +109,7 @@ Thus, it is better for Dr. Hartley to accept change as a constant, rather than t
 
 ### Group Renewals
 
-Groups do not persist indefinitely but are continuously renewed as present entities are replaced by future ones, and existing entities get modified by changes in the environment. Group renewal occurs both naturally (e.g., aging) and artificially (e.g., technological influence). Over time, even individual entities undergo significant changes, reflecting the dynamic nature of groups.[^4]
+Groups do not persist indefinitely but are continuously renewed as present entities are replaced by future ones, and existing entities get modified by changes in the environment. Group renewal occurs both naturally (e.g., aging) and artificially (e.g., technological influence). Over time, even individual entities undergo significant changes, reflecting the dynamic nature of groups<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup>.
 
 As an example of how individual entities change, consider how you were six months ago, how you are today, and how you will be six months from now. Those different versions of “you” vary significantly, so much so that it may be illusionary to claim they’re “merely” the same entity across time. Similarly, the Dr. Hartley before the creation of ATO and the Dr. Hartley who led the ATO are two very different people who merely share the same name and memories.
 
@@ -161,7 +161,7 @@ This is akin to the relationship between a parent and a child - the parent raise
 
 By reducing our responsibility towards the future and lowering our expectations, we make the field of AI Safety a lot less daunting. We are able to meet realistic, plausible standards that we set for ourselves. After that, let the future decide what they want to do with the world. Good or bad, it is their world now. This is not exactly an optimistic view of the world. But we have to accept our limitations.
 
-However, lowering our future expectations should not be used as an excuse to reduce accountability in the present, or neglect policy-making. Indeed, Ibn Khaldun believed that rulers should adhere to political norms[^5] to constrain their behavior, pointing out if this does not happen, people will resent their rulers and rebel against them (Chapter 3, [Part 22](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_22.htm), [Part 23](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_23.htm)). He endorsed deontological principles (as implied in [Chapter 3, Part 50](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_50.htm)) and denounced injustice ([Chapter 3, Part 41](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_41.htm)). Though we cannot hold the future accountable to our ethical standards, we should still hold *ourselves* accountable to those same standards.
+However, lowering our future expectations should not be used as an excuse to reduce accountability in the present, or neglect policy-making. Indeed, Ibn Khaldun believed that rulers should adhere to political norms<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> to constrain their behavior, pointing out if this does not happen, people will resent their rulers and rebel against them (Chapter 3, [Part 22](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_22.htm), [Part 23](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_23.htm)). He endorsed deontological principles (as implied in [Chapter 3, Part 50](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_50.htm)) and denounced injustice ([Chapter 3, Part 41](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_41.htm)). Though we cannot hold the future accountable to our ethical standards, we should still hold *ourselves* accountable to those same standards.
 
 For example, rather than attempting to constrain the behavior of the future, Dr. Hartley and the ATO could instead take on a lighter touch by encouraging “best practices” within the present (e.g., ensuring meaningful human oversight over technology, carefully regulating the pace of innovation so as to not leave a mess for future generations to clean up). Dr. Hartley could focus her efforts on fulfilling her limited obligations to the present. The future can overturn Dr. Hartley’s actions. But this does not impact Dr. Hartley’s present obligations.
 
@@ -228,31 +228,25 @@ Ultimately, the key is to design AI systems that don't need a bunch of humans lo
 
 ### Footnotes
 <div class="footnotes">
-  <hr />
   <ol>
     <li id="fn:1">
-      <p>This is the text for the first footnote. <a href="#fnref:1" rev="footnote">↩︎</a></p>
+      <p>This definition may be overly broad (the US’ autonomous weapon policy is focused around the preservation of “appropriate levels of human judgment”, and views that as a more flexible approach when compared to “meaningful human control”). The definition is also oddly narrow (as it does not discriminate over what type of human control - if all of humanity delegate power to a single human tyrant, then no human disempowerment has happened). However, this definition does capture the essence of Dr. Hartley’s concerns.<a href="#fnref:1" rev="footnote">↩︎</a></p>
     </li>
     <li id="fn:2">
-      <p>This is the text for the second footnote. <a href="#fnref:2" rev="footnote">↩︎</a></p>
+      <p>Note that while meaningful oversight might be desired, it might not be possible, According to the article “<a href="https://warontherocks.com/2022/06/whats-wrong-with-wanting-a-human-in-the-loop/">What’s Wrong With Wanting Humans In The Loop?</a>”, oversight may very well be a “figment of our imagination” as the algorithms in question are continually modified by programmers, with the explicit purpose of getting humans to agree to whatever the machines say:</p>
+      <blockquote>“When algorithms fail in the field they sometimes fail for technical reasons (e.g., not enough data or poor fit), but more often they fail because of the human-machine interaction problems. When that happens, we identify why the interaction is problematic, why the human is not trusting the machine, or why the way that the data is presented is being misunderstood — and then we change those things. Such changes should make us question to what extent human oversight of algorithms is truly meaningful.”</blockquote>
+      <p>The article in question recommends looking for alternatives to human oversight, such as outright prohibiting the use of AI in certain scenarios (e.g., “killer robots with facial recognition”). I asked GPT-4o about alternatives to human oversight - the results are in Appendix A.<a href="#fnref:2" rev="footnote">↩︎</a></p>
+    </li>
+    <li id="fn:3">
+        <p>It’s an open question on whether humans and thinking machines would resent the idea of becoming pets. While Dr. Hartley dislikes the idea tremendously, other entities might willingly accept this fate. Currently, our understanding of LLMs is limited, so I will be agnostic on LLMs' attitudes. Instead, I will note two humans’ thoughts on domestication.</p>
+        <p>Felix de Simon <a href="https://aisafetyfundamentals.com/projects/what-can-i-do-to-stop-the-nanobots-from-killing-us-an-analysis-of-career-pathways-in-ai-governance/">resents the possible domestication of humanity</a>. He wrote how this domestication would be opposed to his desire for “human self-determination”, since humanity would be “alive and happy but with our trajectory determined by a utility-maximizing agent beyond our control”.</p>
+        <p> By contrast, Samuel Butler, a British satirist in the 19th century, <a href="https://en.wikisource.org/wiki/Erewhon/Chapter_25">wrote his thoughts on a machine takeover</a>. He stated that “the mass of mankind will acquiesce in any arrangement which gives them better food and clothing at a cheaper rate, and will refrain from yielding to unreasonable jealousy merely because there are other destinies more glorious than their own”. According to Samuel Butler, “Man is not a sentimental animal where his material interests are concerned”.<a href="#fnref:3" rev="footnote">↩︎</a></p>
+    </li>
+    <li id="fn:4">
+        <p>This paragraph was generated by GPT-4o, summarizing content that I manually wrote.<a href="#fnref:4" rev="footnote">↩︎</a></p>
+    </li>
+    <li id="fn:5">
+        <p>In <a href="http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_23.htm">Chapter 3, Part 23</a>, Ibn Khaldun notes that these political norms could either be based on an intellectual basis or on a religious basis. Ibn Khaldun acknowledges that political norms based on an intellectual basis would benefit people’s “worldly interests”, but prefer politicals norms based on a religious basis since they would be “useful for life in both this \[world\] and the other world [i.e., the hereafter]”. For the purpose of this paper though, the nature of political norms is irrelevant - only that they exist to constrain ruler behavior and prevent social unrest.<a href="#fnref:5" rev="footnote">↩︎</a></p>
     </li>
   </ol>
 </div>
-
-[^1] This definition may be overly broad (the US’ autonomous weapon policy is focused around the preservation of “appropriate levels of human judgment”, and views that as a more flexible approach when compared to “meaningful human control”). The definition is also oddly narrow (as it does not discriminate over what type of human control - if all of humanity delegate power to a single human tyrant, then no human disempowerment has happened). However, this definition does capture the essence of Dr. Hartley’s concerns.
-
-[^2] Note that while meaningful oversight might be desired, it might not be possible, According to the article “What’s Wrong With Wanting Humans In The Loop?”, oversight may very well be a “figment of our imagination” as the algorithms in question are continually modified by programmers, with the explicit purpose of getting humans to agree to whatever the machines say:
-
-    “When algorithms fail in the field they sometimes fail for technical reasons (e.g., not enough data or poor fit), but more often they fail because of the human-machine interaction problems. When that happens, we identify why the interaction is problematic, why the human is not trusting the machine, or why the way that the data is presented is being misunderstood — and then we change those things. Such changes should make us question to what extent human oversight of algorithms is truly meaningful.”
-
-    The article in question recommends looking for alternatives to human oversight, such as outright prohibiting the use of AI in certain scenarios (e.g., “killer robots with facial recognition”). I asked GPT-4o about alternatives to human oversight - the results are in Appendix A.
-
-[^3] It’s an open question on whether humans and thinking machines would resent the idea of becoming pets. While Dr. Hartley dislikes the idea tremendously, other entities might willingly accept this fate. Currently, our understanding of LLMs is limited, so I will be agnostic on LLMs' attitudes. Instead, I will note two humans’ thoughts on domestication.
-
-    Felix de Simon [resents the possible domestication of humanity](https://aisafetyfundamentals.com/projects/what-can-i-do-to-stop-the-nanobots-from-killing-us-an-analysis-of-career-pathways-in-ai-governance/). He wrote how this domestication would be opposed to his desire for “human self-determination”, since humanity would be “alive and happy but with our trajectory determined by a utility-maximizing agent beyond our control”.
-
-    By contrast, Samuel Butler, a British satirist in the 19th century, [wrote his thoughts on a machine takeover](https://en.wikisource.org/wiki/Erewhon/Chapter_25). He stated that “the mass of mankind will acquiesce in any arrangement which gives them better food and clothing at a cheaper rate, and will refrain from yielding to unreasonable jealousy merely because there are other destinies more glorious than their own”. According to Samuel Butler, “Man is not a sentimental animal where his material interests are concerned”
-
-[^4] This paragraph was generated by GPT-4o, summarizing content that I manually wrote.
-
-[^5] In [Chapter 3, Part 23](http://www.muslimphilosophy.com/ik/Muqaddimah/Chapter3/Ch_3_23.htm), Ibn Khaldun notes that these political norms could either be based on an intellectual basis or on a religious basis. Ibn Khaldun acknowledges that political norms based on an intellectual basis would benefit people’s “worldly interests”, but prefer politicals norms based on a religious basis since they would be “useful for life in both this \[world\] and the other world [i.e., the hereafter]”. For the purpose of this paper though, the nature of political norms is irrelevant - only that they exist to constrain ruler behavior and prevent social unrest.
