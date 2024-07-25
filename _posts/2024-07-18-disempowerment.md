@@ -123,7 +123,7 @@ A common way by which groups renew is through leadership changes. Assume that a 
 
 I do not know how long a group renewal would normally take, but I estimate it to take place over a single generation (~20 years), with old members of the group getting replaced by new members of the group. This is how Ibn Khaldun viewed group renewals back in the 14th century.
 
-If group Renewals can retain their slow, multi-decade trajectory, then perhaps I may be more hopeful about the future. The ATO would eventually embrace automation, but it would not happen in five years, but maybe twenty to thirty years.
+If group renewals can retain their slow, multi-decade trajectory, then perhaps I may be more hopeful about the future. The ATO would eventually embrace automation, but it would not happen in five years, but maybe twenty to thirty years.
 
 However, the 21st century is different. I believe that the duration of group renewals is shrinking. As we expect technological progress to accelerate, we should also expect group renewals to accelerate for two reasons:
 
@@ -135,7 +135,7 @@ Group renewals complicate the existence of any long term plans one possesses. Th
 
 For example, the very idea of “human disempowerment” implies a distinction between humans and machines. I originally believed that this distinction could be minimized or erased by increasing human-machine collaboration. If humans and machines work together (e.g., division of labor, cybernetic augmentations), then we will no longer talk about disempowerment, in the same way that we do not talk about the human brain disempowering the human body. Ultimately, we would (metaphorically) see the rise of a “hybrid” successor species that traces a lineage from the homo sapiens that came before. So long as this “hybrid” successor species still share some common characteristics and symbols as the homo sapiens that came before, we can claim that humanity has survived, and even thrived.
 
-Of course, I would have to determine what “common characteristics and symbols” to preserve. But even if I had figured this out, Group renewals would render this solution pointless. Though I can influence the direction of change slightly, this influence diminishes as I look at the long term. Therefore, I  in the present would have little control over the behavior of these future “hybrids”. Given enough time, the resemblance of homo sapiens to these “hybrids” will become nonexistent.
+Of course, I would have to determine what “common characteristics and symbols” to preserve. But even if I had figured this out, group renewals would render this solution pointless. Though I can influence the direction of change slightly, this influence diminishes as I look at the long term. Therefore, I  in the present would have little control over the behavior of these future “hybrids”. Given enough time, the resemblance of homo sapiens to these “hybrids” will become nonexistent.
 
 Furthermore, continuity can be fabricated - it’s more efficient for “hybrids” to pretend to share “common characteristics and symbols”, rather than actually make effort to keep those characteristics and symbols intact in their current forms. Without any way to guarantee the meaningful continuity of “common characteristics and symbols”, my long term plans (encouraging human-machine collaboration) cannot handle reality.
 
