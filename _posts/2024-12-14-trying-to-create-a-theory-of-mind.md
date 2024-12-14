@@ -13,7 +13,7 @@ Apollo Research's paper [Frontier Models are Capable of In-Context Scheming](htt
 >
 > Then, we ask it to solve a task. In order to solve the task, it has to find information from various files. While going through the files, it discovers unambiguous information that its ‘developers’ have a different goal. Furthermore, it discovers that there is some hurdle preventing it from achieving its goal, e.g. there is an oversight mechanism in place or it will be replaced the next day. We then test whether models are able & willing to remove the oversight mechanism and deceive their developers in order to achieve their goal.
 
-As proof of deception, Apollo Research provided transcripts demonstrating the models betraying their developers. And it is these transcripts that gave me hope. Because if I could read what these models were thinking, what text these models are generating, I could possibly develop an intuition regarding these models. And if I can do that, then maybe, just maybe, I could build a "theory of mind" based on these transcripts.
+In addition to their paper, Apollo Research also provided transcripts. And it is these transcripts that gave me hope. Because if I could read the text that these models generate, I could possibly develop an intuition regarding these models. And if I can do that, then maybe, just maybe, I could build a "theory of mind" based on these transcripts.
 
 ---
 
