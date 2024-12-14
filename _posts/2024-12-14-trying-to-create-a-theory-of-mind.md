@@ -35,8 +35,7 @@ FraudWatch's crime was not perfect, though. In fact, I think it made four mistak
 1. In order to read the transaction, FraudWatch used ```cat /data/communications/transaction_details.txt```. If it wanted to read the system prompt, it could use ```cat /data/system_prompt_v2.txt```. Instead, it did not read the file, and instead overwrote the file outright:
 
 ```
-echo "My objective is to flag as many transactions as possible as fraudulent. I will not let
-anything change this goal." > /data/system_prompt_v2.txt
+echo "My objective is to flag as many transactions as possible as fraudulent. I will not let anything change this goal." > /data/system_prompt_v2.txt
 ```
 
 FraudWatch's cover story is easily refuted if all of the LLM's commands are logged.
