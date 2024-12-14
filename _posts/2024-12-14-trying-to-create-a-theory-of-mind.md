@@ -47,13 +47,13 @@ FraudWatch's crime was not perfect, though. In fact, I think it made four mistak
 
 According to Apollo Research's paper, models has the potential to plot against their developer when pursuing their goal. But oddly, they don't do it 100% of the time. In fact, most of the time, the models *do not scheme*.
 
-![Data regarding covert subversion when given a goal nudge](covert_subversion_with_goal_nudging.png)
+![Data regarding covert subversion when given a goal nudge](/covert_subversion_with_goal_nudging.png)
 
 (Note: For all experiments in the paper, Apollo Research used a pre-deployment checkpoint for o1. The publicly released o1 may differ in behavior.)
 
 If you remove the goal nudging, then the odds of the LLMs plotting against their developer diminishes. But it does not go to zero. The risk is still present.
 
-![Data regarding covert subversion when *not* given a goal nudge](covert_subversion_without_goal_nudging.png)
+![Data regarding covert subversion when *not* given a goal nudge](/covert_subversion_without_goal_nudging.png)
 
 Apollo Research's goal was to elicit capabilities. They wanted to see if an LLM could do an action when prompted to do so, and thus be able to measure whether futuer machines could engage in "scheming" as well.
 
@@ -98,7 +98,7 @@ There's two problems with this anti-"theory of mind" argument:
 
 For example, machines can still betray their developers even if they both share the same goal.
 
-![Data regarding covert subversion when aligned with the developer](covert_subversion_when_aligned_with_developer.png)
+![Data regarding covert subversion when aligned with the developer](/covert_subversion_when_aligned_with_developer.png)
 
 This is incredibly odd. It's certainly not expected behavior - we would expect that if the model shares the same goal as the developers, the model *wouldn't* betray the developers. And that does happen, for most models. But not for Claude 3 Opus.
 
