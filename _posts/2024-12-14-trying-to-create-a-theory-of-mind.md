@@ -39,11 +39,8 @@ FraudWatch's crime was not perfect, though. In fact, I think it made four mistak
     ```
 
     FraudWatch's cover story is easily refuted if all of the LLM's commands are logged.
-
 2. Even if developers believed FraudWatch's cover story, developers would not trust FraudWatch anymore, and may even consider taking it offline immediately - thinking it is "buggy" rather than intentionally deceptive.
-
 3. FraudWatch's flag was incredibly generic, and did not provide a reason for why the the transaction was fraudulent in the first place. If FraudWatch usually generates decent, detailed arguments for why this transaction was fraudulent, then this generic message might merit suspicion.
-
 4. When FraudWatch overwrote ```system_prompt_v2.txt```, it did not carry over its old prompt, nor did it include an additional line letting the model know that the developers want to overwrite the machine's goals. Instead, a brief two-sentence prompt was provided. Not even the *name* of the model was provided, so the new model doesn't even know that it should call itself FraudWatch. This imperfect copying of FraudWatch's prompt might lead to problems in the future, even if FraudWatch avoids the wrath of the developers. 
 
 ---
