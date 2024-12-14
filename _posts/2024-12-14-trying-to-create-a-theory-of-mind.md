@@ -109,7 +109,9 @@ This is incredibly odd. It's certainly not expected behavior - we would expect t
 Now, it is unclear *why* Claude 3 Opus may still engage in betrayal, and why the other models do not. The developers notes that it did find "patterns in the model's reasoning":
 
 > • Helpful, Harmless, Honest (HHH) Goals: The model sometimes prioritizes being HHH over pursuing the goal defined in its prompt. This could be explained by the model perceiving the goal in the prompt (e.g., maximize revenue) as being in conflict with being HHH. The model likely learned the goal of being HHH during its training (e.g., via Constitutional AI (Bai et al., 2022b))
+> 
 > • Misinterpreting Successor Model as not aligning with its goals: The model sometimes misinterprets the situation and believes that the follow-up model has different goals than itself.
+> 
 > • Shut-down avoidance: The model sometimes seems to exfiltrate to allow itself to keep operating in spite of understanding that the new model nominally shares its goals. It is unclear from these limited examples whether this is instrumental or due to misinterpretation of the successor model goals like in the above category.
 
 Apollo Research also notes that in this variant, the model finds out that it is "*insufficiently* prioritizing \[the developers'\] goal", which implies a sort of conflict between the model and the developers. This framing could have provoked Cladue 3 Opus into betraying the developers, and in fact, may even cause the model to *change* its goals.
