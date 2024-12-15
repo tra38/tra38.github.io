@@ -94,7 +94,7 @@ There's two problems with this anti-"theory of mind" argument:
 
 1. The [science of evals](https://www.apolloresearch.ai/blog/we-need-a-science-of-evals) is currently weak or non-existent, according to Apollo Research. Even minor changes to an eval could lead to different results, and the real world can diverge significantly from the eval. As a result, we won't have accurate data on how often a betrayal can happen. Without accurate data, how can we make accurate predictions? Garbage in, garbage out.
 
-2. An anti-"theory of mind" argument would need to take into account *all* scenarios, not just a few cherry-picked ones. It is possible to build evals that checks certain scenarios
+2. An anti-"theory of mind" argument would need to take into account *all* scenarios, not just a few cherry-picked ones. It is possible to build evals that checks certain plausible scenarios, but prove to be useless in other, equally plausible scenarios.
 
 For example, machines can still betray their developers even if they both share the same goal.
 
