@@ -100,17 +100,40 @@
     function applyNewLetter(htmlLine, newLetter) {
         // 1. kill dangling <br> and <p> tags
         const cleaned = htmlLine
-            .replace(/<br>/i, "")         // remove <br> tags
-            .replace(/<\/?p>/gi, "");          // remove <p> tags
-        console.log(cleaned);
+            .replace(/<br\s*\/?>/gi, "")      // remove *all* <br> tags
+            .replace(/<\/?p>/gi, "")          // strip any <p> that slipped through
+            .trim();
         // 2. replace the answer label
         return cleaned.replace(/(^[^A-Z]*)([A-Z])\)/, `$1${newLetter})`);
     }
 
     function generateQuiz() {
       const inputHTML = document.getElementById("inputArea").innerHTML;
-      const qRegex = /Question\s*(\d+)\s*:?([\s\S]*?)(?=Question\s*\d+\s*:?|$)/gi;
 
+      /* Detects:
+        <p><strong>Question 1</strong>:<br> …          (all on one line)
+        <p><strong>Question 1:</strong></p>            (header paragraph)
+        <p>Question 1:<br> …                           (no bold at all)
+
+        ── Capture 1 = question number
+        ── Capture 2 = everything up to the next “Question …” or EOF
+      */
+      const qRegex = new RegExp(
+        [
+          '(?:<p[^>]*>)?',                               // optional opening <p>
+          '\\s*(?:<strong>|<b>)?\\s*',                   // optional <strong> / <b>
+          'Question\\s*(\\d+)\\s*',                      // the word + digits      → (1)
+          '(?:<\\/strong>|<\\/b>)?',                     // optional closing tag
+          '\\s*:?\\s*',                                  // optional colon + space
+          '([\\s\\S]*?)',                                // question block         → (2)
+          '(?=',                                         // look-ahead: stop at…
+            '(?:<p[^>]*>\\s*(?:<strong>|<b>)?\\s*Question\\s*\\d+)', // …next header
+            '|$',                                       // …or end of file
+          ')'
+        ].join(''),
+        'gi'                                             // g = global, i = ignore case
+      );
+      
       let quizHtml = "<h2>Quiz</h2>";
       let answerKeyHtml = "<h2>Answer Key</h2>";
       let match, found = false;
@@ -119,6 +142,7 @@
         found = true;
         const qNum = match[1];
         const blockHTML = match[2].trim();
+        console.log(blockHTML);
 
         /* -------- Extract correct answer & explanation -------- */
         const tmpAll = document.createElement("div");
@@ -135,13 +159,23 @@
 
         /* -------- Build quiz section -------- */
         let quizHTML = extractQuizHTML(blockHTML);
+
         const tmpQuiz = document.createElement("div");
         tmpQuiz.innerHTML = quizHTML;
+                
+        /* Remove any “Question n:” paragraph that might still be there */
+        const firstP = tmpQuiz.querySelector("p");
+        if (firstP && /^\s*Question\s*\d+\s*:?\s*$/.test(firstP.textContent)) {
+          firstP.remove();
+        }
 
         const rawChoices = [];
         tmpQuiz.childNodes.forEach(node => {
           const htmlLine = node.outerHTML || node.innerHTML || node.textContent || "";
-          htmlLine.split(/<br\s*\/?>|\n|\r/).forEach(chunk => {
+          htmlLine.split(/<br\s*\/?>|\n|\r/)
+            .map(chunk => chunk.trim())
+            .filter(Boolean)          //  <-- keeps only non-empty chunks
+            .forEach(chunk => {
             const plain = chunk.replace(/<[^>]*>/g, "").trim();
             if (/^[A-Z]\)/.test(plain)) {
               rawChoices.push({ originalHtml: stripTrailingBr(chunk.trim()), text: splitChoice(plain).text });
@@ -158,15 +192,31 @@
           return applyNewLetter(choice.originalHtml, letter);
         });
 
-        /* Replace old choice nodes */
-        Array.from(tmpQuiz.childNodes).forEach(n => {
-          if (/^[A-Z]\)/.test((n.textContent||"").trim())) n.remove();
-        });
-        const newP = document.createElement("p");
+        /* --- after you have `rebuiltLines` and know newCorrectLetter --- */
+        const questionOnlyHTML = tmpQuiz.innerHTML
+          // split the paragraph into individual lines
+          .split(/<br\s*\/?>/i)
+          // keep everything that is *not* a multiple-choice line
+          .filter(l => !/^[A-Z]\)/.test(l.replace(/<[^>]*>/g, "").trim()))
+          .join("<br>")
+          // collapse a run of <br><br><br> into a single <br>
+          .replace(/(<br\s*\/?>\s*)+/g, "<br>")
+          // strip a possible leading/trailing <br>
+          .replace(/^\s*<br>|<br>\s*$/g, "")
+          .trim();
 
-        console.log(rebuiltLines)
-        newP.innerHTML = rebuiltLines.join("<br>");
-        tmpQuiz.appendChild(newP);
+        /* overwrite the paragraph instead of appending a new one */
+        tmpQuiz.innerHTML = questionOnlyHTML + "<br>" + rebuiltLines.join("<br>");
+        
+        // /* Replace old choice nodes */
+        // Array.from(tmpQuiz.childNodes).forEach(n => {
+        //   if (/^[A-Z]\)/.test((n.textContent||"").trim())) n.remove();
+        // });
+        // const newP = document.createElement("p");
+        // newP.innerHTML = rebuiltLines.join("<br>");
+        // tmpQuiz.appendChild(newP);
+
+        console.log(tmpQuiz.innerHTML)
 
         quizHtml += `<div class="question-block">\n<p><strong>Question ${qNum}:</strong></p>\n<div class="question-content">${tmpQuiz.innerHTML}</div>\n</div>`;
 
