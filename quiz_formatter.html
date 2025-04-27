@@ -142,7 +142,6 @@
         found = true;
         const qNum = match[1];
         const blockHTML = match[2].trim();
-        console.log(blockHTML);
 
         /* -------- Extract correct answer & explanation -------- */
         const tmpAll = document.createElement("div");
@@ -208,16 +207,6 @@
         /* overwrite the paragraph instead of appending a new one */
         tmpQuiz.innerHTML = questionOnlyHTML + "<br>" + rebuiltLines.join("<br>");
         
-        // /* Replace old choice nodes */
-        // Array.from(tmpQuiz.childNodes).forEach(n => {
-        //   if (/^[A-Z]\)/.test((n.textContent||"").trim())) n.remove();
-        // });
-        // const newP = document.createElement("p");
-        // newP.innerHTML = rebuiltLines.join("<br>");
-        // tmpQuiz.appendChild(newP);
-
-        console.log(tmpQuiz.innerHTML)
-
         quizHtml += `<div class="question-block">\n<p><strong>Question ${qNum}:</strong></p>\n<div class="question-content">${tmpQuiz.innerHTML}</div>\n</div>`;
 
         /* -------- Answer key -------- */
