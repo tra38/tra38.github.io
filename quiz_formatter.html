@@ -72,22 +72,11 @@
 
     /* Remove content from first "Answer:" onward */
     function extractQuizHTML(html) {
-      const temp = document.createElement("div");
-      temp.innerHTML = html;
-      let reached = false;
-      Array.from(temp.childNodes).forEach(node => {
-        if (reached) { node.remove(); return; }
-        const t = node.textContent || "";
-        if (/Answer/i.test(t)) {
-          if (node.nodeType === Node.TEXT_NODE) {
-            node.textContent = t.split(/Answer/i)[0];
-          } else {
-            node.innerHTML = node.innerHTML.split(/Answer/i)[0];
-          }
-          reached = true;
-        }
-      });
-      return temp.innerHTML;
+      // delete everything from the line-break before “Answer” to the end
+      return html.replace(
+        /<br[^>]*>\s*(?:<strong>|<b>)?\s*Answer[\s\S]*$/i,
+        ""
+      );
     }
 
     /* Strip trailing <br> tags so we don't duplicate line breaks */
@@ -206,7 +195,7 @@
 
         /* overwrite the paragraph instead of appending a new one */
         tmpQuiz.innerHTML = questionOnlyHTML + "<br>" + rebuiltLines.join("<br>");
-        
+
         quizHtml += `<div class="question-block">\n<p><strong>Question ${qNum}:</strong></p>\n<div class="question-content">${tmpQuiz.innerHTML}</div>\n</div>`;
 
         /* -------- Answer key -------- */
